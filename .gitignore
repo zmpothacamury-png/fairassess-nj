@@ -1,0 +1,33 @@
+# Private plans and notes (never upload)
+private/
+
+# Big data files: rebuilt from downloads, never uploaded
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Website (Next.js)
+node_modules/
+.next/
+out/
+.vercel/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Claude Code personal settings
+.claude/settings.local.json
+
+# System files
+Thumbs.db
+desktop.ini
+.DS_Store

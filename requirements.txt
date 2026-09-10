@@ -1,0 +1,10 @@
+pandas
+numpy
+geopandas
+statsmodels
+scipy
+duckdb
+matplotlib
+plotly
+openpyxl
+pyarrow
