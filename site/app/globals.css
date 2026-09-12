@@ -1,26 +1,45 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/*
+ * Tailwind v4 uses CSS-based theme config instead of tailwind.config.js.
+ * These tokens are the FairAssess NJ palette. Change a color here and it
+ * updates everywhere the matching utility class is used (bg-ink, text-gold,
+ * border-mist, etc).
+ */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-ink: #0b2545; /* deep navy - headers, footer, primary text on light */
+  --color-slate: #1b4965; /* secondary navy - subheads, borders, hover states */
+  --color-mist: #e8edf2; /* pale blue-gray - section backgrounds, card fills */
+  --color-paper: #fafbfc; /* page background */
+  --color-gold: #b8860b; /* accent - rules, buttons, key stats. Use sparingly. */
+  --color-signal: #1e6f5c; /* reserved for future "you may qualify" results */
+
+  --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+  --font-sans: var(--font-source-sans), "Source Sans 3", system-ui,
+    sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
