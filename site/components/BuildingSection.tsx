@@ -1,6 +1,7 @@
 import { SectionHeading } from "./SectionHeading";
 import { AppealBasics } from "./AppealBasics";
 import { SearchCheckIcon, MapIcon } from "./icons";
+import { Reveal } from "./Reveal";
 
 function StatusPill({ children }: { children: string }) {
   return (
@@ -14,14 +15,16 @@ export function BuildingSection() {
   return (
     <section id="roadmap" className="scroll-mt-20 bg-paper">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-        <SectionHeading
-          eyebrow="Roadmap"
-          title="What we're building"
-          description="Two pieces, built from the same underlying data."
-        />
+        <Reveal>
+          <SectionHeading
+            eyebrow="Roadmap"
+            title="What we're building"
+            description="Two pieces, built from the same underlying data."
+          />
+        </Reveal>
 
         <div className="grid gap-px overflow-hidden border border-slate/20 bg-slate/20 sm:grid-cols-2">
-          <div className="flex flex-col bg-paper p-6 sm:p-8">
+          <Reveal className="flex flex-col bg-paper p-6 sm:p-8">
             <MapIcon className="h-7 w-7 text-gold" />
             <div className="mt-4 flex items-center gap-3">
               <h3 className="font-serif text-lg text-ink">
@@ -35,9 +38,9 @@ export function BuildingSection() {
               than expensive ones, using IAAO ratio-study measures and the
               state&rsquo;s own Chapter 123 range checks.
             </p>
-          </div>
+          </Reveal>
 
-          <div className="flex flex-col bg-paper p-6 sm:p-8">
+          <Reveal className="flex flex-col bg-paper p-6 sm:p-8" delay={150}>
             <SearchCheckIcon className="h-7 w-7 text-gold" />
             <div className="mt-4 flex items-center gap-3">
               <h3 className="font-serif text-lg text-ink">
@@ -49,10 +52,12 @@ export function BuildingSection() {
               Enter your address. See whether your assessment looks out of
               line with recent sales in your town, in plain language.
             </p>
-          </div>
+          </Reveal>
         </div>
 
-        <AppealBasics className="mt-10" />
+        <Reveal>
+          <AppealBasics className="mt-10" />
+        </Reveal>
       </div>
     </section>
   );

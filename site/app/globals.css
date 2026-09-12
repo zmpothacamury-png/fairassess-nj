@@ -7,12 +7,17 @@
  * border-mist, etc).
  */
 @theme inline {
+  /*
+   * Palette sampled from Logo.jpg (the house-and-scale mark) so the site
+   * and the logo read as one brand. ink/slate are the logo's navy, gold
+   * is the logo's amber scale-pan fill, signal is the logo's green.
+   */
   --color-ink: #0b2545; /* deep navy - headers, footer, primary text on light */
-  --color-slate: #1b4965; /* secondary navy - subheads, borders, hover states */
+  --color-slate: #17548a; /* logo navy - subheads, borders, hover states */
   --color-mist: #e8edf2; /* pale blue-gray - section backgrounds, card fills */
   --color-paper: #fafbfc; /* page background */
-  --color-gold: #b8860b; /* accent - rules, buttons, key stats. Use sparingly. */
-  --color-signal: #1e6f5c; /* reserved for future "you may qualify" results */
+  --color-gold: #c99a3a; /* logo amber - rules, buttons, key stats. Use sparingly. */
+  --color-signal: #4b8a56; /* logo green - reserved for "you may qualify" results */
 
   --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
   --font-sans: var(--font-source-sans), "Source Sans 3", system-ui,
@@ -38,8 +43,51 @@ body {
   color: var(--color-paper);
 }
 
+/*
+ * Scroll-reveal: elements fade up into place as they enter the viewport.
+ * The Reveal component (components/Reveal.tsx) toggles .is-visible via
+ * IntersectionObserver; this file only defines the before/after look.
+ */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Bouncing chevron on the hero's "scroll to explore" cue. */
+@keyframes scroll-cue-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.scroll-cue-arrow {
+  animation: scroll-cue-bounce 1.8s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .scroll-cue-arrow {
+    animation: none;
   }
 }

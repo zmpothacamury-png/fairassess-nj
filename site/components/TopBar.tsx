@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const NAV_LINKS = [
   { href: "#problem", label: "The problem" },
   { href: "#roadmap", label: "What we're building" },
@@ -15,14 +17,17 @@ export function TopBar() {
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-6 py-4">
         <a
           href="#top"
-          className="flex items-center gap-2 font-serif text-lg font-semibold text-ink"
+          aria-label="FairAssess NJ home"
+          className="flex items-center gap-2.5 font-serif text-lg font-semibold text-ink"
         >
-          <span
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-sm bg-ink font-serif text-sm font-semibold text-paper"
-            aria-hidden="true"
-          >
-            FA
-          </span>
+          <Image
+            src="/logo-icon.png"
+            alt=""
+            width={38}
+            height={63}
+            priority
+            className="h-9 w-auto shrink-0"
+          />
           <span className="hidden sm:inline">FairAssess NJ</span>
         </a>
 

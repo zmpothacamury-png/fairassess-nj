@@ -1,12 +1,21 @@
+import Image from "next/image";
 import { WaitlistForm } from "./WaitlistForm";
+import { Reveal } from "./Reveal";
 
 export function WaitlistSection() {
   return (
     <section id="waitlist" className="scroll-mt-20 bg-paper">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-        <div className="grid gap-10 border border-slate/20 bg-mist p-8 sm:p-12 lg:grid-cols-[1fr_1fr] lg:items-center lg:gap-16">
+        <Reveal className="grid gap-10 border border-slate/20 bg-mist p-8 sm:p-12 lg:grid-cols-[1fr_1fr] lg:items-center lg:gap-16">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-slate">
+            <Image
+              src="/logo-icon.png"
+              alt=""
+              width={28}
+              height={46}
+              className="h-8 w-auto"
+            />
+            <p className="mt-4 text-sm font-semibold uppercase tracking-wide text-slate">
               Stay in the loop
             </p>
             <h2 className="mt-2 max-w-[24ch] font-serif text-2xl text-ink sm:text-3xl">
@@ -25,7 +34,7 @@ export function WaitlistSection() {
               checker launches.
             </p>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

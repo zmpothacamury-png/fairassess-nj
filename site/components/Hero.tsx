@@ -1,13 +1,15 @@
 import { WaitlistForm } from "./WaitlistForm";
 import { AppealBasics } from "./AppealBasics";
 import { ConceptDiagram } from "./ConceptDiagram";
+import { Reveal } from "./Reveal";
+import { ScrollCue } from "./ScrollCue";
 
 export function Hero() {
   return (
     <section id="top" className="scroll-mt-20 bg-paper">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
         <div className="grid gap-16 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-12">
-          <div>
+          <Reveal>
             <p className="text-sm font-semibold uppercase tracking-wide text-slate">
               New Jersey property tax research
             </p>
@@ -27,13 +29,19 @@ export function Hero() {
                 checker launches.
               </p>
             </div>
-          </div>
+          </Reveal>
 
-          <ConceptDiagram />
+          <Reveal delay={150}>
+            <ConceptDiagram />
+          </Reveal>
         </div>
 
-        <AppealBasics className="mt-16" />
+        <Reveal delay={250}>
+          <AppealBasics className="mt-16" />
+        </Reveal>
       </div>
+
+      <ScrollCue />
     </section>
   );
 }

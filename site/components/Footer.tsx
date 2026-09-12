@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 // Required on every page. See CLAUDE.md rule 3. Do not shorten or reword this.
 const DISCLAIMER =
   "FairAssess NJ provides public-data analysis for educational purposes. It is not legal advice, tax advice, or an appraisal. Homeowners file and present their own appeals. Check your county board for current deadlines, fees, and forms.";
@@ -17,7 +19,16 @@ export function Footer() {
     <footer className="bg-ink text-mist">
       <div className="mx-auto max-w-6xl px-6 py-12">
         <div className="flex flex-col gap-8 border-b border-paper/15 pb-8 sm:flex-row sm:items-start sm:justify-between">
-          <p className="font-serif text-lg text-paper">FairAssess NJ</p>
+          <p className="flex items-center gap-2.5 font-serif text-lg text-paper">
+            <Image
+              src="/logo-icon-light.png"
+              alt=""
+              width={24}
+              height={40}
+              className="h-7 w-auto"
+            />
+            FairAssess NJ
+          </p>
 
           <nav
             aria-label="Footer"

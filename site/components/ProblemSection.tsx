@@ -1,5 +1,6 @@
 import { SectionHeading } from "./SectionHeading";
 import { AppealBasics } from "./AppealBasics";
+import { Reveal } from "./Reveal";
 
 const ITEMS = [
   {
@@ -24,15 +25,17 @@ export function ProblemSection() {
   return (
     <section id="problem" className="scroll-mt-20 bg-mist">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-        <SectionHeading
-          eyebrow="Background"
-          title="The problem"
-          description="Three ideas worth understanding before you look at any numbers."
-        />
+        <Reveal>
+          <SectionHeading
+            eyebrow="Background"
+            title="The problem"
+            description="Three ideas worth understanding before you look at any numbers."
+          />
+        </Reveal>
 
         <div className="grid gap-10 sm:grid-cols-3">
-          {ITEMS.map((item) => (
-            <div key={item.number}>
+          {ITEMS.map((item, index) => (
+            <Reveal key={item.number} delay={index * 120}>
               <span className="font-serif text-3xl text-gold">
                 {item.number}
               </span>
@@ -40,11 +43,13 @@ export function ProblemSection() {
                 {item.title}
               </h3>
               <p className="mt-3 text-base text-slate">{item.body}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
 
-        <AppealBasics className="mt-14" />
+        <Reveal>
+          <AppealBasics className="mt-14" />
+        </Reveal>
       </div>
     </section>
   );

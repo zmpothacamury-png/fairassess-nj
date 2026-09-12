@@ -1,5 +1,6 @@
 import { SectionHeading } from "./SectionHeading";
 import { DocumentIcon } from "./icons";
+import { Reveal } from "./Reveal";
 
 const PILLARS = [
   {
@@ -20,22 +21,28 @@ export function MethodologySection() {
   return (
     <section id="methodology" className="scroll-mt-20 bg-mist">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-        <SectionHeading
-          eyebrow="Transparency"
-          title="Methodology"
-          description="Where the numbers come from and how we calculate every measure."
-        />
+        <Reveal>
+          <SectionHeading
+            eyebrow="Transparency"
+            title="Methodology"
+            description="Where the numbers come from and how we calculate every measure."
+          />
+        </Reveal>
 
         <div className="grid gap-8 sm:grid-cols-3">
-          {PILLARS.map((pillar) => (
-            <div key={pillar.title} className="border-t-2 border-gold pt-4">
+          {PILLARS.map((pillar, index) => (
+            <Reveal
+              key={pillar.title}
+              className="border-t-2 border-gold pt-4"
+              delay={index * 120}
+            >
               <h3 className="font-serif text-lg text-ink">{pillar.title}</h3>
               <p className="mt-2 text-base text-slate">{pillar.body}</p>
-            </div>
+            </Reveal>
           ))}
         </div>
 
-        <div className="mt-10 flex flex-col gap-4 border border-slate/20 bg-paper p-6 sm:flex-row sm:items-center sm:gap-6">
+        <Reveal className="mt-10 flex flex-col gap-4 border border-slate/20 bg-paper p-6 sm:flex-row sm:items-center sm:gap-6">
           <DocumentIcon className="h-8 w-8 shrink-0 text-slate" />
           <p className="text-sm text-slate">
             We publish the full methodology write-up, with every formula
@@ -43,7 +50,7 @@ export function MethodologySection() {
             then, this page describes the approach only &mdash; no town
             has been scored yet.
           </p>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
