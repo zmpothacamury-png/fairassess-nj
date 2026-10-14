@@ -34,7 +34,7 @@ Zaden, a high school student. Explain things in simple words. He uses Windows, s
 - data/reference/ — Director's Ratios, tax rates, revaluation years, non-usable sale codes.
 - pipeline/ — Python code. Tests in pipeline/tests/.
   - Transition note: early draft code still lives in src/. When the pipeline is built, move the v1 modules into pipeline/ and then delete src/ (Zaden approved this on 2026-10-14). src/hedonic.py is 2.0 roadmap work (hedonic regression), not v1. Do not build on it for v1.
-  - To do in an upcoming site prompt: switch DISCLAIMER.md and the live site to the combined disclaimer in rule 4 (approved 2026-10-14).
+  - Done in Prompt 2 (2026-10-14): DISCLAIMER.md and the site footer now use the combined disclaimer in rule 4.
 - notebooks/ — exploratory notebooks, numbered 01_, 02_, ...
 - reports/ — memos and one-page town findings.
 - site/ — the Next.js website. site/public/data/ holds the generated JSON. Never hand-edit it.
@@ -50,6 +50,7 @@ Zaden, a high school student. Explain things in simple words. He uses Windows, s
 4. Every website page, every page that shows results, and every checker result shows this disclaimer, word for word:
    "FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation."
 5. Never invent data, statistics, URLs, deadlines, or legal facts. If something is missing, stop and ask Zaden. Every number on the site must trace to a pipeline output file. Every outside fact must come from a file in data/raw/ or data/raw/notes/ and show its source link on the site.
+   - One exception (Zaden, 2026-10-14): the "The Story" paragraphs on the About page, which are Zaden's own words (private/about-founder.md), show no source links. Their facts must still be backed up in data/raw/notes/about-page-facts.md. This exception covers only those paragraphs. Everything else on the About page, and every other page, follows rule 5 in full.
 6. Plain English, at an eighth-grade reading level. Use short sentences and put numbers before adjectives. Write for a homeowner with no finance background. Explain each term (assessment ratio, COD, PRD, PRB, Chapter 123, common level range) the first time it appears on a page.
 7. Never say "you will win." Always show the appeal deadline and fee wherever appeals are discussed.
 8. docs/methodology.md is the source of truth for every analysis rule. If code and methodology disagree, stop and tell Zaden. Never change a methodology rule on your own; propose it as a YOU DECIDE item.

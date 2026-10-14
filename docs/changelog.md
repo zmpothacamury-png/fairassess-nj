@@ -1,5 +1,43 @@
 # Changelog
 
+## 2026-10-14 (footer cleanup and phone/iPad layout pass)
+- Footer reworked to be less crowded: brand + disclaimer on the left, link columns Site | Tools | Project (Methodology, Privacy, About, Contact, GitHub) on the right, then the data date, source, and independence lines, then the credit and tagline. Removed the "Get Involved" column (Zaden). Get Updates and Report a data problem stay on the Contact page.
+- Phone and iPad fixes: the home page's three-column sections and the deadline/fee box now stack until laptop width (1024px) instead of squeezing into narrow strips; the deadline/fee box on Appeal Checker and Appeal Guide uses the full page width; footer lines stack below laptop width.
+- Added `e2e/layout.spec.ts`: every page at phone (390px), iPad (768px, 1024px), laptop (1280px), and desktop (1440px) widths must have no sideways scrolling, and the header must show the right navigation for each width.
+- CLAUDE.md rule 5: added a narrow exception so Zaden's own "The Story" paragraphs on the About page show no source links (the facts are still backed up in data/raw/notes/about-page-facts.md).
+
+## 2026-10-14 (Prompt 2B: site format from Trust & Transition)
+- Zaden's changes first: removed the blue/green stripe from the top of the header; removed Contact from the header tabs and put it in the footer link row (Methodology, Privacy, About, Contact, GitHub).
+- Added `docs/site-format.md`: what T&T does (with file:line citations), the FairAssess tab map and page skeletons, the motion table, and the "Not vibe coded" checklist.
+- Motion now matches T&T exactly (`site/lib/motion.ts`): scroll-linked text reveal (94%→50% of viewport, 54px rise, 0.972 scale, 34px stagger, reversible), "Scroll to explore" button on every page (1.7s chevron bob, hides at the footer), header border/shadow after 8px of scroll, growing gold tab underline, mobile menu that slides in from the right. Reduced motion turns movement off; with JavaScript off, all content shows.
+- New: `Reveal` (rewritten), `RevealController`, `ScrollCue` (rewritten), `PageHeader`, `CtaBand`, `ComingSoon`; Header and Footer reworked into T&T's format.
+- New placeholder pages so every link works: /towns, /check, /methodology, /appeal-guide, /about, /privacy, plus a 404 page. New /contact page with the working Get Updates form at #updates.
+- Added a GitHub issue form for data problems (`.github/ISSUE_TEMPLATE/data-problem.md`).
+- Tests: header tabs and active state (Vitest + Testing Library), motion math, and Playwright browser tests for the scroll cue, reveal, reduced motion, and no-JavaScript view. `npm run test:e2e` runs the browser tests.
+
+## 2026-10-14 (Prompt 2 follow-up)
+- Upgraded `next` and `eslint-config-next` to 16.4.1 (fixes a critical security advisory in 16.3.4). Ran the non-breaking `npm audit fix`. The 5 remaining high warnings are in lint tools only, which never ship to the browser.
+- Saved the logo-asset script as `pipeline/brand_assets.py` with tests in `pipeline/tests/test_brand_assets.py`. Its output matches the installed site files pixel for pixel. Added `pillow` to `requirements.txt`.
+- Kept the full logo for the favicon (Zaden agreed).
+
+## 2026-10-14 (Prompt 2: design system from the logo)
+- Sampled the logo's real colors with Python + Pillow and built the token set in `site/app/globals.css` (Tailwind v4 `@theme static`). Tailwind's default colors, sizes, radii, and shadows are switched off so only brand tokens exist. Added `green-700` (Zaden approved) because the logo green fails AA as text.
+- Fonts: Montserrat (headings, eyebrows) and Inter (body) replace Source Serif and Source Sans.
+- New components: Button, Card, StatCard, StatusPill, Callout, Disclaimer, BalanceDivider, Term/InfoButton, DataTable, Skeleton, Header, plus a rewritten SectionHeading and Footer. Removed TopBar and the hand-drawn icons file (now lucide-react).
+- Rebuilt the logo assets from `brand/Logo.jpg` with clean transparent edges: logo-icon, logo-icon-light, NJ watermark, favicon, icon, apple-icon, and the link-preview image (with alt text). Set `metadataBase` so previews use the real site address.
+- Restyled the landing page and waitlist form. Wording and waitlist behavior are unchanged.
+- Footer and `DISCLAIMER.md` now use the combined disclaimer from CLAUDE.md rule 4.
+- Added `/design` style guide (noindex, not in the nav) and `docs/design-system.md`.
+- Added Vitest. `lib/contrast.test.ts` checks every approved color pair for WCAG AA. `lib/nav.test.ts` checks the active-tab rule. Raised `@types/node` to v24 to match Node 24 and Vitest 5.
+
+## 2026-10-14 (repo audit and cleanup)
+- Added `docs/architecture.md`: folder layout, data flow, and planned site routes.
+- Moved `Logo.jpg` from the repo root to `brand/`. Copied `site/public/logo-full.png` to `brand/logo-full.png`.
+- Trimmed `requirements.txt` to the v1 stack: pandas, numpy, pdfplumber, openpyxl, pytest. The removed packages (geopandas, statsmodels, scipy, duckdb, matplotlib, plotly, pyarrow) were for 2.0 work.
+- Deleted the empty three-town memo stub in `reports/`. The v1 town pages replace it.
+- `docs/methodology.md`: added the rule for towns with a 2027 revaluation or reassessment (checker runs, with a warning and the May 1 deadline).
+- Added source notes for appeal deadlines, fees, and Bergen revaluation towns in `data/raw/notes/` (local only, not committed).
+
 ## 2026-10-14 (project context for the App Challenge)
 - Rewrote `CLAUDE.md` with the full v1 scope (Bergen County, single-family homes), stack, folder map, and rules. All earlier rules were kept. The two disclaimers are now one combined disclaimer.
 - Renamed `docs/data_dictionary.md` to `docs/data-dictionary.md`.

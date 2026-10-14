@@ -1,49 +1,33 @@
-"use client";
-
-import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 
 /**
- * Fades and slides a section into place whenever it scrolls into view, and
- * resets back to hidden when it scrolls back out — so scrolling down shows
- * it, scrolling up past it hides it again, and scrolling back down replays
- * the animation. Wrap any block-level content in this to give it the same
- * "pop up as you scroll" feel across every section.
+ * Marks content for the scroll-linked reveal (Trust & Transition's text
+ * transition; numbers in lib/motion.ts). It only adds a data attribute;
+ * RevealController (in the root layout) does the animating.
  *
- * delay (ms) staggers a group of items, e.g. the cards in a grid, so they
- * don't all animate at once.
+ * - <Reveal> animates this block as one piece (T&T `data-reveal`).
+ * - <Reveal group> animates each direct child in turn, each starting 34px of
+ *   scroll after the one before (T&T `data-reveal-group`).
+ *
+ * Content is always in the HTML, so search engines and no-JavaScript visitors
+ * see it. Never wrap checker results in Reveal: results must show at once.
+ * Don't nest one Reveal inside another.
  */
 export function Reveal({
   children,
   className = "",
-  delay = 0,
+  group = false,
 }: {
   children: ReactNode;
   className?: string;
-  delay?: number;
+  group?: boolean;
 }) {
-  const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => setVisible(entry.isIntersecting),
-      { threshold: 0.15, rootMargin: "0px 0px -10% 0px" },
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-
-  return (
-    <div
-      ref={ref}
-      className={`reveal ${visible ? "is-visible" : ""} ${className}`}
-      style={delay ? { transitionDelay: `${delay}ms` } : undefined}
-    >
+  return group ? (
+    <div data-reveal-group="" className={className}>
+      {children}
+    </div>
+  ) : (
+    <div data-reveal="" className={className}>
       {children}
     </div>
   );

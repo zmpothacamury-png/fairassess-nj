@@ -1,8 +1,10 @@
 "use client";
 
+import { CircleAlert, CircleCheck } from "lucide-react";
 import { useId, useState } from "react";
 import type { FormEvent } from "react";
 import { supabase } from "@/lib/supabase/client";
+import { buttonClasses } from "./Button";
 
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -15,9 +17,10 @@ type Status = "idle" | "loading" | "success" | "error";
 
 /**
  * Waitlist email signup form. Used in the hero and in the waitlist section,
- * with a different `source` label so we can tell which one people use.
+ * and on the Contact page, with a different `source` label so we can tell
+ * which one people use.
  */
-export function WaitlistForm({ source }: { source: "hero" | "footer" }) {
+export function WaitlistForm({ source }: { source: "hero" | "footer" | "contact" }) {
   const inputId = useId();
   const [email, setEmail] = useState("");
   const [honeypot, setHoneypot] = useState("");
@@ -57,10 +60,13 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" }) {
     return (
       <p
         role="status"
-        className="rounded-sm border border-slate/20 border-l-4 border-l-gold bg-paper px-4 py-3 text-sm text-ink"
+        className="flex gap-2 rounded-card border-l-4 border-green-600 bg-green-100 px-4 py-3 text-base text-navy-900"
       >
-        You&rsquo;re on the list. We&rsquo;ll email you when the checker
-        launches.
+        <CircleCheck aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-green-700" strokeWidth={2} />
+        <span>
+          You&rsquo;re on the list. We&rsquo;ll email you when the checker
+          launches.
+        </span>
       </p>
     );
   }
@@ -86,7 +92,7 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" }) {
           onChange={(event) => setEmail(event.target.value)}
           aria-invalid={fieldError ? true : undefined}
           aria-describedby={fieldError ? `${inputId}-error` : undefined}
-          className="w-full rounded-sm border border-slate/40 bg-paper px-4 py-3 text-ink placeholder:text-slate/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold"
+          className="focus-ring min-h-12 w-full rounded-control border border-ink-600 bg-white px-4 py-2 text-base text-ink-800 placeholder:text-ink-600"
         />
         {/* Honeypot field: hidden from sighted users, visible to bots that fill every field. */}
         <input
@@ -100,7 +106,8 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" }) {
           className="absolute left-0 top-0 h-0 w-0 opacity-0"
         />
         {fieldError && (
-          <p id={`${inputId}-error`} className="mt-2 text-sm text-red-700">
+          <p id={`${inputId}-error`} className="mt-2 flex gap-1.5 text-sm text-navy-900">
+            <CircleAlert aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-gold-700" strokeWidth={2} />
             {fieldError}
           </p>
         )}
@@ -108,12 +115,13 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" }) {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="whitespace-nowrap rounded-sm border border-gold bg-gold px-5 py-3 text-sm font-semibold text-ink transition hover:brightness-90 disabled:cursor-not-allowed disabled:opacity-60 focus:outline-none focus-visible:ring-2 focus-visible:ring-ink focus-visible:ring-offset-2"
+        className={`${buttonClasses("primary", "md")} whitespace-nowrap`}
       >
         {status === "loading" ? "Joining…" : "Join the waitlist"}
       </button>
       {status === "error" && (
-        <p className="text-sm text-red-700 sm:basis-full">
+        <p role="alert" className="flex gap-1.5 text-sm text-navy-900 sm:basis-full">
+          <CircleAlert aria-hidden="true" className="mt-0.5 h-4 w-4 shrink-0 text-gold-700" strokeWidth={2} />
           Something went wrong on our end. Please try again in a minute.
         </p>
       )}

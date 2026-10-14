@@ -1,27 +1,24 @@
-/** Heading used at the top of each section, with a short gold rule under it. */
+/**
+ * Heading used at the top of each section: a small uppercase eyebrow label,
+ * the title, and an optional one-line subtitle.
+ * `as` sets the heading level so each page keeps a correct outline.
+ */
 export function SectionHeading({
   eyebrow,
   title,
   description,
+  as: Tag = "h2",
 }: {
   eyebrow?: string;
   title: string;
   description?: string;
+  as?: "h1" | "h2" | "h3";
 }) {
   return (
-    <div className="mb-10 max-w-[60ch] sm:mb-14">
-      {eyebrow && (
-        <p className="text-sm font-semibold uppercase tracking-wide text-slate">
-          {eyebrow}
-        </p>
-      )}
-      <h2 className="mt-1 font-serif text-2xl text-ink sm:text-3xl">
-        {title}
-      </h2>
-      <span className="mt-3 block h-[3px] w-12 bg-gold" aria-hidden="true" />
-      {description && (
-        <p className="mt-4 text-base text-slate">{description}</p>
-      )}
+    <div className="mb-10 max-w-prose sm:mb-12">
+      {eyebrow && <p className="eyebrow text-blue-600">{eyebrow}</p>}
+      <Tag className="mt-2 font-heading text-2xl font-bold text-navy-900">{title}</Tag>
+      {description && <p className="mt-4 text-lg text-ink-600">{description}</p>}
     </div>
   );
 }

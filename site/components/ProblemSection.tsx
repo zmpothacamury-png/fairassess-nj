@@ -23,8 +23,8 @@ const ITEMS = [
 /** Three plain-English explainer columns, laid out as a numbered list. */
 export function ProblemSection() {
   return (
-    <section id="problem" className="scroll-mt-20 bg-mist">
-      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+    <section id="problem" className="scroll-mt-24 bg-white">
+      <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Background"
@@ -33,22 +33,22 @@ export function ProblemSection() {
           />
         </Reveal>
 
-        <div className="grid gap-10 sm:grid-cols-3">
-          {ITEMS.map((item, index) => (
-            <Reveal key={item.number} delay={index * 120}>
-              <span className="font-serif text-3xl text-gold">
+        <Reveal group className="grid gap-10 lg:grid-cols-3">
+          {ITEMS.map((item) => (
+            <div key={item.number} className="border-t border-outline-200 pt-6">
+              <span className="font-heading text-2xl font-bold tabular-nums text-blue-600">
                 {item.number}
               </span>
-              <h3 className="mt-2 font-serif text-lg text-ink">
+              <h3 className="mt-2 font-heading text-lg font-bold text-navy-900">
                 {item.title}
               </h3>
-              <p className="mt-3 text-base text-slate">{item.body}</p>
-            </Reveal>
+              <p className="mt-4 text-base text-ink-600">{item.body}</p>
+            </div>
           ))}
-        </div>
+        </Reveal>
 
-        <Reveal>
-          <AppealBasics className="mt-14" />
+        <Reveal className="mt-16">
+          <AppealBasics />
         </Reveal>
       </div>
     </section>

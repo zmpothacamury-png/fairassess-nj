@@ -1,10 +1,6 @@
 pandas
 numpy
-geopandas
-statsmodels
-scipy
-duckdb
-matplotlib
-plotly
+pdfplumber
 openpyxl
-pyarrow
+pillow
+pytest

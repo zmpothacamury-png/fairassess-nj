@@ -1,5 +1,5 @@
+import { FileText } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import { DocumentIcon } from "./icons";
 import { Reveal } from "./Reveal";
 
 const PILLARS = [
@@ -19,8 +19,8 @@ const PILLARS = [
 
 export function MethodologySection() {
   return (
-    <section id="methodology" className="scroll-mt-20 bg-mist">
-      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+    <section id="methodology" className="scroll-mt-24 bg-white">
+      <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Transparency"
@@ -29,22 +29,18 @@ export function MethodologySection() {
           />
         </Reveal>
 
-        <div className="grid gap-8 sm:grid-cols-3">
-          {PILLARS.map((pillar, index) => (
-            <Reveal
-              key={pillar.title}
-              className="border-t-2 border-gold pt-4"
-              delay={index * 120}
-            >
-              <h3 className="font-serif text-lg text-ink">{pillar.title}</h3>
-              <p className="mt-2 text-base text-slate">{pillar.body}</p>
-            </Reveal>
+        <Reveal group className="grid gap-8 lg:grid-cols-3">
+          {PILLARS.map((pillar) => (
+            <div key={pillar.title} className="border-t-2 border-gold-400 pt-4">
+              <h3 className="font-heading text-lg font-bold text-navy-900">{pillar.title}</h3>
+              <p className="mt-2 text-base text-ink-600">{pillar.body}</p>
+            </div>
           ))}
-        </div>
+        </Reveal>
 
-        <Reveal className="mt-10 flex flex-col gap-4 border border-slate/20 bg-paper p-6 sm:flex-row sm:items-center sm:gap-6">
-          <DocumentIcon className="h-8 w-8 shrink-0 text-slate" />
-          <p className="text-sm text-slate">
+        <Reveal className="mt-10 flex flex-col gap-4 rounded-card border border-outline-200 bg-mist-50 p-6 sm:flex-row sm:items-center sm:gap-6">
+          <FileText aria-hidden="true" className="h-8 w-8 shrink-0 text-blue-600" strokeWidth={2} />
+          <p className="text-base text-ink-600">
             We publish the full methodology write-up, with every formula
             and data-cleaning step, before any town result goes live. Until
             then, this page describes the approach only &mdash; no town

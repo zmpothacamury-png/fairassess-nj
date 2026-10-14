@@ -1,66 +1,72 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { SCROLL_CUE } from "@/lib/motion";
 
 /**
- * "Scroll to explore" button that stays pinned to the bottom of the screen
- * as you scroll — like the one on trustandtransition.org — instead of
- * scrolling away with the hero. Each click jumps to the next section
- * (using the page's own <section id> landmarks), and the button hides
- * itself once the footer comes into view, since there's nothing left to
- * explore at that point.
+ * "Scroll to explore" button, pinned to the bottom center of every page like
+ * T&T's (site.js:218-249; look in app/globals.css .scroll-cue). Each click
+ * jumps to the next section and moves keyboard focus there. It hides once the
+ * footer comes into view or the page ends, and starts hidden until it has
+ * measured the page (so it never flashes on short pages).
  */
 export function ScrollCue() {
-  const [hidden, setHidden] = useState(false);
+  const pathname = usePathname();
+  const [hidden, setHidden] = useState(true);
 
   useEffect(() => {
-    const footer = document.querySelector("footer");
-    if (!footer) return;
+    const update = () => {
+      const footer = document.querySelector("footer");
+      const footerTop = footer ? footer.getBoundingClientRect().top : Infinity;
+      const atEnd =
+        window.innerHeight + window.scrollY >= document.body.scrollHeight - SCROLL_CUE.endTolerancePx;
+      setHidden(footerTop < window.innerHeight * SCROLL_CUE.hideWhenFooterAbove || atEnd);
+    };
+    const frame = requestAnimationFrame(update);
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update, { passive: true });
+    return () => {
+      cancelAnimationFrame(frame);
+      window.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [pathname]);
 
-    // Start hiding a little before the footer is actually on screen so the
-    // button doesn't sit on top of it for a stretch of scrolling.
-    const observer = new IntersectionObserver(
-      ([entry]) => setHidden(entry.isIntersecting),
-      { rootMargin: "0px 0px -30% 0px" },
-    );
-    observer.observe(footer);
-    return () => observer.disconnect();
-  }, []);
-
-  function handleClick() {
-    const sections = Array.from(
-      document.querySelectorAll<HTMLElement>("main section[id]"),
-    );
-    const scrollMarginTop = 90; // clears the sticky top bar; matches scroll-mt-20
-    const here = window.scrollY + scrollMarginTop + 10;
-    const next = sections.find((section) => section.offsetTop > here);
-    next?.scrollIntoView({ behavior: "smooth", block: "start" });
+  function goToNextSection() {
+    const headerHeight = document.querySelector<HTMLElement>(".site-header")?.offsetHeight ?? 0;
+    const current = window.scrollY;
+    const stops = Array.from(document.querySelectorAll<HTMLElement>("main section, footer"));
+    let target: HTMLElement | null = null;
+    let top = document.body.scrollHeight;
+    for (const stop of stops) {
+      const stopTop = stop.getBoundingClientRect().top + window.scrollY - headerHeight + SCROLL_CUE.landingOffsetPx;
+      if (stopTop > current + SCROLL_CUE.minJumpPx) {
+        target = stop;
+        top = stopTop;
+        break;
+      }
+    }
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    window.scrollTo({ top, behavior: reduce ? "auto" : "smooth" });
+    if (target) {
+      if (!target.hasAttribute("tabindex")) target.setAttribute("tabindex", "-1");
+      target.focus({ preventScroll: true });
+    }
   }
 
   return (
     <button
       type="button"
-      onClick={handleClick}
-      aria-label="Scroll to explore"
-      className={`fixed bottom-4 left-1/2 z-30 flex -translate-x-1/2 items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-[10px] font-semibold uppercase tracking-wide text-paper shadow-lg transition-all duration-300 hover:bg-slate sm:bottom-6 sm:gap-2 sm:px-5 sm:py-2.5 sm:text-xs ${
-        hidden
-          ? "pointer-events-none translate-y-4 opacity-0"
-          : "opacity-100"
-      }`}
+      className="scroll-cue"
+      data-hidden={hidden}
+      aria-label={SCROLL_CUE.ariaLabel}
+      aria-hidden={hidden || undefined}
+      tabIndex={hidden ? -1 : undefined}
+      onClick={goToNextSection}
     >
-      Scroll to explore
-      <svg
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="scroll-cue-arrow h-3.5 w-3.5 shrink-0 sm:h-4 sm:w-4"
-        aria-hidden="true"
-      >
-        <path d="M5.5 9 12 15.5 18.5 9" />
-      </svg>
+      <span>{SCROLL_CUE.label}</span>
+      <span className="scroll-cue-chev" aria-hidden="true" />
     </button>
   );
 }

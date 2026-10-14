@@ -1,20 +1,13 @@
+import { Map, SearchCheck } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { AppealBasics } from "./AppealBasics";
-import { SearchCheckIcon, MapIcon } from "./icons";
+import { StatusPill } from "./StatusPill";
 import { Reveal } from "./Reveal";
-
-function StatusPill({ children }: { children: string }) {
-  return (
-    <span className="inline-block rounded-full border border-slate/40 px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wide text-slate">
-      {children}
-    </span>
-  );
-}
 
 export function BuildingSection() {
   return (
-    <section id="roadmap" className="scroll-mt-20 bg-paper">
-      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+    <section id="roadmap" className="scroll-mt-24 bg-mist-50">
+      <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
         <Reveal>
           <SectionHeading
             eyebrow="Roadmap"
@@ -23,40 +16,40 @@ export function BuildingSection() {
           />
         </Reveal>
 
-        <div className="grid gap-px overflow-hidden border border-slate/20 bg-slate/20 sm:grid-cols-2">
-          <Reveal className="flex flex-col bg-paper p-6 sm:p-8">
-            <MapIcon className="h-7 w-7 text-gold" />
-            <div className="mt-4 flex items-center gap-3">
-              <h3 className="font-serif text-lg text-ink">
+        <Reveal group className="grid gap-6 sm:grid-cols-2">
+          <div className="split-accent flex flex-col rounded-card border border-outline-200 bg-white p-6 shadow-soft sm:p-8">
+            <Map aria-hidden="true" className="h-7 w-7 text-blue-600" strokeWidth={2} />
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              <h3 className="font-heading text-lg font-bold text-navy-900">
                 Town-by-town equity study
               </h3>
-              <StatusPill>In development</StatusPill>
+              <StatusPill status="neutral">In development</StatusPill>
             </div>
-            <p className="mt-3 text-base text-slate">
+            <p className="mt-4 text-base text-ink-600">
               A public, reproducible study that scores every New Jersey
               town on whether it assesses lower-priced homes more heavily
               than expensive ones, using IAAO ratio-study measures and the
               state&rsquo;s own Chapter 123 range checks.
             </p>
-          </Reveal>
+          </div>
 
-          <Reveal className="flex flex-col bg-paper p-6 sm:p-8" delay={150}>
-            <SearchCheckIcon className="h-7 w-7 text-gold" />
-            <div className="mt-4 flex items-center gap-3">
-              <h3 className="font-serif text-lg text-ink">
+          <div className="split-accent flex flex-col rounded-card border border-outline-200 bg-white p-6 shadow-soft sm:p-8">
+            <SearchCheck aria-hidden="true" className="h-7 w-7 text-green-700" strokeWidth={2} />
+            <div className="mt-4 flex flex-wrap items-center gap-3">
+              <h3 className="font-heading text-lg font-bold text-navy-900">
                 A free appeal checker
               </h3>
-              <StatusPill>In development</StatusPill>
+              <StatusPill status="neutral">In development</StatusPill>
             </div>
-            <p className="mt-3 text-base text-slate">
+            <p className="mt-4 text-base text-ink-600">
               Enter your address. See whether your assessment looks out of
               line with recent sales in your town, in plain language.
             </p>
-          </Reveal>
-        </div>
+          </div>
+        </Reveal>
 
-        <Reveal>
-          <AppealBasics className="mt-10" />
+        <Reveal className="mt-10">
+          <AppealBasics />
         </Reveal>
       </div>
     </section>

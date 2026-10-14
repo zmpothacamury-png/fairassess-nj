@@ -1,6 +1,6 @@
 # Disclaimer
 
-FairAssess NJ provides public-data analysis for educational purposes. It is not legal advice, tax advice, or an appraisal. Homeowners file and present their own appeals. Check your county board for current deadlines, fees, and forms.
+FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
 FairAssess NJ is run by a student, not an attorney or a licensed appraiser. We do not represent anyone at a hearing or negotiate with an assessor for anyone. We help prepare evidence; the homeowner files and speaks.
 
