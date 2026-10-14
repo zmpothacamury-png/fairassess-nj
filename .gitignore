@@ -12,6 +12,7 @@ __pycache__/
 *.pyc
 .venv/
 .ipynb_checkpoints/
+.pytest_cache/
 
 # Website (Next.js)
 node_modules/
@@ -22,6 +23,8 @@ out/
 # Secrets
 .env
 .env.*
+.env.local
+.env*.local
 !.env.example
 
 # Claude Code personal settings

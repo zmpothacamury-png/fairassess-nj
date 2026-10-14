@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-14 (project context for the App Challenge)
+- Rewrote `CLAUDE.md` with the full v1 scope (Bergen County, single-family homes), stack, folder map, and rules. All earlier rules were kept. The two disclaimers are now one combined disclaimer.
+- Renamed `docs/data_dictionary.md` to `docs/data-dictionary.md`.
+- Added `.pytest_cache/`, `.env.local`, and `.env*.local` to `.gitignore`.
+
 ## 2026-09-12 (real favicon)
 - `site/app/favicon.ico` was still the default Next.js/Vercel icon left over from `create-next-app` (Phase 0), so the browser tab showed that instead of our logo even though `site/app/icon.png` already had the FairAssess NJ mark. Replaced it with a real `.ico` built from the same logo (via `sharp`, hand-wrapped in a minimal ICO container since Node has no built-in ICO writer) so both the tab icon and bookmark icon show the house-and-scale mark, not Vercel's.
 - Confirmed in the built page's `<head>` that both `/favicon.ico` and `/icon.png` now point at the FairAssess NJ logo, and that no manifest or apple-touch-icon file references anything else.
