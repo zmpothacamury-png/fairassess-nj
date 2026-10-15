@@ -5,7 +5,7 @@ import { Reveal } from "./Reveal";
 const PILLARS = [
   {
     title: "Data sources",
-    body: "MOD-IV parcel records (every assessment in the state) and SR-1A sale reports (usable, arm's-length sales), both published by the NJ Division of Taxation.",
+    body: "SR-1A sale reports (the sales the state itself marks as usable, arm's-length sales) and the state's Chapter 123 average ratios, both published by the NJ Division of Taxation.",
   },
   {
     title: "Ratio-study measures",
@@ -13,7 +13,7 @@ const PILLARS = [
   },
   {
     title: "Chapter 123 check",
-    body: "New Jersey's own rule for comparing an assessment to a sale price, applied the same way the county tax boards apply it during a real appeal.",
+    body: "New Jersey's own rule for comparing an assessment to a home's market value, using the limits the state publishes for each town every October 1.",
   },
 ] as const;
 

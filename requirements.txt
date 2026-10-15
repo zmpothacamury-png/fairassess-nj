@@ -1,6 +1,6 @@
-pandas
-numpy
-pdfplumber
-openpyxl
-pillow
-pytest
+pandas==3.0.6
+numpy==2.5.4
+pdfplumber==0.11.10
+openpyxl==3.1.5
+pillow==12.3.0
+pytest==9.1.1

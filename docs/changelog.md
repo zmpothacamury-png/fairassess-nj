@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-14 (ready for Prompt 4)
+- Home page now matches methodology 1.0: the study covers Bergen County single-family homes (not every NJ town); the checker asks for your town and assessed value (not your address); the data sources list SR-1A sales and Chapter 123 ratios (MOD-IV is 2.0 work).
+- New reference tables in `data/reference/`: `bergen_revaluation_towns.csv` (60 towns with state district codes, 2026 and 2027) and `nonusable_codes.csv` (all 36 state non-usable codes with plain-English labels and sources).
+- `docs/data-dictionary.md`: every SR1A field the pipeline will read, with positions in the 663-character layout, YYMMDD dates, and the rule that names and addresses are dropped as soon as a line is read.
+- New `docs/validation.md` with the first (preliminary) checks against the state: 70 of 70 towns have the same sale count; the state's coefficient matches our mean-based version in 62 of 66 towns within 0.25.
+- Python setup: `.venv` created; `requirements.txt` pinned to exact versions so results repeat. README updated with Windows setup and test commands, Bergen-only scope, and the `pipeline/` folder.
+
+## 2026-10-14 (Prompt 3 follow-up: methodology 1.0)
+- `docs/methodology.md` is now version 1.0. Zaden asked Claude to make all 19 decisions. Claude kept every draft default and both document-driven rules (a ratio above 100% counts as grounds; no Chapter 123 result in 2027 revaluation towns), and added T7: the share of sales over the Chapter 123 limit in each price quarter.
+- Saved new sources in `data/raw/notes/` (local only): the IAAO *Standard on Ratio Studies* (2013) and the NJ Division of Taxation *Guidelines for use of 36 Nonusable Categories* (May 2025), with quotes and code labels in `ratio-study-standards.md`. They confirm the July 1 to June 30 sampling period, the IAAO ranges, and the PRB formula. They also give the meaning of every non-usable code.
+
+## 2026-10-14 (Prompt 3: methodology draft)
+- Rewrote `docs/methodology.md` as version 1.0-draft: research question and H1, IAAO measures with formulas (median, mean, weighted mean, COD, PRD, PRB), Chapter 123 rules, data sources and periods, cleaning rules C1 to C10, town statistics and labels, appeal checker method (K1 to K14), limitations, and validation plan. Proposed rules are tagged for Zaden to confirm.
+- Found from the state documents: a home's ratio above 100% also qualifies for relief (Chapter 123 Example II), and Chapter 123 does not apply in a town's revaluation year. The second one changes the earlier rule for 2027 revaluation towns (checker gives no Chapter 123 result there); waiting on Zaden.
+- Found from the data: Sales2026.zip matches the state's 2026 sale counts in all 70 Bergen towns; the state's "coefficient of deviation" is measured around the mean ratio, not the median (IAAO COD); SR1A dates are YYMMDD and our files use the 663-character layout.
+
 ## 2026-10-14 (footer cleanup and phone/iPad layout pass)
 - Footer reworked to be less crowded: brand + disclaimer on the left, link columns Site | Tools | Project (Methodology, Privacy, About, Contact, GitHub) on the right, then the data date, source, and independence lines, then the credit and tagline. Removed the "Get Involved" column (Zaden). Get Updates and Report a data problem stay on the Contact page.
 - Phone and iPad fixes: the home page's three-column sections and the deadline/fee box now stack until laptop width (1024px) instead of squeezing into narrow strips; the deadline/fee box on Appeal Checker and Appeal Guide uses the full page width; footer lines stack below laptop width.

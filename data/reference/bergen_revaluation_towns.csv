@@ -1,0 +1,61 @@
+district_code,district_name,name_on_county_list,revaluation_tax_year,source
+0201,ALLENDALE BORO,ALLENDALE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0205,CARLSTADT BORO,CARLSTADT,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0207,CLOSTER BORO,CLOSTER,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0208,CRESSKILL BORO,CRESSKILL,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0210,DUMONT BORO,DUMONT,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0211,ELMWOOD PARK BORO,ELMWOOD PARK,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0212,E RUTHERFORD BORO,EAST RUTHERFORD,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0213,EDGEWATER BORO,EDGEWATER,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0218,FAIRVIEW BORO,FAIRVIEW,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0225,HASBROUCK HGHTS BORO,HASBROUCK HEIGHTS,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0228,HOHOKUS BORO,HO-HO-KUS,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0229,LEONIA BORO,LEONIA,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0230,LITTLE FERRY BORO,LITTLE FERRY,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0232,LYNDHURST TWP,LYNDHURST,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0234,MAYWOOD BORO,MAYWOOD,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0237,MOONACHIE BORO,MOONACHIE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0239,NORTH ARLINGTON BORO,NORTH ARLINGTON,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0240,NORTHVALE BORO,NORTHVALE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0241,NORWOOD BORO,NORWOOD,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0242,OAKLAND BORO,OAKLAND,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0243,OLD TAPPAN BORO,OLD TAPPAN,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0244,ORADELL BORO,ORADELL,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0245,PALISADES PARK BORO,PALISADES PARK,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0246,PARAMUS BORO,PARAMUS,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0248,RAMSEY BORO,RAMSEY,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0249,RIDGEFIELD BORO,RIDGEFIELD,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0252,RIVEREDGE BORO,RIVER EDGE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0254,ROCHELLE PARK TWP,ROCHELLE PARK,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0255,ROCKLEIGH BORO,ROCKLEIGH,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0257,SADDLE BROOK TWP,SADDLE BROOK,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0259,SO HACKENSACK TWP,SOUTH HACKENSACK,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0262,TETERBORO BORO,TETERBORO,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0266,WASHINGTON TWP,TWP. OF WASHINGTON,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0267,WESTWOOD BORO,WESTWOOD,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0268,WOODCLIFF LAKE BORO,WOODCLIFF LAKE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0269,WOOD RIDGE BORO,WOOD-RIDGE,2026,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0203,BERGENFIELD BORO,BERGENFIELD,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0206,CLIFFSIDE PARK BORO,CLIFFSIDE PARK,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0214,EMERSON BORO,EMERSON,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0215,ENGLEWOOD CITY,ENGLEWOOD,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0217,FAIRLAWN BORO,FAIR LAWN,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0219,FORT LEE BORO,FORT LEE,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0220,FRANKLIN LAKES BORO,FRANKLIN LAKES,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0221,GARFIELD CITY,GARFIELD,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0222,GLEN ROCK BORO,GLEN ROCK,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0223,HACKENSACK CITY,HACKENSACK,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0224,HARRINGTON PARK BORO,HARRINGTON PARK,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0226,HAWORTH BORO,HAWORTH,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0227,HILLSDALE BORO,HILLSDALE,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0231,LODI BORO,LODI,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0233,MAHWAH TWP,MAHWAH,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0235,MIDLAND PARK BORO,MIDLAND PARK,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0236,MONTVALE BORO,MONTVALE,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0247,PARK RIDGE BORO,PARK RIDGE,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0251,RIDGEWOOD VILLAGE,RIDGEWOOD,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0253,RIVERVALE TWP,RIVER VALE,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0256,RUTHERFORD BORO,RUTHERFORD,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0261,TENAFLY BORO,TENAFLY,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0263,UPPER SADDLE RIV BORO,UPPER SADDLE RIVER,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf
+0270,WYCKOFF TWP,WYCKOFF,2027,Bergen County Board of Taxation list as of 2026-01-07 (data/raw/notes/bergen-revaluations-2026-2027.md); codes from data/raw/state/2027CH123.pdf

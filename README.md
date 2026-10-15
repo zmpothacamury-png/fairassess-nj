@@ -1,6 +1,6 @@
 # FairAssess NJ
 
-Testing whether New Jersey property assessments are fair across price levels, plus a free tool that helps homeowners check whether a tax appeal is worth filing.
+Testing whether Bergen County, New Jersey assesses single-family homes fairly across price levels, plus a free tool that helps homeowners check whether a tax appeal may be worth filing. Version 1 covers Bergen County only; statewide coverage is on the 2.0 roadmap.
 
 Live site: coming soon
 
@@ -13,16 +13,22 @@ Live site: coming soon
 | data/processed/ | Final tables used in the analysis and on the website. |
 | data/reference/ | Director's Ratios, tax rates, revaluation years, non-usable sale codes. |
 | notebooks/ | Exploratory work, numbered 01_, 02_, ... |
-| src/ | Python pipeline: load, clean, ratio study, regression, Chapter 123 flags, comps, site export. |
+| pipeline/ | Python pipeline: load, clean, ratio study, Chapter 123 test, comps, site export. Tests in pipeline/tests/. |
+| src/ | Early draft stubs. Being replaced by pipeline/ and then deleted. |
 | reports/ | Memos and one-page findings for each town. |
 | site/ | The website (Next.js), deployed on Vercel. |
-| docs/ | Methodology, data dictionary, changelog, work log. |
+| docs/ | Methodology (the rules for every number), validation, data dictionary, changelog. |
 
 ## How to run
 
-Install the Python packages:
+Set up Python (Windows PowerShell, Python 3.11 or newer):
 
-    python -m pip install -r requirements.txt
+    py -m venv .venv
+    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+Run the Python tests:
+
+    .\.venv\Scripts\python.exe -m pytest pipeline/tests
 
 Preview the website:
 
