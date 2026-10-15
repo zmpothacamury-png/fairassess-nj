@@ -41,16 +41,18 @@ fairassessnj/
               ▼
  ┌──────────────────────────────┐
  │ Python pipeline (local only) │   pipeline/   runs on Zaden's PC
- │ load → clean → ratio study → │
- │ Chapter 123 → export         │
+ │ parse → clean → stats →      │
+ │ validate → index → export    │
  └──────────────────────────────┘
               │
               ▼
  Processed CSVs                                   data/processed/
               │
               ▼  (export step)
- Small JSON files: one town list + one file per town
+ Small JSON files: meta, county, town list, one file
+ per town, price index, validation, filter log
                                                   site/public/data/
+ + open-data CSV                                  site/public/downloads/
               │
               ▼  (git push → Vercel builds site/)
  ┌──────────────────────────────┐
@@ -66,7 +68,9 @@ fairassessnj/
 
 Key points:
 - No analysis runs on a server. The pipeline runs on Zaden's machine. The checker runs in the browser.
-- The site only reads static JSON. If the JSON is missing, the build should still pass.
+- The site only reads static JSON. Every file and field is listed in `docs/data-contract.md`, with a matching zod schema in `site/lib/data/schema.ts`.
+- `npm run build` first runs `npm run validate-data`. If a data file is missing, has the wrong shape, or is over the size budget (150 KB per town file, 5 MB in all), **the build fails**, so bad data never reaches users. (Changed in Prompt 8; before that, the build passed without data.)
+- Pages read the files with `site/lib/data/load.ts`, which validates each file again on read.
 - Supabase is used only for the waitlist (and maybe a feedback form later).
 
 ## Site routes (planned)

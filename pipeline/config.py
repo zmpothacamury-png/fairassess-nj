@@ -189,3 +189,28 @@ VALIDATION_MAX_INVESTIGATE = 10  # write up at most the 10 biggest flagged gaps
 
 VALIDATION_CSV = PROCESSED_DIR / "validation.csv"
 VALIDATION_MD = DOCS_DIR / "validation.md"
+
+# ---------------------------------------------------------------- price index (methodology K4, K5)
+# K4: all clean sales (C1 to C10 and C8) from both files, grouped by deed month.
+PRICE_INDEX_SOURCE_FILES = CLEAN_SOURCE_FILES
+PRICE_INDEX_INCOMPLETE_SHARE = 0.5  # K4 step 2: drop end months with under half the average monthly count
+PRICE_INDEX_SMOOTH_MONTHS = 1  # K4 step 3: months m-1, m, m+1
+PRICE_INDEX_CSV = PROCESSED_DIR / "price_index.csv"
+
+# ---------------------------------------------------------------- export to the website
+METHODOLOGY_MD = DOCS_DIR / "methodology.md"
+SITE_TOWNS_DIR = SITE_DATA_DIR / "towns"
+SITE_DOWNLOADS_DIR = ROOT / "site" / "public" / "downloads"
+TOWN_STATS_DOWNLOAD_CSV = SITE_DOWNLOADS_DIR / "fairassess-nj-town-stats.csv"
+
+# K2: comps are dated (DEED-DATE) from October 1, 2024 to the latest deed date in the data.
+COMP_WINDOW_START = date(2024, 10, 1)
+# The only fields a comp may have in the site files. No street, house number,
+# owner name, block/lot, or record ID. deed_date (not just the month) is kept
+# because K6 counts days from the deed date to the valuation date.
+COMP_FIELDS = ["deed_date", "sale_price", "assessed_value", "ratio"]
+SCATTER_MAX_POINTS = 300  # ratio-vs-value chart: at most 300 points per town
+RATIO_DIGITS = 4  # ratios, PRD, PRB, and shares
+COD_DIGITS = 2  # COD and percent-point numbers
+TOWN_FILE_MAX_BYTES = 150 * 1024  # size budget: each towns/<slug>.json
+SITE_DATA_MAX_BYTES = 5 * 1024 * 1024  # size budget: everything in site/public/data

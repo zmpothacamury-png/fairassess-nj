@@ -312,3 +312,20 @@ One row per town (all 70). Compares our numbers with the state's. Ratios here ar
 | `state_ratio_2025` | percent | 2025 Table average ratio. |
 | `state_director_ratio_2026`, `tev_ratio_2026` | percent | 2026 Director's ratio (`DirRatios.xlsx`) and 2026 Table ratio; both equal `state_average_ratio` in every town. |
 | `flag_rank`, `investigated` | number, true/false | 1 = biggest V4 gap over the flag; the top 10 flagged are written up in `docs/validation.md`. |
+
+## 12. Price index and website export (`pipeline/price_index.py`, `pipeline/export.py`)
+
+### `data/processed/price_index.csv`
+The Bergen monthly price index for the checker's time adjustment (rules K4 and K5). One row per deed month, from the first to the last month in the clean Sales2025 + Sales2026 sales (empty months count as 0).
+
+| Column | Type | Meaning |
+|---|---|---|
+| `month` | text `YYYY-MM` | Deed month. |
+| `n_sales` | number | Clean sales with a deed date in the month. |
+| `kept` | true/false | False if dropped as an incomplete end month (fewer than half the average monthly count; K4 step 2). |
+| `n_window` | number | Sales in the smoothing window (months m-1, m, m+1 among kept months). Blank if not kept. |
+| `raw_median_price` | dollars | Median sale price of the window. Blank if not kept. |
+| `index` | number | `raw_median_price` / `raw_median_price` of the last kept month (1.0 there). Blank if not kept. |
+
+### Website files
+`pipeline/export.py` writes the JSON files in `site/public/data/` and the open-data CSV `site/public/downloads/fairassess-nj-town-stats.csv`. Every file and field is described in **`docs/data-contract.md`**.

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-15 (Prompt 8 follow-up: export decisions)
+- Zaden delegated the 3 open items. (1) Comps keep the full deed date (rule K6 counts days); no street names. (2) The price index chart starts at the comp window, October 2024 (new `chart_from` in `price-index.json`); January to April 2024 have only 1 to 8 sales each and stay in the table only. Methodology 1.5 adds this display note; the index math is unchanged. (3) Each town's cleaning-log rows moved from `filter-log.json` into its own town file (`filter_log`), so town pages can show how many sales each rule removed; `filter-log.json` keeps the rules and county rows (227 KB to 3.4 KB).
+- Sizes now: total 988.8 KB (budget 5 MB); largest town file 53.5 KB, Mahwah (budget 150 KB). Data contract and zod schemas updated. 3 new pipeline tests (177 pass); site tests, validate-data, lint, and build pass.
+
+## 2026-10-15 (Prompt 8: data export for the website)
+- New `pipeline/price_index.py` (rules K4 and K5) and an `index` stage: writes `data/processed/price_index.csv`, the Bergen monthly price index (30 deed months, January 2024 to June 2026; none dropped as incomplete; base month June 2026).
+- New `pipeline/export.py` and an `export` stage. It writes `site/public/data/`: `meta.json`, `county.json`, `towns.json` (all 70 towns), `towns/<slug>.json` (70 files: town entry, value quarters, up to 300 chart points, and the checker's comp pool), `price-index.json`, `validation.json`, and `filter-log.json`. Also the open-data download `site/public/downloads/fairassess-nj-town-stats.csv`. Ratios rounded to 4 decimals, COD to 2, money to whole dollars; NaN and Infinity are refused.
+- Comps carry only deed date, sale price, assessed value, and ratio. No street names, house numbers, owner names, or record IDs.
+- Size budget checked on every export: total 1,035 KB (budget 5 MB); largest town file 50.9 KB, Mahwah (budget 150 KB).
+- New `docs/data-contract.md` (every file and field). Site: zod schemas and types in `site/lib/data/schema.ts`, a validating loader in `site/lib/data/load.ts`, folder checks in `site/lib/data/validate.ts`, and `npm run validate-data`. `npm run build` now runs it first, so a bad or missing data file fails the build. Added `zod` and `tsx` to `site/package.json`.
+- Tests: 22 new in `pipeline/tests/test_export.py` (174 pipeline tests pass); 11 new in `site/lib/data/schema.test.ts`. README, architecture, and data dictionary section 12 updated.
+
 ## 2026-10-15 (Prompt 7 follow-up: town page decision)
 - Decided (Zaden delegated): town pages will show the state's 2027 average ratio beside our home median, with a plain-English note on why they differ (land and commercial property, price weighting, two-year blend; extra line for 2026 revaluation towns). Recorded in `docs/validation.md` ("What I changed", item 5). To be built in the town-pages prompt; no site files changed now.
 

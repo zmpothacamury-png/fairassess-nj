@@ -26,7 +26,7 @@ Set up Python (Windows PowerShell, Python 3.11 or newer):
     py -m venv .venv
     .\.venv\Scripts\python.exe -m pip install -r pipeline\requirements.txt
 
-Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, stats, then validate) and stops with a clear message if an input file is missing:
+Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, stats, validate, index, then export) and stops with a clear message if an input file is missing:
 
     .\.venv\Scripts\python.exe -m pipeline.run
 
@@ -42,6 +42,12 @@ To rerun only the check against the state's numbers (writes data\processed\valid
 
     .\.venv\Scripts\python.exe -m pipeline.run validate
 
+To rebuild only the website's data files (the price index, then the JSON files in site\public\data\ and the download site\public\downloads\fairassess-nj-town-stats.csv):
+
+    .\.venv\Scripts\python.exe -m pipeline.run index
+
+Every file and field the site reads is described in docs\data-contract.md.
+
 Run the Python tests:
 
     .\.venv\Scripts\python.exe -m pytest pipeline/tests
@@ -53,6 +59,11 @@ Preview the website:
     npm run dev
 
 Then open http://localhost:3000
+
+Check the data files against the data contract (the build runs this first, so a bad file stops the build):
+
+    cd site
+    npm run validate-data
 
 ## License
 

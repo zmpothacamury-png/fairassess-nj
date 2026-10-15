@@ -4,13 +4,14 @@ Usage from PowerShell (in the project folder):
     .\\.venv\\Scripts\\python -m pipeline.run          # every stage
     .\\.venv\\Scripts\\python -m pipeline.run clean    # start at the "clean" stage
 
-Stages so far: parse -> clean -> stats -> validate. Later prompts add more stages to STAGES.
+Stages: parse -> clean -> stats -> validate -> index -> export. The export stage
+writes the website's JSON files into site/public/data/.
 """
 
 import sys
 
-from pipeline import (build_stats, build_towns, clean, config, parse_ch123, parse_sr1a, parse_state_tables,
-                      profile_data, validate)
+from pipeline import (build_stats, build_towns, clean, config, export, parse_ch123, parse_sr1a, parse_state_tables,
+                      price_index, profile_data, validate)
 
 
 def parse_stage():
@@ -49,12 +50,27 @@ def validate_inputs():
             config.DIR_RATIOS_CSV, config.TEV_CSV]
 
 
+def index_inputs():
+    """Files the price index stage needs (made by the clean stage)."""
+    return [config.SALES_CLEAN_CSV]
+
+
+def export_inputs():
+    """Files the export stage needs (made by every earlier stage)."""
+    return [config.TOWNS_CSV, config.TOWN_STATS_CSV, config.TOWN_TIERS_CSV, config.SALES_CLEAN_CSV,
+            config.CH123_CSV[config.CH123_TAX_YEAR], config.TAX_RATES_CSV, config.AVG_RES_CSV,
+            config.VALIDATION_CSV, config.FILTER_LOG_CSV, config.PRICE_INDEX_CSV,
+            config.COUNTY_SUMMARY_JSON, config.METHODOLOGY_MD]
+
+
 # (name, function, files that must exist before the stage runs)
 STAGES = [
     ("parse", parse_stage, parse_inputs),
     ("clean", clean.main, clean_inputs),
     ("stats", build_stats.main, stats_inputs),
     ("validate", validate.main, validate_inputs),
+    ("index", price_index.main, index_inputs),
+    ("export", export.main, export_inputs),
 ]
 
 

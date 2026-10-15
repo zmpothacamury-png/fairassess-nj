@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.4 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.5 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -291,7 +291,7 @@ All checker math runs in the browser. Nothing the homeowner types is sent, saved
 **Time-adjusted price** of a comp sold in month *m*: *S_adj = S x I(last kept month) / I(m)*.
 **Time-adjusted ratio**: *R_adj = A / S_adj*.
 
-The pipeline writes the index to `data/processed/price_index.csv` and the site shows it as a chart with a table.
+The pipeline writes the index to `data/processed/price_index.csv` and the site shows it as a chart with a table. *Our choice (display only):* the chart starts at the first month of the comp window (October 2024). *Reason:* the first months of the series have very few sales (January to April 2024: 1, 2, 5, and 8), so their values jump around, and no comp uses them. They stay in the table with their sale counts. The index itself is unchanged.
 
 ### 6.4 Weights
 
@@ -395,6 +395,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.5 | 2026-10-15 | Prompt 8 export. Zaden asked Claude to decide ("best intersts of winning ..., the usefullness of the website, the success of the website, ... and the goal of the project"). Section 6.3: the price index chart starts at the comp window (display only; the index math is unchanged). No other rule changed. Export choices that are not methodology rules (comps keep the full deed date for K6; no street names; each town's filter log in its town file) are in `docs/data-contract.md`. |
 | 1.4 | 2026-10-15 | Prompt 7 validation. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). Section 2.4 now says how the Director computes the average ratio (weighted, by class, averaged with the prior year), from a 2026 Tax Court opinion saved in `data/raw/notes/`. Added `2025TEV.pdf`. V2 uses TOTAL ASSESSMENT for multi-lot sales (the state's own pairing) and gives pipeline numbers. V3 gives pipeline numbers. New V4: rebuild the state's one-year ratio and flag towns more than 5 points apart. Section 7 limitation updated. No cleaning or town statistics rule changed. |
 | 1.3 | 2026-10-15 | Prompt 6 town statistics. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). T3 quarters now sort by the PRB value proxy, not sale price (sale-price version kept as a comparison). New T8: countywide headline is within-town (each sale divided by its town's median ratio). Section 2.3: PRB "unacceptable" means the whole 95% range is outside -0.10 to +0.10; no pass/fail for the median ratio. T7 now says "value quarter", strict above/below, and how the county row adds up. PRB keeps ln(V)/0.693 (the prompt said log2; IAAO's form wins). |
 | 1.2 | 2026-10-15 | Prompt 5 cleaning findings. Zaden asked Claude to decide ("best interests of winning, usefulness, the goal, and the prompt"). C8 now says it runs per town *and* per SR1A file. C10 also drops codes starting with lowercase "c" (1 sale). C9 note now gives the real counts: 0 removed in Sales2026, 1,093 in Sales2025. Named `c8_sensitivity.csv`. |
