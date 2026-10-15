@@ -26,13 +26,13 @@ Set up Python (Windows PowerShell, Python 3.11 or newer):
     py -m venv .venv
     .\.venv\Scripts\python.exe -m pip install -r pipeline\requirements.txt
 
-Build the data tables (needs the raw files in data\raw\; run in this order):
+Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, then clean) and stops with a clear message if an input file is missing:
 
-    .\.venv\Scripts\python.exe -m pipeline.parse_sr1a
-    .\.venv\Scripts\python.exe -m pipeline.parse_ch123
-    .\.venv\Scripts\python.exe -m pipeline.parse_state_tables
-    .\.venv\Scripts\python.exe -m pipeline.build_towns
-    .\.venv\Scripts\python.exe -m pipeline.profile_data
+    .\.venv\Scripts\python.exe -m pipeline.run
+
+To rerun only the cleaning step (and any later stages):
+
+    .\.venv\Scripts\python.exe -m pipeline.run clean
 
 Run the Python tests:
 

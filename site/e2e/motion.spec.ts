@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-const CUE = { name: "Scroll to explore: go to the next section" };
+const CUE = { name: "Scroll to explore and go to the next section" };
 
 test.describe("Scroll to explore button", () => {
   test("jumps to the next section, just under the header, and moves focus there", async ({ page }) => {

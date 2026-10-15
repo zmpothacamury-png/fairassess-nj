@@ -26,10 +26,11 @@ export function BuildingSection() {
               <StatusPill status="neutral">In development</StatusPill>
             </div>
             <p className="mt-4 text-base text-ink-600">
-              A public, reproducible study that scores every Bergen County
-              town on whether it assesses lower-priced single-family homes
-              more heavily than expensive ones, using IAAO ratio-study
-              measures and the state&rsquo;s own Chapter 123 range checks.
+              This public, reproducible study scores every Bergen County
+              town. It checks whether each town assesses lower-priced
+              single-family homes more heavily than expensive ones. It uses
+              IAAO ratio-study measures and the state&rsquo;s own Chapter 123
+              range checks.
             </p>
           </div>
 
@@ -42,9 +43,9 @@ export function BuildingSection() {
               <StatusPill status="neutral">In development</StatusPill>
             </div>
             <p className="mt-4 text-base text-ink-600">
-              Enter your town and your assessed value. See whether your
-              assessment looks out of line with recent sales in your town,
-              in plain language.
+              Enter your town and your assessed value. See in plain language
+              whether your assessment looks out of line with recent sales in
+              your town.
             </p>
           </div>
         </Reveal>

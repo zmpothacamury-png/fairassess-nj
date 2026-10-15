@@ -161,3 +161,49 @@ Small tables copied by hand or by a one-time script from a saved source. Each ro
 | `short_label` | text | Our plain-English label. Full wording is in the source PDF. |
 | `may_be_used_after_investigation` | yes/no | "yes" for the 10 categories N.J.A.C. 18:12-1.1(b) says may still be used after a full investigation. |
 | `source` | text | Rule and link. |
+
+## 9. Cleaning outputs (`pipeline/clean.py`, methodology Section 4)
+
+### `data/processed/sales_clean.csv`
+One row per sale that passed rules C1 to C10 (Sales2025 and Sales2026). Rows are in file order: Sales2025, then Sales2026, each in its original line order.
+
+| Column | Type | Meaning |
+|---|---|---|
+| `record_id` | text | District code + SERIAL-NUMBER, e.g. `0201-7354015`. |
+| `source_file` | text | `Sales2025` or `Sales2026`. Town statistics use `Sales2026` only (rule T0). |
+| `district_code` | text | 4-digit town code. |
+| `town_slug` | text | URL slug from `towns.csv`. |
+| `deed_date` | date | DEED-DATE (YYYY-MM-DD). |
+| `recorded_date` | date | DATE-RECORDED (YYYY-MM-DD). |
+| `assess_year` | number | ASSESS-YEAR, 2 digits (e.g. 26). |
+| `sale_price` | dollars | VERIFIED-SALES-PRICE (REPORTED-SALES-PRICE if verified is zero or blank). |
+| `assessed_value` | dollars | Main lot ASSESSED-VALUE-TOTAL on the sale record (rule C5). |
+| `ratio` | decimal | assessed_value / sale_price. |
+| `town_median_ratio` | decimal | Median ratio of the town's sales in the same file, just before C8. |
+| `relative_ratio` | decimal | ratio / town_median_ratio (the scale C8 trims on). |
+
+### `data/interim/removed_rows.parquet`
+Every row a rule removed: all columns from `sr1a_bergen.parquet`, plus `sale_price`, `price_source`, and `rule_id` (the rule that removed it). Rows removed by C8 also carry `ratio`, `town_median_ratio`, `relative_ratio`, `c8_low_fence`, and `c8_high_fence`.
+
+### `data/processed/filter_log.csv`
+| Column | Type | Meaning |
+|---|---|---|
+| `step` | number | 1 to 10, the order the rules run. |
+| `rule_id` | text | C1 to C10. |
+| `rule_description` | text | Short description of the rule. |
+| `source_file` | text | `Sales2025`, `Sales2026`, or `All` (both added together). |
+| `district_code` | text | 4-digit town code, or `ALL` for the countywide row. |
+| `town` | text | Display name, or "Bergen County (all towns)". |
+| `rows_in`, `rows_removed`, `rows_out` | number | Rows before the rule, removed by it, and left after it. rows_in = rows_removed + rows_out. |
+
+### `data/processed/c8_sensitivity.csv`
+C8 at the main fence (3.0 x IQR) and the check fence (1.5 x IQR), one row per town and file. Not used in any result.
+
+| Column | Type | Meaning |
+|---|---|---|
+| `source_file`, `district_code` | text | File and town. |
+| `sales_before_c8` | number | Sales that reached C8. |
+| `town_median_ratio` | decimal | Median ratio before C8. |
+| `low_fence_3_0`, `high_fence_3_0`, `low_fence_1_5`, `high_fence_1_5` | decimal | Fences on the relative-ratio scale. |
+| `removed_3_0`, `removed_1_5`, `extra_removed_at_1_5` | number | Sales removed at each fence, and the difference. |
+| `sales_after_3_0`, `sales_after_1_5` | number | Sales left at each fence. |

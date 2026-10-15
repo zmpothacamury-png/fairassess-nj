@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.1 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.2 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -160,7 +160,7 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 |---|---|---|
 | C1 | **Bergen County only.** COUNTY-CODE = "02". | Fixed |
 | C2 | **Residential only.** PROPERTY-CLASS = "2" (the file description lists 2 = Residential). | Fixed |
-| C10 | **No condominiums.** Drop rows whose QUALIFICATION-CODE starts with "C" ("C = Condominium unit"). | Our choice |
+| C10 | **No condominiums.** Drop rows whose QUALIFICATION-CODE starts with "C" or "c" ("C = Condominium unit"). | Our choice |
 | C3 | **Usable sales only.** U-N-TYPE = "U". | Fixed |
 | C7 | **No exact duplicates.** Drop a row if its full 663-character line exactly matches an earlier row. | Fixed |
 | C4 | **Sale price at least $50,000.** | Our choice |
@@ -171,7 +171,7 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 
 **C2 note.** The SR1A file does not say how many families live in a class-2 home. Class 2 is all residential property, so 2- to 4-family homes cannot be removed with this file. This is a limitation (Section 7).
 
-**C10.** *Our choice. Reason:* v1 is about single-family homes, and condos are valued and assessed differently. In Sales2026, condos are 1,075 of the 4,917 usable class-2 Bergen sales, and more than 25% of the usable class-2 sales in 15 towns.
+**C10.** *Our choice. Reason:* v1 is about single-family homes, and condos are valued and assessed differently. In Sales2026, condos are 1,075 of the 4,917 usable class-2 Bergen sales, and more than 25% of the usable class-2 sales in 15 towns. A lowercase "c" counts too: one usable class-2 sale in Sales2025 (Wyckoff) has the code "c4293", which is a condo code typed in lowercase. Dropping one likely condo is safer than letting it act as a single-family comp.
 
 **C3 note.** The state sets U or N. We do not second-guess it. For non-usable sales, the pipeline reports counts by SR-NU-CODE (the state's code; ASSESSOR-NU-CODE is logged too). The code meanings come from N.J.A.C. 18:12-1.1 as listed in the state's May 2025 guidelines (36 categories). Short labels for the site are in `data/raw/notes/ratio-study-standards.md`. Two state categories matter for us:
 - **Category 27** removes sales recorded July 1 to December 31 before a revaluation or reassessment takes effect (see C9).
@@ -183,9 +183,9 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 
 **C6.** A sale counts as multi-lot if TOTAL ASSESSMENT (positions 5 to 16) is greater than MAIN LOT ASSESSED-VALUE-TOTAL, which means extra lots were sold with it. (Version 1.0 said "any ADDL-BLOCK is not blank"; that would wrongly drop 881 usable class-2 sales in Sales2025, whose empty ADDL-BLOCK fields hold "00000". With "00000" treated as blank, the ADDL-BLOCK test, the ADDL-VALUE-TOTAL test, and this test agree on all 10,212 usable class-2 sales in Sales2025 and Sales2026.) We still drop these sales instead of keeping them with TOTAL ASSESSMENT: they are few, and a homeowner using the checker is asking about one lot, so single-lot sales are the closest match. *Our choice. Reason:* the price covers more than one lot, but the assessed value field covers only the main lot, so the ratio would be too low. (State category 30 already removes multi-parcel sales that are not one economic unit; this catches the rest.) In Sales2026 this affects 21 usable class-2 Bergen sales.
 
-**C9.** For towns on the county's **2026** revaluation/reassessment list, keep only sales with ASSESS-YEAR 26 or later (the new basis). If fewer than 20 sales remain, label the town "Recent revaluation" and hide its statistics. For towns on the **2027** list, the study data is all on the current basis, so their statistics stand; the town page notes that new assessments arrive for 2027. *Our choice. Reason:* mixing old and new assessments would make a town look uneven when it is really just two different bases. State category 27 already does most of this (in Allendale, a 2026 town, all usable sales carry 2026 assessments), so we expect C9 to remove few or no sales. It stays as a safety check.
+**C9.** For towns on the county's **2026** revaluation/reassessment list, keep only sales with ASSESS-YEAR 26 or later (the new basis). If fewer than 20 sales remain, label the town "Recent revaluation" and hide its statistics. For towns on the **2027** list, the study data is all on the current basis, so their statistics stand; the town page notes that new assessments arrive for 2027. *Our choice. Reason:* mixing old and new assessments would make a town look uneven when it is really just two different bases. State category 27 already does most of this (in Allendale, a 2026 town, all usable sales carry 2026 assessments), so in Sales2026 C9 removes no sales and stays as a safety check. In Sales2025 it removes every sale in these towns, because all of them carry 2024 or 2025 assessments (1,093 sales in 34 towns; `docs/filter-log.md`). So in 2026 revaluation towns, the checker uses Sales2026 sales only.
 
-**C8.** For each town separately:
+**C8.** For each town separately, and for each SR1A file separately (Sales2025 and Sales2026 are different sampling years with different assessment years, so each has its own town median):
 1. Compute each sale's relative ratio: *R_i / town median ratio*.
 2. Find Q1 and Q3 (25th and 75th percentiles) of the relative ratios. IQR = Q3 - Q1.
 3. Remove sales below Q1 - 3.0 x IQR or above Q3 + 3.0 x IQR.
@@ -197,7 +197,7 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 
 *Note:* dividing by the median does not change which sales are removed (it scales everything by the same amount). We do it so the log can show fences on one common scale across towns.
 
-*Sensitivity check:* the pipeline also runs every town statistic with a 1.5 x IQR fence and with no trimming, and writes both to `data/processed/sensitivity.csv`. If a town's label (T5) changes between 3.0 and 1.5, the town page says the result is sensitive to outliers.
+*Sensitivity check:* the pipeline also runs every town statistic with a 1.5 x IQR fence and with no trimming, and writes both to `data/processed/sensitivity.csv`. The cleaning step also writes `data/processed/c8_sensitivity.csv`, which shows each town's fences and how many sales each fence removes. If a town's label (T5) changes between 3.0 and 1.5, the town page says the result is sensitive to outliers.
 
 ---
 
@@ -380,6 +380,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.2 | 2026-10-15 | Prompt 5 cleaning findings. Zaden asked Claude to decide ("best interests of winning, usefulness, the goal, and the prompt"). C8 now says it runs per town *and* per SR1A file. C10 also drops codes starting with lowercase "c" (1 sale). C9 note now gives the real counts: 0 removed in Sales2026, 1,093 in Sales2025. Named `c8_sensitivity.csv`. |
 | 1.1 | 2026-10-15 | Prompt 4 data findings. Zaden asked Claude to decide ("whatever most aligns with the prompts, the goal, usefulness, and winning"). C6 now tests TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped, not kept. Section 3.1 updated: YTDSR1A2026 is an older copy of Sales2026; Sales2024 does not follow the layout; LAST-UPDATE-DATE is MMDDYY; record_id defined. |
 | 1.0 | 2026-10-14 | Zaden asked Claude to choose all 19 decision-list items "to best align with the goal, prompt, winning the competition, and being a useful tool." Claude kept every draft default (T0, C4, C6, C8, C9, C10, T4, T5, T6, K2 to K6, V2 0.25, V3 10 points), kept the two document-driven rules (K10 100% trigger; K14 no Chapter 123 result in 2027 revaluation towns), and brought old H3 back as descriptive table T7. Added sources: IAAO Standard on Ratio Studies (2013) and NJ *Guidelines for use of 36 Nonusable Categories* (May 2025), quoted in `data/raw/notes/ratio-study-standards.md`. These confirmed the July 1 to June 30 sampling period, the full non-usable code list, IAAO ranges, and the PRB formula (now ln(V)/0.693 exactly as IAAO writes it). Added notes on state categories 27, 30, and 36; COD judged against 15.0. YTDSR1A2026.zip kept but unused. |
 | 1.0-draft | 2026-10-14 | Full rewrite for Prompt 3: research question and H1; IAAO measures with formulas; Chapter 123 rules from ch123definitions.pdf and 2027CH123.pdf; data sources and periods; cleaning rules C1 to C10; town statistics T0 to T6; checker K1 to K14; limitations; validation V1 to V3. |

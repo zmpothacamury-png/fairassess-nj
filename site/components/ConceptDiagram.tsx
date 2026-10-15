@@ -59,13 +59,13 @@ export function ConceptDiagram() {
 
       <div className="mt-4 flex items-center gap-2 text-sm text-ink-600">
         <span aria-hidden="true" className="inline-block h-4 border-l-2 border-dashed border-gold-400" />
-        100% line &mdash; assessment exactly matches the sale price
+        The 100% line shows where the assessment exactly matches the sale price
       </div>
 
       <figcaption className="mt-6 border-t border-outline-200 pt-4 text-sm text-ink-600">
-        Made-up numbers, for illustration only &mdash; not a real town.
-        Real, town-by-town ratios from New Jersey sales data will replace
-        this diagram once the study publishes.
+        These are made-up numbers for illustration only. They are not from
+        a real town. Real town-by-town ratios from New Jersey sales data
+        will replace this diagram once the study publishes.
       </figcaption>
     </figure>
   );

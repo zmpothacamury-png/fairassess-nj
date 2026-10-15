@@ -13,7 +13,7 @@ export default function CheckPage() {
       <PageHeader
         eyebrow="Tool 2"
         title="Appeal Checker"
-        intro="Enter your town and assessed value. The checker compares your home with recent sales and tells you, in plain English, whether you may have grounds to appeal."
+        intro="Enter your town and assessed value. The checker compares your home with recent sales. Then it tells you in plain English whether you may have grounds to appeal."
       />
       <ComingSoon>
         <AppealBasics />

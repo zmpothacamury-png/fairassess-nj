@@ -1,0 +1,2131 @@
+step,rule_id,rule_description,source_file,district_code,town,rows_in,rows_removed,rows_out
+1,C1,Bergen County only,All,ALL,Bergen County (all towns),28015,0,28015
+1,C1,Bergen County only,All,0201,Allendale,225,0,225
+1,C1,Bergen County only,All,0202,Alpine,86,0,86
+1,C1,Bergen County only,All,0203,Bergenfield,656,0,656
+1,C1,Bergen County only,All,0204,Bogota,192,0,192
+1,C1,Bergen County only,All,0205,Carlstadt,183,0,183
+1,C1,Bergen County only,All,0206,Cliffside Park,900,0,900
+1,C1,Bergen County only,All,0207,Closter,283,0,283
+1,C1,Bergen County only,All,0208,Cresskill,363,0,363
+1,C1,Bergen County only,All,0209,Demarest,242,0,242
+1,C1,Bergen County only,All,0210,Dumont,454,0,454
+1,C1,Bergen County only,All,0211,Elmwood Park,485,0,485
+1,C1,Bergen County only,All,0212,East Rutherford,200,0,200
+1,C1,Bergen County only,All,0213,Edgewater,544,0,544
+1,C1,Bergen County only,All,0214,Emerson,224,0,224
+1,C1,Bergen County only,All,0215,Englewood,850,0,850
+1,C1,Bergen County only,All,0216,Englewood Cliffs,220,0,220
+1,C1,Bergen County only,All,0217,Fair Lawn,978,0,978
+1,C1,Bergen County only,All,0218,Fairview,262,0,262
+1,C1,Bergen County only,All,0219,Fort Lee,1274,0,1274
+1,C1,Bergen County only,All,0220,Franklin Lakes,417,0,417
+1,C1,Bergen County only,All,0221,Garfield,678,0,678
+1,C1,Bergen County only,All,0222,Glen Rock,369,0,369
+1,C1,Bergen County only,All,0223,Hackensack,1085,0,1085
+1,C1,Bergen County only,All,0224,Harrington Park,169,0,169
+1,C1,Bergen County only,All,0225,Hasbrouck Heights,317,0,317
+1,C1,Bergen County only,All,0226,Haworth,152,0,152
+1,C1,Bergen County only,All,0227,Hillsdale,273,0,273
+1,C1,Bergen County only,All,0228,Ho-Ho-Kus,198,0,198
+1,C1,Bergen County only,All,0229,Leonia,266,0,266
+1,C1,Bergen County only,All,0230,Little Ferry,269,0,269
+1,C1,Bergen County only,All,0231,Lodi,488,0,488
+1,C1,Bergen County only,All,0232,Lyndhurst,513,0,513
+1,C1,Bergen County only,All,0233,Mahwah,1051,0,1051
+1,C1,Bergen County only,All,0234,Maywood,237,0,237
+1,C1,Bergen County only,All,0235,Midland Park,189,0,189
+1,C1,Bergen County only,All,0236,Montvale,298,0,298
+1,C1,Bergen County only,All,0237,Moonachie,67,0,67
+1,C1,Bergen County only,All,0238,New Milford,411,0,411
+1,C1,Bergen County only,All,0239,North Arlington,332,0,332
+1,C1,Bergen County only,All,0240,Northvale,159,0,159
+1,C1,Bergen County only,All,0241,Norwood,224,0,224
+1,C1,Bergen County only,All,0242,Oakland,483,0,483
+1,C1,Bergen County only,All,0243,Old Tappan,216,0,216
+1,C1,Bergen County only,All,0244,Oradell,243,0,243
+1,C1,Bergen County only,All,0245,Palisades Park,589,0,589
+1,C1,Bergen County only,All,0246,Paramus,1001,0,1001
+1,C1,Bergen County only,All,0247,Park Ridge,308,0,308
+1,C1,Bergen County only,All,0248,Ramsey,508,0,508
+1,C1,Bergen County only,All,0249,Ridgefield,331,0,331
+1,C1,Bergen County only,All,0250,Ridgefield Park,290,0,290
+1,C1,Bergen County only,All,0251,Ridgewood,758,0,758
+1,C1,Bergen County only,All,0252,River Edge,293,0,293
+1,C1,Bergen County only,All,0253,River Vale,476,0,476
+1,C1,Bergen County only,All,0254,Rochelle Park,200,0,200
+1,C1,Bergen County only,All,0255,Rockleigh,6,0,6
+1,C1,Bergen County only,All,0256,Rutherford,510,0,510
+1,C1,Bergen County only,All,0257,Saddle Brook,410,0,410
+1,C1,Bergen County only,All,0258,Saddle River,186,0,186
+1,C1,Bergen County only,All,0259,South Hackensack,50,0,50
+1,C1,Bergen County only,All,0260,Teaneck,1160,0,1160
+1,C1,Bergen County only,All,0261,Tenafly,557,0,557
+1,C1,Bergen County only,All,0262,Teterboro,5,0,5
+1,C1,Bergen County only,All,0263,Upper Saddle River,420,0,420
+1,C1,Bergen County only,All,0264,Waldwick,340,0,340
+1,C1,Bergen County only,All,0265,Wallington,229,0,229
+1,C1,Bergen County only,All,0266,Washington Township,299,0,299
+1,C1,Bergen County only,All,0267,Westwood,272,0,272
+1,C1,Bergen County only,All,0268,Woodcliff Lake,197,0,197
+1,C1,Bergen County only,All,0269,Wood-Ridge,326,0,326
+1,C1,Bergen County only,All,0270,Wyckoff,569,0,569
+1,C1,Bergen County only,Sales2025,ALL,Bergen County (all towns),14003,0,14003
+1,C1,Bergen County only,Sales2025,0201,Allendale,122,0,122
+1,C1,Bergen County only,Sales2025,0202,Alpine,46,0,46
+1,C1,Bergen County only,Sales2025,0203,Bergenfield,304,0,304
+1,C1,Bergen County only,Sales2025,0204,Bogota,90,0,90
+1,C1,Bergen County only,Sales2025,0205,Carlstadt,91,0,91
+1,C1,Bergen County only,Sales2025,0206,Cliffside Park,450,0,450
+1,C1,Bergen County only,Sales2025,0207,Closter,140,0,140
+1,C1,Bergen County only,Sales2025,0208,Cresskill,176,0,176
+1,C1,Bergen County only,Sales2025,0209,Demarest,115,0,115
+1,C1,Bergen County only,Sales2025,0210,Dumont,226,0,226
+1,C1,Bergen County only,Sales2025,0211,Elmwood Park,230,0,230
+1,C1,Bergen County only,Sales2025,0212,East Rutherford,109,0,109
+1,C1,Bergen County only,Sales2025,0213,Edgewater,261,0,261
+1,C1,Bergen County only,Sales2025,0214,Emerson,104,0,104
+1,C1,Bergen County only,Sales2025,0215,Englewood,424,0,424
+1,C1,Bergen County only,Sales2025,0216,Englewood Cliffs,108,0,108
+1,C1,Bergen County only,Sales2025,0217,Fair Lawn,479,0,479
+1,C1,Bergen County only,Sales2025,0218,Fairview,126,0,126
+1,C1,Bergen County only,Sales2025,0219,Fort Lee,657,0,657
+1,C1,Bergen County only,Sales2025,0220,Franklin Lakes,190,0,190
+1,C1,Bergen County only,Sales2025,0221,Garfield,366,0,366
+1,C1,Bergen County only,Sales2025,0222,Glen Rock,170,0,170
+1,C1,Bergen County only,Sales2025,0223,Hackensack,576,0,576
+1,C1,Bergen County only,Sales2025,0224,Harrington Park,90,0,90
+1,C1,Bergen County only,Sales2025,0225,Hasbrouck Heights,163,0,163
+1,C1,Bergen County only,Sales2025,0226,Haworth,77,0,77
+1,C1,Bergen County only,Sales2025,0227,Hillsdale,121,0,121
+1,C1,Bergen County only,Sales2025,0228,Ho-Ho-Kus,95,0,95
+1,C1,Bergen County only,Sales2025,0229,Leonia,124,0,124
+1,C1,Bergen County only,Sales2025,0230,Little Ferry,134,0,134
+1,C1,Bergen County only,Sales2025,0231,Lodi,246,0,246
+1,C1,Bergen County only,Sales2025,0232,Lyndhurst,250,0,250
+1,C1,Bergen County only,Sales2025,0233,Mahwah,504,0,504
+1,C1,Bergen County only,Sales2025,0234,Maywood,120,0,120
+1,C1,Bergen County only,Sales2025,0235,Midland Park,99,0,99
+1,C1,Bergen County only,Sales2025,0236,Montvale,154,0,154
+1,C1,Bergen County only,Sales2025,0237,Moonachie,47,0,47
+1,C1,Bergen County only,Sales2025,0238,New Milford,187,0,187
+1,C1,Bergen County only,Sales2025,0239,North Arlington,164,0,164
+1,C1,Bergen County only,Sales2025,0240,Northvale,78,0,78
+1,C1,Bergen County only,Sales2025,0241,Norwood,99,0,99
+1,C1,Bergen County only,Sales2025,0242,Oakland,240,0,240
+1,C1,Bergen County only,Sales2025,0243,Old Tappan,102,0,102
+1,C1,Bergen County only,Sales2025,0244,Oradell,131,0,131
+1,C1,Bergen County only,Sales2025,0245,Palisades Park,307,0,307
+1,C1,Bergen County only,Sales2025,0246,Paramus,483,0,483
+1,C1,Bergen County only,Sales2025,0247,Park Ridge,141,0,141
+1,C1,Bergen County only,Sales2025,0248,Ramsey,267,0,267
+1,C1,Bergen County only,Sales2025,0249,Ridgefield,158,0,158
+1,C1,Bergen County only,Sales2025,0250,Ridgefield Park,142,0,142
+1,C1,Bergen County only,Sales2025,0251,Ridgewood,396,0,396
+1,C1,Bergen County only,Sales2025,0252,River Edge,146,0,146
+1,C1,Bergen County only,Sales2025,0253,River Vale,233,0,233
+1,C1,Bergen County only,Sales2025,0254,Rochelle Park,101,0,101
+1,C1,Bergen County only,Sales2025,0255,Rockleigh,2,0,2
+1,C1,Bergen County only,Sales2025,0256,Rutherford,238,0,238
+1,C1,Bergen County only,Sales2025,0257,Saddle Brook,218,0,218
+1,C1,Bergen County only,Sales2025,0258,Saddle River,91,0,91
+1,C1,Bergen County only,Sales2025,0259,South Hackensack,26,0,26
+1,C1,Bergen County only,Sales2025,0260,Teaneck,584,0,584
+1,C1,Bergen County only,Sales2025,0261,Tenafly,283,0,283
+1,C1,Bergen County only,Sales2025,0262,Teterboro,1,0,1
+1,C1,Bergen County only,Sales2025,0263,Upper Saddle River,240,0,240
+1,C1,Bergen County only,Sales2025,0264,Waldwick,165,0,165
+1,C1,Bergen County only,Sales2025,0265,Wallington,117,0,117
+1,C1,Bergen County only,Sales2025,0266,Washington Township,182,0,182
+1,C1,Bergen County only,Sales2025,0267,Westwood,169,0,169
+1,C1,Bergen County only,Sales2025,0268,Woodcliff Lake,90,0,90
+1,C1,Bergen County only,Sales2025,0269,Wood-Ridge,166,0,166
+1,C1,Bergen County only,Sales2025,0270,Wyckoff,272,0,272
+1,C1,Bergen County only,Sales2026,ALL,Bergen County (all towns),14012,0,14012
+1,C1,Bergen County only,Sales2026,0201,Allendale,103,0,103
+1,C1,Bergen County only,Sales2026,0202,Alpine,40,0,40
+1,C1,Bergen County only,Sales2026,0203,Bergenfield,352,0,352
+1,C1,Bergen County only,Sales2026,0204,Bogota,102,0,102
+1,C1,Bergen County only,Sales2026,0205,Carlstadt,92,0,92
+1,C1,Bergen County only,Sales2026,0206,Cliffside Park,450,0,450
+1,C1,Bergen County only,Sales2026,0207,Closter,143,0,143
+1,C1,Bergen County only,Sales2026,0208,Cresskill,187,0,187
+1,C1,Bergen County only,Sales2026,0209,Demarest,127,0,127
+1,C1,Bergen County only,Sales2026,0210,Dumont,228,0,228
+1,C1,Bergen County only,Sales2026,0211,Elmwood Park,255,0,255
+1,C1,Bergen County only,Sales2026,0212,East Rutherford,91,0,91
+1,C1,Bergen County only,Sales2026,0213,Edgewater,283,0,283
+1,C1,Bergen County only,Sales2026,0214,Emerson,120,0,120
+1,C1,Bergen County only,Sales2026,0215,Englewood,426,0,426
+1,C1,Bergen County only,Sales2026,0216,Englewood Cliffs,112,0,112
+1,C1,Bergen County only,Sales2026,0217,Fair Lawn,499,0,499
+1,C1,Bergen County only,Sales2026,0218,Fairview,136,0,136
+1,C1,Bergen County only,Sales2026,0219,Fort Lee,617,0,617
+1,C1,Bergen County only,Sales2026,0220,Franklin Lakes,227,0,227
+1,C1,Bergen County only,Sales2026,0221,Garfield,312,0,312
+1,C1,Bergen County only,Sales2026,0222,Glen Rock,199,0,199
+1,C1,Bergen County only,Sales2026,0223,Hackensack,509,0,509
+1,C1,Bergen County only,Sales2026,0224,Harrington Park,79,0,79
+1,C1,Bergen County only,Sales2026,0225,Hasbrouck Heights,154,0,154
+1,C1,Bergen County only,Sales2026,0226,Haworth,75,0,75
+1,C1,Bergen County only,Sales2026,0227,Hillsdale,152,0,152
+1,C1,Bergen County only,Sales2026,0228,Ho-Ho-Kus,103,0,103
+1,C1,Bergen County only,Sales2026,0229,Leonia,142,0,142
+1,C1,Bergen County only,Sales2026,0230,Little Ferry,135,0,135
+1,C1,Bergen County only,Sales2026,0231,Lodi,242,0,242
+1,C1,Bergen County only,Sales2026,0232,Lyndhurst,263,0,263
+1,C1,Bergen County only,Sales2026,0233,Mahwah,547,0,547
+1,C1,Bergen County only,Sales2026,0234,Maywood,117,0,117
+1,C1,Bergen County only,Sales2026,0235,Midland Park,90,0,90
+1,C1,Bergen County only,Sales2026,0236,Montvale,144,0,144
+1,C1,Bergen County only,Sales2026,0237,Moonachie,20,0,20
+1,C1,Bergen County only,Sales2026,0238,New Milford,224,0,224
+1,C1,Bergen County only,Sales2026,0239,North Arlington,168,0,168
+1,C1,Bergen County only,Sales2026,0240,Northvale,81,0,81
+1,C1,Bergen County only,Sales2026,0241,Norwood,125,0,125
+1,C1,Bergen County only,Sales2026,0242,Oakland,243,0,243
+1,C1,Bergen County only,Sales2026,0243,Old Tappan,114,0,114
+1,C1,Bergen County only,Sales2026,0244,Oradell,112,0,112
+1,C1,Bergen County only,Sales2026,0245,Palisades Park,282,0,282
+1,C1,Bergen County only,Sales2026,0246,Paramus,518,0,518
+1,C1,Bergen County only,Sales2026,0247,Park Ridge,167,0,167
+1,C1,Bergen County only,Sales2026,0248,Ramsey,241,0,241
+1,C1,Bergen County only,Sales2026,0249,Ridgefield,173,0,173
+1,C1,Bergen County only,Sales2026,0250,Ridgefield Park,148,0,148
+1,C1,Bergen County only,Sales2026,0251,Ridgewood,362,0,362
+1,C1,Bergen County only,Sales2026,0252,River Edge,147,0,147
+1,C1,Bergen County only,Sales2026,0253,River Vale,243,0,243
+1,C1,Bergen County only,Sales2026,0254,Rochelle Park,99,0,99
+1,C1,Bergen County only,Sales2026,0255,Rockleigh,4,0,4
+1,C1,Bergen County only,Sales2026,0256,Rutherford,272,0,272
+1,C1,Bergen County only,Sales2026,0257,Saddle Brook,192,0,192
+1,C1,Bergen County only,Sales2026,0258,Saddle River,95,0,95
+1,C1,Bergen County only,Sales2026,0259,South Hackensack,24,0,24
+1,C1,Bergen County only,Sales2026,0260,Teaneck,576,0,576
+1,C1,Bergen County only,Sales2026,0261,Tenafly,274,0,274
+1,C1,Bergen County only,Sales2026,0262,Teterboro,4,0,4
+1,C1,Bergen County only,Sales2026,0263,Upper Saddle River,180,0,180
+1,C1,Bergen County only,Sales2026,0264,Waldwick,175,0,175
+1,C1,Bergen County only,Sales2026,0265,Wallington,112,0,112
+1,C1,Bergen County only,Sales2026,0266,Washington Township,117,0,117
+1,C1,Bergen County only,Sales2026,0267,Westwood,103,0,103
+1,C1,Bergen County only,Sales2026,0268,Woodcliff Lake,107,0,107
+1,C1,Bergen County only,Sales2026,0269,Wood-Ridge,160,0,160
+1,C1,Bergen County only,Sales2026,0270,Wyckoff,297,0,297
+2,C2,Residential only (property class 2),All,ALL,Bergen County (all towns),28015,2232,25783
+2,C2,Residential only (property class 2),All,0201,Allendale,225,8,217
+2,C2,Residential only (property class 2),All,0202,Alpine,86,15,71
+2,C2,Residential only (property class 2),All,0203,Bergenfield,656,38,618
+2,C2,Residential only (property class 2),All,0204,Bogota,192,17,175
+2,C2,Residential only (property class 2),All,0205,Carlstadt,183,47,136
+2,C2,Residential only (property class 2),All,0206,Cliffside Park,900,74,826
+2,C2,Residential only (property class 2),All,0207,Closter,283,22,261
+2,C2,Residential only (property class 2),All,0208,Cresskill,363,19,344
+2,C2,Residential only (property class 2),All,0209,Demarest,242,8,234
+2,C2,Residential only (property class 2),All,0210,Dumont,454,16,438
+2,C2,Residential only (property class 2),All,0211,Elmwood Park,485,41,444
+2,C2,Residential only (property class 2),All,0212,East Rutherford,200,31,169
+2,C2,Residential only (property class 2),All,0213,Edgewater,544,33,511
+2,C2,Residential only (property class 2),All,0214,Emerson,224,13,211
+2,C2,Residential only (property class 2),All,0215,Englewood,850,65,785
+2,C2,Residential only (property class 2),All,0216,Englewood Cliffs,220,40,180
+2,C2,Residential only (property class 2),All,0217,Fair Lawn,978,49,929
+2,C2,Residential only (property class 2),All,0218,Fairview,262,38,224
+2,C2,Residential only (property class 2),All,0219,Fort Lee,1274,117,1157
+2,C2,Residential only (property class 2),All,0220,Franklin Lakes,417,39,378
+2,C2,Residential only (property class 2),All,0221,Garfield,678,88,590
+2,C2,Residential only (property class 2),All,0222,Glen Rock,369,11,358
+2,C2,Residential only (property class 2),All,0223,Hackensack,1085,139,946
+2,C2,Residential only (property class 2),All,0224,Harrington Park,169,7,162
+2,C2,Residential only (property class 2),All,0225,Hasbrouck Heights,317,26,291
+2,C2,Residential only (property class 2),All,0226,Haworth,152,4,148
+2,C2,Residential only (property class 2),All,0227,Hillsdale,273,14,259
+2,C2,Residential only (property class 2),All,0228,Ho-Ho-Kus,198,9,189
+2,C2,Residential only (property class 2),All,0229,Leonia,266,17,249
+2,C2,Residential only (property class 2),All,0230,Little Ferry,269,32,237
+2,C2,Residential only (property class 2),All,0231,Lodi,488,47,441
+2,C2,Residential only (property class 2),All,0232,Lyndhurst,513,45,468
+2,C2,Residential only (property class 2),All,0233,Mahwah,1051,42,1009
+2,C2,Residential only (property class 2),All,0234,Maywood,237,10,227
+2,C2,Residential only (property class 2),All,0235,Midland Park,189,19,170
+2,C2,Residential only (property class 2),All,0236,Montvale,298,27,271
+2,C2,Residential only (property class 2),All,0237,Moonachie,67,15,52
+2,C2,Residential only (property class 2),All,0238,New Milford,411,7,404
+2,C2,Residential only (property class 2),All,0239,North Arlington,332,23,309
+2,C2,Residential only (property class 2),All,0240,Northvale,159,16,143
+2,C2,Residential only (property class 2),All,0241,Norwood,224,16,208
+2,C2,Residential only (property class 2),All,0242,Oakland,483,61,422
+2,C2,Residential only (property class 2),All,0243,Old Tappan,216,7,209
+2,C2,Residential only (property class 2),All,0244,Oradell,243,12,231
+2,C2,Residential only (property class 2),All,0245,Palisades Park,589,24,565
+2,C2,Residential only (property class 2),All,0246,Paramus,1001,119,882
+2,C2,Residential only (property class 2),All,0247,Park Ridge,308,13,295
+2,C2,Residential only (property class 2),All,0248,Ramsey,508,23,485
+2,C2,Residential only (property class 2),All,0249,Ridgefield,331,33,298
+2,C2,Residential only (property class 2),All,0250,Ridgefield Park,290,20,270
+2,C2,Residential only (property class 2),All,0251,Ridgewood,758,36,722
+2,C2,Residential only (property class 2),All,0252,River Edge,293,15,278
+2,C2,Residential only (property class 2),All,0253,River Vale,476,117,359
+2,C2,Residential only (property class 2),All,0254,Rochelle Park,200,17,183
+2,C2,Residential only (property class 2),All,0255,Rockleigh,6,1,5
+2,C2,Residential only (property class 2),All,0256,Rutherford,510,28,482
+2,C2,Residential only (property class 2),All,0257,Saddle Brook,410,29,381
+2,C2,Residential only (property class 2),All,0258,Saddle River,186,4,182
+2,C2,Residential only (property class 2),All,0259,South Hackensack,50,17,33
+2,C2,Residential only (property class 2),All,0260,Teaneck,1160,116,1044
+2,C2,Residential only (property class 2),All,0261,Tenafly,557,56,501
+2,C2,Residential only (property class 2),All,0262,Teterboro,5,5,0
+2,C2,Residential only (property class 2),All,0263,Upper Saddle River,420,11,409
+2,C2,Residential only (property class 2),All,0264,Waldwick,340,20,320
+2,C2,Residential only (property class 2),All,0265,Wallington,229,11,218
+2,C2,Residential only (property class 2),All,0266,Washington Township,299,11,288
+2,C2,Residential only (property class 2),All,0267,Westwood,272,28,244
+2,C2,Residential only (property class 2),All,0268,Woodcliff Lake,197,11,186
+2,C2,Residential only (property class 2),All,0269,Wood-Ridge,326,19,307
+2,C2,Residential only (property class 2),All,0270,Wyckoff,569,24,545
+2,C2,Residential only (property class 2),Sales2025,ALL,Bergen County (all towns),14003,1174,12829
+2,C2,Residential only (property class 2),Sales2025,0201,Allendale,122,5,117
+2,C2,Residential only (property class 2),Sales2025,0202,Alpine,46,13,33
+2,C2,Residential only (property class 2),Sales2025,0203,Bergenfield,304,17,287
+2,C2,Residential only (property class 2),Sales2025,0204,Bogota,90,7,83
+2,C2,Residential only (property class 2),Sales2025,0205,Carlstadt,91,22,69
+2,C2,Residential only (property class 2),Sales2025,0206,Cliffside Park,450,39,411
+2,C2,Residential only (property class 2),Sales2025,0207,Closter,140,13,127
+2,C2,Residential only (property class 2),Sales2025,0208,Cresskill,176,13,163
+2,C2,Residential only (property class 2),Sales2025,0209,Demarest,115,4,111
+2,C2,Residential only (property class 2),Sales2025,0210,Dumont,226,5,221
+2,C2,Residential only (property class 2),Sales2025,0211,Elmwood Park,230,27,203
+2,C2,Residential only (property class 2),Sales2025,0212,East Rutherford,109,21,88
+2,C2,Residential only (property class 2),Sales2025,0213,Edgewater,261,7,254
+2,C2,Residential only (property class 2),Sales2025,0214,Emerson,104,6,98
+2,C2,Residential only (property class 2),Sales2025,0215,Englewood,424,36,388
+2,C2,Residential only (property class 2),Sales2025,0216,Englewood Cliffs,108,19,89
+2,C2,Residential only (property class 2),Sales2025,0217,Fair Lawn,479,24,455
+2,C2,Residential only (property class 2),Sales2025,0218,Fairview,126,21,105
+2,C2,Residential only (property class 2),Sales2025,0219,Fort Lee,657,65,592
+2,C2,Residential only (property class 2),Sales2025,0220,Franklin Lakes,190,21,169
+2,C2,Residential only (property class 2),Sales2025,0221,Garfield,366,53,313
+2,C2,Residential only (property class 2),Sales2025,0222,Glen Rock,170,3,167
+2,C2,Residential only (property class 2),Sales2025,0223,Hackensack,576,69,507
+2,C2,Residential only (property class 2),Sales2025,0224,Harrington Park,90,6,84
+2,C2,Residential only (property class 2),Sales2025,0225,Hasbrouck Heights,163,13,150
+2,C2,Residential only (property class 2),Sales2025,0226,Haworth,77,2,75
+2,C2,Residential only (property class 2),Sales2025,0227,Hillsdale,121,4,117
+2,C2,Residential only (property class 2),Sales2025,0228,Ho-Ho-Kus,95,6,89
+2,C2,Residential only (property class 2),Sales2025,0229,Leonia,124,8,116
+2,C2,Residential only (property class 2),Sales2025,0230,Little Ferry,134,16,118
+2,C2,Residential only (property class 2),Sales2025,0231,Lodi,246,26,220
+2,C2,Residential only (property class 2),Sales2025,0232,Lyndhurst,250,28,222
+2,C2,Residential only (property class 2),Sales2025,0233,Mahwah,504,20,484
+2,C2,Residential only (property class 2),Sales2025,0234,Maywood,120,7,113
+2,C2,Residential only (property class 2),Sales2025,0235,Midland Park,99,9,90
+2,C2,Residential only (property class 2),Sales2025,0236,Montvale,154,16,138
+2,C2,Residential only (property class 2),Sales2025,0237,Moonachie,47,10,37
+2,C2,Residential only (property class 2),Sales2025,0238,New Milford,187,4,183
+2,C2,Residential only (property class 2),Sales2025,0239,North Arlington,164,8,156
+2,C2,Residential only (property class 2),Sales2025,0240,Northvale,78,10,68
+2,C2,Residential only (property class 2),Sales2025,0241,Norwood,99,12,87
+2,C2,Residential only (property class 2),Sales2025,0242,Oakland,240,16,224
+2,C2,Residential only (property class 2),Sales2025,0243,Old Tappan,102,4,98
+2,C2,Residential only (property class 2),Sales2025,0244,Oradell,131,7,124
+2,C2,Residential only (property class 2),Sales2025,0245,Palisades Park,307,9,298
+2,C2,Residential only (property class 2),Sales2025,0246,Paramus,483,57,426
+2,C2,Residential only (property class 2),Sales2025,0247,Park Ridge,141,6,135
+2,C2,Residential only (property class 2),Sales2025,0248,Ramsey,267,11,256
+2,C2,Residential only (property class 2),Sales2025,0249,Ridgefield,158,19,139
+2,C2,Residential only (property class 2),Sales2025,0250,Ridgefield Park,142,11,131
+2,C2,Residential only (property class 2),Sales2025,0251,Ridgewood,396,15,381
+2,C2,Residential only (property class 2),Sales2025,0252,River Edge,146,8,138
+2,C2,Residential only (property class 2),Sales2025,0253,River Vale,233,58,175
+2,C2,Residential only (property class 2),Sales2025,0254,Rochelle Park,101,8,93
+2,C2,Residential only (property class 2),Sales2025,0255,Rockleigh,2,0,2
+2,C2,Residential only (property class 2),Sales2025,0256,Rutherford,238,12,226
+2,C2,Residential only (property class 2),Sales2025,0257,Saddle Brook,218,15,203
+2,C2,Residential only (property class 2),Sales2025,0258,Saddle River,91,3,88
+2,C2,Residential only (property class 2),Sales2025,0259,South Hackensack,26,7,19
+2,C2,Residential only (property class 2),Sales2025,0260,Teaneck,584,84,500
+2,C2,Residential only (property class 2),Sales2025,0261,Tenafly,283,28,255
+2,C2,Residential only (property class 2),Sales2025,0262,Teterboro,1,1,0
+2,C2,Residential only (property class 2),Sales2025,0263,Upper Saddle River,240,9,231
+2,C2,Residential only (property class 2),Sales2025,0264,Waldwick,165,7,158
+2,C2,Residential only (property class 2),Sales2025,0265,Wallington,117,4,113
+2,C2,Residential only (property class 2),Sales2025,0266,Washington Township,182,9,173
+2,C2,Residential only (property class 2),Sales2025,0267,Westwood,169,19,150
+2,C2,Residential only (property class 2),Sales2025,0268,Woodcliff Lake,90,5,85
+2,C2,Residential only (property class 2),Sales2025,0269,Wood-Ridge,166,13,153
+2,C2,Residential only (property class 2),Sales2025,0270,Wyckoff,272,14,258
+2,C2,Residential only (property class 2),Sales2026,ALL,Bergen County (all towns),14012,1058,12954
+2,C2,Residential only (property class 2),Sales2026,0201,Allendale,103,3,100
+2,C2,Residential only (property class 2),Sales2026,0202,Alpine,40,2,38
+2,C2,Residential only (property class 2),Sales2026,0203,Bergenfield,352,21,331
+2,C2,Residential only (property class 2),Sales2026,0204,Bogota,102,10,92
+2,C2,Residential only (property class 2),Sales2026,0205,Carlstadt,92,25,67
+2,C2,Residential only (property class 2),Sales2026,0206,Cliffside Park,450,35,415
+2,C2,Residential only (property class 2),Sales2026,0207,Closter,143,9,134
+2,C2,Residential only (property class 2),Sales2026,0208,Cresskill,187,6,181
+2,C2,Residential only (property class 2),Sales2026,0209,Demarest,127,4,123
+2,C2,Residential only (property class 2),Sales2026,0210,Dumont,228,11,217
+2,C2,Residential only (property class 2),Sales2026,0211,Elmwood Park,255,14,241
+2,C2,Residential only (property class 2),Sales2026,0212,East Rutherford,91,10,81
+2,C2,Residential only (property class 2),Sales2026,0213,Edgewater,283,26,257
+2,C2,Residential only (property class 2),Sales2026,0214,Emerson,120,7,113
+2,C2,Residential only (property class 2),Sales2026,0215,Englewood,426,29,397
+2,C2,Residential only (property class 2),Sales2026,0216,Englewood Cliffs,112,21,91
+2,C2,Residential only (property class 2),Sales2026,0217,Fair Lawn,499,25,474
+2,C2,Residential only (property class 2),Sales2026,0218,Fairview,136,17,119
+2,C2,Residential only (property class 2),Sales2026,0219,Fort Lee,617,52,565
+2,C2,Residential only (property class 2),Sales2026,0220,Franklin Lakes,227,18,209
+2,C2,Residential only (property class 2),Sales2026,0221,Garfield,312,35,277
+2,C2,Residential only (property class 2),Sales2026,0222,Glen Rock,199,8,191
+2,C2,Residential only (property class 2),Sales2026,0223,Hackensack,509,70,439
+2,C2,Residential only (property class 2),Sales2026,0224,Harrington Park,79,1,78
+2,C2,Residential only (property class 2),Sales2026,0225,Hasbrouck Heights,154,13,141
+2,C2,Residential only (property class 2),Sales2026,0226,Haworth,75,2,73
+2,C2,Residential only (property class 2),Sales2026,0227,Hillsdale,152,10,142
+2,C2,Residential only (property class 2),Sales2026,0228,Ho-Ho-Kus,103,3,100
+2,C2,Residential only (property class 2),Sales2026,0229,Leonia,142,9,133
+2,C2,Residential only (property class 2),Sales2026,0230,Little Ferry,135,16,119
+2,C2,Residential only (property class 2),Sales2026,0231,Lodi,242,21,221
+2,C2,Residential only (property class 2),Sales2026,0232,Lyndhurst,263,17,246
+2,C2,Residential only (property class 2),Sales2026,0233,Mahwah,547,22,525
+2,C2,Residential only (property class 2),Sales2026,0234,Maywood,117,3,114
+2,C2,Residential only (property class 2),Sales2026,0235,Midland Park,90,10,80
+2,C2,Residential only (property class 2),Sales2026,0236,Montvale,144,11,133
+2,C2,Residential only (property class 2),Sales2026,0237,Moonachie,20,5,15
+2,C2,Residential only (property class 2),Sales2026,0238,New Milford,224,3,221
+2,C2,Residential only (property class 2),Sales2026,0239,North Arlington,168,15,153
+2,C2,Residential only (property class 2),Sales2026,0240,Northvale,81,6,75
+2,C2,Residential only (property class 2),Sales2026,0241,Norwood,125,4,121
+2,C2,Residential only (property class 2),Sales2026,0242,Oakland,243,45,198
+2,C2,Residential only (property class 2),Sales2026,0243,Old Tappan,114,3,111
+2,C2,Residential only (property class 2),Sales2026,0244,Oradell,112,5,107
+2,C2,Residential only (property class 2),Sales2026,0245,Palisades Park,282,15,267
+2,C2,Residential only (property class 2),Sales2026,0246,Paramus,518,62,456
+2,C2,Residential only (property class 2),Sales2026,0247,Park Ridge,167,7,160
+2,C2,Residential only (property class 2),Sales2026,0248,Ramsey,241,12,229
+2,C2,Residential only (property class 2),Sales2026,0249,Ridgefield,173,14,159
+2,C2,Residential only (property class 2),Sales2026,0250,Ridgefield Park,148,9,139
+2,C2,Residential only (property class 2),Sales2026,0251,Ridgewood,362,21,341
+2,C2,Residential only (property class 2),Sales2026,0252,River Edge,147,7,140
+2,C2,Residential only (property class 2),Sales2026,0253,River Vale,243,59,184
+2,C2,Residential only (property class 2),Sales2026,0254,Rochelle Park,99,9,90
+2,C2,Residential only (property class 2),Sales2026,0255,Rockleigh,4,1,3
+2,C2,Residential only (property class 2),Sales2026,0256,Rutherford,272,16,256
+2,C2,Residential only (property class 2),Sales2026,0257,Saddle Brook,192,14,178
+2,C2,Residential only (property class 2),Sales2026,0258,Saddle River,95,1,94
+2,C2,Residential only (property class 2),Sales2026,0259,South Hackensack,24,10,14
+2,C2,Residential only (property class 2),Sales2026,0260,Teaneck,576,32,544
+2,C2,Residential only (property class 2),Sales2026,0261,Tenafly,274,28,246
+2,C2,Residential only (property class 2),Sales2026,0262,Teterboro,4,4,0
+2,C2,Residential only (property class 2),Sales2026,0263,Upper Saddle River,180,2,178
+2,C2,Residential only (property class 2),Sales2026,0264,Waldwick,175,13,162
+2,C2,Residential only (property class 2),Sales2026,0265,Wallington,112,7,105
+2,C2,Residential only (property class 2),Sales2026,0266,Washington Township,117,2,115
+2,C2,Residential only (property class 2),Sales2026,0267,Westwood,103,9,94
+2,C2,Residential only (property class 2),Sales2026,0268,Woodcliff Lake,107,6,101
+2,C2,Residential only (property class 2),Sales2026,0269,Wood-Ridge,160,6,154
+2,C2,Residential only (property class 2),Sales2026,0270,Wyckoff,297,10,287
+3,C10,No condominiums,All,ALL,Bergen County (all towns),25783,4811,20972
+3,C10,No condominiums,All,0201,Allendale,217,32,185
+3,C10,No condominiums,All,0202,Alpine,71,0,71
+3,C10,No condominiums,All,0203,Bergenfield,618,22,596
+3,C10,No condominiums,All,0204,Bogota,175,4,171
+3,C10,No condominiums,All,0205,Carlstadt,136,7,129
+3,C10,No condominiums,All,0206,Cliffside Park,826,564,262
+3,C10,No condominiums,All,0207,Closter,261,0,261
+3,C10,No condominiums,All,0208,Cresskill,344,48,296
+3,C10,No condominiums,All,0209,Demarest,234,10,224
+3,C10,No condominiums,All,0210,Dumont,438,7,431
+3,C10,No condominiums,All,0211,Elmwood Park,444,12,432
+3,C10,No condominiums,All,0212,East Rutherford,169,41,128
+3,C10,No condominiums,All,0213,Edgewater,511,436,75
+3,C10,No condominiums,All,0214,Emerson,211,10,201
+3,C10,No condominiums,All,0215,Englewood,785,271,514
+3,C10,No condominiums,All,0216,Englewood Cliffs,180,0,180
+3,C10,No condominiums,All,0217,Fair Lawn,929,69,860
+3,C10,No condominiums,All,0218,Fairview,224,39,185
+3,C10,No condominiums,All,0219,Fort Lee,1157,813,344
+3,C10,No condominiums,All,0220,Franklin Lakes,378,36,342
+3,C10,No condominiums,All,0221,Garfield,590,50,540
+3,C10,No condominiums,All,0222,Glen Rock,358,9,349
+3,C10,No condominiums,All,0223,Hackensack,946,508,438
+3,C10,No condominiums,All,0224,Harrington Park,162,21,141
+3,C10,No condominiums,All,0225,Hasbrouck Heights,291,3,288
+3,C10,No condominiums,All,0226,Haworth,148,12,136
+3,C10,No condominiums,All,0227,Hillsdale,259,13,246
+3,C10,No condominiums,All,0228,Ho-Ho-Kus,189,6,183
+3,C10,No condominiums,All,0229,Leonia,249,49,200
+3,C10,No condominiums,All,0230,Little Ferry,237,61,176
+3,C10,No condominiums,All,0231,Lodi,441,32,409
+3,C10,No condominiums,All,0232,Lyndhurst,468,27,441
+3,C10,No condominiums,All,0233,Mahwah,1009,27,982
+3,C10,No condominiums,All,0234,Maywood,227,1,226
+3,C10,No condominiums,All,0235,Midland Park,170,2,168
+3,C10,No condominiums,All,0236,Montvale,271,87,184
+3,C10,No condominiums,All,0237,Moonachie,52,0,52
+3,C10,No condominiums,All,0238,New Milford,404,18,386
+3,C10,No condominiums,All,0239,North Arlington,309,4,305
+3,C10,No condominiums,All,0240,Northvale,143,14,129
+3,C10,No condominiums,All,0241,Norwood,208,60,148
+3,C10,No condominiums,All,0242,Oakland,422,0,422
+3,C10,No condominiums,All,0243,Old Tappan,209,61,148
+3,C10,No condominiums,All,0244,Oradell,231,11,220
+3,C10,No condominiums,All,0245,Palisades Park,565,276,289
+3,C10,No condominiums,All,0246,Paramus,882,48,834
+3,C10,No condominiums,All,0247,Park Ridge,295,70,225
+3,C10,No condominiums,All,0248,Ramsey,485,168,317
+3,C10,No condominiums,All,0249,Ridgefield,298,22,276
+3,C10,No condominiums,All,0250,Ridgefield Park,270,19,251
+3,C10,No condominiums,All,0251,Ridgewood,722,0,722
+3,C10,No condominiums,All,0252,River Edge,278,11,267
+3,C10,No condominiums,All,0253,River Vale,359,110,249
+3,C10,No condominiums,All,0254,Rochelle Park,183,19,164
+3,C10,No condominiums,All,0255,Rockleigh,5,0,5
+3,C10,No condominiums,All,0256,Rutherford,482,64,418
+3,C10,No condominiums,All,0257,Saddle Brook,381,33,348
+3,C10,No condominiums,All,0258,Saddle River,182,26,156
+3,C10,No condominiums,All,0259,South Hackensack,33,2,31
+3,C10,No condominiums,All,0260,Teaneck,1044,84,960
+3,C10,No condominiums,All,0261,Tenafly,501,0,501
+3,C10,No condominiums,All,0262,Teterboro,0,0,0
+3,C10,No condominiums,All,0263,Upper Saddle River,409,96,313
+3,C10,No condominiums,All,0264,Waldwick,320,12,308
+3,C10,No condominiums,All,0265,Wallington,218,5,213
+3,C10,No condominiums,All,0266,Washington Township,288,64,224
+3,C10,No condominiums,All,0267,Westwood,244,27,217
+3,C10,No condominiums,All,0268,Woodcliff Lake,186,9,177
+3,C10,No condominiums,All,0269,Wood-Ridge,307,96,211
+3,C10,No condominiums,All,0270,Wyckoff,545,53,492
+3,C10,No condominiums,Sales2025,ALL,Bergen County (all towns),12829,2447,10382
+3,C10,No condominiums,Sales2025,0201,Allendale,117,19,98
+3,C10,No condominiums,Sales2025,0202,Alpine,33,0,33
+3,C10,No condominiums,Sales2025,0203,Bergenfield,287,12,275
+3,C10,No condominiums,Sales2025,0204,Bogota,83,4,79
+3,C10,No condominiums,Sales2025,0205,Carlstadt,69,2,67
+3,C10,No condominiums,Sales2025,0206,Cliffside Park,411,276,135
+3,C10,No condominiums,Sales2025,0207,Closter,127,0,127
+3,C10,No condominiums,Sales2025,0208,Cresskill,163,16,147
+3,C10,No condominiums,Sales2025,0209,Demarest,111,5,106
+3,C10,No condominiums,Sales2025,0210,Dumont,221,3,218
+3,C10,No condominiums,Sales2025,0211,Elmwood Park,203,10,193
+3,C10,No condominiums,Sales2025,0212,East Rutherford,88,26,62
+3,C10,No condominiums,Sales2025,0213,Edgewater,254,223,31
+3,C10,No condominiums,Sales2025,0214,Emerson,98,8,90
+3,C10,No condominiums,Sales2025,0215,Englewood,388,131,257
+3,C10,No condominiums,Sales2025,0216,Englewood Cliffs,89,0,89
+3,C10,No condominiums,Sales2025,0217,Fair Lawn,455,32,423
+3,C10,No condominiums,Sales2025,0218,Fairview,105,15,90
+3,C10,No condominiums,Sales2025,0219,Fort Lee,592,406,186
+3,C10,No condominiums,Sales2025,0220,Franklin Lakes,169,15,154
+3,C10,No condominiums,Sales2025,0221,Garfield,313,23,290
+3,C10,No condominiums,Sales2025,0222,Glen Rock,167,5,162
+3,C10,No condominiums,Sales2025,0223,Hackensack,507,271,236
+3,C10,No condominiums,Sales2025,0224,Harrington Park,84,10,74
+3,C10,No condominiums,Sales2025,0225,Hasbrouck Heights,150,2,148
+3,C10,No condominiums,Sales2025,0226,Haworth,75,9,66
+3,C10,No condominiums,Sales2025,0227,Hillsdale,117,9,108
+3,C10,No condominiums,Sales2025,0228,Ho-Ho-Kus,89,6,83
+3,C10,No condominiums,Sales2025,0229,Leonia,116,24,92
+3,C10,No condominiums,Sales2025,0230,Little Ferry,118,23,95
+3,C10,No condominiums,Sales2025,0231,Lodi,220,15,205
+3,C10,No condominiums,Sales2025,0232,Lyndhurst,222,11,211
+3,C10,No condominiums,Sales2025,0233,Mahwah,484,19,465
+3,C10,No condominiums,Sales2025,0234,Maywood,113,1,112
+3,C10,No condominiums,Sales2025,0235,Midland Park,90,1,89
+3,C10,No condominiums,Sales2025,0236,Montvale,138,42,96
+3,C10,No condominiums,Sales2025,0237,Moonachie,37,0,37
+3,C10,No condominiums,Sales2025,0238,New Milford,183,9,174
+3,C10,No condominiums,Sales2025,0239,North Arlington,156,2,154
+3,C10,No condominiums,Sales2025,0240,Northvale,68,6,62
+3,C10,No condominiums,Sales2025,0241,Norwood,87,23,64
+3,C10,No condominiums,Sales2025,0242,Oakland,224,0,224
+3,C10,No condominiums,Sales2025,0243,Old Tappan,98,33,65
+3,C10,No condominiums,Sales2025,0244,Oradell,124,7,117
+3,C10,No condominiums,Sales2025,0245,Palisades Park,298,142,156
+3,C10,No condominiums,Sales2025,0246,Paramus,426,21,405
+3,C10,No condominiums,Sales2025,0247,Park Ridge,135,38,97
+3,C10,No condominiums,Sales2025,0248,Ramsey,256,89,167
+3,C10,No condominiums,Sales2025,0249,Ridgefield,139,9,130
+3,C10,No condominiums,Sales2025,0250,Ridgefield Park,131,7,124
+3,C10,No condominiums,Sales2025,0251,Ridgewood,381,0,381
+3,C10,No condominiums,Sales2025,0252,River Edge,138,5,133
+3,C10,No condominiums,Sales2025,0253,River Vale,175,57,118
+3,C10,No condominiums,Sales2025,0254,Rochelle Park,93,8,85
+3,C10,No condominiums,Sales2025,0255,Rockleigh,2,0,2
+3,C10,No condominiums,Sales2025,0256,Rutherford,226,25,201
+3,C10,No condominiums,Sales2025,0257,Saddle Brook,203,13,190
+3,C10,No condominiums,Sales2025,0258,Saddle River,88,13,75
+3,C10,No condominiums,Sales2025,0259,South Hackensack,19,1,18
+3,C10,No condominiums,Sales2025,0260,Teaneck,500,41,459
+3,C10,No condominiums,Sales2025,0261,Tenafly,255,0,255
+3,C10,No condominiums,Sales2025,0262,Teterboro,0,0,0
+3,C10,No condominiums,Sales2025,0263,Upper Saddle River,231,81,150
+3,C10,No condominiums,Sales2025,0264,Waldwick,158,4,154
+3,C10,No condominiums,Sales2025,0265,Wallington,113,2,111
+3,C10,No condominiums,Sales2025,0266,Washington Township,173,44,129
+3,C10,No condominiums,Sales2025,0267,Westwood,150,17,133
+3,C10,No condominiums,Sales2025,0268,Woodcliff Lake,85,2,83
+3,C10,No condominiums,Sales2025,0269,Wood-Ridge,153,47,106
+3,C10,No condominiums,Sales2025,0270,Wyckoff,258,27,231
+3,C10,No condominiums,Sales2026,ALL,Bergen County (all towns),12954,2364,10590
+3,C10,No condominiums,Sales2026,0201,Allendale,100,13,87
+3,C10,No condominiums,Sales2026,0202,Alpine,38,0,38
+3,C10,No condominiums,Sales2026,0203,Bergenfield,331,10,321
+3,C10,No condominiums,Sales2026,0204,Bogota,92,0,92
+3,C10,No condominiums,Sales2026,0205,Carlstadt,67,5,62
+3,C10,No condominiums,Sales2026,0206,Cliffside Park,415,288,127
+3,C10,No condominiums,Sales2026,0207,Closter,134,0,134
+3,C10,No condominiums,Sales2026,0208,Cresskill,181,32,149
+3,C10,No condominiums,Sales2026,0209,Demarest,123,5,118
+3,C10,No condominiums,Sales2026,0210,Dumont,217,4,213
+3,C10,No condominiums,Sales2026,0211,Elmwood Park,241,2,239
+3,C10,No condominiums,Sales2026,0212,East Rutherford,81,15,66
+3,C10,No condominiums,Sales2026,0213,Edgewater,257,213,44
+3,C10,No condominiums,Sales2026,0214,Emerson,113,2,111
+3,C10,No condominiums,Sales2026,0215,Englewood,397,140,257
+3,C10,No condominiums,Sales2026,0216,Englewood Cliffs,91,0,91
+3,C10,No condominiums,Sales2026,0217,Fair Lawn,474,37,437
+3,C10,No condominiums,Sales2026,0218,Fairview,119,24,95
+3,C10,No condominiums,Sales2026,0219,Fort Lee,565,407,158
+3,C10,No condominiums,Sales2026,0220,Franklin Lakes,209,21,188
+3,C10,No condominiums,Sales2026,0221,Garfield,277,27,250
+3,C10,No condominiums,Sales2026,0222,Glen Rock,191,4,187
+3,C10,No condominiums,Sales2026,0223,Hackensack,439,237,202
+3,C10,No condominiums,Sales2026,0224,Harrington Park,78,11,67
+3,C10,No condominiums,Sales2026,0225,Hasbrouck Heights,141,1,140
+3,C10,No condominiums,Sales2026,0226,Haworth,73,3,70
+3,C10,No condominiums,Sales2026,0227,Hillsdale,142,4,138
+3,C10,No condominiums,Sales2026,0228,Ho-Ho-Kus,100,0,100
+3,C10,No condominiums,Sales2026,0229,Leonia,133,25,108
+3,C10,No condominiums,Sales2026,0230,Little Ferry,119,38,81
+3,C10,No condominiums,Sales2026,0231,Lodi,221,17,204
+3,C10,No condominiums,Sales2026,0232,Lyndhurst,246,16,230
+3,C10,No condominiums,Sales2026,0233,Mahwah,525,8,517
+3,C10,No condominiums,Sales2026,0234,Maywood,114,0,114
+3,C10,No condominiums,Sales2026,0235,Midland Park,80,1,79
+3,C10,No condominiums,Sales2026,0236,Montvale,133,45,88
+3,C10,No condominiums,Sales2026,0237,Moonachie,15,0,15
+3,C10,No condominiums,Sales2026,0238,New Milford,221,9,212
+3,C10,No condominiums,Sales2026,0239,North Arlington,153,2,151
+3,C10,No condominiums,Sales2026,0240,Northvale,75,8,67
+3,C10,No condominiums,Sales2026,0241,Norwood,121,37,84
+3,C10,No condominiums,Sales2026,0242,Oakland,198,0,198
+3,C10,No condominiums,Sales2026,0243,Old Tappan,111,28,83
+3,C10,No condominiums,Sales2026,0244,Oradell,107,4,103
+3,C10,No condominiums,Sales2026,0245,Palisades Park,267,134,133
+3,C10,No condominiums,Sales2026,0246,Paramus,456,27,429
+3,C10,No condominiums,Sales2026,0247,Park Ridge,160,32,128
+3,C10,No condominiums,Sales2026,0248,Ramsey,229,79,150
+3,C10,No condominiums,Sales2026,0249,Ridgefield,159,13,146
+3,C10,No condominiums,Sales2026,0250,Ridgefield Park,139,12,127
+3,C10,No condominiums,Sales2026,0251,Ridgewood,341,0,341
+3,C10,No condominiums,Sales2026,0252,River Edge,140,6,134
+3,C10,No condominiums,Sales2026,0253,River Vale,184,53,131
+3,C10,No condominiums,Sales2026,0254,Rochelle Park,90,11,79
+3,C10,No condominiums,Sales2026,0255,Rockleigh,3,0,3
+3,C10,No condominiums,Sales2026,0256,Rutherford,256,39,217
+3,C10,No condominiums,Sales2026,0257,Saddle Brook,178,20,158
+3,C10,No condominiums,Sales2026,0258,Saddle River,94,13,81
+3,C10,No condominiums,Sales2026,0259,South Hackensack,14,1,13
+3,C10,No condominiums,Sales2026,0260,Teaneck,544,43,501
+3,C10,No condominiums,Sales2026,0261,Tenafly,246,0,246
+3,C10,No condominiums,Sales2026,0262,Teterboro,0,0,0
+3,C10,No condominiums,Sales2026,0263,Upper Saddle River,178,15,163
+3,C10,No condominiums,Sales2026,0264,Waldwick,162,8,154
+3,C10,No condominiums,Sales2026,0265,Wallington,105,3,102
+3,C10,No condominiums,Sales2026,0266,Washington Township,115,20,95
+3,C10,No condominiums,Sales2026,0267,Westwood,94,10,84
+3,C10,No condominiums,Sales2026,0268,Woodcliff Lake,101,7,94
+3,C10,No condominiums,Sales2026,0269,Wood-Ridge,154,49,105
+3,C10,No condominiums,Sales2026,0270,Wyckoff,287,26,261
+4,C3,Usable sales only,All,ALL,Bergen County (all towns),20972,13112,7860
+4,C3,Usable sales only,All,0201,Allendale,185,149,36
+4,C3,Usable sales only,All,0202,Alpine,71,42,29
+4,C3,Usable sales only,All,0203,Bergenfield,596,318,278
+4,C3,Usable sales only,All,0204,Bogota,171,96,75
+4,C3,Usable sales only,All,0205,Carlstadt,129,106,23
+4,C3,Usable sales only,All,0206,Cliffside Park,262,175,87
+4,C3,Usable sales only,All,0207,Closter,261,206,55
+4,C3,Usable sales only,All,0208,Cresskill,296,234,62
+4,C3,Usable sales only,All,0209,Demarest,224,142,82
+4,C3,Usable sales only,All,0210,Dumont,431,365,66
+4,C3,Usable sales only,All,0211,Elmwood Park,432,312,120
+4,C3,Usable sales only,All,0212,East Rutherford,128,116,12
+4,C3,Usable sales only,All,0213,Edgewater,75,59,16
+4,C3,Usable sales only,All,0214,Emerson,201,110,91
+4,C3,Usable sales only,All,0215,Englewood,514,315,199
+4,C3,Usable sales only,All,0216,Englewood Cliffs,180,89,91
+4,C3,Usable sales only,All,0217,Fair Lawn,860,451,409
+4,C3,Usable sales only,All,0218,Fairview,185,156,29
+4,C3,Usable sales only,All,0219,Fort Lee,344,246,98
+4,C3,Usable sales only,All,0220,Franklin Lakes,342,172,170
+4,C3,Usable sales only,All,0221,Garfield,540,262,278
+4,C3,Usable sales only,All,0222,Glen Rock,349,143,206
+4,C3,Usable sales only,All,0223,Hackensack,438,264,174
+4,C3,Usable sales only,All,0224,Harrington Park,141,82,59
+4,C3,Usable sales only,All,0225,Hasbrouck Heights,288,207,81
+4,C3,Usable sales only,All,0226,Haworth,136,73,63
+4,C3,Usable sales only,All,0227,Hillsdale,246,115,131
+4,C3,Usable sales only,All,0228,Ho-Ho-Kus,183,116,67
+4,C3,Usable sales only,All,0229,Leonia,200,146,54
+4,C3,Usable sales only,All,0230,Little Ferry,176,141,35
+4,C3,Usable sales only,All,0231,Lodi,409,221,188
+4,C3,Usable sales only,All,0232,Lyndhurst,441,387,54
+4,C3,Usable sales only,All,0233,Mahwah,982,396,586
+4,C3,Usable sales only,All,0234,Maywood,226,177,49
+4,C3,Usable sales only,All,0235,Midland Park,168,79,89
+4,C3,Usable sales only,All,0236,Montvale,184,79,105
+4,C3,Usable sales only,All,0237,Moonachie,52,44,8
+4,C3,Usable sales only,All,0238,New Milford,386,260,126
+4,C3,Usable sales only,All,0239,North Arlington,305,242,63
+4,C3,Usable sales only,All,0240,Northvale,129,80,49
+4,C3,Usable sales only,All,0241,Norwood,148,98,50
+4,C3,Usable sales only,All,0242,Oakland,422,332,90
+4,C3,Usable sales only,All,0243,Old Tappan,148,96,52
+4,C3,Usable sales only,All,0244,Oradell,220,191,29
+4,C3,Usable sales only,All,0245,Palisades Park,289,246,43
+4,C3,Usable sales only,All,0246,Paramus,834,670,164
+4,C3,Usable sales only,All,0247,Park Ridge,225,96,129
+4,C3,Usable sales only,All,0248,Ramsey,317,248,69
+4,C3,Usable sales only,All,0249,Ridgefield,276,214,62
+4,C3,Usable sales only,All,0250,Ridgefield Park,251,122,129
+4,C3,Usable sales only,All,0251,Ridgewood,722,335,387
+4,C3,Usable sales only,All,0252,River Edge,267,233,34
+4,C3,Usable sales only,All,0253,River Vale,249,105,144
+4,C3,Usable sales only,All,0254,Rochelle Park,164,111,53
+4,C3,Usable sales only,All,0255,Rockleigh,5,3,2
+4,C3,Usable sales only,All,0256,Rutherford,418,258,160
+4,C3,Usable sales only,All,0257,Saddle Brook,348,282,66
+4,C3,Usable sales only,All,0258,Saddle River,156,92,64
+4,C3,Usable sales only,All,0259,South Hackensack,31,26,5
+4,C3,Usable sales only,All,0260,Teaneck,960,498,462
+4,C3,Usable sales only,All,0261,Tenafly,501,252,249
+4,C3,Usable sales only,All,0262,Teterboro,0,0,0
+4,C3,Usable sales only,All,0263,Upper Saddle River,313,122,191
+4,C3,Usable sales only,All,0264,Waldwick,308,138,170
+4,C3,Usable sales only,All,0265,Wallington,213,150,63
+4,C3,Usable sales only,All,0266,Washington Township,224,141,83
+4,C3,Usable sales only,All,0267,Westwood,217,186,31
+4,C3,Usable sales only,All,0268,Woodcliff Lake,177,147,30
+4,C3,Usable sales only,All,0269,Wood-Ridge,211,143,68
+4,C3,Usable sales only,All,0270,Wyckoff,492,204,288
+4,C3,Usable sales only,Sales2025,ALL,Bergen County (all towns),10382,6364,4018
+4,C3,Usable sales only,Sales2025,0201,Allendale,98,79,19
+4,C3,Usable sales only,Sales2025,0202,Alpine,33,16,17
+4,C3,Usable sales only,Sales2025,0203,Bergenfield,275,155,120
+4,C3,Usable sales only,Sales2025,0204,Bogota,79,39,40
+4,C3,Usable sales only,Sales2025,0205,Carlstadt,67,54,13
+4,C3,Usable sales only,Sales2025,0206,Cliffside Park,135,86,49
+4,C3,Usable sales only,Sales2025,0207,Closter,127,103,24
+4,C3,Usable sales only,Sales2025,0208,Cresskill,147,108,39
+4,C3,Usable sales only,Sales2025,0209,Demarest,106,85,21
+4,C3,Usable sales only,Sales2025,0210,Dumont,218,181,37
+4,C3,Usable sales only,Sales2025,0211,Elmwood Park,193,110,83
+4,C3,Usable sales only,Sales2025,0212,East Rutherford,62,57,5
+4,C3,Usable sales only,Sales2025,0213,Edgewater,31,22,9
+4,C3,Usable sales only,Sales2025,0214,Emerson,90,50,40
+4,C3,Usable sales only,Sales2025,0215,Englewood,257,159,98
+4,C3,Usable sales only,Sales2025,0216,Englewood Cliffs,89,47,42
+4,C3,Usable sales only,Sales2025,0217,Fair Lawn,423,226,197
+4,C3,Usable sales only,Sales2025,0218,Fairview,90,76,14
+4,C3,Usable sales only,Sales2025,0219,Fort Lee,186,133,53
+4,C3,Usable sales only,Sales2025,0220,Franklin Lakes,154,90,64
+4,C3,Usable sales only,Sales2025,0221,Garfield,290,156,134
+4,C3,Usable sales only,Sales2025,0222,Glen Rock,162,59,103
+4,C3,Usable sales only,Sales2025,0223,Hackensack,236,149,87
+4,C3,Usable sales only,Sales2025,0224,Harrington Park,74,43,31
+4,C3,Usable sales only,Sales2025,0225,Hasbrouck Heights,148,87,61
+4,C3,Usable sales only,Sales2025,0226,Haworth,66,31,35
+4,C3,Usable sales only,Sales2025,0227,Hillsdale,108,45,63
+4,C3,Usable sales only,Sales2025,0228,Ho-Ho-Kus,83,34,49
+4,C3,Usable sales only,Sales2025,0229,Leonia,92,48,44
+4,C3,Usable sales only,Sales2025,0230,Little Ferry,95,78,17
+4,C3,Usable sales only,Sales2025,0231,Lodi,205,116,89
+4,C3,Usable sales only,Sales2025,0232,Lyndhurst,211,190,21
+4,C3,Usable sales only,Sales2025,0233,Mahwah,465,173,292
+4,C3,Usable sales only,Sales2025,0234,Maywood,112,83,29
+4,C3,Usable sales only,Sales2025,0235,Midland Park,89,42,47
+4,C3,Usable sales only,Sales2025,0236,Montvale,96,34,62
+4,C3,Usable sales only,Sales2025,0237,Moonachie,37,33,4
+4,C3,Usable sales only,Sales2025,0238,New Milford,174,148,26
+4,C3,Usable sales only,Sales2025,0239,North Arlington,154,119,35
+4,C3,Usable sales only,Sales2025,0240,Northvale,62,26,36
+4,C3,Usable sales only,Sales2025,0241,Norwood,64,33,31
+4,C3,Usable sales only,Sales2025,0242,Oakland,224,177,47
+4,C3,Usable sales only,Sales2025,0243,Old Tappan,65,26,39
+4,C3,Usable sales only,Sales2025,0244,Oradell,117,104,13
+4,C3,Usable sales only,Sales2025,0245,Palisades Park,156,136,20
+4,C3,Usable sales only,Sales2025,0246,Paramus,405,310,95
+4,C3,Usable sales only,Sales2025,0247,Park Ridge,97,40,57
+4,C3,Usable sales only,Sales2025,0248,Ramsey,167,128,39
+4,C3,Usable sales only,Sales2025,0249,Ridgefield,130,98,32
+4,C3,Usable sales only,Sales2025,0250,Ridgefield Park,124,62,62
+4,C3,Usable sales only,Sales2025,0251,Ridgewood,381,177,204
+4,C3,Usable sales only,Sales2025,0252,River Edge,133,111,22
+4,C3,Usable sales only,Sales2025,0253,River Vale,118,51,67
+4,C3,Usable sales only,Sales2025,0254,Rochelle Park,85,46,39
+4,C3,Usable sales only,Sales2025,0255,Rockleigh,2,2,0
+4,C3,Usable sales only,Sales2025,0256,Rutherford,201,132,69
+4,C3,Usable sales only,Sales2025,0257,Saddle Brook,190,156,34
+4,C3,Usable sales only,Sales2025,0258,Saddle River,75,40,35
+4,C3,Usable sales only,Sales2025,0259,South Hackensack,18,15,3
+4,C3,Usable sales only,Sales2025,0260,Teaneck,459,228,231
+4,C3,Usable sales only,Sales2025,0261,Tenafly,255,124,131
+4,C3,Usable sales only,Sales2025,0262,Teterboro,0,0,0
+4,C3,Usable sales only,Sales2025,0263,Upper Saddle River,150,53,97
+4,C3,Usable sales only,Sales2025,0264,Waldwick,154,76,78
+4,C3,Usable sales only,Sales2025,0265,Wallington,111,95,16
+4,C3,Usable sales only,Sales2025,0266,Washington Township,129,73,56
+4,C3,Usable sales only,Sales2025,0267,Westwood,133,113,20
+4,C3,Usable sales only,Sales2025,0268,Woodcliff Lake,83,70,13
+4,C3,Usable sales only,Sales2025,0269,Wood-Ridge,106,53,53
+4,C3,Usable sales only,Sales2025,0270,Wyckoff,231,65,166
+4,C3,Usable sales only,Sales2026,ALL,Bergen County (all towns),10590,6748,3842
+4,C3,Usable sales only,Sales2026,0201,Allendale,87,70,17
+4,C3,Usable sales only,Sales2026,0202,Alpine,38,26,12
+4,C3,Usable sales only,Sales2026,0203,Bergenfield,321,163,158
+4,C3,Usable sales only,Sales2026,0204,Bogota,92,57,35
+4,C3,Usable sales only,Sales2026,0205,Carlstadt,62,52,10
+4,C3,Usable sales only,Sales2026,0206,Cliffside Park,127,89,38
+4,C3,Usable sales only,Sales2026,0207,Closter,134,103,31
+4,C3,Usable sales only,Sales2026,0208,Cresskill,149,126,23
+4,C3,Usable sales only,Sales2026,0209,Demarest,118,57,61
+4,C3,Usable sales only,Sales2026,0210,Dumont,213,184,29
+4,C3,Usable sales only,Sales2026,0211,Elmwood Park,239,202,37
+4,C3,Usable sales only,Sales2026,0212,East Rutherford,66,59,7
+4,C3,Usable sales only,Sales2026,0213,Edgewater,44,37,7
+4,C3,Usable sales only,Sales2026,0214,Emerson,111,60,51
+4,C3,Usable sales only,Sales2026,0215,Englewood,257,156,101
+4,C3,Usable sales only,Sales2026,0216,Englewood Cliffs,91,42,49
+4,C3,Usable sales only,Sales2026,0217,Fair Lawn,437,225,212
+4,C3,Usable sales only,Sales2026,0218,Fairview,95,80,15
+4,C3,Usable sales only,Sales2026,0219,Fort Lee,158,113,45
+4,C3,Usable sales only,Sales2026,0220,Franklin Lakes,188,82,106
+4,C3,Usable sales only,Sales2026,0221,Garfield,250,106,144
+4,C3,Usable sales only,Sales2026,0222,Glen Rock,187,84,103
+4,C3,Usable sales only,Sales2026,0223,Hackensack,202,115,87
+4,C3,Usable sales only,Sales2026,0224,Harrington Park,67,39,28
+4,C3,Usable sales only,Sales2026,0225,Hasbrouck Heights,140,120,20
+4,C3,Usable sales only,Sales2026,0226,Haworth,70,42,28
+4,C3,Usable sales only,Sales2026,0227,Hillsdale,138,70,68
+4,C3,Usable sales only,Sales2026,0228,Ho-Ho-Kus,100,82,18
+4,C3,Usable sales only,Sales2026,0229,Leonia,108,98,10
+4,C3,Usable sales only,Sales2026,0230,Little Ferry,81,63,18
+4,C3,Usable sales only,Sales2026,0231,Lodi,204,105,99
+4,C3,Usable sales only,Sales2026,0232,Lyndhurst,230,197,33
+4,C3,Usable sales only,Sales2026,0233,Mahwah,517,223,294
+4,C3,Usable sales only,Sales2026,0234,Maywood,114,94,20
+4,C3,Usable sales only,Sales2026,0235,Midland Park,79,37,42
+4,C3,Usable sales only,Sales2026,0236,Montvale,88,45,43
+4,C3,Usable sales only,Sales2026,0237,Moonachie,15,11,4
+4,C3,Usable sales only,Sales2026,0238,New Milford,212,112,100
+4,C3,Usable sales only,Sales2026,0239,North Arlington,151,123,28
+4,C3,Usable sales only,Sales2026,0240,Northvale,67,54,13
+4,C3,Usable sales only,Sales2026,0241,Norwood,84,65,19
+4,C3,Usable sales only,Sales2026,0242,Oakland,198,155,43
+4,C3,Usable sales only,Sales2026,0243,Old Tappan,83,70,13
+4,C3,Usable sales only,Sales2026,0244,Oradell,103,87,16
+4,C3,Usable sales only,Sales2026,0245,Palisades Park,133,110,23
+4,C3,Usable sales only,Sales2026,0246,Paramus,429,360,69
+4,C3,Usable sales only,Sales2026,0247,Park Ridge,128,56,72
+4,C3,Usable sales only,Sales2026,0248,Ramsey,150,120,30
+4,C3,Usable sales only,Sales2026,0249,Ridgefield,146,116,30
+4,C3,Usable sales only,Sales2026,0250,Ridgefield Park,127,60,67
+4,C3,Usable sales only,Sales2026,0251,Ridgewood,341,158,183
+4,C3,Usable sales only,Sales2026,0252,River Edge,134,122,12
+4,C3,Usable sales only,Sales2026,0253,River Vale,131,54,77
+4,C3,Usable sales only,Sales2026,0254,Rochelle Park,79,65,14
+4,C3,Usable sales only,Sales2026,0255,Rockleigh,3,1,2
+4,C3,Usable sales only,Sales2026,0256,Rutherford,217,126,91
+4,C3,Usable sales only,Sales2026,0257,Saddle Brook,158,126,32
+4,C3,Usable sales only,Sales2026,0258,Saddle River,81,52,29
+4,C3,Usable sales only,Sales2026,0259,South Hackensack,13,11,2
+4,C3,Usable sales only,Sales2026,0260,Teaneck,501,270,231
+4,C3,Usable sales only,Sales2026,0261,Tenafly,246,128,118
+4,C3,Usable sales only,Sales2026,0262,Teterboro,0,0,0
+4,C3,Usable sales only,Sales2026,0263,Upper Saddle River,163,69,94
+4,C3,Usable sales only,Sales2026,0264,Waldwick,154,62,92
+4,C3,Usable sales only,Sales2026,0265,Wallington,102,55,47
+4,C3,Usable sales only,Sales2026,0266,Washington Township,95,68,27
+4,C3,Usable sales only,Sales2026,0267,Westwood,84,73,11
+4,C3,Usable sales only,Sales2026,0268,Woodcliff Lake,94,77,17
+4,C3,Usable sales only,Sales2026,0269,Wood-Ridge,105,90,15
+4,C3,Usable sales only,Sales2026,0270,Wyckoff,261,139,122
+5,C7,No exact duplicate lines,All,ALL,Bergen County (all towns),7860,0,7860
+5,C7,No exact duplicate lines,All,0201,Allendale,36,0,36
+5,C7,No exact duplicate lines,All,0202,Alpine,29,0,29
+5,C7,No exact duplicate lines,All,0203,Bergenfield,278,0,278
+5,C7,No exact duplicate lines,All,0204,Bogota,75,0,75
+5,C7,No exact duplicate lines,All,0205,Carlstadt,23,0,23
+5,C7,No exact duplicate lines,All,0206,Cliffside Park,87,0,87
+5,C7,No exact duplicate lines,All,0207,Closter,55,0,55
+5,C7,No exact duplicate lines,All,0208,Cresskill,62,0,62
+5,C7,No exact duplicate lines,All,0209,Demarest,82,0,82
+5,C7,No exact duplicate lines,All,0210,Dumont,66,0,66
+5,C7,No exact duplicate lines,All,0211,Elmwood Park,120,0,120
+5,C7,No exact duplicate lines,All,0212,East Rutherford,12,0,12
+5,C7,No exact duplicate lines,All,0213,Edgewater,16,0,16
+5,C7,No exact duplicate lines,All,0214,Emerson,91,0,91
+5,C7,No exact duplicate lines,All,0215,Englewood,199,0,199
+5,C7,No exact duplicate lines,All,0216,Englewood Cliffs,91,0,91
+5,C7,No exact duplicate lines,All,0217,Fair Lawn,409,0,409
+5,C7,No exact duplicate lines,All,0218,Fairview,29,0,29
+5,C7,No exact duplicate lines,All,0219,Fort Lee,98,0,98
+5,C7,No exact duplicate lines,All,0220,Franklin Lakes,170,0,170
+5,C7,No exact duplicate lines,All,0221,Garfield,278,0,278
+5,C7,No exact duplicate lines,All,0222,Glen Rock,206,0,206
+5,C7,No exact duplicate lines,All,0223,Hackensack,174,0,174
+5,C7,No exact duplicate lines,All,0224,Harrington Park,59,0,59
+5,C7,No exact duplicate lines,All,0225,Hasbrouck Heights,81,0,81
+5,C7,No exact duplicate lines,All,0226,Haworth,63,0,63
+5,C7,No exact duplicate lines,All,0227,Hillsdale,131,0,131
+5,C7,No exact duplicate lines,All,0228,Ho-Ho-Kus,67,0,67
+5,C7,No exact duplicate lines,All,0229,Leonia,54,0,54
+5,C7,No exact duplicate lines,All,0230,Little Ferry,35,0,35
+5,C7,No exact duplicate lines,All,0231,Lodi,188,0,188
+5,C7,No exact duplicate lines,All,0232,Lyndhurst,54,0,54
+5,C7,No exact duplicate lines,All,0233,Mahwah,586,0,586
+5,C7,No exact duplicate lines,All,0234,Maywood,49,0,49
+5,C7,No exact duplicate lines,All,0235,Midland Park,89,0,89
+5,C7,No exact duplicate lines,All,0236,Montvale,105,0,105
+5,C7,No exact duplicate lines,All,0237,Moonachie,8,0,8
+5,C7,No exact duplicate lines,All,0238,New Milford,126,0,126
+5,C7,No exact duplicate lines,All,0239,North Arlington,63,0,63
+5,C7,No exact duplicate lines,All,0240,Northvale,49,0,49
+5,C7,No exact duplicate lines,All,0241,Norwood,50,0,50
+5,C7,No exact duplicate lines,All,0242,Oakland,90,0,90
+5,C7,No exact duplicate lines,All,0243,Old Tappan,52,0,52
+5,C7,No exact duplicate lines,All,0244,Oradell,29,0,29
+5,C7,No exact duplicate lines,All,0245,Palisades Park,43,0,43
+5,C7,No exact duplicate lines,All,0246,Paramus,164,0,164
+5,C7,No exact duplicate lines,All,0247,Park Ridge,129,0,129
+5,C7,No exact duplicate lines,All,0248,Ramsey,69,0,69
+5,C7,No exact duplicate lines,All,0249,Ridgefield,62,0,62
+5,C7,No exact duplicate lines,All,0250,Ridgefield Park,129,0,129
+5,C7,No exact duplicate lines,All,0251,Ridgewood,387,0,387
+5,C7,No exact duplicate lines,All,0252,River Edge,34,0,34
+5,C7,No exact duplicate lines,All,0253,River Vale,144,0,144
+5,C7,No exact duplicate lines,All,0254,Rochelle Park,53,0,53
+5,C7,No exact duplicate lines,All,0255,Rockleigh,2,0,2
+5,C7,No exact duplicate lines,All,0256,Rutherford,160,0,160
+5,C7,No exact duplicate lines,All,0257,Saddle Brook,66,0,66
+5,C7,No exact duplicate lines,All,0258,Saddle River,64,0,64
+5,C7,No exact duplicate lines,All,0259,South Hackensack,5,0,5
+5,C7,No exact duplicate lines,All,0260,Teaneck,462,0,462
+5,C7,No exact duplicate lines,All,0261,Tenafly,249,0,249
+5,C7,No exact duplicate lines,All,0262,Teterboro,0,0,0
+5,C7,No exact duplicate lines,All,0263,Upper Saddle River,191,0,191
+5,C7,No exact duplicate lines,All,0264,Waldwick,170,0,170
+5,C7,No exact duplicate lines,All,0265,Wallington,63,0,63
+5,C7,No exact duplicate lines,All,0266,Washington Township,83,0,83
+5,C7,No exact duplicate lines,All,0267,Westwood,31,0,31
+5,C7,No exact duplicate lines,All,0268,Woodcliff Lake,30,0,30
+5,C7,No exact duplicate lines,All,0269,Wood-Ridge,68,0,68
+5,C7,No exact duplicate lines,All,0270,Wyckoff,288,0,288
+5,C7,No exact duplicate lines,Sales2025,ALL,Bergen County (all towns),4018,0,4018
+5,C7,No exact duplicate lines,Sales2025,0201,Allendale,19,0,19
+5,C7,No exact duplicate lines,Sales2025,0202,Alpine,17,0,17
+5,C7,No exact duplicate lines,Sales2025,0203,Bergenfield,120,0,120
+5,C7,No exact duplicate lines,Sales2025,0204,Bogota,40,0,40
+5,C7,No exact duplicate lines,Sales2025,0205,Carlstadt,13,0,13
+5,C7,No exact duplicate lines,Sales2025,0206,Cliffside Park,49,0,49
+5,C7,No exact duplicate lines,Sales2025,0207,Closter,24,0,24
+5,C7,No exact duplicate lines,Sales2025,0208,Cresskill,39,0,39
+5,C7,No exact duplicate lines,Sales2025,0209,Demarest,21,0,21
+5,C7,No exact duplicate lines,Sales2025,0210,Dumont,37,0,37
+5,C7,No exact duplicate lines,Sales2025,0211,Elmwood Park,83,0,83
+5,C7,No exact duplicate lines,Sales2025,0212,East Rutherford,5,0,5
+5,C7,No exact duplicate lines,Sales2025,0213,Edgewater,9,0,9
+5,C7,No exact duplicate lines,Sales2025,0214,Emerson,40,0,40
+5,C7,No exact duplicate lines,Sales2025,0215,Englewood,98,0,98
+5,C7,No exact duplicate lines,Sales2025,0216,Englewood Cliffs,42,0,42
+5,C7,No exact duplicate lines,Sales2025,0217,Fair Lawn,197,0,197
+5,C7,No exact duplicate lines,Sales2025,0218,Fairview,14,0,14
+5,C7,No exact duplicate lines,Sales2025,0219,Fort Lee,53,0,53
+5,C7,No exact duplicate lines,Sales2025,0220,Franklin Lakes,64,0,64
+5,C7,No exact duplicate lines,Sales2025,0221,Garfield,134,0,134
+5,C7,No exact duplicate lines,Sales2025,0222,Glen Rock,103,0,103
+5,C7,No exact duplicate lines,Sales2025,0223,Hackensack,87,0,87
+5,C7,No exact duplicate lines,Sales2025,0224,Harrington Park,31,0,31
+5,C7,No exact duplicate lines,Sales2025,0225,Hasbrouck Heights,61,0,61
+5,C7,No exact duplicate lines,Sales2025,0226,Haworth,35,0,35
+5,C7,No exact duplicate lines,Sales2025,0227,Hillsdale,63,0,63
+5,C7,No exact duplicate lines,Sales2025,0228,Ho-Ho-Kus,49,0,49
+5,C7,No exact duplicate lines,Sales2025,0229,Leonia,44,0,44
+5,C7,No exact duplicate lines,Sales2025,0230,Little Ferry,17,0,17
+5,C7,No exact duplicate lines,Sales2025,0231,Lodi,89,0,89
+5,C7,No exact duplicate lines,Sales2025,0232,Lyndhurst,21,0,21
+5,C7,No exact duplicate lines,Sales2025,0233,Mahwah,292,0,292
+5,C7,No exact duplicate lines,Sales2025,0234,Maywood,29,0,29
+5,C7,No exact duplicate lines,Sales2025,0235,Midland Park,47,0,47
+5,C7,No exact duplicate lines,Sales2025,0236,Montvale,62,0,62
+5,C7,No exact duplicate lines,Sales2025,0237,Moonachie,4,0,4
+5,C7,No exact duplicate lines,Sales2025,0238,New Milford,26,0,26
+5,C7,No exact duplicate lines,Sales2025,0239,North Arlington,35,0,35
+5,C7,No exact duplicate lines,Sales2025,0240,Northvale,36,0,36
+5,C7,No exact duplicate lines,Sales2025,0241,Norwood,31,0,31
+5,C7,No exact duplicate lines,Sales2025,0242,Oakland,47,0,47
+5,C7,No exact duplicate lines,Sales2025,0243,Old Tappan,39,0,39
+5,C7,No exact duplicate lines,Sales2025,0244,Oradell,13,0,13
+5,C7,No exact duplicate lines,Sales2025,0245,Palisades Park,20,0,20
+5,C7,No exact duplicate lines,Sales2025,0246,Paramus,95,0,95
+5,C7,No exact duplicate lines,Sales2025,0247,Park Ridge,57,0,57
+5,C7,No exact duplicate lines,Sales2025,0248,Ramsey,39,0,39
+5,C7,No exact duplicate lines,Sales2025,0249,Ridgefield,32,0,32
+5,C7,No exact duplicate lines,Sales2025,0250,Ridgefield Park,62,0,62
+5,C7,No exact duplicate lines,Sales2025,0251,Ridgewood,204,0,204
+5,C7,No exact duplicate lines,Sales2025,0252,River Edge,22,0,22
+5,C7,No exact duplicate lines,Sales2025,0253,River Vale,67,0,67
+5,C7,No exact duplicate lines,Sales2025,0254,Rochelle Park,39,0,39
+5,C7,No exact duplicate lines,Sales2025,0255,Rockleigh,0,0,0
+5,C7,No exact duplicate lines,Sales2025,0256,Rutherford,69,0,69
+5,C7,No exact duplicate lines,Sales2025,0257,Saddle Brook,34,0,34
+5,C7,No exact duplicate lines,Sales2025,0258,Saddle River,35,0,35
+5,C7,No exact duplicate lines,Sales2025,0259,South Hackensack,3,0,3
+5,C7,No exact duplicate lines,Sales2025,0260,Teaneck,231,0,231
+5,C7,No exact duplicate lines,Sales2025,0261,Tenafly,131,0,131
+5,C7,No exact duplicate lines,Sales2025,0262,Teterboro,0,0,0
+5,C7,No exact duplicate lines,Sales2025,0263,Upper Saddle River,97,0,97
+5,C7,No exact duplicate lines,Sales2025,0264,Waldwick,78,0,78
+5,C7,No exact duplicate lines,Sales2025,0265,Wallington,16,0,16
+5,C7,No exact duplicate lines,Sales2025,0266,Washington Township,56,0,56
+5,C7,No exact duplicate lines,Sales2025,0267,Westwood,20,0,20
+5,C7,No exact duplicate lines,Sales2025,0268,Woodcliff Lake,13,0,13
+5,C7,No exact duplicate lines,Sales2025,0269,Wood-Ridge,53,0,53
+5,C7,No exact duplicate lines,Sales2025,0270,Wyckoff,166,0,166
+5,C7,No exact duplicate lines,Sales2026,ALL,Bergen County (all towns),3842,0,3842
+5,C7,No exact duplicate lines,Sales2026,0201,Allendale,17,0,17
+5,C7,No exact duplicate lines,Sales2026,0202,Alpine,12,0,12
+5,C7,No exact duplicate lines,Sales2026,0203,Bergenfield,158,0,158
+5,C7,No exact duplicate lines,Sales2026,0204,Bogota,35,0,35
+5,C7,No exact duplicate lines,Sales2026,0205,Carlstadt,10,0,10
+5,C7,No exact duplicate lines,Sales2026,0206,Cliffside Park,38,0,38
+5,C7,No exact duplicate lines,Sales2026,0207,Closter,31,0,31
+5,C7,No exact duplicate lines,Sales2026,0208,Cresskill,23,0,23
+5,C7,No exact duplicate lines,Sales2026,0209,Demarest,61,0,61
+5,C7,No exact duplicate lines,Sales2026,0210,Dumont,29,0,29
+5,C7,No exact duplicate lines,Sales2026,0211,Elmwood Park,37,0,37
+5,C7,No exact duplicate lines,Sales2026,0212,East Rutherford,7,0,7
+5,C7,No exact duplicate lines,Sales2026,0213,Edgewater,7,0,7
+5,C7,No exact duplicate lines,Sales2026,0214,Emerson,51,0,51
+5,C7,No exact duplicate lines,Sales2026,0215,Englewood,101,0,101
+5,C7,No exact duplicate lines,Sales2026,0216,Englewood Cliffs,49,0,49
+5,C7,No exact duplicate lines,Sales2026,0217,Fair Lawn,212,0,212
+5,C7,No exact duplicate lines,Sales2026,0218,Fairview,15,0,15
+5,C7,No exact duplicate lines,Sales2026,0219,Fort Lee,45,0,45
+5,C7,No exact duplicate lines,Sales2026,0220,Franklin Lakes,106,0,106
+5,C7,No exact duplicate lines,Sales2026,0221,Garfield,144,0,144
+5,C7,No exact duplicate lines,Sales2026,0222,Glen Rock,103,0,103
+5,C7,No exact duplicate lines,Sales2026,0223,Hackensack,87,0,87
+5,C7,No exact duplicate lines,Sales2026,0224,Harrington Park,28,0,28
+5,C7,No exact duplicate lines,Sales2026,0225,Hasbrouck Heights,20,0,20
+5,C7,No exact duplicate lines,Sales2026,0226,Haworth,28,0,28
+5,C7,No exact duplicate lines,Sales2026,0227,Hillsdale,68,0,68
+5,C7,No exact duplicate lines,Sales2026,0228,Ho-Ho-Kus,18,0,18
+5,C7,No exact duplicate lines,Sales2026,0229,Leonia,10,0,10
+5,C7,No exact duplicate lines,Sales2026,0230,Little Ferry,18,0,18
+5,C7,No exact duplicate lines,Sales2026,0231,Lodi,99,0,99
+5,C7,No exact duplicate lines,Sales2026,0232,Lyndhurst,33,0,33
+5,C7,No exact duplicate lines,Sales2026,0233,Mahwah,294,0,294
+5,C7,No exact duplicate lines,Sales2026,0234,Maywood,20,0,20
+5,C7,No exact duplicate lines,Sales2026,0235,Midland Park,42,0,42
+5,C7,No exact duplicate lines,Sales2026,0236,Montvale,43,0,43
+5,C7,No exact duplicate lines,Sales2026,0237,Moonachie,4,0,4
+5,C7,No exact duplicate lines,Sales2026,0238,New Milford,100,0,100
+5,C7,No exact duplicate lines,Sales2026,0239,North Arlington,28,0,28
+5,C7,No exact duplicate lines,Sales2026,0240,Northvale,13,0,13
+5,C7,No exact duplicate lines,Sales2026,0241,Norwood,19,0,19
+5,C7,No exact duplicate lines,Sales2026,0242,Oakland,43,0,43
+5,C7,No exact duplicate lines,Sales2026,0243,Old Tappan,13,0,13
+5,C7,No exact duplicate lines,Sales2026,0244,Oradell,16,0,16
+5,C7,No exact duplicate lines,Sales2026,0245,Palisades Park,23,0,23
+5,C7,No exact duplicate lines,Sales2026,0246,Paramus,69,0,69
+5,C7,No exact duplicate lines,Sales2026,0247,Park Ridge,72,0,72
+5,C7,No exact duplicate lines,Sales2026,0248,Ramsey,30,0,30
+5,C7,No exact duplicate lines,Sales2026,0249,Ridgefield,30,0,30
+5,C7,No exact duplicate lines,Sales2026,0250,Ridgefield Park,67,0,67
+5,C7,No exact duplicate lines,Sales2026,0251,Ridgewood,183,0,183
+5,C7,No exact duplicate lines,Sales2026,0252,River Edge,12,0,12
+5,C7,No exact duplicate lines,Sales2026,0253,River Vale,77,0,77
+5,C7,No exact duplicate lines,Sales2026,0254,Rochelle Park,14,0,14
+5,C7,No exact duplicate lines,Sales2026,0255,Rockleigh,2,0,2
+5,C7,No exact duplicate lines,Sales2026,0256,Rutherford,91,0,91
+5,C7,No exact duplicate lines,Sales2026,0257,Saddle Brook,32,0,32
+5,C7,No exact duplicate lines,Sales2026,0258,Saddle River,29,0,29
+5,C7,No exact duplicate lines,Sales2026,0259,South Hackensack,2,0,2
+5,C7,No exact duplicate lines,Sales2026,0260,Teaneck,231,0,231
+5,C7,No exact duplicate lines,Sales2026,0261,Tenafly,118,0,118
+5,C7,No exact duplicate lines,Sales2026,0262,Teterboro,0,0,0
+5,C7,No exact duplicate lines,Sales2026,0263,Upper Saddle River,94,0,94
+5,C7,No exact duplicate lines,Sales2026,0264,Waldwick,92,0,92
+5,C7,No exact duplicate lines,Sales2026,0265,Wallington,47,0,47
+5,C7,No exact duplicate lines,Sales2026,0266,Washington Township,27,0,27
+5,C7,No exact duplicate lines,Sales2026,0267,Westwood,11,0,11
+5,C7,No exact duplicate lines,Sales2026,0268,Woodcliff Lake,17,0,17
+5,C7,No exact duplicate lines,Sales2026,0269,Wood-Ridge,15,0,15
+5,C7,No exact duplicate lines,Sales2026,0270,Wyckoff,122,0,122
+6,C4,"Sale price at least $50,000",All,ALL,Bergen County (all towns),7860,1,7859
+6,C4,"Sale price at least $50,000",All,0201,Allendale,36,0,36
+6,C4,"Sale price at least $50,000",All,0202,Alpine,29,0,29
+6,C4,"Sale price at least $50,000",All,0203,Bergenfield,278,0,278
+6,C4,"Sale price at least $50,000",All,0204,Bogota,75,0,75
+6,C4,"Sale price at least $50,000",All,0205,Carlstadt,23,0,23
+6,C4,"Sale price at least $50,000",All,0206,Cliffside Park,87,0,87
+6,C4,"Sale price at least $50,000",All,0207,Closter,55,0,55
+6,C4,"Sale price at least $50,000",All,0208,Cresskill,62,0,62
+6,C4,"Sale price at least $50,000",All,0209,Demarest,82,0,82
+6,C4,"Sale price at least $50,000",All,0210,Dumont,66,0,66
+6,C4,"Sale price at least $50,000",All,0211,Elmwood Park,120,0,120
+6,C4,"Sale price at least $50,000",All,0212,East Rutherford,12,0,12
+6,C4,"Sale price at least $50,000",All,0213,Edgewater,16,0,16
+6,C4,"Sale price at least $50,000",All,0214,Emerson,91,0,91
+6,C4,"Sale price at least $50,000",All,0215,Englewood,199,0,199
+6,C4,"Sale price at least $50,000",All,0216,Englewood Cliffs,91,0,91
+6,C4,"Sale price at least $50,000",All,0217,Fair Lawn,409,0,409
+6,C4,"Sale price at least $50,000",All,0218,Fairview,29,0,29
+6,C4,"Sale price at least $50,000",All,0219,Fort Lee,98,0,98
+6,C4,"Sale price at least $50,000",All,0220,Franklin Lakes,170,0,170
+6,C4,"Sale price at least $50,000",All,0221,Garfield,278,0,278
+6,C4,"Sale price at least $50,000",All,0222,Glen Rock,206,0,206
+6,C4,"Sale price at least $50,000",All,0223,Hackensack,174,0,174
+6,C4,"Sale price at least $50,000",All,0224,Harrington Park,59,0,59
+6,C4,"Sale price at least $50,000",All,0225,Hasbrouck Heights,81,0,81
+6,C4,"Sale price at least $50,000",All,0226,Haworth,63,0,63
+6,C4,"Sale price at least $50,000",All,0227,Hillsdale,131,0,131
+6,C4,"Sale price at least $50,000",All,0228,Ho-Ho-Kus,67,0,67
+6,C4,"Sale price at least $50,000",All,0229,Leonia,54,0,54
+6,C4,"Sale price at least $50,000",All,0230,Little Ferry,35,0,35
+6,C4,"Sale price at least $50,000",All,0231,Lodi,188,0,188
+6,C4,"Sale price at least $50,000",All,0232,Lyndhurst,54,0,54
+6,C4,"Sale price at least $50,000",All,0233,Mahwah,586,1,585
+6,C4,"Sale price at least $50,000",All,0234,Maywood,49,0,49
+6,C4,"Sale price at least $50,000",All,0235,Midland Park,89,0,89
+6,C4,"Sale price at least $50,000",All,0236,Montvale,105,0,105
+6,C4,"Sale price at least $50,000",All,0237,Moonachie,8,0,8
+6,C4,"Sale price at least $50,000",All,0238,New Milford,126,0,126
+6,C4,"Sale price at least $50,000",All,0239,North Arlington,63,0,63
+6,C4,"Sale price at least $50,000",All,0240,Northvale,49,0,49
+6,C4,"Sale price at least $50,000",All,0241,Norwood,50,0,50
+6,C4,"Sale price at least $50,000",All,0242,Oakland,90,0,90
+6,C4,"Sale price at least $50,000",All,0243,Old Tappan,52,0,52
+6,C4,"Sale price at least $50,000",All,0244,Oradell,29,0,29
+6,C4,"Sale price at least $50,000",All,0245,Palisades Park,43,0,43
+6,C4,"Sale price at least $50,000",All,0246,Paramus,164,0,164
+6,C4,"Sale price at least $50,000",All,0247,Park Ridge,129,0,129
+6,C4,"Sale price at least $50,000",All,0248,Ramsey,69,0,69
+6,C4,"Sale price at least $50,000",All,0249,Ridgefield,62,0,62
+6,C4,"Sale price at least $50,000",All,0250,Ridgefield Park,129,0,129
+6,C4,"Sale price at least $50,000",All,0251,Ridgewood,387,0,387
+6,C4,"Sale price at least $50,000",All,0252,River Edge,34,0,34
+6,C4,"Sale price at least $50,000",All,0253,River Vale,144,0,144
+6,C4,"Sale price at least $50,000",All,0254,Rochelle Park,53,0,53
+6,C4,"Sale price at least $50,000",All,0255,Rockleigh,2,0,2
+6,C4,"Sale price at least $50,000",All,0256,Rutherford,160,0,160
+6,C4,"Sale price at least $50,000",All,0257,Saddle Brook,66,0,66
+6,C4,"Sale price at least $50,000",All,0258,Saddle River,64,0,64
+6,C4,"Sale price at least $50,000",All,0259,South Hackensack,5,0,5
+6,C4,"Sale price at least $50,000",All,0260,Teaneck,462,0,462
+6,C4,"Sale price at least $50,000",All,0261,Tenafly,249,0,249
+6,C4,"Sale price at least $50,000",All,0262,Teterboro,0,0,0
+6,C4,"Sale price at least $50,000",All,0263,Upper Saddle River,191,0,191
+6,C4,"Sale price at least $50,000",All,0264,Waldwick,170,0,170
+6,C4,"Sale price at least $50,000",All,0265,Wallington,63,0,63
+6,C4,"Sale price at least $50,000",All,0266,Washington Township,83,0,83
+6,C4,"Sale price at least $50,000",All,0267,Westwood,31,0,31
+6,C4,"Sale price at least $50,000",All,0268,Woodcliff Lake,30,0,30
+6,C4,"Sale price at least $50,000",All,0269,Wood-Ridge,68,0,68
+6,C4,"Sale price at least $50,000",All,0270,Wyckoff,288,0,288
+6,C4,"Sale price at least $50,000",Sales2025,ALL,Bergen County (all towns),4018,1,4017
+6,C4,"Sale price at least $50,000",Sales2025,0201,Allendale,19,0,19
+6,C4,"Sale price at least $50,000",Sales2025,0202,Alpine,17,0,17
+6,C4,"Sale price at least $50,000",Sales2025,0203,Bergenfield,120,0,120
+6,C4,"Sale price at least $50,000",Sales2025,0204,Bogota,40,0,40
+6,C4,"Sale price at least $50,000",Sales2025,0205,Carlstadt,13,0,13
+6,C4,"Sale price at least $50,000",Sales2025,0206,Cliffside Park,49,0,49
+6,C4,"Sale price at least $50,000",Sales2025,0207,Closter,24,0,24
+6,C4,"Sale price at least $50,000",Sales2025,0208,Cresskill,39,0,39
+6,C4,"Sale price at least $50,000",Sales2025,0209,Demarest,21,0,21
+6,C4,"Sale price at least $50,000",Sales2025,0210,Dumont,37,0,37
+6,C4,"Sale price at least $50,000",Sales2025,0211,Elmwood Park,83,0,83
+6,C4,"Sale price at least $50,000",Sales2025,0212,East Rutherford,5,0,5
+6,C4,"Sale price at least $50,000",Sales2025,0213,Edgewater,9,0,9
+6,C4,"Sale price at least $50,000",Sales2025,0214,Emerson,40,0,40
+6,C4,"Sale price at least $50,000",Sales2025,0215,Englewood,98,0,98
+6,C4,"Sale price at least $50,000",Sales2025,0216,Englewood Cliffs,42,0,42
+6,C4,"Sale price at least $50,000",Sales2025,0217,Fair Lawn,197,0,197
+6,C4,"Sale price at least $50,000",Sales2025,0218,Fairview,14,0,14
+6,C4,"Sale price at least $50,000",Sales2025,0219,Fort Lee,53,0,53
+6,C4,"Sale price at least $50,000",Sales2025,0220,Franklin Lakes,64,0,64
+6,C4,"Sale price at least $50,000",Sales2025,0221,Garfield,134,0,134
+6,C4,"Sale price at least $50,000",Sales2025,0222,Glen Rock,103,0,103
+6,C4,"Sale price at least $50,000",Sales2025,0223,Hackensack,87,0,87
+6,C4,"Sale price at least $50,000",Sales2025,0224,Harrington Park,31,0,31
+6,C4,"Sale price at least $50,000",Sales2025,0225,Hasbrouck Heights,61,0,61
+6,C4,"Sale price at least $50,000",Sales2025,0226,Haworth,35,0,35
+6,C4,"Sale price at least $50,000",Sales2025,0227,Hillsdale,63,0,63
+6,C4,"Sale price at least $50,000",Sales2025,0228,Ho-Ho-Kus,49,0,49
+6,C4,"Sale price at least $50,000",Sales2025,0229,Leonia,44,0,44
+6,C4,"Sale price at least $50,000",Sales2025,0230,Little Ferry,17,0,17
+6,C4,"Sale price at least $50,000",Sales2025,0231,Lodi,89,0,89
+6,C4,"Sale price at least $50,000",Sales2025,0232,Lyndhurst,21,0,21
+6,C4,"Sale price at least $50,000",Sales2025,0233,Mahwah,292,1,291
+6,C4,"Sale price at least $50,000",Sales2025,0234,Maywood,29,0,29
+6,C4,"Sale price at least $50,000",Sales2025,0235,Midland Park,47,0,47
+6,C4,"Sale price at least $50,000",Sales2025,0236,Montvale,62,0,62
+6,C4,"Sale price at least $50,000",Sales2025,0237,Moonachie,4,0,4
+6,C4,"Sale price at least $50,000",Sales2025,0238,New Milford,26,0,26
+6,C4,"Sale price at least $50,000",Sales2025,0239,North Arlington,35,0,35
+6,C4,"Sale price at least $50,000",Sales2025,0240,Northvale,36,0,36
+6,C4,"Sale price at least $50,000",Sales2025,0241,Norwood,31,0,31
+6,C4,"Sale price at least $50,000",Sales2025,0242,Oakland,47,0,47
+6,C4,"Sale price at least $50,000",Sales2025,0243,Old Tappan,39,0,39
+6,C4,"Sale price at least $50,000",Sales2025,0244,Oradell,13,0,13
+6,C4,"Sale price at least $50,000",Sales2025,0245,Palisades Park,20,0,20
+6,C4,"Sale price at least $50,000",Sales2025,0246,Paramus,95,0,95
+6,C4,"Sale price at least $50,000",Sales2025,0247,Park Ridge,57,0,57
+6,C4,"Sale price at least $50,000",Sales2025,0248,Ramsey,39,0,39
+6,C4,"Sale price at least $50,000",Sales2025,0249,Ridgefield,32,0,32
+6,C4,"Sale price at least $50,000",Sales2025,0250,Ridgefield Park,62,0,62
+6,C4,"Sale price at least $50,000",Sales2025,0251,Ridgewood,204,0,204
+6,C4,"Sale price at least $50,000",Sales2025,0252,River Edge,22,0,22
+6,C4,"Sale price at least $50,000",Sales2025,0253,River Vale,67,0,67
+6,C4,"Sale price at least $50,000",Sales2025,0254,Rochelle Park,39,0,39
+6,C4,"Sale price at least $50,000",Sales2025,0255,Rockleigh,0,0,0
+6,C4,"Sale price at least $50,000",Sales2025,0256,Rutherford,69,0,69
+6,C4,"Sale price at least $50,000",Sales2025,0257,Saddle Brook,34,0,34
+6,C4,"Sale price at least $50,000",Sales2025,0258,Saddle River,35,0,35
+6,C4,"Sale price at least $50,000",Sales2025,0259,South Hackensack,3,0,3
+6,C4,"Sale price at least $50,000",Sales2025,0260,Teaneck,231,0,231
+6,C4,"Sale price at least $50,000",Sales2025,0261,Tenafly,131,0,131
+6,C4,"Sale price at least $50,000",Sales2025,0262,Teterboro,0,0,0
+6,C4,"Sale price at least $50,000",Sales2025,0263,Upper Saddle River,97,0,97
+6,C4,"Sale price at least $50,000",Sales2025,0264,Waldwick,78,0,78
+6,C4,"Sale price at least $50,000",Sales2025,0265,Wallington,16,0,16
+6,C4,"Sale price at least $50,000",Sales2025,0266,Washington Township,56,0,56
+6,C4,"Sale price at least $50,000",Sales2025,0267,Westwood,20,0,20
+6,C4,"Sale price at least $50,000",Sales2025,0268,Woodcliff Lake,13,0,13
+6,C4,"Sale price at least $50,000",Sales2025,0269,Wood-Ridge,53,0,53
+6,C4,"Sale price at least $50,000",Sales2025,0270,Wyckoff,166,0,166
+6,C4,"Sale price at least $50,000",Sales2026,ALL,Bergen County (all towns),3842,0,3842
+6,C4,"Sale price at least $50,000",Sales2026,0201,Allendale,17,0,17
+6,C4,"Sale price at least $50,000",Sales2026,0202,Alpine,12,0,12
+6,C4,"Sale price at least $50,000",Sales2026,0203,Bergenfield,158,0,158
+6,C4,"Sale price at least $50,000",Sales2026,0204,Bogota,35,0,35
+6,C4,"Sale price at least $50,000",Sales2026,0205,Carlstadt,10,0,10
+6,C4,"Sale price at least $50,000",Sales2026,0206,Cliffside Park,38,0,38
+6,C4,"Sale price at least $50,000",Sales2026,0207,Closter,31,0,31
+6,C4,"Sale price at least $50,000",Sales2026,0208,Cresskill,23,0,23
+6,C4,"Sale price at least $50,000",Sales2026,0209,Demarest,61,0,61
+6,C4,"Sale price at least $50,000",Sales2026,0210,Dumont,29,0,29
+6,C4,"Sale price at least $50,000",Sales2026,0211,Elmwood Park,37,0,37
+6,C4,"Sale price at least $50,000",Sales2026,0212,East Rutherford,7,0,7
+6,C4,"Sale price at least $50,000",Sales2026,0213,Edgewater,7,0,7
+6,C4,"Sale price at least $50,000",Sales2026,0214,Emerson,51,0,51
+6,C4,"Sale price at least $50,000",Sales2026,0215,Englewood,101,0,101
+6,C4,"Sale price at least $50,000",Sales2026,0216,Englewood Cliffs,49,0,49
+6,C4,"Sale price at least $50,000",Sales2026,0217,Fair Lawn,212,0,212
+6,C4,"Sale price at least $50,000",Sales2026,0218,Fairview,15,0,15
+6,C4,"Sale price at least $50,000",Sales2026,0219,Fort Lee,45,0,45
+6,C4,"Sale price at least $50,000",Sales2026,0220,Franklin Lakes,106,0,106
+6,C4,"Sale price at least $50,000",Sales2026,0221,Garfield,144,0,144
+6,C4,"Sale price at least $50,000",Sales2026,0222,Glen Rock,103,0,103
+6,C4,"Sale price at least $50,000",Sales2026,0223,Hackensack,87,0,87
+6,C4,"Sale price at least $50,000",Sales2026,0224,Harrington Park,28,0,28
+6,C4,"Sale price at least $50,000",Sales2026,0225,Hasbrouck Heights,20,0,20
+6,C4,"Sale price at least $50,000",Sales2026,0226,Haworth,28,0,28
+6,C4,"Sale price at least $50,000",Sales2026,0227,Hillsdale,68,0,68
+6,C4,"Sale price at least $50,000",Sales2026,0228,Ho-Ho-Kus,18,0,18
+6,C4,"Sale price at least $50,000",Sales2026,0229,Leonia,10,0,10
+6,C4,"Sale price at least $50,000",Sales2026,0230,Little Ferry,18,0,18
+6,C4,"Sale price at least $50,000",Sales2026,0231,Lodi,99,0,99
+6,C4,"Sale price at least $50,000",Sales2026,0232,Lyndhurst,33,0,33
+6,C4,"Sale price at least $50,000",Sales2026,0233,Mahwah,294,0,294
+6,C4,"Sale price at least $50,000",Sales2026,0234,Maywood,20,0,20
+6,C4,"Sale price at least $50,000",Sales2026,0235,Midland Park,42,0,42
+6,C4,"Sale price at least $50,000",Sales2026,0236,Montvale,43,0,43
+6,C4,"Sale price at least $50,000",Sales2026,0237,Moonachie,4,0,4
+6,C4,"Sale price at least $50,000",Sales2026,0238,New Milford,100,0,100
+6,C4,"Sale price at least $50,000",Sales2026,0239,North Arlington,28,0,28
+6,C4,"Sale price at least $50,000",Sales2026,0240,Northvale,13,0,13
+6,C4,"Sale price at least $50,000",Sales2026,0241,Norwood,19,0,19
+6,C4,"Sale price at least $50,000",Sales2026,0242,Oakland,43,0,43
+6,C4,"Sale price at least $50,000",Sales2026,0243,Old Tappan,13,0,13
+6,C4,"Sale price at least $50,000",Sales2026,0244,Oradell,16,0,16
+6,C4,"Sale price at least $50,000",Sales2026,0245,Palisades Park,23,0,23
+6,C4,"Sale price at least $50,000",Sales2026,0246,Paramus,69,0,69
+6,C4,"Sale price at least $50,000",Sales2026,0247,Park Ridge,72,0,72
+6,C4,"Sale price at least $50,000",Sales2026,0248,Ramsey,30,0,30
+6,C4,"Sale price at least $50,000",Sales2026,0249,Ridgefield,30,0,30
+6,C4,"Sale price at least $50,000",Sales2026,0250,Ridgefield Park,67,0,67
+6,C4,"Sale price at least $50,000",Sales2026,0251,Ridgewood,183,0,183
+6,C4,"Sale price at least $50,000",Sales2026,0252,River Edge,12,0,12
+6,C4,"Sale price at least $50,000",Sales2026,0253,River Vale,77,0,77
+6,C4,"Sale price at least $50,000",Sales2026,0254,Rochelle Park,14,0,14
+6,C4,"Sale price at least $50,000",Sales2026,0255,Rockleigh,2,0,2
+6,C4,"Sale price at least $50,000",Sales2026,0256,Rutherford,91,0,91
+6,C4,"Sale price at least $50,000",Sales2026,0257,Saddle Brook,32,0,32
+6,C4,"Sale price at least $50,000",Sales2026,0258,Saddle River,29,0,29
+6,C4,"Sale price at least $50,000",Sales2026,0259,South Hackensack,2,0,2
+6,C4,"Sale price at least $50,000",Sales2026,0260,Teaneck,231,0,231
+6,C4,"Sale price at least $50,000",Sales2026,0261,Tenafly,118,0,118
+6,C4,"Sale price at least $50,000",Sales2026,0262,Teterboro,0,0,0
+6,C4,"Sale price at least $50,000",Sales2026,0263,Upper Saddle River,94,0,94
+6,C4,"Sale price at least $50,000",Sales2026,0264,Waldwick,92,0,92
+6,C4,"Sale price at least $50,000",Sales2026,0265,Wallington,47,0,47
+6,C4,"Sale price at least $50,000",Sales2026,0266,Washington Township,27,0,27
+6,C4,"Sale price at least $50,000",Sales2026,0267,Westwood,11,0,11
+6,C4,"Sale price at least $50,000",Sales2026,0268,Woodcliff Lake,17,0,17
+6,C4,"Sale price at least $50,000",Sales2026,0269,Wood-Ridge,15,0,15
+6,C4,"Sale price at least $50,000",Sales2026,0270,Wyckoff,122,0,122
+7,C5,Assessed value above $0,All,ALL,Bergen County (all towns),7859,0,7859
+7,C5,Assessed value above $0,All,0201,Allendale,36,0,36
+7,C5,Assessed value above $0,All,0202,Alpine,29,0,29
+7,C5,Assessed value above $0,All,0203,Bergenfield,278,0,278
+7,C5,Assessed value above $0,All,0204,Bogota,75,0,75
+7,C5,Assessed value above $0,All,0205,Carlstadt,23,0,23
+7,C5,Assessed value above $0,All,0206,Cliffside Park,87,0,87
+7,C5,Assessed value above $0,All,0207,Closter,55,0,55
+7,C5,Assessed value above $0,All,0208,Cresskill,62,0,62
+7,C5,Assessed value above $0,All,0209,Demarest,82,0,82
+7,C5,Assessed value above $0,All,0210,Dumont,66,0,66
+7,C5,Assessed value above $0,All,0211,Elmwood Park,120,0,120
+7,C5,Assessed value above $0,All,0212,East Rutherford,12,0,12
+7,C5,Assessed value above $0,All,0213,Edgewater,16,0,16
+7,C5,Assessed value above $0,All,0214,Emerson,91,0,91
+7,C5,Assessed value above $0,All,0215,Englewood,199,0,199
+7,C5,Assessed value above $0,All,0216,Englewood Cliffs,91,0,91
+7,C5,Assessed value above $0,All,0217,Fair Lawn,409,0,409
+7,C5,Assessed value above $0,All,0218,Fairview,29,0,29
+7,C5,Assessed value above $0,All,0219,Fort Lee,98,0,98
+7,C5,Assessed value above $0,All,0220,Franklin Lakes,170,0,170
+7,C5,Assessed value above $0,All,0221,Garfield,278,0,278
+7,C5,Assessed value above $0,All,0222,Glen Rock,206,0,206
+7,C5,Assessed value above $0,All,0223,Hackensack,174,0,174
+7,C5,Assessed value above $0,All,0224,Harrington Park,59,0,59
+7,C5,Assessed value above $0,All,0225,Hasbrouck Heights,81,0,81
+7,C5,Assessed value above $0,All,0226,Haworth,63,0,63
+7,C5,Assessed value above $0,All,0227,Hillsdale,131,0,131
+7,C5,Assessed value above $0,All,0228,Ho-Ho-Kus,67,0,67
+7,C5,Assessed value above $0,All,0229,Leonia,54,0,54
+7,C5,Assessed value above $0,All,0230,Little Ferry,35,0,35
+7,C5,Assessed value above $0,All,0231,Lodi,188,0,188
+7,C5,Assessed value above $0,All,0232,Lyndhurst,54,0,54
+7,C5,Assessed value above $0,All,0233,Mahwah,585,0,585
+7,C5,Assessed value above $0,All,0234,Maywood,49,0,49
+7,C5,Assessed value above $0,All,0235,Midland Park,89,0,89
+7,C5,Assessed value above $0,All,0236,Montvale,105,0,105
+7,C5,Assessed value above $0,All,0237,Moonachie,8,0,8
+7,C5,Assessed value above $0,All,0238,New Milford,126,0,126
+7,C5,Assessed value above $0,All,0239,North Arlington,63,0,63
+7,C5,Assessed value above $0,All,0240,Northvale,49,0,49
+7,C5,Assessed value above $0,All,0241,Norwood,50,0,50
+7,C5,Assessed value above $0,All,0242,Oakland,90,0,90
+7,C5,Assessed value above $0,All,0243,Old Tappan,52,0,52
+7,C5,Assessed value above $0,All,0244,Oradell,29,0,29
+7,C5,Assessed value above $0,All,0245,Palisades Park,43,0,43
+7,C5,Assessed value above $0,All,0246,Paramus,164,0,164
+7,C5,Assessed value above $0,All,0247,Park Ridge,129,0,129
+7,C5,Assessed value above $0,All,0248,Ramsey,69,0,69
+7,C5,Assessed value above $0,All,0249,Ridgefield,62,0,62
+7,C5,Assessed value above $0,All,0250,Ridgefield Park,129,0,129
+7,C5,Assessed value above $0,All,0251,Ridgewood,387,0,387
+7,C5,Assessed value above $0,All,0252,River Edge,34,0,34
+7,C5,Assessed value above $0,All,0253,River Vale,144,0,144
+7,C5,Assessed value above $0,All,0254,Rochelle Park,53,0,53
+7,C5,Assessed value above $0,All,0255,Rockleigh,2,0,2
+7,C5,Assessed value above $0,All,0256,Rutherford,160,0,160
+7,C5,Assessed value above $0,All,0257,Saddle Brook,66,0,66
+7,C5,Assessed value above $0,All,0258,Saddle River,64,0,64
+7,C5,Assessed value above $0,All,0259,South Hackensack,5,0,5
+7,C5,Assessed value above $0,All,0260,Teaneck,462,0,462
+7,C5,Assessed value above $0,All,0261,Tenafly,249,0,249
+7,C5,Assessed value above $0,All,0262,Teterboro,0,0,0
+7,C5,Assessed value above $0,All,0263,Upper Saddle River,191,0,191
+7,C5,Assessed value above $0,All,0264,Waldwick,170,0,170
+7,C5,Assessed value above $0,All,0265,Wallington,63,0,63
+7,C5,Assessed value above $0,All,0266,Washington Township,83,0,83
+7,C5,Assessed value above $0,All,0267,Westwood,31,0,31
+7,C5,Assessed value above $0,All,0268,Woodcliff Lake,30,0,30
+7,C5,Assessed value above $0,All,0269,Wood-Ridge,68,0,68
+7,C5,Assessed value above $0,All,0270,Wyckoff,288,0,288
+7,C5,Assessed value above $0,Sales2025,ALL,Bergen County (all towns),4017,0,4017
+7,C5,Assessed value above $0,Sales2025,0201,Allendale,19,0,19
+7,C5,Assessed value above $0,Sales2025,0202,Alpine,17,0,17
+7,C5,Assessed value above $0,Sales2025,0203,Bergenfield,120,0,120
+7,C5,Assessed value above $0,Sales2025,0204,Bogota,40,0,40
+7,C5,Assessed value above $0,Sales2025,0205,Carlstadt,13,0,13
+7,C5,Assessed value above $0,Sales2025,0206,Cliffside Park,49,0,49
+7,C5,Assessed value above $0,Sales2025,0207,Closter,24,0,24
+7,C5,Assessed value above $0,Sales2025,0208,Cresskill,39,0,39
+7,C5,Assessed value above $0,Sales2025,0209,Demarest,21,0,21
+7,C5,Assessed value above $0,Sales2025,0210,Dumont,37,0,37
+7,C5,Assessed value above $0,Sales2025,0211,Elmwood Park,83,0,83
+7,C5,Assessed value above $0,Sales2025,0212,East Rutherford,5,0,5
+7,C5,Assessed value above $0,Sales2025,0213,Edgewater,9,0,9
+7,C5,Assessed value above $0,Sales2025,0214,Emerson,40,0,40
+7,C5,Assessed value above $0,Sales2025,0215,Englewood,98,0,98
+7,C5,Assessed value above $0,Sales2025,0216,Englewood Cliffs,42,0,42
+7,C5,Assessed value above $0,Sales2025,0217,Fair Lawn,197,0,197
+7,C5,Assessed value above $0,Sales2025,0218,Fairview,14,0,14
+7,C5,Assessed value above $0,Sales2025,0219,Fort Lee,53,0,53
+7,C5,Assessed value above $0,Sales2025,0220,Franklin Lakes,64,0,64
+7,C5,Assessed value above $0,Sales2025,0221,Garfield,134,0,134
+7,C5,Assessed value above $0,Sales2025,0222,Glen Rock,103,0,103
+7,C5,Assessed value above $0,Sales2025,0223,Hackensack,87,0,87
+7,C5,Assessed value above $0,Sales2025,0224,Harrington Park,31,0,31
+7,C5,Assessed value above $0,Sales2025,0225,Hasbrouck Heights,61,0,61
+7,C5,Assessed value above $0,Sales2025,0226,Haworth,35,0,35
+7,C5,Assessed value above $0,Sales2025,0227,Hillsdale,63,0,63
+7,C5,Assessed value above $0,Sales2025,0228,Ho-Ho-Kus,49,0,49
+7,C5,Assessed value above $0,Sales2025,0229,Leonia,44,0,44
+7,C5,Assessed value above $0,Sales2025,0230,Little Ferry,17,0,17
+7,C5,Assessed value above $0,Sales2025,0231,Lodi,89,0,89
+7,C5,Assessed value above $0,Sales2025,0232,Lyndhurst,21,0,21
+7,C5,Assessed value above $0,Sales2025,0233,Mahwah,291,0,291
+7,C5,Assessed value above $0,Sales2025,0234,Maywood,29,0,29
+7,C5,Assessed value above $0,Sales2025,0235,Midland Park,47,0,47
+7,C5,Assessed value above $0,Sales2025,0236,Montvale,62,0,62
+7,C5,Assessed value above $0,Sales2025,0237,Moonachie,4,0,4
+7,C5,Assessed value above $0,Sales2025,0238,New Milford,26,0,26
+7,C5,Assessed value above $0,Sales2025,0239,North Arlington,35,0,35
+7,C5,Assessed value above $0,Sales2025,0240,Northvale,36,0,36
+7,C5,Assessed value above $0,Sales2025,0241,Norwood,31,0,31
+7,C5,Assessed value above $0,Sales2025,0242,Oakland,47,0,47
+7,C5,Assessed value above $0,Sales2025,0243,Old Tappan,39,0,39
+7,C5,Assessed value above $0,Sales2025,0244,Oradell,13,0,13
+7,C5,Assessed value above $0,Sales2025,0245,Palisades Park,20,0,20
+7,C5,Assessed value above $0,Sales2025,0246,Paramus,95,0,95
+7,C5,Assessed value above $0,Sales2025,0247,Park Ridge,57,0,57
+7,C5,Assessed value above $0,Sales2025,0248,Ramsey,39,0,39
+7,C5,Assessed value above $0,Sales2025,0249,Ridgefield,32,0,32
+7,C5,Assessed value above $0,Sales2025,0250,Ridgefield Park,62,0,62
+7,C5,Assessed value above $0,Sales2025,0251,Ridgewood,204,0,204
+7,C5,Assessed value above $0,Sales2025,0252,River Edge,22,0,22
+7,C5,Assessed value above $0,Sales2025,0253,River Vale,67,0,67
+7,C5,Assessed value above $0,Sales2025,0254,Rochelle Park,39,0,39
+7,C5,Assessed value above $0,Sales2025,0255,Rockleigh,0,0,0
+7,C5,Assessed value above $0,Sales2025,0256,Rutherford,69,0,69
+7,C5,Assessed value above $0,Sales2025,0257,Saddle Brook,34,0,34
+7,C5,Assessed value above $0,Sales2025,0258,Saddle River,35,0,35
+7,C5,Assessed value above $0,Sales2025,0259,South Hackensack,3,0,3
+7,C5,Assessed value above $0,Sales2025,0260,Teaneck,231,0,231
+7,C5,Assessed value above $0,Sales2025,0261,Tenafly,131,0,131
+7,C5,Assessed value above $0,Sales2025,0262,Teterboro,0,0,0
+7,C5,Assessed value above $0,Sales2025,0263,Upper Saddle River,97,0,97
+7,C5,Assessed value above $0,Sales2025,0264,Waldwick,78,0,78
+7,C5,Assessed value above $0,Sales2025,0265,Wallington,16,0,16
+7,C5,Assessed value above $0,Sales2025,0266,Washington Township,56,0,56
+7,C5,Assessed value above $0,Sales2025,0267,Westwood,20,0,20
+7,C5,Assessed value above $0,Sales2025,0268,Woodcliff Lake,13,0,13
+7,C5,Assessed value above $0,Sales2025,0269,Wood-Ridge,53,0,53
+7,C5,Assessed value above $0,Sales2025,0270,Wyckoff,166,0,166
+7,C5,Assessed value above $0,Sales2026,ALL,Bergen County (all towns),3842,0,3842
+7,C5,Assessed value above $0,Sales2026,0201,Allendale,17,0,17
+7,C5,Assessed value above $0,Sales2026,0202,Alpine,12,0,12
+7,C5,Assessed value above $0,Sales2026,0203,Bergenfield,158,0,158
+7,C5,Assessed value above $0,Sales2026,0204,Bogota,35,0,35
+7,C5,Assessed value above $0,Sales2026,0205,Carlstadt,10,0,10
+7,C5,Assessed value above $0,Sales2026,0206,Cliffside Park,38,0,38
+7,C5,Assessed value above $0,Sales2026,0207,Closter,31,0,31
+7,C5,Assessed value above $0,Sales2026,0208,Cresskill,23,0,23
+7,C5,Assessed value above $0,Sales2026,0209,Demarest,61,0,61
+7,C5,Assessed value above $0,Sales2026,0210,Dumont,29,0,29
+7,C5,Assessed value above $0,Sales2026,0211,Elmwood Park,37,0,37
+7,C5,Assessed value above $0,Sales2026,0212,East Rutherford,7,0,7
+7,C5,Assessed value above $0,Sales2026,0213,Edgewater,7,0,7
+7,C5,Assessed value above $0,Sales2026,0214,Emerson,51,0,51
+7,C5,Assessed value above $0,Sales2026,0215,Englewood,101,0,101
+7,C5,Assessed value above $0,Sales2026,0216,Englewood Cliffs,49,0,49
+7,C5,Assessed value above $0,Sales2026,0217,Fair Lawn,212,0,212
+7,C5,Assessed value above $0,Sales2026,0218,Fairview,15,0,15
+7,C5,Assessed value above $0,Sales2026,0219,Fort Lee,45,0,45
+7,C5,Assessed value above $0,Sales2026,0220,Franklin Lakes,106,0,106
+7,C5,Assessed value above $0,Sales2026,0221,Garfield,144,0,144
+7,C5,Assessed value above $0,Sales2026,0222,Glen Rock,103,0,103
+7,C5,Assessed value above $0,Sales2026,0223,Hackensack,87,0,87
+7,C5,Assessed value above $0,Sales2026,0224,Harrington Park,28,0,28
+7,C5,Assessed value above $0,Sales2026,0225,Hasbrouck Heights,20,0,20
+7,C5,Assessed value above $0,Sales2026,0226,Haworth,28,0,28
+7,C5,Assessed value above $0,Sales2026,0227,Hillsdale,68,0,68
+7,C5,Assessed value above $0,Sales2026,0228,Ho-Ho-Kus,18,0,18
+7,C5,Assessed value above $0,Sales2026,0229,Leonia,10,0,10
+7,C5,Assessed value above $0,Sales2026,0230,Little Ferry,18,0,18
+7,C5,Assessed value above $0,Sales2026,0231,Lodi,99,0,99
+7,C5,Assessed value above $0,Sales2026,0232,Lyndhurst,33,0,33
+7,C5,Assessed value above $0,Sales2026,0233,Mahwah,294,0,294
+7,C5,Assessed value above $0,Sales2026,0234,Maywood,20,0,20
+7,C5,Assessed value above $0,Sales2026,0235,Midland Park,42,0,42
+7,C5,Assessed value above $0,Sales2026,0236,Montvale,43,0,43
+7,C5,Assessed value above $0,Sales2026,0237,Moonachie,4,0,4
+7,C5,Assessed value above $0,Sales2026,0238,New Milford,100,0,100
+7,C5,Assessed value above $0,Sales2026,0239,North Arlington,28,0,28
+7,C5,Assessed value above $0,Sales2026,0240,Northvale,13,0,13
+7,C5,Assessed value above $0,Sales2026,0241,Norwood,19,0,19
+7,C5,Assessed value above $0,Sales2026,0242,Oakland,43,0,43
+7,C5,Assessed value above $0,Sales2026,0243,Old Tappan,13,0,13
+7,C5,Assessed value above $0,Sales2026,0244,Oradell,16,0,16
+7,C5,Assessed value above $0,Sales2026,0245,Palisades Park,23,0,23
+7,C5,Assessed value above $0,Sales2026,0246,Paramus,69,0,69
+7,C5,Assessed value above $0,Sales2026,0247,Park Ridge,72,0,72
+7,C5,Assessed value above $0,Sales2026,0248,Ramsey,30,0,30
+7,C5,Assessed value above $0,Sales2026,0249,Ridgefield,30,0,30
+7,C5,Assessed value above $0,Sales2026,0250,Ridgefield Park,67,0,67
+7,C5,Assessed value above $0,Sales2026,0251,Ridgewood,183,0,183
+7,C5,Assessed value above $0,Sales2026,0252,River Edge,12,0,12
+7,C5,Assessed value above $0,Sales2026,0253,River Vale,77,0,77
+7,C5,Assessed value above $0,Sales2026,0254,Rochelle Park,14,0,14
+7,C5,Assessed value above $0,Sales2026,0255,Rockleigh,2,0,2
+7,C5,Assessed value above $0,Sales2026,0256,Rutherford,91,0,91
+7,C5,Assessed value above $0,Sales2026,0257,Saddle Brook,32,0,32
+7,C5,Assessed value above $0,Sales2026,0258,Saddle River,29,0,29
+7,C5,Assessed value above $0,Sales2026,0259,South Hackensack,2,0,2
+7,C5,Assessed value above $0,Sales2026,0260,Teaneck,231,0,231
+7,C5,Assessed value above $0,Sales2026,0261,Tenafly,118,0,118
+7,C5,Assessed value above $0,Sales2026,0262,Teterboro,0,0,0
+7,C5,Assessed value above $0,Sales2026,0263,Upper Saddle River,94,0,94
+7,C5,Assessed value above $0,Sales2026,0264,Waldwick,92,0,92
+7,C5,Assessed value above $0,Sales2026,0265,Wallington,47,0,47
+7,C5,Assessed value above $0,Sales2026,0266,Washington Township,27,0,27
+7,C5,Assessed value above $0,Sales2026,0267,Westwood,11,0,11
+7,C5,Assessed value above $0,Sales2026,0268,Woodcliff Lake,17,0,17
+7,C5,Assessed value above $0,Sales2026,0269,Wood-Ridge,15,0,15
+7,C5,Assessed value above $0,Sales2026,0270,Wyckoff,122,0,122
+8,C6,Single lot only,All,ALL,Bergen County (all towns),7859,23,7836
+8,C6,Single lot only,All,0201,Allendale,36,0,36
+8,C6,Single lot only,All,0202,Alpine,29,1,28
+8,C6,Single lot only,All,0203,Bergenfield,278,1,277
+8,C6,Single lot only,All,0204,Bogota,75,0,75
+8,C6,Single lot only,All,0205,Carlstadt,23,0,23
+8,C6,Single lot only,All,0206,Cliffside Park,87,0,87
+8,C6,Single lot only,All,0207,Closter,55,0,55
+8,C6,Single lot only,All,0208,Cresskill,62,0,62
+8,C6,Single lot only,All,0209,Demarest,82,0,82
+8,C6,Single lot only,All,0210,Dumont,66,0,66
+8,C6,Single lot only,All,0211,Elmwood Park,120,0,120
+8,C6,Single lot only,All,0212,East Rutherford,12,0,12
+8,C6,Single lot only,All,0213,Edgewater,16,0,16
+8,C6,Single lot only,All,0214,Emerson,91,1,90
+8,C6,Single lot only,All,0215,Englewood,199,1,198
+8,C6,Single lot only,All,0216,Englewood Cliffs,91,0,91
+8,C6,Single lot only,All,0217,Fair Lawn,409,0,409
+8,C6,Single lot only,All,0218,Fairview,29,0,29
+8,C6,Single lot only,All,0219,Fort Lee,98,0,98
+8,C6,Single lot only,All,0220,Franklin Lakes,170,1,169
+8,C6,Single lot only,All,0221,Garfield,278,0,278
+8,C6,Single lot only,All,0222,Glen Rock,206,0,206
+8,C6,Single lot only,All,0223,Hackensack,174,0,174
+8,C6,Single lot only,All,0224,Harrington Park,59,0,59
+8,C6,Single lot only,All,0225,Hasbrouck Heights,81,0,81
+8,C6,Single lot only,All,0226,Haworth,63,1,62
+8,C6,Single lot only,All,0227,Hillsdale,131,1,130
+8,C6,Single lot only,All,0228,Ho-Ho-Kus,67,1,66
+8,C6,Single lot only,All,0229,Leonia,54,0,54
+8,C6,Single lot only,All,0230,Little Ferry,35,0,35
+8,C6,Single lot only,All,0231,Lodi,188,1,187
+8,C6,Single lot only,All,0232,Lyndhurst,54,0,54
+8,C6,Single lot only,All,0233,Mahwah,585,6,579
+8,C6,Single lot only,All,0234,Maywood,49,0,49
+8,C6,Single lot only,All,0235,Midland Park,89,0,89
+8,C6,Single lot only,All,0236,Montvale,105,0,105
+8,C6,Single lot only,All,0237,Moonachie,8,0,8
+8,C6,Single lot only,All,0238,New Milford,126,0,126
+8,C6,Single lot only,All,0239,North Arlington,63,0,63
+8,C6,Single lot only,All,0240,Northvale,49,0,49
+8,C6,Single lot only,All,0241,Norwood,50,0,50
+8,C6,Single lot only,All,0242,Oakland,90,0,90
+8,C6,Single lot only,All,0243,Old Tappan,52,0,52
+8,C6,Single lot only,All,0244,Oradell,29,0,29
+8,C6,Single lot only,All,0245,Palisades Park,43,0,43
+8,C6,Single lot only,All,0246,Paramus,164,0,164
+8,C6,Single lot only,All,0247,Park Ridge,129,0,129
+8,C6,Single lot only,All,0248,Ramsey,69,0,69
+8,C6,Single lot only,All,0249,Ridgefield,62,1,61
+8,C6,Single lot only,All,0250,Ridgefield Park,129,0,129
+8,C6,Single lot only,All,0251,Ridgewood,387,4,383
+8,C6,Single lot only,All,0252,River Edge,34,0,34
+8,C6,Single lot only,All,0253,River Vale,144,0,144
+8,C6,Single lot only,All,0254,Rochelle Park,53,0,53
+8,C6,Single lot only,All,0255,Rockleigh,2,0,2
+8,C6,Single lot only,All,0256,Rutherford,160,0,160
+8,C6,Single lot only,All,0257,Saddle Brook,66,0,66
+8,C6,Single lot only,All,0258,Saddle River,64,1,63
+8,C6,Single lot only,All,0259,South Hackensack,5,0,5
+8,C6,Single lot only,All,0260,Teaneck,462,1,461
+8,C6,Single lot only,All,0261,Tenafly,249,0,249
+8,C6,Single lot only,All,0262,Teterboro,0,0,0
+8,C6,Single lot only,All,0263,Upper Saddle River,191,0,191
+8,C6,Single lot only,All,0264,Waldwick,170,0,170
+8,C6,Single lot only,All,0265,Wallington,63,0,63
+8,C6,Single lot only,All,0266,Washington Township,83,0,83
+8,C6,Single lot only,All,0267,Westwood,31,0,31
+8,C6,Single lot only,All,0268,Woodcliff Lake,30,0,30
+8,C6,Single lot only,All,0269,Wood-Ridge,68,0,68
+8,C6,Single lot only,All,0270,Wyckoff,288,1,287
+8,C6,Single lot only,Sales2025,ALL,Bergen County (all towns),4017,15,4002
+8,C6,Single lot only,Sales2025,0201,Allendale,19,0,19
+8,C6,Single lot only,Sales2025,0202,Alpine,17,1,16
+8,C6,Single lot only,Sales2025,0203,Bergenfield,120,0,120
+8,C6,Single lot only,Sales2025,0204,Bogota,40,0,40
+8,C6,Single lot only,Sales2025,0205,Carlstadt,13,0,13
+8,C6,Single lot only,Sales2025,0206,Cliffside Park,49,0,49
+8,C6,Single lot only,Sales2025,0207,Closter,24,0,24
+8,C6,Single lot only,Sales2025,0208,Cresskill,39,0,39
+8,C6,Single lot only,Sales2025,0209,Demarest,21,0,21
+8,C6,Single lot only,Sales2025,0210,Dumont,37,0,37
+8,C6,Single lot only,Sales2025,0211,Elmwood Park,83,0,83
+8,C6,Single lot only,Sales2025,0212,East Rutherford,5,0,5
+8,C6,Single lot only,Sales2025,0213,Edgewater,9,0,9
+8,C6,Single lot only,Sales2025,0214,Emerson,40,0,40
+8,C6,Single lot only,Sales2025,0215,Englewood,98,1,97
+8,C6,Single lot only,Sales2025,0216,Englewood Cliffs,42,0,42
+8,C6,Single lot only,Sales2025,0217,Fair Lawn,197,0,197
+8,C6,Single lot only,Sales2025,0218,Fairview,14,0,14
+8,C6,Single lot only,Sales2025,0219,Fort Lee,53,0,53
+8,C6,Single lot only,Sales2025,0220,Franklin Lakes,64,1,63
+8,C6,Single lot only,Sales2025,0221,Garfield,134,0,134
+8,C6,Single lot only,Sales2025,0222,Glen Rock,103,0,103
+8,C6,Single lot only,Sales2025,0223,Hackensack,87,0,87
+8,C6,Single lot only,Sales2025,0224,Harrington Park,31,0,31
+8,C6,Single lot only,Sales2025,0225,Hasbrouck Heights,61,0,61
+8,C6,Single lot only,Sales2025,0226,Haworth,35,0,35
+8,C6,Single lot only,Sales2025,0227,Hillsdale,63,0,63
+8,C6,Single lot only,Sales2025,0228,Ho-Ho-Kus,49,1,48
+8,C6,Single lot only,Sales2025,0229,Leonia,44,0,44
+8,C6,Single lot only,Sales2025,0230,Little Ferry,17,0,17
+8,C6,Single lot only,Sales2025,0231,Lodi,89,1,88
+8,C6,Single lot only,Sales2025,0232,Lyndhurst,21,0,21
+8,C6,Single lot only,Sales2025,0233,Mahwah,291,5,286
+8,C6,Single lot only,Sales2025,0234,Maywood,29,0,29
+8,C6,Single lot only,Sales2025,0235,Midland Park,47,0,47
+8,C6,Single lot only,Sales2025,0236,Montvale,62,0,62
+8,C6,Single lot only,Sales2025,0237,Moonachie,4,0,4
+8,C6,Single lot only,Sales2025,0238,New Milford,26,0,26
+8,C6,Single lot only,Sales2025,0239,North Arlington,35,0,35
+8,C6,Single lot only,Sales2025,0240,Northvale,36,0,36
+8,C6,Single lot only,Sales2025,0241,Norwood,31,0,31
+8,C6,Single lot only,Sales2025,0242,Oakland,47,0,47
+8,C6,Single lot only,Sales2025,0243,Old Tappan,39,0,39
+8,C6,Single lot only,Sales2025,0244,Oradell,13,0,13
+8,C6,Single lot only,Sales2025,0245,Palisades Park,20,0,20
+8,C6,Single lot only,Sales2025,0246,Paramus,95,0,95
+8,C6,Single lot only,Sales2025,0247,Park Ridge,57,0,57
+8,C6,Single lot only,Sales2025,0248,Ramsey,39,0,39
+8,C6,Single lot only,Sales2025,0249,Ridgefield,32,1,31
+8,C6,Single lot only,Sales2025,0250,Ridgefield Park,62,0,62
+8,C6,Single lot only,Sales2025,0251,Ridgewood,204,3,201
+8,C6,Single lot only,Sales2025,0252,River Edge,22,0,22
+8,C6,Single lot only,Sales2025,0253,River Vale,67,0,67
+8,C6,Single lot only,Sales2025,0254,Rochelle Park,39,0,39
+8,C6,Single lot only,Sales2025,0255,Rockleigh,0,0,0
+8,C6,Single lot only,Sales2025,0256,Rutherford,69,0,69
+8,C6,Single lot only,Sales2025,0257,Saddle Brook,34,0,34
+8,C6,Single lot only,Sales2025,0258,Saddle River,35,1,34
+8,C6,Single lot only,Sales2025,0259,South Hackensack,3,0,3
+8,C6,Single lot only,Sales2025,0260,Teaneck,231,0,231
+8,C6,Single lot only,Sales2025,0261,Tenafly,131,0,131
+8,C6,Single lot only,Sales2025,0262,Teterboro,0,0,0
+8,C6,Single lot only,Sales2025,0263,Upper Saddle River,97,0,97
+8,C6,Single lot only,Sales2025,0264,Waldwick,78,0,78
+8,C6,Single lot only,Sales2025,0265,Wallington,16,0,16
+8,C6,Single lot only,Sales2025,0266,Washington Township,56,0,56
+8,C6,Single lot only,Sales2025,0267,Westwood,20,0,20
+8,C6,Single lot only,Sales2025,0268,Woodcliff Lake,13,0,13
+8,C6,Single lot only,Sales2025,0269,Wood-Ridge,53,0,53
+8,C6,Single lot only,Sales2025,0270,Wyckoff,166,0,166
+8,C6,Single lot only,Sales2026,ALL,Bergen County (all towns),3842,8,3834
+8,C6,Single lot only,Sales2026,0201,Allendale,17,0,17
+8,C6,Single lot only,Sales2026,0202,Alpine,12,0,12
+8,C6,Single lot only,Sales2026,0203,Bergenfield,158,1,157
+8,C6,Single lot only,Sales2026,0204,Bogota,35,0,35
+8,C6,Single lot only,Sales2026,0205,Carlstadt,10,0,10
+8,C6,Single lot only,Sales2026,0206,Cliffside Park,38,0,38
+8,C6,Single lot only,Sales2026,0207,Closter,31,0,31
+8,C6,Single lot only,Sales2026,0208,Cresskill,23,0,23
+8,C6,Single lot only,Sales2026,0209,Demarest,61,0,61
+8,C6,Single lot only,Sales2026,0210,Dumont,29,0,29
+8,C6,Single lot only,Sales2026,0211,Elmwood Park,37,0,37
+8,C6,Single lot only,Sales2026,0212,East Rutherford,7,0,7
+8,C6,Single lot only,Sales2026,0213,Edgewater,7,0,7
+8,C6,Single lot only,Sales2026,0214,Emerson,51,1,50
+8,C6,Single lot only,Sales2026,0215,Englewood,101,0,101
+8,C6,Single lot only,Sales2026,0216,Englewood Cliffs,49,0,49
+8,C6,Single lot only,Sales2026,0217,Fair Lawn,212,0,212
+8,C6,Single lot only,Sales2026,0218,Fairview,15,0,15
+8,C6,Single lot only,Sales2026,0219,Fort Lee,45,0,45
+8,C6,Single lot only,Sales2026,0220,Franklin Lakes,106,0,106
+8,C6,Single lot only,Sales2026,0221,Garfield,144,0,144
+8,C6,Single lot only,Sales2026,0222,Glen Rock,103,0,103
+8,C6,Single lot only,Sales2026,0223,Hackensack,87,0,87
+8,C6,Single lot only,Sales2026,0224,Harrington Park,28,0,28
+8,C6,Single lot only,Sales2026,0225,Hasbrouck Heights,20,0,20
+8,C6,Single lot only,Sales2026,0226,Haworth,28,1,27
+8,C6,Single lot only,Sales2026,0227,Hillsdale,68,1,67
+8,C6,Single lot only,Sales2026,0228,Ho-Ho-Kus,18,0,18
+8,C6,Single lot only,Sales2026,0229,Leonia,10,0,10
+8,C6,Single lot only,Sales2026,0230,Little Ferry,18,0,18
+8,C6,Single lot only,Sales2026,0231,Lodi,99,0,99
+8,C6,Single lot only,Sales2026,0232,Lyndhurst,33,0,33
+8,C6,Single lot only,Sales2026,0233,Mahwah,294,1,293
+8,C6,Single lot only,Sales2026,0234,Maywood,20,0,20
+8,C6,Single lot only,Sales2026,0235,Midland Park,42,0,42
+8,C6,Single lot only,Sales2026,0236,Montvale,43,0,43
+8,C6,Single lot only,Sales2026,0237,Moonachie,4,0,4
+8,C6,Single lot only,Sales2026,0238,New Milford,100,0,100
+8,C6,Single lot only,Sales2026,0239,North Arlington,28,0,28
+8,C6,Single lot only,Sales2026,0240,Northvale,13,0,13
+8,C6,Single lot only,Sales2026,0241,Norwood,19,0,19
+8,C6,Single lot only,Sales2026,0242,Oakland,43,0,43
+8,C6,Single lot only,Sales2026,0243,Old Tappan,13,0,13
+8,C6,Single lot only,Sales2026,0244,Oradell,16,0,16
+8,C6,Single lot only,Sales2026,0245,Palisades Park,23,0,23
+8,C6,Single lot only,Sales2026,0246,Paramus,69,0,69
+8,C6,Single lot only,Sales2026,0247,Park Ridge,72,0,72
+8,C6,Single lot only,Sales2026,0248,Ramsey,30,0,30
+8,C6,Single lot only,Sales2026,0249,Ridgefield,30,0,30
+8,C6,Single lot only,Sales2026,0250,Ridgefield Park,67,0,67
+8,C6,Single lot only,Sales2026,0251,Ridgewood,183,1,182
+8,C6,Single lot only,Sales2026,0252,River Edge,12,0,12
+8,C6,Single lot only,Sales2026,0253,River Vale,77,0,77
+8,C6,Single lot only,Sales2026,0254,Rochelle Park,14,0,14
+8,C6,Single lot only,Sales2026,0255,Rockleigh,2,0,2
+8,C6,Single lot only,Sales2026,0256,Rutherford,91,0,91
+8,C6,Single lot only,Sales2026,0257,Saddle Brook,32,0,32
+8,C6,Single lot only,Sales2026,0258,Saddle River,29,0,29
+8,C6,Single lot only,Sales2026,0259,South Hackensack,2,0,2
+8,C6,Single lot only,Sales2026,0260,Teaneck,231,1,230
+8,C6,Single lot only,Sales2026,0261,Tenafly,118,0,118
+8,C6,Single lot only,Sales2026,0262,Teterboro,0,0,0
+8,C6,Single lot only,Sales2026,0263,Upper Saddle River,94,0,94
+8,C6,Single lot only,Sales2026,0264,Waldwick,92,0,92
+8,C6,Single lot only,Sales2026,0265,Wallington,47,0,47
+8,C6,Single lot only,Sales2026,0266,Washington Township,27,0,27
+8,C6,Single lot only,Sales2026,0267,Westwood,11,0,11
+8,C6,Single lot only,Sales2026,0268,Woodcliff Lake,17,0,17
+8,C6,Single lot only,Sales2026,0269,Wood-Ridge,15,0,15
+8,C6,Single lot only,Sales2026,0270,Wyckoff,122,1,121
+9,C9,Revaluation towns use only new-basis assessments,All,ALL,Bergen County (all towns),7836,1093,6743
+9,C9,Revaluation towns use only new-basis assessments,All,0201,Allendale,36,19,17
+9,C9,Revaluation towns use only new-basis assessments,All,0202,Alpine,28,0,28
+9,C9,Revaluation towns use only new-basis assessments,All,0203,Bergenfield,277,0,277
+9,C9,Revaluation towns use only new-basis assessments,All,0204,Bogota,75,0,75
+9,C9,Revaluation towns use only new-basis assessments,All,0205,Carlstadt,23,13,10
+9,C9,Revaluation towns use only new-basis assessments,All,0206,Cliffside Park,87,0,87
+9,C9,Revaluation towns use only new-basis assessments,All,0207,Closter,55,24,31
+9,C9,Revaluation towns use only new-basis assessments,All,0208,Cresskill,62,39,23
+9,C9,Revaluation towns use only new-basis assessments,All,0209,Demarest,82,0,82
+9,C9,Revaluation towns use only new-basis assessments,All,0210,Dumont,66,37,29
+9,C9,Revaluation towns use only new-basis assessments,All,0211,Elmwood Park,120,83,37
+9,C9,Revaluation towns use only new-basis assessments,All,0212,East Rutherford,12,5,7
+9,C9,Revaluation towns use only new-basis assessments,All,0213,Edgewater,16,9,7
+9,C9,Revaluation towns use only new-basis assessments,All,0214,Emerson,90,0,90
+9,C9,Revaluation towns use only new-basis assessments,All,0215,Englewood,198,0,198
+9,C9,Revaluation towns use only new-basis assessments,All,0216,Englewood Cliffs,91,0,91
+9,C9,Revaluation towns use only new-basis assessments,All,0217,Fair Lawn,409,0,409
+9,C9,Revaluation towns use only new-basis assessments,All,0218,Fairview,29,14,15
+9,C9,Revaluation towns use only new-basis assessments,All,0219,Fort Lee,98,0,98
+9,C9,Revaluation towns use only new-basis assessments,All,0220,Franklin Lakes,169,0,169
+9,C9,Revaluation towns use only new-basis assessments,All,0221,Garfield,278,0,278
+9,C9,Revaluation towns use only new-basis assessments,All,0222,Glen Rock,206,0,206
+9,C9,Revaluation towns use only new-basis assessments,All,0223,Hackensack,174,0,174
+9,C9,Revaluation towns use only new-basis assessments,All,0224,Harrington Park,59,0,59
+9,C9,Revaluation towns use only new-basis assessments,All,0225,Hasbrouck Heights,81,61,20
+9,C9,Revaluation towns use only new-basis assessments,All,0226,Haworth,62,0,62
+9,C9,Revaluation towns use only new-basis assessments,All,0227,Hillsdale,130,0,130
+9,C9,Revaluation towns use only new-basis assessments,All,0228,Ho-Ho-Kus,66,48,18
+9,C9,Revaluation towns use only new-basis assessments,All,0229,Leonia,54,44,10
+9,C9,Revaluation towns use only new-basis assessments,All,0230,Little Ferry,35,17,18
+9,C9,Revaluation towns use only new-basis assessments,All,0231,Lodi,187,0,187
+9,C9,Revaluation towns use only new-basis assessments,All,0232,Lyndhurst,54,21,33
+9,C9,Revaluation towns use only new-basis assessments,All,0233,Mahwah,579,0,579
+9,C9,Revaluation towns use only new-basis assessments,All,0234,Maywood,49,29,20
+9,C9,Revaluation towns use only new-basis assessments,All,0235,Midland Park,89,0,89
+9,C9,Revaluation towns use only new-basis assessments,All,0236,Montvale,105,0,105
+9,C9,Revaluation towns use only new-basis assessments,All,0237,Moonachie,8,4,4
+9,C9,Revaluation towns use only new-basis assessments,All,0238,New Milford,126,0,126
+9,C9,Revaluation towns use only new-basis assessments,All,0239,North Arlington,63,35,28
+9,C9,Revaluation towns use only new-basis assessments,All,0240,Northvale,49,36,13
+9,C9,Revaluation towns use only new-basis assessments,All,0241,Norwood,50,31,19
+9,C9,Revaluation towns use only new-basis assessments,All,0242,Oakland,90,47,43
+9,C9,Revaluation towns use only new-basis assessments,All,0243,Old Tappan,52,39,13
+9,C9,Revaluation towns use only new-basis assessments,All,0244,Oradell,29,13,16
+9,C9,Revaluation towns use only new-basis assessments,All,0245,Palisades Park,43,20,23
+9,C9,Revaluation towns use only new-basis assessments,All,0246,Paramus,164,95,69
+9,C9,Revaluation towns use only new-basis assessments,All,0247,Park Ridge,129,0,129
+9,C9,Revaluation towns use only new-basis assessments,All,0248,Ramsey,69,39,30
+9,C9,Revaluation towns use only new-basis assessments,All,0249,Ridgefield,61,31,30
+9,C9,Revaluation towns use only new-basis assessments,All,0250,Ridgefield Park,129,0,129
+9,C9,Revaluation towns use only new-basis assessments,All,0251,Ridgewood,383,0,383
+9,C9,Revaluation towns use only new-basis assessments,All,0252,River Edge,34,22,12
+9,C9,Revaluation towns use only new-basis assessments,All,0253,River Vale,144,0,144
+9,C9,Revaluation towns use only new-basis assessments,All,0254,Rochelle Park,53,39,14
+9,C9,Revaluation towns use only new-basis assessments,All,0255,Rockleigh,2,0,2
+9,C9,Revaluation towns use only new-basis assessments,All,0256,Rutherford,160,0,160
+9,C9,Revaluation towns use only new-basis assessments,All,0257,Saddle Brook,66,34,32
+9,C9,Revaluation towns use only new-basis assessments,All,0258,Saddle River,63,0,63
+9,C9,Revaluation towns use only new-basis assessments,All,0259,South Hackensack,5,3,2
+9,C9,Revaluation towns use only new-basis assessments,All,0260,Teaneck,461,0,461
+9,C9,Revaluation towns use only new-basis assessments,All,0261,Tenafly,249,0,249
+9,C9,Revaluation towns use only new-basis assessments,All,0262,Teterboro,0,0,0
+9,C9,Revaluation towns use only new-basis assessments,All,0263,Upper Saddle River,191,0,191
+9,C9,Revaluation towns use only new-basis assessments,All,0264,Waldwick,170,0,170
+9,C9,Revaluation towns use only new-basis assessments,All,0265,Wallington,63,0,63
+9,C9,Revaluation towns use only new-basis assessments,All,0266,Washington Township,83,56,27
+9,C9,Revaluation towns use only new-basis assessments,All,0267,Westwood,31,20,11
+9,C9,Revaluation towns use only new-basis assessments,All,0268,Woodcliff Lake,30,13,17
+9,C9,Revaluation towns use only new-basis assessments,All,0269,Wood-Ridge,68,53,15
+9,C9,Revaluation towns use only new-basis assessments,All,0270,Wyckoff,287,0,287
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,ALL,Bergen County (all towns),4002,1093,2909
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0201,Allendale,19,19,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0202,Alpine,16,0,16
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0203,Bergenfield,120,0,120
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0204,Bogota,40,0,40
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0205,Carlstadt,13,13,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0206,Cliffside Park,49,0,49
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0207,Closter,24,24,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0208,Cresskill,39,39,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0209,Demarest,21,0,21
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0210,Dumont,37,37,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0211,Elmwood Park,83,83,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0212,East Rutherford,5,5,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0213,Edgewater,9,9,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0214,Emerson,40,0,40
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0215,Englewood,97,0,97
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0216,Englewood Cliffs,42,0,42
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0217,Fair Lawn,197,0,197
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0218,Fairview,14,14,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0219,Fort Lee,53,0,53
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0220,Franklin Lakes,63,0,63
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0221,Garfield,134,0,134
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0222,Glen Rock,103,0,103
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0223,Hackensack,87,0,87
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0224,Harrington Park,31,0,31
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0225,Hasbrouck Heights,61,61,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0226,Haworth,35,0,35
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0227,Hillsdale,63,0,63
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0228,Ho-Ho-Kus,48,48,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0229,Leonia,44,44,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0230,Little Ferry,17,17,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0231,Lodi,88,0,88
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0232,Lyndhurst,21,21,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0233,Mahwah,286,0,286
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0234,Maywood,29,29,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0235,Midland Park,47,0,47
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0236,Montvale,62,0,62
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0237,Moonachie,4,4,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0238,New Milford,26,0,26
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0239,North Arlington,35,35,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0240,Northvale,36,36,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0241,Norwood,31,31,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0242,Oakland,47,47,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0243,Old Tappan,39,39,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0244,Oradell,13,13,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0245,Palisades Park,20,20,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0246,Paramus,95,95,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0247,Park Ridge,57,0,57
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0248,Ramsey,39,39,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0249,Ridgefield,31,31,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0250,Ridgefield Park,62,0,62
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0251,Ridgewood,201,0,201
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0252,River Edge,22,22,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0253,River Vale,67,0,67
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0254,Rochelle Park,39,39,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0255,Rockleigh,0,0,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0256,Rutherford,69,0,69
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0257,Saddle Brook,34,34,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0258,Saddle River,34,0,34
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0259,South Hackensack,3,3,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0260,Teaneck,231,0,231
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0261,Tenafly,131,0,131
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0262,Teterboro,0,0,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0263,Upper Saddle River,97,0,97
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0264,Waldwick,78,0,78
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0265,Wallington,16,0,16
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0266,Washington Township,56,56,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0267,Westwood,20,20,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0268,Woodcliff Lake,13,13,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0269,Wood-Ridge,53,53,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2025,0270,Wyckoff,166,0,166
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,ALL,Bergen County (all towns),3834,0,3834
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0201,Allendale,17,0,17
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0202,Alpine,12,0,12
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0203,Bergenfield,157,0,157
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0204,Bogota,35,0,35
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0205,Carlstadt,10,0,10
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0206,Cliffside Park,38,0,38
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0207,Closter,31,0,31
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0208,Cresskill,23,0,23
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0209,Demarest,61,0,61
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0210,Dumont,29,0,29
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0211,Elmwood Park,37,0,37
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0212,East Rutherford,7,0,7
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0213,Edgewater,7,0,7
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0214,Emerson,50,0,50
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0215,Englewood,101,0,101
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0216,Englewood Cliffs,49,0,49
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0217,Fair Lawn,212,0,212
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0218,Fairview,15,0,15
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0219,Fort Lee,45,0,45
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0220,Franklin Lakes,106,0,106
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0221,Garfield,144,0,144
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0222,Glen Rock,103,0,103
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0223,Hackensack,87,0,87
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0224,Harrington Park,28,0,28
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0225,Hasbrouck Heights,20,0,20
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0226,Haworth,27,0,27
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0227,Hillsdale,67,0,67
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0228,Ho-Ho-Kus,18,0,18
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0229,Leonia,10,0,10
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0230,Little Ferry,18,0,18
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0231,Lodi,99,0,99
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0232,Lyndhurst,33,0,33
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0233,Mahwah,293,0,293
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0234,Maywood,20,0,20
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0235,Midland Park,42,0,42
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0236,Montvale,43,0,43
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0237,Moonachie,4,0,4
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0238,New Milford,100,0,100
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0239,North Arlington,28,0,28
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0240,Northvale,13,0,13
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0241,Norwood,19,0,19
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0242,Oakland,43,0,43
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0243,Old Tappan,13,0,13
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0244,Oradell,16,0,16
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0245,Palisades Park,23,0,23
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0246,Paramus,69,0,69
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0247,Park Ridge,72,0,72
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0248,Ramsey,30,0,30
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0249,Ridgefield,30,0,30
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0250,Ridgefield Park,67,0,67
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0251,Ridgewood,182,0,182
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0252,River Edge,12,0,12
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0253,River Vale,77,0,77
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0254,Rochelle Park,14,0,14
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0255,Rockleigh,2,0,2
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0256,Rutherford,91,0,91
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0257,Saddle Brook,32,0,32
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0258,Saddle River,29,0,29
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0259,South Hackensack,2,0,2
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0260,Teaneck,230,0,230
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0261,Tenafly,118,0,118
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0262,Teterboro,0,0,0
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0263,Upper Saddle River,94,0,94
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0264,Waldwick,92,0,92
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0265,Wallington,47,0,47
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0266,Washington Township,27,0,27
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0267,Westwood,11,0,11
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0268,Woodcliff Lake,17,0,17
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0269,Wood-Ridge,15,0,15
+9,C9,Revaluation towns use only new-basis assessments,Sales2026,0270,Wyckoff,121,0,121
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,ALL,Bergen County (all towns),6743,64,6679
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0201,Allendale,17,0,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0202,Alpine,28,0,28
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0203,Bergenfield,277,6,271
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0204,Bogota,75,2,73
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0205,Carlstadt,10,0,10
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0206,Cliffside Park,87,1,86
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0207,Closter,31,0,31
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0208,Cresskill,23,0,23
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0209,Demarest,82,1,81
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0210,Dumont,29,1,28
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0211,Elmwood Park,37,0,37
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0212,East Rutherford,7,0,7
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0213,Edgewater,7,0,7
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0214,Emerson,90,0,90
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0215,Englewood,198,7,191
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0216,Englewood Cliffs,91,0,91
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0217,Fair Lawn,409,5,404
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0218,Fairview,15,0,15
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0219,Fort Lee,98,1,97
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0220,Franklin Lakes,169,1,168
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0221,Garfield,278,5,273
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0222,Glen Rock,206,1,205
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0223,Hackensack,174,2,172
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0224,Harrington Park,59,3,56
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0225,Hasbrouck Heights,20,0,20
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0226,Haworth,62,0,62
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0227,Hillsdale,130,2,128
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0228,Ho-Ho-Kus,18,0,18
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0229,Leonia,10,1,9
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0230,Little Ferry,18,1,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0231,Lodi,187,0,187
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0232,Lyndhurst,33,0,33
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0233,Mahwah,579,5,574
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0234,Maywood,20,0,20
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0235,Midland Park,89,0,89
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0236,Montvale,105,2,103
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0237,Moonachie,4,0,4
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0238,New Milford,126,1,125
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0239,North Arlington,28,0,28
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0240,Northvale,13,0,13
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0241,Norwood,19,0,19
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0242,Oakland,43,0,43
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0243,Old Tappan,13,0,13
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0244,Oradell,16,0,16
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0245,Palisades Park,23,1,22
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0246,Paramus,69,0,69
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0247,Park Ridge,129,0,129
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0248,Ramsey,30,0,30
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0249,Ridgefield,30,1,29
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0250,Ridgefield Park,129,0,129
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0251,Ridgewood,383,2,381
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0252,River Edge,12,0,12
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0253,River Vale,144,0,144
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0254,Rochelle Park,14,0,14
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0255,Rockleigh,2,0,2
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0256,Rutherford,160,2,158
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0257,Saddle Brook,32,0,32
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0258,Saddle River,63,0,63
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0259,South Hackensack,2,0,2
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0260,Teaneck,461,4,457
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0261,Tenafly,249,2,247
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0262,Teterboro,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0263,Upper Saddle River,191,2,189
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0264,Waldwick,170,0,170
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0265,Wallington,63,0,63
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0266,Washington Township,27,0,27
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0267,Westwood,11,0,11
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0268,Woodcliff Lake,17,0,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0269,Wood-Ridge,15,1,14
+10,C8,"Outlier trimming per town, 3.0 x IQR",All,0270,Wyckoff,287,1,286
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,ALL,Bergen County (all towns),2909,36,2873
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0201,Allendale,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0202,Alpine,16,0,16
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0203,Bergenfield,120,5,115
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0204,Bogota,40,1,39
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0205,Carlstadt,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0206,Cliffside Park,49,1,48
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0207,Closter,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0208,Cresskill,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0209,Demarest,21,1,20
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0210,Dumont,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0211,Elmwood Park,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0212,East Rutherford,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0213,Edgewater,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0214,Emerson,40,0,40
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0215,Englewood,97,2,95
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0216,Englewood Cliffs,42,0,42
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0217,Fair Lawn,197,5,192
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0218,Fairview,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0219,Fort Lee,53,1,52
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0220,Franklin Lakes,63,1,62
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0221,Garfield,134,3,131
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0222,Glen Rock,103,0,103
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0223,Hackensack,87,1,86
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0224,Harrington Park,31,0,31
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0225,Hasbrouck Heights,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0226,Haworth,35,0,35
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0227,Hillsdale,63,1,62
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0228,Ho-Ho-Kus,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0229,Leonia,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0230,Little Ferry,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0231,Lodi,88,0,88
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0232,Lyndhurst,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0233,Mahwah,286,4,282
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0234,Maywood,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0235,Midland Park,47,0,47
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0236,Montvale,62,2,60
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0237,Moonachie,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0238,New Milford,26,1,25
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0239,North Arlington,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0240,Northvale,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0241,Norwood,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0242,Oakland,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0243,Old Tappan,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0244,Oradell,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0245,Palisades Park,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0246,Paramus,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0247,Park Ridge,57,0,57
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0248,Ramsey,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0249,Ridgefield,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0250,Ridgefield Park,62,0,62
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0251,Ridgewood,201,1,200
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0252,River Edge,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0253,River Vale,67,0,67
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0254,Rochelle Park,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0255,Rockleigh,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0256,Rutherford,69,0,69
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0257,Saddle Brook,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0258,Saddle River,34,0,34
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0259,South Hackensack,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0260,Teaneck,231,4,227
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0261,Tenafly,131,2,129
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0262,Teterboro,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0263,Upper Saddle River,97,0,97
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0264,Waldwick,78,0,78
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0265,Wallington,16,0,16
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0266,Washington Township,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0267,Westwood,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0268,Woodcliff Lake,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0269,Wood-Ridge,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2025,0270,Wyckoff,166,0,166
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,ALL,Bergen County (all towns),3834,28,3806
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0201,Allendale,17,0,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0202,Alpine,12,0,12
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0203,Bergenfield,157,1,156
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0204,Bogota,35,1,34
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0205,Carlstadt,10,0,10
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0206,Cliffside Park,38,0,38
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0207,Closter,31,0,31
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0208,Cresskill,23,0,23
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0209,Demarest,61,0,61
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0210,Dumont,29,1,28
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0211,Elmwood Park,37,0,37
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0212,East Rutherford,7,0,7
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0213,Edgewater,7,0,7
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0214,Emerson,50,0,50
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0215,Englewood,101,5,96
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0216,Englewood Cliffs,49,0,49
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0217,Fair Lawn,212,0,212
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0218,Fairview,15,0,15
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0219,Fort Lee,45,0,45
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0220,Franklin Lakes,106,0,106
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0221,Garfield,144,2,142
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0222,Glen Rock,103,1,102
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0223,Hackensack,87,1,86
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0224,Harrington Park,28,3,25
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0225,Hasbrouck Heights,20,0,20
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0226,Haworth,27,0,27
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0227,Hillsdale,67,1,66
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0228,Ho-Ho-Kus,18,0,18
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0229,Leonia,10,1,9
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0230,Little Ferry,18,1,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0231,Lodi,99,0,99
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0232,Lyndhurst,33,0,33
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0233,Mahwah,293,1,292
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0234,Maywood,20,0,20
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0235,Midland Park,42,0,42
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0236,Montvale,43,0,43
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0237,Moonachie,4,0,4
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0238,New Milford,100,0,100
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0239,North Arlington,28,0,28
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0240,Northvale,13,0,13
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0241,Norwood,19,0,19
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0242,Oakland,43,0,43
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0243,Old Tappan,13,0,13
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0244,Oradell,16,0,16
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0245,Palisades Park,23,1,22
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0246,Paramus,69,0,69
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0247,Park Ridge,72,0,72
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0248,Ramsey,30,0,30
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0249,Ridgefield,30,1,29
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0250,Ridgefield Park,67,0,67
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0251,Ridgewood,182,1,181
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0252,River Edge,12,0,12
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0253,River Vale,77,0,77
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0254,Rochelle Park,14,0,14
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0255,Rockleigh,2,0,2
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0256,Rutherford,91,2,89
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0257,Saddle Brook,32,0,32
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0258,Saddle River,29,0,29
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0259,South Hackensack,2,0,2
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0260,Teaneck,230,0,230
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0261,Tenafly,118,0,118
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0262,Teterboro,0,0,0
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0263,Upper Saddle River,94,2,92
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0264,Waldwick,92,0,92
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0265,Wallington,47,0,47
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0266,Washington Township,27,0,27
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0267,Westwood,11,0,11
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0268,Woodcliff Lake,17,0,17
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0269,Wood-Ridge,15,1,14
+10,C8,"Outlier trimming per town, 3.0 x IQR",Sales2026,0270,Wyckoff,121,1,120

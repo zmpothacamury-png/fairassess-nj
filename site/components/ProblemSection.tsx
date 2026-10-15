@@ -11,7 +11,7 @@ const ITEMS = [
   {
     number: "02",
     title: "What regressivity means",
-    body: "In a fair system, this ratio stays about the same no matter how much a home is worth. A regressive system does the opposite: lower-priced homes get assessed at a higher share of their value than expensive homes. That shifts more of the tax burden onto owners of cheaper homes. The IAAO — the professional group that sets ratio-study standards — treats this pattern as a well-known risk in property assessment, which is exactly why it has its own standard measures.",
+    body: "In a fair system, this ratio stays about the same no matter how much a home is worth. A regressive system does the opposite. Lower-priced homes get assessed at a higher share of their value than expensive homes. That shifts more of the tax burden onto owners of cheaper homes. The IAAO is the professional group that sets ratio-study standards. It treats this pattern as a well-known risk in property assessment. That is why it has its own standard measures.",
   },
   {
     number: "03",

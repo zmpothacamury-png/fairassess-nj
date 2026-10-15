@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Fair Assess NJ",
   description:
-    "A public, reproducible study of whether New Jersey towns over-assess lower-priced homes, plus a free homeowner tax-appeal checker. Join the waitlist.",
+    "A public, reproducible study of whether New Jersey towns over-assess lower-priced homes. It also offers a free tax-appeal checker for homeowners. Join the waitlist.",
 };
 
 /*

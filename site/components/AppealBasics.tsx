@@ -25,19 +25,21 @@ export function AppealBasics({ className = "" }: { className?: string }) {
       <div className="flex gap-2">
         <CalendarDays aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-gold-700" strokeWidth={2} />
         <p>
-          <strong className="block text-navy-900">Deadline: April 1</strong>
-          May 1 the year after a revaluation or reassessment. Burlington,
-          Gloucester, and Monmouth counties use January 15 instead.
+          <strong className="block text-navy-900">The deadline is April 1</strong>
+          It is May 1 in the year after a revaluation or reassessment.
+          Burlington, Gloucester, and Monmouth counties use January 15
+          instead.
         </p>
       </div>
       <div className="flex gap-2">
         <Receipt aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-gold-700" strokeWidth={2} />
         <p className="tabular-nums">
           <strong className="block text-navy-900">
-            Filing fee: $5&ndash;$150
+            The filing fee is $5 to $150
           </strong>
-          Set by your assessed value: $5 under $150,000; $25 up to
-          $500,000; $100 up to $1,000,000; $150 above that.
+          Your assessed value sets the fee. It is $5 under $150,000 and
+          $25 up to $500,000. It is $100 up to $1,000,000 and $150 above
+          that.
         </p>
       </div>
       <p className="text-sm text-ink-600 lg:max-w-[22ch]">

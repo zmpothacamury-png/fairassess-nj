@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-15 (Website wording: simpler grammar)
+- Zaden asked for simpler grammar on the website with no dashes, colons, or semicolons, keeping the same tone, message, and formatting, and leaving the footer alone. Long sentences were split into shorter ones on the home page (The problem, What we're building, Methodology), the deadline and fee box ("The deadline is April 1", "The filing fee is $5 to $150"; facts unchanged), the teaching diagram, the waitlist section, and the Appeal Checker intro. Also the site description, the link-preview image description, and the scroll button's screen-reader name. Footer, disclaimer, and the hidden /design page unchanged. Lint, 62 unit tests, 60 browser tests, and the build pass.
+
+## 2026-10-15 (Prompt 5: cleaning pipeline and filter log)
+- New `pipeline/clean.py`: one function per cleaning rule (C1, C2, C10, C3, C7, C4, C5, C6, C9, C8, in methodology order). Every number they use is in `pipeline/config.py`. C8 trims each town on its ratio divided by the town median, separately for each file.
+- New outputs: `data/processed/sales_clean.csv` (6,679 clean sales; 3,806 in Sales2026), `data/processed/filter_log.csv`, `data/processed/c8_sensitivity.csv`, `data/interim/removed_rows.parquet`, and the plain-English `docs/filter-log.md`.
+- New `pipeline/run.py`: one command runs every stage (parse, then clean) and stops if an input file is missing. README updated.
+- `pipeline/tests/test_clean.py`: 33 tests on made-up data (each rule removes only its rows; a town assessed near 40% keeps its normal sales; rows in = kept + removed everywhere; two runs give identical files). 86 pipeline tests pass.
+- `docs/data-dictionary.md`: new section 9 for the cleaning outputs.
+- Methodology 1.2 (Zaden delegated the 4 open items): C8 runs per town and per SR1A file; C10 also drops codes starting with lowercase "c" (1 Wyckoff sale in Sales2025); C9 note gives real counts (0 in Sales2026, 1,093 in Sales2025); `c8_sensitivity.csv` named in the text.
+
 ## 2026-10-15 (Prompt 4 follow-up: decisions, name, footer)
 - Zaden delegated the 5 open items. Methodology is now version 1.1: rule C6 finds multi-lot sales with TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped. Section 3.1 now explains YTDSR1A2026 (older copy of Sales2026), the Sales2024 layout problem, MMDDYY update dates, and record_id.
 - Town 0266 shows as "Washington Township" (`towns.csv`, slug `washington-township`).

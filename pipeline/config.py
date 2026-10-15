@@ -79,3 +79,36 @@ TAX_RATES_CSV = PROCESSED_DIR / "tax_rates_bergen.csv"
 AVG_RES_CSV = PROCESSED_DIR / "avg_residential_bergen.csv"
 TOWNS_CSV = PROCESSED_DIR / "towns.csv"
 DATA_PROFILE_MD = DOCS_DIR / "data-profile.md"
+
+# ---------------------------------------------------------------- cleaning (methodology Section 4)
+# Rule order is fixed by methodology Section 4: C8 always runs last.
+CLEAN_RULE_ORDER = ["C1", "C2", "C10", "C3", "C7", "C4", "C5", "C6", "C9", "C8"]
+
+# Files that go into cleaning. YTDSR1A2026 is an older copy of Sales2026 and is
+# not used (Section 3.1); rows marked superseded_by_newer_file are dropped
+# before C1, so the waterfall starts from one row per sale.
+CLEAN_SOURCE_FILES = ["Sales2025", "Sales2026"]
+# Town statistics use only this file (rule T0, Section 3.2).
+TOWN_STATS_SOURCE_FILE = "Sales2026"
+
+CONDO_QUAL_PREFIX = "C"  # C10, Section 4: QUALIFICATION-CODE starting "C" or "c" = condominium unit
+USABLE_CODE = "U"  # C3, Section 4: U-N-TYPE "U" = usable
+MIN_SALE_PRICE = 50_000  # C4, Section 4: sale price at least $50,000
+MIN_ASSESSED_VALUE = 0  # C5, Section 4: assessed value must be ABOVE this
+REVAL_NEW_BASIS_TAX_YEAR = 2026  # C9, Section 4: towns on the county's 2026 list
+REVAL_MIN_ASSESS_YEAR = 26  # C9, Section 4: keep ASSESS-YEAR 26 or later in those towns
+C8_IQR_FENCE = 3.0  # C8, Section 4: remove relative ratios beyond Q1/Q3 -/+ 3.0 x IQR
+C8_SENSITIVITY_FENCE = 1.5  # C8 sensitivity check, Section 4 (never used in main results)
+# C8, Section 4: how Q1 and Q3 are computed (numpy "linear" = standard
+# interpolation between the two nearest sales).
+C8_QUANTILE_METHOD = "linear"
+
+# Minimum sales (rule T6, Section 5.3), used here only to report thin towns.
+MIN_SALES_SHOW = 20  # under 20: "Not enough sales" (also the C9 "Recent revaluation" cutoff)
+MIN_SALES_FULL = 40  # 20 to 39: "Limited data"
+
+SALES_CLEAN_CSV = PROCESSED_DIR / "sales_clean.csv"
+REMOVED_ROWS_PARQUET = INTERIM_DIR / "removed_rows.parquet"
+FILTER_LOG_CSV = PROCESSED_DIR / "filter_log.csv"
+C8_SENSITIVITY_CSV = PROCESSED_DIR / "c8_sensitivity.csv"
+FILTER_LOG_MD = DOCS_DIR / "filter-log.md"

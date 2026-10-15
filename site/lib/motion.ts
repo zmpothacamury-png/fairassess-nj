@@ -69,7 +69,7 @@ export const SCROLL_CUE = {
    * Accessible name. T&T uses "Scroll to see more" (site.js:224), but WCAG 2.5.3
    * (label in name) needs the spoken name to contain the visible words.
    */
-  ariaLabel: "Scroll to explore: go to the next section",
+  ariaLabel: "Scroll to explore and go to the next section",
   /** Next stop must be at least this far below the current scroll. site.js:235 */
   minJumpPx: 40,
   /** Land this many px below the header line. site.js:234 ("- navH + 4") */

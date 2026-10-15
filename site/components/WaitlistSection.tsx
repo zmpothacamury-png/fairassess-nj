@@ -21,7 +21,8 @@ export function WaitlistSection() {
             </h2>
             <p className="mt-4 max-w-[46ch] text-base text-ink-600">
               Enter your email. We&rsquo;ll send one message when the free
-              appeal checker is ready &mdash; no spam before or after that.
+              appeal checker is ready. We won&rsquo;t send spam before or
+              after that.
             </p>
           </div>
 
