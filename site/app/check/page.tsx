@@ -4,7 +4,7 @@ import { ComingSoon } from "@/components/ComingSoon";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "Appeal Checker | FairAssess NJ" };
+export const metadata: Metadata = { title: "Appeal Checker | Fair Assess NJ" };
 
 /** Tool 2. Content comes in Prompt 11. Appeals are mentioned, so the deadline and fee show (CLAUDE.md rule 7). */
 export default function CheckPage() {

@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-15 (Prompt 4 follow-up: decisions, name, footer)
+- Zaden delegated the 5 open items. Methodology is now version 1.1: rule C6 finds multi-lot sales with TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped. Section 3.1 now explains YTDSR1A2026 (older copy of Sales2026), the Sales2024 layout problem, MMDDYY update dates, and record_id.
+- Town 0266 shows as "Washington Township" (`towns.csv`, slug `washington-township`).
+- `docs/validation.md`: V1 now passes as a pipeline test (70 of 70 towns). The 5 towns with the largest raw gaps to the state ratio are logged to recheck after cleaning.
+- Website name is now written "Fair Assess NJ" ("FAIR ASSESS NJ" in the header and footer wordmark), in page titles, the hero, the footer, and the disclaimer as shown on the site. Only the website changes; repo docs, DISCLAIMER.md, and the logo artwork keep "FairAssess NJ" (Zaden).
+- Footer keeps its layout but uses Fair Assess NJ colors instead of T&T's navy and gold: light blue tint background, navy text, full-color logo icon, blue/green heading bars, and the logo's blue/green balance line with the gold pivot dot. New contrast pairs added and tested. Lint, 62 unit tests, 60 browser tests, and the build pass.
+
+## 2026-10-15 (Prompt 4: data intake and profiling)
+- New pipeline code in `pipeline/`: `config.py` (all paths and constants), `parse_sr1a.py`, `parse_ch123.py`, `parse_state_tables.py`, `build_towns.py`, `profile_data.py`. No cleaning rules applied yet.
+- `pipeline/sr1a_layout.csv` built from SR1Afilelayout.pdf (80 fields, positions 1 to 663). Bergen SR1A rows saved to `data/interim/sr1a_bergen.parquet` (names and addresses never kept).
+- New tables in `data/processed/`: `ch123_2027.csv`, `ch123_2026.csv` (70 towns each), `director_ratios_bergen.csv`, `state_cod_bergen.csv`, `tax_rates_bergen.csv` (newest year 2025), `avg_residential_bergen.csv`, `towns.csv` (display names and URL slugs).
+- New `docs/data-profile.md` (generated). Findings: YTDSR1A2026 is an older copy of Sales2026; Sales2024 uses a different layout and is not decoded; Sales2025 uses "00000" as an empty extra-lot placeholder; TOTAL ASSESSMENT covers all lots in a sale. V1 (same sale counts as the state) passes in 70 of 70 towns.
+- `docs/data-dictionary.md` rewritten for every field the pipeline reads or writes.
+- `pipeline/tests/test_parsers.py`: 48 tests (layout, number and date decoding, Chapter 123, state tables, towns, V1).
+- Added pyarrow and scipy. `pipeline/requirements.txt` is now the package list; the root `requirements.txt` points to it. README lists the run order.
+
 ## 2026-10-14 (ready for Prompt 4)
 - Home page now matches methodology 1.0: the study covers Bergen County single-family homes (not every NJ town); the checker asks for your town and assessed value (not your address); the data sources list SR-1A sales and Chapter 123 ratios (MOD-IV is 2.0 work).
 - New reference tables in `data/reference/`: `bergen_revaluation_towns.csv` (60 towns with state district codes, 2026 and 2027) and `nonusable_codes.csv` (all 36 state non-usable codes with plain-English labels and sources).

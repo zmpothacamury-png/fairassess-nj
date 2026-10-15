@@ -19,12 +19,12 @@ import { APPROVED_PAIRS, contrastRatio, parseColorTokens } from "@/lib/contrast"
 
 /** Style guide for reviewing the design system. Hidden from search engines and the nav. */
 export const metadata: Metadata = {
-  title: "Design system | FairAssess NJ",
+  title: "Design system | Fair Assess NJ",
   robots: { index: false, follow: false },
 };
 
 const ROLES: Record<string, string> = {
-  "navy-900": "Headings, footer, dark surfaces",
+  "navy-900": "Headings, page header, dark surfaces",
   "navy-700": "Wordmark, strong labels, button hover",
   "blue-600": "Primary buttons, links, eyebrows, “assessed value” in charts",
   "blue-100": "Blue tint: “possibly under-assessed”, hovers",
@@ -71,7 +71,7 @@ export default function DesignPage() {
         <SectionHeading
           as="h1"
           eyebrow="Internal review page"
-          title="FairAssess NJ design system"
+          title="Fair Assess NJ design system"
           description="Every token, the type scale, and every component. Not linked in the nav and hidden from search engines. Full guide: docs/design-system.md."
         />
 

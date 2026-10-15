@@ -4,7 +4,7 @@ import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
-export const metadata: Metadata = { title: "Town Rankings | FairAssess NJ" };
+export const metadata: Metadata = { title: "Town Rankings | Fair Assess NJ" };
 
 /** Tool 1. Content comes in Prompt 10. */
 export default function TownsPage() {

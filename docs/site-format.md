@@ -109,7 +109,8 @@ Written in Prompt 2B (2026-10-14). FairAssess NJ follows the same site **format*
 ### Footer (reworked 2026-10-14 to be less crowded; Zaden removed "Get Involved")
 - **Band 1:** brand and the disclaimer on the left (5 of 12 columns). Link columns on the right: **Site** (all pages), **Tools** (Town Rankings, Appeal Checker, Download the data → GitHub `data/processed/`), and **Project** (Methodology, Privacy, About, Contact, GitHub). Contact sits with these, not in the header (Zaden's choice).
 - **Band 2:** after a hairline, three short lines: "Data as of" (read from `site/public/data/meta.json`; until the pipeline writes it, it says results are coming soon), the source line, and the "not affiliated" line. Side by side on laptops and desktops; stacked on phones and iPads.
-- **Band 3:** after a hairline, "Built by Zaden Pothacamury, Ramapo High School." and the tagline **"Public Assessment Equity."** in gold, in T&T's tagline spot.
+- **Band 3:** after a hairline, "Built by Zaden Pothacamury, Ramapo High School." and the tagline **"Public Assessment Equity."** in navy with a gold dot, in T&T's tagline spot.
+- **Colors (changed 2026-10-15, Zaden: "less like T&T"):** same layout, Fair Assess NJ colors. Light blue tint background (blue-100, like the logo's background) instead of T&T's dark navy; navy text; the full-color logo icon; column headings in navy with a small blue/green bar; a thick blue/green balance line with the gold pivot dot across the top, and a thin one between bands 1 and 2.
 - **Phones:** link columns sit two across (Site | Tools, then Project). **iPads:** three across.
 - **Get Updates** and **Report a data problem** now live only on the Contact page.
 

@@ -22,6 +22,8 @@ Filter: Bergen (C1), class 2 (C2), usable (C3). No other filters.
 
 **Preliminary result: pass.**
 
+**Pipeline result (2026-10-15): pass, 70 of 70 towns, 4,917 sales.** Now an automatic test: `test_v1_sales2026_counts_match_state_counts` in `pipeline/tests/test_parsers.py`, run on `data/interim/sr1a_bergen.parquet`.
+
 ## V2. Coefficient of deviation
 
 Same sales as V1, no trimming. Compared to the state's class-2 "stratified" coefficient for 2026.
@@ -48,4 +50,4 @@ Our median is almost always lower. That is expected (methodology Section 8, V3).
 
 | Date | Town | Check | What we found | Action |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| 2026-10-15 | Rockleigh, Carlstadt, Elmwood Park, South Hackensack, Rochelle Park | V3 (raw, before cleaning) | In Sales2026, these 5 towns have the biggest gaps between our raw class-2 median and the 2027 state average ratio (about -14 to -30 points; `docs/data-profile.md` Section 4). All 5 are on the 2026 revaluation list. None of their usable class-2 Sales2026 sales carry an old (ASSESS-YEAR 25) assessment, so mixed assessment bases do not explain it. Rockleigh and South Hackensack have only 2 sales each. | Open. Recheck after cleaning (C1 to C10). Then compare with the state's other classes and look at individual sales. Never adjust our numbers to match. |

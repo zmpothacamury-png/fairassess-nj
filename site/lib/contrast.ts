@@ -64,11 +64,16 @@ export const APPROVED_PAIRS: ColorPair[] = [
   { fg: "blue-600", bg: "blue-100", min: AA_TEXT, use: "Possibly under-assessed: icon, label" },
   { fg: "ink-800", bg: "gray-100", min: AA_TEXT, use: "Not enough data: text" },
   { fg: "ink-600", bg: "gray-100", min: AA_TEXT, use: "Not enough data: icon, label" },
-  // Dark surfaces (footer, primary buttons).
+  // Dark surfaces (page header, CTA band, primary buttons).
   { fg: "white", bg: "blue-600", min: AA_TEXT, use: "Primary button" },
   { fg: "white", bg: "navy-700", min: AA_TEXT, use: "Primary button hover" },
-  { fg: "white", bg: "navy-900", min: AA_TEXT, use: "Footer headings" },
-  { fg: "outline-200", bg: "navy-900", min: AA_TEXT, use: "Footer body text" },
+  { fg: "white", bg: "navy-900", min: AA_TEXT, use: "Page header and CTA band headings" },
+  { fg: "outline-200", bg: "navy-900", min: AA_TEXT, use: "Text on navy surfaces" },
+  // Footer (light blue tint, like the logo background).
+  { fg: "ink-800", bg: "blue-100", min: AA_TEXT, use: "Footer body text and links" },
+  { fg: "ink-600", bg: "blue-100", min: AA_TEXT, use: "Footer disclaimer and credit line" },
+  { fg: "navy-700", bg: "blue-100", min: AA_TEXT, use: "Footer wordmark and tagline" },
+  { fg: "blue-600", bg: "blue-100", min: AA_UI, use: "Footer link hover and focus ring" },
   { fg: "gold-400", bg: "navy-900", min: AA_TEXT, use: "Gold accent on dark only" },
   { fg: "navy-900", bg: "gold-400", min: AA_TEXT, use: "Text on a gold fill" },
   // Chart marks against white (graphics need 3:1).

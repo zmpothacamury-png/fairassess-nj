@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.0 (2026-10-14).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.1 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -99,8 +99,8 @@ All files are in `data/raw/` and are never edited.
 |---|---|---|
 | `sr1a/Sales2026.zip` | SR1A sales, all NJ. Deeds **recorded July 1, 2025 to June 30, 2026** (checked in the data). | Town statistics; checker comps; price index |
 | `sr1a/Sales2025.zip` | SR1A sales, the year before. Same July-to-June pattern; the pipeline logs the exact recording-date range. | Checker comps; price index |
-| `sr1a/Sales2024.zip` | SR1A sales, deeds recorded July 2023 to June 2024. | Not used in v1 (kept for 2.0) |
-| `sr1a/YTDSR1A2026.zip` | Another SR1A extract covering the same recording dates as Sales2026, with different row counts. Origin unknown. | Not used; kept as is (Zaden, 2026-10-14) |
+| `sr1a/Sales2024.zip` | SR1A sales, deeds recorded July 2023 to June 2024. Its value fields do **not** follow either layout PDF (checked in `docs/data-profile.md`), so the pipeline counts its rows but does not decode it. | Not used in v1 (kept for 2.0) |
+| `sr1a/YTDSR1A2026.zip` | An **older copy of Sales2026** (file date August 12, 2026; Sales2026 is September 24, 2026). Every Bergen sale in it is also in Sales2026, and the state changed 555 of them from usable to non-usable afterward. | Not used; kept as is (Zaden, 2026-10-14). When a sale is in both, the newer file wins. |
 | `sr1a/SR1Afilelayout.pdf` | Field positions for the 663-character extract. **Our files are 663 characters per line, so this is the layout we use.** | Parsing |
 | `sr1a/SR1A_FileLayout_Description.pdf` | Meaning of each field (dated 7/7/2011). | Field meanings |
 | `state/2027CH123.pdf` | Average ratios, lower and upper limits for tax year 2027 appeals. Promulgated as of October 1, 2026 (signed September 22, 2026). | Checker test; T7; validation |
@@ -120,7 +120,11 @@ All files are in `data/raw/` and are never edited.
 - PROPERTY-CLASS is 3 characters (positions 627 to 629).
 - There is **no CONDO flag** in our layout (positions 650 to 652 are filler). Condos are marked by a QUALIFICATION-CODE starting with "C" (positions 620 to 624).
 - The description says DEED-DATE and DATE-RECORDED are MMDDYY. In our files they read as **YYMMDD** (for example, Sales2026 recording dates run 250701 to 260630). The pipeline must parse YYMMDD and have a test that fails if a date is impossible.
-- In Sales2024 the ETC (extra lots) flag is "X" on every Bergen row, so it cannot be trusted in that file. In Sales2026 it is blank on every Bergen row. Rule C6 therefore also checks the ADDL-BLOCK fields.
+- In Sales2024 the ETC (extra lots) flag is "X" on every Bergen row because that file does not follow the layout. In Sales2025 and Sales2026 it is blank on every Bergen row, so it cannot find multi-lot sales. Rule C6 uses TOTAL ASSESSMENT instead.
+- Positions 5 to 16 (TOTAL ASSESSMENT) equal the main-lot assessment plus every extra lot's assessment, on every Bergen row in Sales2025 and Sales2026.
+- Sales2025 fills empty ADDL-BLOCK fields with "00000" on many rows. These are placeholders, not extra lots.
+- LAST-UPDATE-DATE reads as **MMDDYY**, unlike the deed and recording dates. We do not use it in any rule.
+- Each sale is identified by **record_id** = district code + SERIAL-NUMBER (the description calls the serial number unique). No record_id repeats within a file.
 - VERIFIED-SALES-PRICE equals REPORTED-SALES-PRICE on every usable class-2 Bergen sale in Sales2026. **We use VERIFIED-SALES-PRICE.** If it is ever zero or blank, we use REPORTED-SALES-PRICE and log it.
 - The 2011 description says non-usable codes run 01 to 33. The current rule (May 2025) has 36 categories (Section 4, C3).
 
@@ -177,7 +181,7 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 
 **C5.** "In effect for the sale" means the assessment the state paired with the sale. Each record has ASSESS-YEAR. In Sales2026, sales recorded July to December 2025 carry 2025 assessments, and most sales recorded in 2026 carry 2026 assessments. We keep the state's pairing. We never swap in a different year's assessment.
 
-**C6.** A sale counts as multi-lot if ETC = "X" (except in Sales2024, see Section 3.1) or any ADDL-BLOCK(1) to ADDL-BLOCK(5) is not blank. *Our choice. Reason:* the price covers more than one lot, but the assessed value field covers only the main lot, so the ratio would be too low. (State category 30 already removes multi-parcel sales that are not one economic unit; this catches the rest.) In Sales2026 this affects 21 usable class-2 Bergen sales.
+**C6.** A sale counts as multi-lot if TOTAL ASSESSMENT (positions 5 to 16) is greater than MAIN LOT ASSESSED-VALUE-TOTAL, which means extra lots were sold with it. (Version 1.0 said "any ADDL-BLOCK is not blank"; that would wrongly drop 881 usable class-2 sales in Sales2025, whose empty ADDL-BLOCK fields hold "00000". With "00000" treated as blank, the ADDL-BLOCK test, the ADDL-VALUE-TOTAL test, and this test agree on all 10,212 usable class-2 sales in Sales2025 and Sales2026.) We still drop these sales instead of keeping them with TOTAL ASSESSMENT: they are few, and a homeowner using the checker is asking about one lot, so single-lot sales are the closest match. *Our choice. Reason:* the price covers more than one lot, but the assessed value field covers only the main lot, so the ratio would be too low. (State category 30 already removes multi-parcel sales that are not one economic unit; this catches the rest.) In Sales2026 this affects 21 usable class-2 Bergen sales.
 
 **C9.** For towns on the county's **2026** revaluation/reassessment list, keep only sales with ASSESS-YEAR 26 or later (the new basis). If fewer than 20 sales remain, label the town "Recent revaluation" and hide its statistics. For towns on the **2027** list, the study data is all on the current basis, so their statistics stand; the town page notes that new assessments arrive for 2027. *Our choice. Reason:* mixing old and new assessments would make a town look uneven when it is really just two different bases. State category 27 already does most of this (in Allendale, a 2026 town, all usable sales carry 2026 assessments), so we expect C9 to remove few or no sales. It stays as a safety check.
 
@@ -376,6 +380,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.1 | 2026-10-15 | Prompt 4 data findings. Zaden asked Claude to decide ("whatever most aligns with the prompts, the goal, usefulness, and winning"). C6 now tests TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped, not kept. Section 3.1 updated: YTDSR1A2026 is an older copy of Sales2026; Sales2024 does not follow the layout; LAST-UPDATE-DATE is MMDDYY; record_id defined. |
 | 1.0 | 2026-10-14 | Zaden asked Claude to choose all 19 decision-list items "to best align with the goal, prompt, winning the competition, and being a useful tool." Claude kept every draft default (T0, C4, C6, C8, C9, C10, T4, T5, T6, K2 to K6, V2 0.25, V3 10 points), kept the two document-driven rules (K10 100% trigger; K14 no Chapter 123 result in 2027 revaluation towns), and brought old H3 back as descriptive table T7. Added sources: IAAO Standard on Ratio Studies (2013) and NJ *Guidelines for use of 36 Nonusable Categories* (May 2025), quoted in `data/raw/notes/ratio-study-standards.md`. These confirmed the July 1 to June 30 sampling period, the full non-usable code list, IAAO ranges, and the PRB formula (now ln(V)/0.693 exactly as IAAO writes it). Added notes on state categories 27, 30, and 36; COD judged against 15.0. YTDSR1A2026.zip kept but unused. |
 | 1.0-draft | 2026-10-14 | Full rewrite for Prompt 3: research question and H1; IAAO measures with formulas; Chapter 123 rules from ch123definitions.pdf and 2027CH123.pdf; data sources and periods; cleaning rules C1 to C10; town statistics T0 to T6; checker K1 to K14; limitations; validation V1 to V3. |
 | (pre-draft) | 2026-10-14 | Added the rule for towns with a 2027 revaluation or reassessment. Zaden chose to run the checker with a warning instead of hiding results. (Replaced by K14 in 1.0.) |

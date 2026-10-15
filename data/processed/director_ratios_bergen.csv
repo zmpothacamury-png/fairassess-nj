@@ -1,0 +1,1751 @@
+district_code,district_name,year,director_ratio,source_file
+0201,ALLENDALE BORO,2002,107.41,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2003,96.67,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2004,88.21,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2005,80.51,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2006,71.56,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2007,70.29,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2008,68.92,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2009,71.75,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2010,75.36,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2011,76.37,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2012,92.21,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2013,93.09,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2014,91.31,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2015,98.2,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2016,95.83,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2017,95.36,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2018,95.34,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2019,94.43,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2020,94.44,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2021,93.88,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2022,92.48,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2023,92.09,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2024,88.44,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2025,85.11,data/raw/state/DirRatios.xlsx
+0201,ALLENDALE BORO,2026,89.97,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2002,70.31,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2003,62.48,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2004,61.66,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2005,115.04,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2006,97.65,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2007,89.55,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2008,78.54,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2009,81.76,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2010,78.72,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2011,84.68,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2012,85.32,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2013,83.92,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2014,80.19,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2015,84.95,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2016,80.61,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2017,88.25,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2018,89.31,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2019,102.1,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2020,101.32,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2021,105.85,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2022,106.0,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2023,96.44,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2024,94.96,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2025,96.24,data/raw/state/DirRatios.xlsx
+0202,ALPINE BORO,2026,86.74,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2002,67.37,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2003,59.4,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2004,53.3,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2005,89.49,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2006,78.37,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2007,73.06,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2008,73.66,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2009,88.62,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2010,92.3,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2011,96.57,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2012,99.66,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2013,103.1,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2014,98.34,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2015,97.49,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2016,96.04,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2017,93.66,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2018,87.73,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2019,83.97,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2020,82.01,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2021,77.7,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2022,71.93,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2023,66.61,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2024,59.04,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2025,54.72,data/raw/state/DirRatios.xlsx
+0203,BERGENFIELD BORO,2026,50.26,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2002,91.9,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2003,80.95,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2004,70.79,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2005,63.07,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2006,54.72,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2007,52.25,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2008,49.78,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2009,92.27,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2010,98.05,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2011,103.35,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2012,107.92,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2013,89.78,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2014,91.52,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2015,90.53,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2016,89.02,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2017,87.97,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2018,81.41,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2019,79.19,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2020,69.24,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2021,67.86,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2022,64.05,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2023,59.78,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2024,96.43,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2025,87.03,data/raw/state/DirRatios.xlsx
+0204,BOGOTA BORO,2026,85.74,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2002,68.06,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2003,65.42,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2004,58.53,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2005,54.15,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2006,46.51,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2007,41.42,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2008,37.43,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2009,35.42,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2010,41.26,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2011,43.27,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2012,46.29,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2013,105.67,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2014,98.32,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2015,91.3,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2016,86.42,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2017,68.2,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2018,101.02,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2019,102.86,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2020,97.64,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2021,103.72,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2022,99.5,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2023,91.91,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2024,94.86,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2025,89.09,data/raw/state/DirRatios.xlsx
+0205,CARLSTADT BORO,2026,98.05,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2002,67.02,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2003,59.8,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2004,97.35,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2005,85.33,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2006,73.59,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2007,68.64,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2008,69.07,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2009,70.77,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2010,76.04,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2011,89.45,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2012,92.29,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2013,94.7,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2014,94.83,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2015,92.64,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2016,90.25,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2017,86.15,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2018,85.17,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2019,82.35,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2020,82.42,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2021,78.92,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2022,76.43,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2023,72.11,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2024,68.46,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2025,63.94,data/raw/state/DirRatios.xlsx
+0206,CLIFFSIDE PARK BORO,2026,60.06,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2002,83.54,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2003,75.58,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2004,66.55,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2005,59.87,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2006,106.66,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2007,104.23,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2008,100.73,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2009,92.91,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2010,95.78,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2011,98.4,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2012,101.26,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2013,101.98,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2014,98.65,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2015,97.76,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2016,97.77,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2017,96.87,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2018,97.95,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2019,96.69,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2020,100.75,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2021,95.07,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2022,93.46,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2023,90.25,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2024,89.14,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2025,86.08,data/raw/state/DirRatios.xlsx
+0207,CLOSTER BORO,2026,90.05,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2002,63.2,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2003,55.89,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2004,100.53,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2005,87.6,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2006,77.03,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2007,71.1,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2008,66.6,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2009,71.41,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2010,76.82,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2011,80.67,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2012,87.05,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2013,89.27,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2014,85.77,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2015,83.02,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2016,80.78,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2017,78.48,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2018,90.04,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2019,91.64,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2020,94.66,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2021,90.88,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2022,84.35,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2023,78.98,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2024,75.33,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2025,78.85,data/raw/state/DirRatios.xlsx
+0208,CRESSKILL BORO,2026,85.04,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2002,67.27,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2003,112.86,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2004,101.92,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2005,93.78,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2006,83.0,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2007,82.69,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2008,82.06,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2009,82.69,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2010,87.41,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2011,91.53,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2012,90.32,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2013,88.91,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2014,85.02,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2015,85.21,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2016,83.13,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2017,83.26,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2018,82.2,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2019,81.71,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2020,82.81,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2021,81.22,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2022,76.68,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2023,69.4,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2024,64.32,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2025,101.41,data/raw/state/DirRatios.xlsx
+0209,DEMAREST BORO,2026,96.89,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2002,73.7,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2003,64.28,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2004,57.98,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2005,106.18,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2006,95.16,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2007,91.55,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2008,88.2,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2009,92.44,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2010,98.13,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2011,102.57,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2012,88.05,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2013,91.03,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2014,92.84,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2015,89.47,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2016,85.73,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2017,84.33,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2018,81.7,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2019,78.75,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2020,75.59,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2021,72.77,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2022,66.05,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2023,62.78,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2024,56.25,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2025,95.31,data/raw/state/DirRatios.xlsx
+0210,DUMONT BORO,2026,95.24,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2002,75.67,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2003,67.24,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2004,59.47,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2005,90.26,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2006,83.77,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2007,80.0,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2008,79.97,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2009,83.13,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2010,87.46,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2011,90.05,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2012,95.57,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2013,100.5,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2014,98.53,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2015,98.68,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2016,98.59,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2017,90.42,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2018,90.23,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2019,89.43,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2020,86.54,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2021,85.48,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2022,78.15,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2023,74.51,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2024,67.54,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2025,61.16,data/raw/state/DirRatios.xlsx
+0211,ELMWOOD PARK BORO,2026,108.46,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2002,81.24,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2003,68.02,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2004,65.53,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2005,58.14,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2006,56.11,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2007,54.83,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2008,47.24,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2009,46.98,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2010,102.08,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2011,101.12,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2012,101.39,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2013,102.36,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2014,85.86,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2015,93.57,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2016,89.72,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2017,90.54,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2018,90.78,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2019,92.66,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2020,87.03,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2021,86.94,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2022,97.63,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2023,93.41,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2024,93.6,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2025,102.14,data/raw/state/DirRatios.xlsx
+0212,E RUTHERFORD BORO,2026,94.28,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2002,66.63,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2003,64.1,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2004,56.17,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2005,55.45,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2006,42.38,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2007,40.54,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2008,107.83,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2009,106.64,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2010,104.47,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2011,87.25,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2012,87.0,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2013,90.51,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2014,89.46,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2015,85.86,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2016,81.96,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2017,78.77,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2018,72.55,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2019,74.08,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2020,82.33,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2021,80.94,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2022,101.06,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2023,92.58,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2024,90.22,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2025,89.49,data/raw/state/DirRatios.xlsx
+0213,EDGEWATER BORO,2026,91.93,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2002,78.03,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2003,69.82,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2004,62.71,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2005,55.99,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2006,50.15,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2007,101.48,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2008,99.15,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2009,101.95,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2010,103.1,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2011,91.13,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2012,94.52,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2013,96.09,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2014,97.48,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2015,95.67,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2016,95.05,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2017,93.15,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2018,91.73,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2019,90.45,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2020,89.4,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2021,83.24,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2022,80.13,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2023,75.37,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2024,70.99,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2025,66.48,data/raw/state/DirRatios.xlsx
+0214,EMERSON BORO,2026,63.38,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2002,67.47,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2003,60.34,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2004,54.25,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2005,48.68,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2006,44.75,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2007,98.05,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2008,95.63,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2009,95.27,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2010,97.71,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2011,87.28,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2012,89.21,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2013,92.11,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2014,92.58,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2015,92.28,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2016,91.08,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2017,89.01,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2018,88.06,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2019,86.79,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2020,86.45,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2021,81.69,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2022,76.38,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2023,71.63,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2024,67.85,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2025,65.73,data/raw/state/DirRatios.xlsx
+0215,ENGLEWOOD CITY,2026,58.12,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2002,102.21,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2003,99.26,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2004,89.91,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2005,79.01,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2006,65.89,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2007,63.07,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2008,102.1,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2009,99.94,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2010,102.89,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2011,107.66,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2012,105.86,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2013,108.2,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2014,105.47,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2015,104.56,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2016,103.29,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2017,97.31,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2018,94.75,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2019,90.08,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2020,97.94,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2021,101.6,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2022,90.74,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2023,88.75,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2024,85.99,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2025,80.7,data/raw/state/DirRatios.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2026,77.83,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2002,71.1,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2003,63.21,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2004,57.16,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2005,50.67,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2006,46.03,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2007,95.16,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2008,95.08,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2009,98.97,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2010,100.09,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2011,104.53,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2012,91.7,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2013,94.1,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2014,92.6,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2015,90.67,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2016,88.46,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2017,84.01,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2018,82.67,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2019,81.12,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2020,78.91,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2021,75.95,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2022,69.9,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2023,63.96,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2024,60.42,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2025,56.53,data/raw/state/DirRatios.xlsx
+0217,FAIRLAWN BORO,2026,53.46,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2002,84.93,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2003,73.12,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2004,63.78,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2005,56.2,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2006,49.42,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2007,47.64,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2008,39.64,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2009,43.12,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2010,47.28,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2011,91.5,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2012,92.16,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2013,95.56,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2014,93.96,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2015,88.25,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2016,78.78,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2017,77.02,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2018,75.66,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2019,74.64,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2020,96.05,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2021,92.24,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2022,89.56,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2023,81.88,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2024,81.58,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2025,79.37,data/raw/state/DirRatios.xlsx
+0218,FAIRVIEW BORO,2026,81.45,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2002,79.74,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2003,68.48,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2004,107.7,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2005,102.2,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2006,99.27,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2007,94.62,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2008,92.71,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2009,92.83,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2010,95.32,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2011,97.65,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2012,94.76,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2013,94.82,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2014,91.69,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2015,92.12,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2016,97.09,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2017,97.24,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2018,91.09,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2019,90.2,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2020,90.71,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2021,86.36,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2022,91.62,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2023,73.16,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2024,68.83,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2025,67.17,data/raw/state/DirRatios.xlsx
+0219,FORT LEE BORO,2026,60.88,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2002,71.63,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2003,65.22,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2004,59.76,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2005,54.75,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2006,49.88,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2007,105.28,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2008,101.7,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2009,105.29,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2010,107.88,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2011,91.56,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2012,94.25,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2013,96.45,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2014,94.68,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2015,92.01,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2016,93.86,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2017,94.18,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2018,95.15,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2019,97.77,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2020,99.09,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2021,94.97,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2022,91.43,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2023,81.88,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2024,73.65,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2025,72.72,data/raw/state/DirRatios.xlsx
+0220,FRANKLIN LAKES BORO,2026,66.17,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2002,80.93,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2003,69.71,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2004,62.2,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2005,53.35,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2006,46.67,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2007,42.54,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2008,42.85,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2009,45.46,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2010,50.13,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2011,95.56,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2012,98.83,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2013,98.41,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2014,98.56,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2015,96.94,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2016,93.39,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2017,88.76,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2018,84.46,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2019,80.16,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2020,77.33,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2021,74.19,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2022,65.96,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2023,61.15,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2024,56.68,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2025,50.76,data/raw/state/DirRatios.xlsx
+0221,GARFIELD CITY,2026,47.06,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2002,67.12,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2003,100.4,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2004,90.76,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2005,82.24,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2006,74.78,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2007,88.57,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2008,86.28,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2009,88.65,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2010,91.92,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2011,92.58,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2012,93.28,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2013,94.79,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2014,93.81,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2015,92.08,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2016,92.57,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2017,91.85,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2018,89.61,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2019,88.43,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2020,86.94,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2021,87.55,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2022,83.11,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2023,77.34,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2024,71.58,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2025,62.75,data/raw/state/DirRatios.xlsx
+0222,GLEN ROCK BORO,2026,57.45,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2002,69.57,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2003,60.82,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2004,51.29,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2005,45.7,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2006,39.18,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2007,105.79,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2008,94.2,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2009,99.16,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2010,101.39,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2011,87.65,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2012,89.1,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2013,93.86,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2014,89.22,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2015,82.07,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2016,92.41,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2017,92.66,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2018,91.98,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2019,93.16,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2020,94.94,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2021,89.8,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2022,96.04,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2023,90.06,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2024,80.69,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2025,74.58,data/raw/state/DirRatios.xlsx
+0223,HACKENSACK CITY,2026,69.95,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2002,76.08,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2003,66.7,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2004,62.1,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2005,54.03,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2006,101.58,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2007,96.78,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2008,93.7,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2009,97.89,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2010,104.27,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2011,108.23,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2012,112.09,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2013,95.34,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2014,93.55,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2015,91.73,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2016,90.02,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2017,90.22,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2018,90.18,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2019,88.49,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2020,87.67,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2021,85.1,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2022,79.23,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2023,73.92,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2024,69.92,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2025,66.17,data/raw/state/DirRatios.xlsx
+0224,HARRINGTON PARK BORO,2026,61.22,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2002,78.81,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2003,68.63,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2004,60.64,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2005,54.14,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2006,104.81,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2007,98.16,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2008,96.26,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2009,97.35,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2010,101.76,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2011,105.8,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2012,90.57,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2013,92.65,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2014,88.15,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2015,87.48,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2016,84.65,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2017,90.94,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2018,94.51,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2019,92.48,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2020,93.66,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2021,90.68,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2022,89.01,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2023,94.9,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2024,88.74,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2025,78.43,data/raw/state/DirRatios.xlsx
+0225,HASBROUCK HGHTS BORO,2026,93.16,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2002,69.87,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2003,63.94,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2004,99.81,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2005,88.31,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2006,81.0,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2007,77.6,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2008,77.3,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2009,75.58,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2010,76.14,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2011,76.85,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2012,80.55,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2013,85.67,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2014,83.59,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2015,84.49,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2016,86.66,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2017,85.79,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2018,86.3,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2019,86.15,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2020,85.98,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2021,82.78,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2022,79.26,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2023,74.13,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2024,67.8,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2025,62.09,data/raw/state/DirRatios.xlsx
+0226,HAWORTH BORO,2026,55.6,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2002,67.89,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2003,61.3,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2004,55.21,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2005,48.6,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2006,43.86,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2007,99.16,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2008,95.79,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2009,96.72,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2010,100.94,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2011,103.58,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2012,106.12,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2013,92.63,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2014,94.39,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2015,93.52,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2016,92.54,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2017,93.09,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2018,90.08,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2019,90.72,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2020,90.16,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2021,86.66,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2022,81.17,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2023,75.95,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2024,69.26,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2025,63.86,data/raw/state/DirRatios.xlsx
+0227,HILLSDALE BORO,2026,60.2,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2002,73.44,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2003,67.21,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2004,62.07,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2005,57.15,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2006,101.4,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2007,99.35,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2008,98.89,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2009,97.87,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2010,103.32,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2011,90.98,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2012,92.28,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2013,93.29,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2014,91.52,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2015,88.38,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2016,87.65,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2017,88.14,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2018,88.71,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2019,89.54,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2020,88.82,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2021,83.5,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2022,80.16,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2023,74.44,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2024,68.31,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2025,62.09,data/raw/state/DirRatios.xlsx
+0228,HOHOKUS BORO,2026,94.22,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2002,79.37,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2003,71.41,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2004,61.88,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2005,54.1,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2006,47.79,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2007,46.76,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2008,44.32,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2009,92.35,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2010,94.13,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2011,97.21,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2012,104.06,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2013,103.67,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2014,94.73,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2015,90.45,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2016,89.04,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2017,87.42,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2018,85.95,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2019,82.6,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2020,79.91,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2021,75.16,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2022,71.17,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2023,63.36,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2024,61.02,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2025,56.47,data/raw/state/DirRatios.xlsx
+0229,LEONIA BORO,2026,100.16,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2002,76.54,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2003,64.55,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2004,58.69,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2005,113.5,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2006,101.35,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2007,92.9,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2008,91.96,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2009,97.13,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2010,91.31,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2011,101.54,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2012,90.87,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2013,98.53,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2014,108.5,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2015,94.14,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2016,96.79,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2017,99.82,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2018,93.39,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2019,90.3,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2020,87.07,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2021,83.67,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2022,81.78,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2023,84.77,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2024,86.84,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2025,82.17,data/raw/state/DirRatios.xlsx
+0230,LITTLE FERRY BORO,2026,88.07,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2002,69.67,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2003,61.42,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2004,108.9,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2005,94.05,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2006,83.79,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2007,80.78,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2008,78.78,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2009,82.53,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2010,88.93,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2011,94.92,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2012,93.22,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2013,98.39,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2014,93.88,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2015,91.16,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2016,93.7,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2017,84.77,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2018,79.12,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2019,74.44,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2020,74.16,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2021,71.99,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2022,68.66,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2023,60.51,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2024,56.96,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2025,51.93,data/raw/state/DirRatios.xlsx
+0231,LODI BORO,2026,48.0,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2002,78.42,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2003,69.8,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2004,62.69,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2005,55.25,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2006,112.3,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2007,103.11,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2008,103.27,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2009,100.82,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2010,103.73,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2011,108.8,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2012,94.59,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2013,97.14,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2014,101.55,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2015,96.47,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2016,85.1,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2017,80.22,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2018,82.42,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2019,86.32,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2020,83.99,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2021,79.79,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2022,65.66,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2023,98.72,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2024,88.16,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2025,87.01,data/raw/state/DirRatios.xlsx
+0232,LYNDHURST TWP,2026,85.26,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2002,95.18,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2003,86.59,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2004,79.36,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2005,70.42,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2006,64.07,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2007,61.04,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2008,58.54,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2009,60.91,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2010,61.33,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2011,89.11,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2012,91.67,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2013,96.17,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2014,94.67,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2015,96.5,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2016,94.66,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2017,93.95,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2018,94.6,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2019,91.07,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2020,89.9,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2021,88.9,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2022,78.27,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2023,75.07,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2024,73.76,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2025,66.77,data/raw/state/DirRatios.xlsx
+0233,MAHWAH TWP,2026,63.77,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2002,73.7,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2003,66.01,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2004,59.24,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2005,52.51,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2006,45.69,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2007,43.98,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2008,101.54,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2009,104.52,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2010,101.57,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2011,105.93,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2012,89.47,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2013,92.58,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2014,90.49,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2015,89.72,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2016,86.39,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2017,84.73,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2018,80.38,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2019,77.3,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2020,79.01,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2021,92.95,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2022,88.02,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2023,95.45,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2024,90.3,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2025,86.57,data/raw/state/DirRatios.xlsx
+0234,MAYWOOD BORO,2026,82.46,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2002,99.34,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2003,90.66,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2004,83.42,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2005,74.28,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2006,64.06,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2007,65.45,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2008,65.61,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2009,66.41,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2010,65.87,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2011,68.77,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2012,89.68,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2013,93.88,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2014,92.17,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2015,89.78,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2016,86.7,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2017,86.21,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2018,85.58,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2019,83.77,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2020,83.38,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2021,80.35,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2022,76.59,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2023,71.39,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2024,64.78,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2025,60.74,data/raw/state/DirRatios.xlsx
+0235,MIDLAND PARK BORO,2026,55.82,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2002,71.77,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2003,69.36,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2004,63.27,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2005,57.05,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2006,110.29,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2007,108.35,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2008,104.18,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2009,106.27,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2010,103.69,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2011,104.55,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2012,102.41,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2013,88.72,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2014,91.22,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2015,94.01,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2016,89.01,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2017,89.03,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2018,90.34,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2019,85.93,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2020,87.58,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2021,84.61,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2022,82.78,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2023,81.21,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2024,78.13,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2025,72.47,data/raw/state/DirRatios.xlsx
+0236,MONTVALE BORO,2026,63.82,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2002,69.17,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2003,71.07,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2004,61.73,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2005,109.71,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2006,102.21,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2007,96.74,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2008,95.39,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2009,98.62,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2010,108.78,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2011,93.75,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2012,113.11,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2013,90.29,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2014,91.64,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2015,83.0,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2016,85.54,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2017,90.92,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2018,97.12,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2019,89.18,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2020,85.56,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2021,86.2,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2022,90.35,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2023,84.77,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2024,94.77,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2025,96.87,data/raw/state/DirRatios.xlsx
+0237,MOONACHIE BORO,2026,99.79,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2002,77.02,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2003,68.76,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2004,62.36,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2005,105.69,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2006,94.9,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2007,91.85,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2008,91.14,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2009,96.21,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2010,99.37,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2011,101.25,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2012,107.3,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2013,90.58,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2014,88.34,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2015,86.16,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2016,86.48,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2017,86.11,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2018,82.87,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2019,80.08,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2020,77.09,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2021,74.98,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2022,64.7,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2023,61.6,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2024,55.43,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2025,97.49,data/raw/state/DirRatios.xlsx
+0238,NEW MILFORD BORO,2026,91.16,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2002,79.85,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2003,71.1,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2004,61.0,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2005,52.18,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2006,47.41,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2007,44.97,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2008,45.43,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2009,46.6,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2010,50.37,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2011,95.09,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2012,100.71,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2013,101.47,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2014,100.17,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2015,95.75,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2016,94.65,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2017,98.05,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2018,94.59,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2019,94.74,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2020,93.33,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2021,86.08,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2022,84.7,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2023,86.07,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2024,90.9,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2025,87.43,data/raw/state/DirRatios.xlsx
+0239,NORTH ARLINGTON BORO,2026,86.42,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2002,79.58,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2003,67.84,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2004,59.95,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2005,55.37,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2006,50.71,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2007,98.55,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2008,94.48,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2009,98.61,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2010,99.84,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2011,88.35,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2012,92.6,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2013,93.22,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2014,94.47,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2015,91.08,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2016,92.15,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2017,88.15,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2018,86.72,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2019,86.12,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2020,88.28,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2021,83.88,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2022,80.77,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2023,77.7,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2024,68.5,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2025,60.79,data/raw/state/DirRatios.xlsx
+0240,NORTHVALE BORO,2026,103.95,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2002,77.86,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2003,71.97,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2004,65.88,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2005,58.33,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2006,49.11,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2007,49.23,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2008,93.98,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2009,98.72,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2010,107.51,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2011,89.14,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2012,92.87,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2013,96.47,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2014,95.36,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2015,92.02,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2016,91.35,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2017,93.14,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2018,92.84,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2019,92.88,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2020,91.97,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2021,91.07,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2022,85.93,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2023,81.78,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2024,71.15,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2025,64.79,data/raw/state/DirRatios.xlsx
+0241,NORWOOD BORO,2026,100.89,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2002,69.58,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2003,62.83,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2004,56.8,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2005,105.95,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2006,97.29,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2007,95.23,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2008,91.83,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2009,95.46,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2010,99.35,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2011,88.64,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2012,90.78,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2013,93.57,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2014,92.98,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2015,92.03,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2016,90.4,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2017,87.46,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2018,87.66,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2019,82.81,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2020,82.99,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2021,78.69,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2022,87.07,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2023,91.17,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2024,91.78,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2025,88.79,data/raw/state/DirRatios.xlsx
+0242,OAKLAND BORO,2026,92.89,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2002,102.56,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2003,93.85,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2004,85.45,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2005,76.23,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2006,67.69,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2007,66.55,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2008,65.8,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2009,68.27,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2010,70.87,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2011,97.45,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2012,97.25,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2013,100.82,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2014,99.64,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2015,100.69,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2016,98.28,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2017,98.5,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2018,99.27,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2019,99.19,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2020,99.09,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2021,96.81,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2022,89.0,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2023,82.74,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2024,76.15,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2025,70.23,data/raw/state/DirRatios.xlsx
+0243,OLD TAPPAN BORO,2026,102.14,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2002,66.35,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2003,61.63,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2004,55.79,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2005,49.38,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2006,45.93,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2007,45.92,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2008,46.45,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2009,89.91,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2010,92.34,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2011,93.85,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2012,96.08,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2013,88.96,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2014,88.16,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2015,84.48,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2016,83.93,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2017,89.43,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2018,88.36,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2019,93.48,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2020,93.95,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2021,90.55,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2022,89.04,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2023,87.34,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2024,77.96,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2025,89.2,data/raw/state/DirRatios.xlsx
+0244,ORADELL BORO,2026,84.28,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2002,68.85,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2003,62.26,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2004,57.0,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2005,50.18,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2006,46.75,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2007,42.96,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2008,95.21,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2009,93.37,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2010,91.44,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2011,95.47,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2012,86.33,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2013,93.98,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2014,94.08,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2015,90.0,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2016,83.54,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2017,80.11,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2018,79.78,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2019,76.49,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2020,98.19,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2021,85.71,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2022,87.25,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2023,89.01,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2024,87.64,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2025,87.69,data/raw/state/DirRatios.xlsx
+0245,PALISADES PARK BORO,2026,90.86,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2002,65.16,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2003,55.18,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2004,94.96,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2005,83.28,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2006,77.6,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2007,74.83,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2008,87.21,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2009,86.81,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2010,92.9,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2011,94.35,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2012,92.14,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2013,91.27,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2014,92.12,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2015,91.69,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2016,82.97,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2017,77.0,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2018,81.0,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2019,77.13,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2020,102.41,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2021,92.06,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2022,85.92,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2023,93.29,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2024,89.46,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2025,93.3,data/raw/state/DirRatios.xlsx
+0246,PARAMUS BORO,2026,98.22,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2002,73.86,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2003,68.53,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2004,107.0,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2005,95.25,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2006,85.5,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2007,85.64,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2008,86.89,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2009,88.58,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2010,91.44,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2011,89.59,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2012,92.05,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2013,92.76,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2014,90.74,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2015,85.99,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2016,86.07,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2017,88.29,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2018,86.44,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2019,85.45,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2020,85.8,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2021,82.96,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2022,74.4,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2023,70.32,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2024,66.56,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2025,64.17,data/raw/state/DirRatios.xlsx
+0247,PARK RIDGE BORO,2026,58.83,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2002,64.77,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2003,107.28,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2004,95.16,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2005,84.78,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2006,76.99,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2007,72.43,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2008,73.95,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2009,74.27,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2010,77.0,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2011,80.84,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2012,84.1,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2013,83.77,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2014,85.99,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2015,84.06,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2016,98.7,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2017,95.24,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2018,98.27,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2019,94.48,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2020,94.75,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2021,93.3,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2022,85.58,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2023,80.11,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2024,71.73,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2025,97.25,data/raw/state/DirRatios.xlsx
+0248,RAMSEY BORO,2026,91.9,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2002,69.09,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2003,57.34,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2004,51.9,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2005,108.53,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2006,98.39,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2007,89.67,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2008,84.62,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2009,87.49,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2010,100.32,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2011,101.98,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2012,86.66,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2013,86.11,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2014,88.89,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2015,90.51,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2016,84.31,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2017,80.43,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2018,80.66,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2019,79.28,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2020,75.37,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2021,68.86,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2022,107.43,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2023,95.48,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2024,100.16,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2025,99.07,data/raw/state/DirRatios.xlsx
+0249,RIDGEFIELD BORO,2026,93.47,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2002,95.37,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2003,82.21,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2004,70.5,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2005,61.91,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2006,56.66,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2007,53.12,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2008,100.72,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2009,106.94,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2010,108.19,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2011,90.42,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2012,89.61,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2013,87.37,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2014,94.51,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2015,97.82,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2016,91.08,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2017,87.19,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2018,75.28,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2019,76.15,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2020,88.81,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2021,87.07,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2022,85.23,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2023,86.79,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2024,85.19,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2025,79.53,data/raw/state/DirRatios.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2026,74.47,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2002,91.0,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2003,82.15,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2004,75.34,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2005,67.73,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2006,60.79,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2007,58.71,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2008,98.52,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2009,99.9,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2010,103.06,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2011,104.43,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2012,106.71,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2013,95.38,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2014,92.54,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2015,90.32,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2016,89.74,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2017,87.48,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2018,85.63,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2019,86.48,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2020,85.97,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2021,84.43,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2022,75.75,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2023,70.66,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2024,67.39,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2025,60.52,data/raw/state/DirRatios.xlsx
+0251,RIDGEWOOD VILLAGE,2026,56.09,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2002,73.76,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2003,65.52,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2004,58.24,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2005,99.95,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2006,90.22,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2007,85.71,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2008,84.84,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2009,88.88,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2010,88.73,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2011,91.72,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2012,87.02,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2013,85.48,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2014,87.41,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2015,86.17,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2016,85.38,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2017,82.27,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2018,79.16,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2019,75.99,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2020,75.54,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2021,74.88,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2022,70.14,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2023,64.62,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2024,60.74,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2025,92.9,data/raw/state/DirRatios.xlsx
+0252,RIVEREDGE BORO,2026,92.94,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2002,70.12,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2003,63.97,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2004,57.62,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2005,51.63,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2006,46.8,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2007,44.75,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2008,94.51,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2009,97.12,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2010,100.52,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2011,101.98,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2012,104.73,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2013,106.46,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2014,105.83,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2015,103.17,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2016,101.29,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2017,100.44,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2018,100.58,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2019,98.06,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2020,100.15,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2021,96.64,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2022,91.03,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2023,85.84,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2024,79.89,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2025,72.96,data/raw/state/DirRatios.xlsx
+0253,RIVERVALE TWP,2026,67.04,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2002,98.52,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2003,91.42,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2004,87.63,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2005,77.99,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2006,67.92,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2007,61.37,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2008,59.93,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2009,63.38,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2010,94.11,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2011,102.86,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2012,108.98,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2013,97.13,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2014,100.96,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2015,100.83,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2016,101.19,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2017,99.88,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2018,94.38,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2019,90.89,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2020,93.19,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2021,86.15,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2022,84.1,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2023,78.52,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2024,68.64,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2025,63.89,data/raw/state/DirRatios.xlsx
+0254,ROCHELLE PARK TWP,2026,99.22,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2002,64.76,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2003,71.06,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2004,62.49,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2005,58.68,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2006,137.23,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2007,125.59,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2008,117.03,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2009,124.77,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2010,76.32,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2011,93.32,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2012,88.97,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2013,98.64,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2014,104.53,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2015,108.98,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2016,123.96,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2017,96.19,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2018,89.08,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2019,101.0,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2020,117.75,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2021,113.7,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2022,94.21,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2023,98.79,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2024,106.01,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2025,111.94,data/raw/state/DirRatios.xlsx
+0255,ROCKLEIGH BORO,2026,119.5,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2002,74.46,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2003,64.95,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2004,58.25,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2005,50.7,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2006,102.15,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2007,96.01,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2008,93.38,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2009,92.72,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2010,99.35,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2011,103.59,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2012,107.88,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2013,107.41,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2014,105.44,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2015,98.26,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2016,94.35,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2017,90.76,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2018,91.54,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2019,87.99,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2020,86.12,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2021,85.26,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2022,77.49,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2023,74.12,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2024,72.4,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2025,66.39,data/raw/state/DirRatios.xlsx
+0256,RUTHERFORD BORO,2026,64.31,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2002,78.99,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2003,71.72,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2004,66.93,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2005,55.69,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2006,51.11,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2007,48.48,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2008,48.8,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2009,95.82,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2010,92.0,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2011,94.88,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2012,98.75,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2013,86.72,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2014,87.19,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2015,79.9,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2016,82.32,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2017,90.17,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2018,93.36,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2019,90.96,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2020,87.72,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2021,81.93,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2022,88.17,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2023,91.7,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2024,82.62,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2025,81.45,data/raw/state/DirRatios.xlsx
+0257,SADDLE BROOK TWP,2026,78.49,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2002,113.41,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2003,103.66,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2004,97.67,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2005,91.74,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2006,87.3,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2007,83.12,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2008,79.91,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2009,79.81,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2010,83.61,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2011,88.55,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2012,91.04,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2013,92.3,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2014,90.37,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2015,89.13,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2016,91.25,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2017,93.22,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2018,104.57,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2019,102.03,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2020,103.56,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2021,104.23,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2022,102.02,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2023,101.49,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2024,96.56,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2025,87.56,data/raw/state/DirRatios.xlsx
+0258,SADDLE RIVER BORO,2026,80.0,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2002,77.01,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2003,85.08,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2004,84.48,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2005,76.71,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2006,67.71,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2007,57.21,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2008,52.11,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2009,53.19,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2010,92.86,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2011,95.18,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2012,91.22,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2013,97.36,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2014,90.82,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2015,95.57,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2016,84.09,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2017,87.64,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2018,94.27,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2019,106.39,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2020,89.42,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2021,101.0,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2022,104.24,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2023,88.32,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2024,97.72,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2025,98.39,data/raw/state/DirRatios.xlsx
+0259,SO HACKENSACK TWP,2026,82.52,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2002,72.48,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2003,64.71,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2004,58.15,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2005,52.37,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2006,46.62,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2007,99.0,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2008,95.85,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2009,99.75,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2010,104.35,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2011,104.34,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2012,108.79,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2013,113.81,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2014,112.99,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2015,95.0,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2016,91.6,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2017,90.27,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2018,86.37,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2019,82.34,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2020,81.46,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2021,79.96,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2022,73.05,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2023,66.73,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2024,97.14,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2025,89.85,data/raw/state/DirRatios.xlsx
+0260,TEANECK TWP,2026,87.43,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2002,68.87,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2003,102.63,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2004,93.25,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2005,83.24,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2006,73.27,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2007,71.65,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2008,69.97,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2009,71.9,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2010,74.16,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2011,93.99,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2012,94.03,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2013,92.07,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2014,91.41,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2015,88.39,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2016,86.87,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2017,87.46,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2018,87.19,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2019,84.57,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2020,86.11,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2021,84.6,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2022,80.39,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2023,75.95,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2024,70.27,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2025,64.25,data/raw/state/DirRatios.xlsx
+0261,TENAFLY BORO,2026,58.89,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2002,101.54,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2003,104.39,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2004,113.11,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2005,93.29,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2006,80.53,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2007,69.64,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2008,87.65,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2009,81.35,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2010,89.71,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2011,91.72,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2012,97.17,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2013,97.86,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2014,103.55,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2015,107.06,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2016,105.47,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2017,102.5,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2018,103.34,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2019,107.92,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2020,106.32,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2021,105.7,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2022,73.27,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2023,74.72,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2024,91.85,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2025,94.39,data/raw/state/DirRatios.xlsx
+0262,TETERBORO BORO,2026,48.54,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2002,99.69,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2003,93.31,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2004,85.86,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2005,79.19,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2006,71.35,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2007,69.08,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2008,68.6,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2009,71.28,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2010,74.36,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2011,75.35,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2012,77.96,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2013,79.17,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2014,80.45,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2015,80.54,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2016,79.67,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2017,80.23,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2018,82.14,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2019,82.52,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2020,83.11,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2021,81.3,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2022,76.02,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2023,70.36,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2024,67.68,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2025,59.81,data/raw/state/DirRatios.xlsx
+0263,UPPER SADDLE RIV BORO,2026,55.03,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2002,67.28,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2003,60.56,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2004,54.01,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2005,103.07,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2006,93.01,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2007,91.27,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2008,88.01,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2009,93.04,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2010,96.09,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2011,99.6,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2012,103.94,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2013,103.92,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2014,101.64,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2015,102.22,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2016,100.03,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2017,98.12,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2018,96.13,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2019,94.54,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2020,93.08,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2021,88.83,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2022,83.95,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2023,77.89,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2024,94.62,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2025,87.6,data/raw/state/DirRatios.xlsx
+0264,WALDWICK BORO,2026,81.09,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2002,82.17,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2003,72.14,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2004,63.06,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2005,55.35,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2006,48.44,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2007,44.24,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2008,98.33,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2009,103.15,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2010,108.67,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2011,106.73,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2012,109.84,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2013,111.99,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2014,98.51,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2015,98.02,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2016,96.01,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2017,90.41,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2018,87.42,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2019,83.2,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2020,79.26,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2021,73.25,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2022,69.08,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2023,64.26,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2024,58.7,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2025,96.76,data/raw/state/DirRatios.xlsx
+0265,WALLINGTON BORO,2026,88.87,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2002,68.12,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2003,61.41,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2004,55.85,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2005,49.74,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2006,98.55,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2007,95.77,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2008,96.38,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2009,98.96,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2010,104.73,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2011,104.9,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2012,108.13,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2013,109.47,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2014,94.95,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2015,92.92,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2016,92.83,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2017,90.31,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2018,90.15,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2019,88.79,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2020,87.61,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2021,82.82,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2022,77.94,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2023,73.33,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2024,68.01,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2025,63.37,data/raw/state/DirRatios.xlsx
+0266,WASHINGTON TWP,2026,96.81,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2002,68.47,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2003,60.1,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2004,100.22,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2005,93.12,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2006,87.06,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2007,83.39,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2008,81.58,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2009,83.81,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2010,83.24,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2011,81.38,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2012,87.81,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2013,89.48,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2014,92.55,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2015,89.6,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2016,90.91,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2017,93.49,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2018,89.88,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2019,94.1,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2020,94.32,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2021,91.43,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2022,94.49,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2023,95.57,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2024,91.19,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2025,85.75,data/raw/state/DirRatios.xlsx
+0267,WESTWOOD BORO,2026,90.9,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2002,71.01,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2003,103.97,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2004,94.83,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2005,87.18,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2006,73.96,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2007,73.7,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2008,75.23,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2009,73.14,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2010,78.17,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2011,81.89,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2012,91.66,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2013,92.84,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2014,88.79,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2015,93.77,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2016,99.24,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2017,99.39,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2018,103.29,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2019,101.48,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2020,96.25,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2021,94.31,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2022,86.71,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2023,87.83,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2024,86.07,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2025,86.39,data/raw/state/DirRatios.xlsx
+0268,WOODCLIFF LAKE BORO,2026,86.28,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2002,100.08,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2003,88.08,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2004,77.98,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2005,71.02,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2006,63.91,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2007,58.96,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2008,58.25,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2009,60.57,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2010,63.84,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2011,64.32,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2012,67.23,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2013,67.56,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2014,68.79,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2015,69.71,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2016,69.4,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2017,97.42,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2018,88.28,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2019,87.69,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2020,84.91,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2021,85.48,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2022,79.02,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2023,74.19,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2024,69.1,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2025,63.02,data/raw/state/DirRatios.xlsx
+0269,WOOD RIDGE BORO,2026,100.99,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2002,71.9,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2003,63.93,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2004,58.93,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2005,54.05,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2006,104.59,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2007,100.65,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2008,99.53,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2009,100.55,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2010,103.53,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2011,107.26,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2012,111.84,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2013,112.17,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2014,109.98,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2015,102.8,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2016,101.1,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2017,101.22,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2018,100.49,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2019,99.84,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2020,99.4,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2021,98.98,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2022,93.77,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2023,90.19,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2024,84.39,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2025,75.21,data/raw/state/DirRatios.xlsx
+0270,WYCKOFF TWP,2026,70.06,data/raw/state/DirRatios.xlsx

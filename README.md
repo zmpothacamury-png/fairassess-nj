@@ -24,7 +24,15 @@ Live site: coming soon
 Set up Python (Windows PowerShell, Python 3.11 or newer):
 
     py -m venv .venv
-    .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+    .\.venv\Scripts\python.exe -m pip install -r pipeline\requirements.txt
+
+Build the data tables (needs the raw files in data\raw\; run in this order):
+
+    .\.venv\Scripts\python.exe -m pipeline.parse_sr1a
+    .\.venv\Scripts\python.exe -m pipeline.parse_ch123
+    .\.venv\Scripts\python.exe -m pipeline.parse_state_tables
+    .\.venv\Scripts\python.exe -m pipeline.build_towns
+    .\.venv\Scripts\python.exe -m pipeline.profile_data
 
 Run the Python tests:
 

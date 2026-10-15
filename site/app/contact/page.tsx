@@ -6,7 +6,7 @@ import { WaitlistForm } from "@/components/WaitlistForm";
 import { REPORT_PROBLEM_URL } from "@/lib/nav";
 import { CONTACT_EMAIL } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Contact | FairAssess NJ" };
+export const metadata: Metadata = { title: "Contact | Fair Assess NJ" };
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 
@@ -20,7 +20,7 @@ export default function ContactPage() {
       <PageHeader
         eyebrow="Contact"
         title="Get in touch"
-        intro="Questions, corrections, or ideas? Here is how to reach FairAssess NJ."
+        intro="Questions, corrections, or ideas? Here is how to reach Fair Assess NJ."
       />
 
       <section id="updates" className="scroll-mt-24 bg-white">

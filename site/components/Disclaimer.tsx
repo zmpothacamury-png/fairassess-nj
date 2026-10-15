@@ -3,7 +3,7 @@
  * (CLAUDE.md rule 4). Word for word. Do not shorten or reword it.
  */
 export const DISCLAIMER_TEXT =
-  "FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.";
+  "Fair Assess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.";
 
 /** The disclaimer as a paragraph. `tone` picks colors for light or dark surfaces. */
 export function Disclaimer({

@@ -30,10 +30,10 @@ Measured with Python + Pillow in two ways: k-means clustering of the solid (non-
 
 | Token | Hex | Use it for | Don't use it for |
 |---|---|---|---|
-| navy-900 | #0B2F4C | Headings, footer background, dark surfaces | — |
+| navy-900 | #0B2F4C | Headings, page header and CTA band backgrounds, dark surfaces | — |
 | navy-700 | #10456B | Wordmark, strong labels, primary button hover | — |
 | blue-600 | #20608C | Primary buttons, links, eyebrows, focus rings, "assessed value" in charts | — |
-| blue-100 | #E3EDF5 | Blue tint: "possibly under-assessed" results, hover backgrounds | Text |
+| blue-100 | #E3EDF5 | Blue tint: footer background, "possibly under-assessed" results, hover backgrounds | Text |
 | sky-400 | #5195B8 | Secondary fills (like the logo's left pan) | Text (3.3:1, fails) |
 | green-600 | #58915E | "Fair" and "market value / sale price" fills, chart marks, borders | Text (3.7:1, fails) |
 | green-700 | #3F7346 | Green **text** and icons ("Within the normal range") | — |
@@ -41,7 +41,7 @@ Measured with Python + Pillow in two ways: k-means clustering of the solid (non-
 | gold-400 | #E1BC55 | The balance point: dots, highlights, reference lines, active-tab underline, focus ring on dark | **Text on light backgrounds (1.8:1)** |
 | gold-700 | #8A6A14 | Gold **text** and icons ("May have grounds to appeal") | — |
 | gold-100 | #FBF3DC | Gold tint: "may have grounds" results | Text |
-| outline-200 | #C3D1DE | Card borders, dividers, table rules, the NJ outline; body text on the navy footer | Form-control borders (1.6:1, fails 3:1) |
+| outline-200 | #C3D1DE | Card borders, dividers, table rules, the NJ outline; text on navy surfaces | Form-control borders (1.6:1, fails 3:1) |
 | mist-50 | #F5F7FA | Page background | — |
 | white | #FFFFFF | Cards, header | — |
 | ink-800 | #1F2A37 | Body text | — |
@@ -97,8 +97,11 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 | ink-600 | gray-100 | Not enough data: icon, label | 6.42:1 | 4.5:1 | Pass |
 | white | blue-600 | Primary button | 6.75:1 | 4.5:1 | Pass |
 | white | navy-700 | Primary button hover | 10.07:1 | 4.5:1 | Pass |
-| white | navy-900 | Footer headings | 13.77:1 | 4.5:1 | Pass |
-| outline-200 | navy-900 | Footer body text | 8.85:1 | 4.5:1 | Pass |
+| white | navy-900 | Page header and CTA band headings | 13.77:1 | 4.5:1 | Pass |
+| ink-800 | blue-100 | Footer body text and links | 12.25:1 | 4.5:1 | Pass |
+| ink-600 | blue-100 | Footer disclaimer and credit | 6.13:1 | 4.5:1 | Pass |
+| navy-700 | blue-100 | Footer wordmark and tagline | 8.49:1 | 4.5:1 | Pass |
+| outline-200 | navy-900 | Text on navy surfaces | 8.85:1 | 4.5:1 | Pass |
 | gold-400 | navy-900 | Gold accent on dark only | 7.56:1 | 4.5:1 | Pass |
 | navy-900 | gold-400 | Text on a gold fill | 7.56:1 | 4.5:1 | Pass |
 | blue-600 | white | Chart: assessed value | 6.75:1 | 3:1 | Pass |
@@ -148,7 +151,7 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 - **Shadows:** `shadow-soft` for cards, `shadow-raised` for pop-ups and menus. Nothing heavier.
 - **Touch targets:** buttons and nav links are at least 48px tall.
 - **Icons:** `lucide-react` with `strokeWidth={2}`, matching the logo's even line weight. Decorative icons get `aria-hidden="true"`.
-- **Focus:** the `focus-ring` utility (2px blue-600 outline, 2px offset) on every interactive element; `focus-ring-dark` (gold-400) on the navy footer.
+- **Focus:** the `focus-ring` utility (2px blue-600 outline, 2px offset) on every interactive element; `focus-ring-dark` (gold-400) on navy surfaces. The footer is light (blue-100), so it uses `focus-ring`.
 
 ---
 
@@ -199,7 +202,7 @@ All made from `brand/Logo.jpg`, the original file. `brand/logo-full.png` was mad
 | File | Size | What |
 |---|---|---|
 | `site/public/logo-icon.png` | 394×698 | Icon only (house, scales, NJ outline), transparent |
-| `site/public/logo-icon-light.png` | 394×698 | Same shape, one light color, for the navy footer |
+| `site/public/logo-icon-light.png` | 394×698 | Same shape, one light color, for dark surfaces (the footer now uses the full-color icon) |
 | `site/public/nj-outline.png` | 1179×2091 | NJ outline only, for the hero watermark |
 | `site/app/favicon.ico` | 16, 32, 48 | Browser tab icon |
 | `site/app/icon.png` | 512×512 | App icon |

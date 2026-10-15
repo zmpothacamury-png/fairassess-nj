@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ComingSoon } from "@/components/ComingSoon";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "Privacy | FairAssess NJ" };
+export const metadata: Metadata = { title: "Privacy | Fair Assess NJ" };
 
 /** Content comes in a later prompt. */
 export default function PrivacyPage() {

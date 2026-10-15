@@ -1,0 +1,71 @@
+district_code,official_name,display_name,slug,revaluation_tax_year,display_name_source
+0201,ALLENDALE BORO,Allendale,allendale,2026,county revaluation list
+0202,ALPINE BORO,Alpine,alpine,,CoefficientDeviations.pdf
+0203,BERGENFIELD BORO,Bergenfield,bergenfield,2027,county revaluation list
+0204,BOGOTA BORO,Bogota,bogota,,CoefficientDeviations.pdf
+0205,CARLSTADT BORO,Carlstadt,carlstadt,2026,county revaluation list
+0206,CLIFFSIDE PARK BORO,Cliffside Park,cliffside-park,2027,county revaluation list
+0207,CLOSTER BORO,Closter,closter,2026,county revaluation list
+0208,CRESSKILL BORO,Cresskill,cresskill,2026,county revaluation list
+0209,DEMAREST BORO,Demarest,demarest,,CoefficientDeviations.pdf
+0210,DUMONT BORO,Dumont,dumont,2026,county revaluation list
+0211,ELMWOOD PARK BORO,Elmwood Park,elmwood-park,2026,county revaluation list
+0212,E RUTHERFORD BORO,East Rutherford,east-rutherford,2026,county revaluation list
+0213,EDGEWATER BORO,Edgewater,edgewater,2026,county revaluation list
+0214,EMERSON BORO,Emerson,emerson,2027,county revaluation list
+0215,ENGLEWOOD CITY,Englewood,englewood,2027,county revaluation list
+0216,ENGLEWOOD CLIFFS BORO,Englewood Cliffs,englewood-cliffs,,CoefficientDeviations.pdf
+0217,FAIRLAWN BORO,Fair Lawn,fair-lawn,2027,county revaluation list
+0218,FAIRVIEW BORO,Fairview,fairview,2026,county revaluation list
+0219,FORT LEE BORO,Fort Lee,fort-lee,2027,county revaluation list
+0220,FRANKLIN LAKES BORO,Franklin Lakes,franklin-lakes,2027,county revaluation list
+0221,GARFIELD CITY,Garfield,garfield,2027,county revaluation list
+0222,GLEN ROCK BORO,Glen Rock,glen-rock,2027,county revaluation list
+0223,HACKENSACK CITY,Hackensack,hackensack,2027,county revaluation list
+0224,HARRINGTON PARK BORO,Harrington Park,harrington-park,2027,county revaluation list
+0225,HASBROUCK HGHTS BORO,Hasbrouck Heights,hasbrouck-heights,2026,county revaluation list
+0226,HAWORTH BORO,Haworth,haworth,2027,county revaluation list
+0227,HILLSDALE BORO,Hillsdale,hillsdale,2027,county revaluation list
+0228,HOHOKUS BORO,Ho-Ho-Kus,ho-ho-kus,2026,county revaluation list
+0229,LEONIA BORO,Leonia,leonia,2026,county revaluation list
+0230,LITTLE FERRY BORO,Little Ferry,little-ferry,2026,county revaluation list
+0231,LODI BORO,Lodi,lodi,2027,county revaluation list
+0232,LYNDHURST TWP,Lyndhurst,lyndhurst,2026,county revaluation list
+0233,MAHWAH TWP,Mahwah,mahwah,2027,county revaluation list
+0234,MAYWOOD BORO,Maywood,maywood,2026,county revaluation list
+0235,MIDLAND PARK BORO,Midland Park,midland-park,2027,county revaluation list
+0236,MONTVALE BORO,Montvale,montvale,2027,county revaluation list
+0237,MOONACHIE BORO,Moonachie,moonachie,2026,county revaluation list
+0238,NEW MILFORD BORO,New Milford,new-milford,,CoefficientDeviations.pdf
+0239,NORTH ARLINGTON BORO,North Arlington,north-arlington,2026,county revaluation list
+0240,NORTHVALE BORO,Northvale,northvale,2026,county revaluation list
+0241,NORWOOD BORO,Norwood,norwood,2026,county revaluation list
+0242,OAKLAND BORO,Oakland,oakland,2026,county revaluation list
+0243,OLD TAPPAN BORO,Old Tappan,old-tappan,2026,county revaluation list
+0244,ORADELL BORO,Oradell,oradell,2026,county revaluation list
+0245,PALISADES PARK BORO,Palisades Park,palisades-park,2026,county revaluation list
+0246,PARAMUS BORO,Paramus,paramus,2026,county revaluation list
+0247,PARK RIDGE BORO,Park Ridge,park-ridge,2027,county revaluation list
+0248,RAMSEY BORO,Ramsey,ramsey,2026,county revaluation list
+0249,RIDGEFIELD BORO,Ridgefield,ridgefield,2026,county revaluation list
+0250,RIDGEFIELD PARK VILLAGE,Ridgefield Park,ridgefield-park,,CoefficientDeviations.pdf
+0251,RIDGEWOOD VILLAGE,Ridgewood,ridgewood,2027,county revaluation list
+0252,RIVEREDGE BORO,River Edge,river-edge,2026,county revaluation list
+0253,RIVERVALE TWP,River Vale,river-vale,2027,county revaluation list
+0254,ROCHELLE PARK TWP,Rochelle Park,rochelle-park,2026,county revaluation list
+0255,ROCKLEIGH BORO,Rockleigh,rockleigh,2026,county revaluation list
+0256,RUTHERFORD BORO,Rutherford,rutherford,2027,county revaluation list
+0257,SADDLE BROOK TWP,Saddle Brook,saddle-brook,2026,county revaluation list
+0258,SADDLE RIVER BORO,Saddle River,saddle-river,,CoefficientDeviations.pdf
+0259,SO HACKENSACK TWP,South Hackensack,south-hackensack,2026,county revaluation list
+0260,TEANECK TWP,Teaneck,teaneck,,CoefficientDeviations.pdf
+0261,TENAFLY BORO,Tenafly,tenafly,2027,county revaluation list
+0262,TETERBORO BORO,Teterboro,teterboro,2026,county revaluation list
+0263,UPPER SADDLE RIV BORO,Upper Saddle River,upper-saddle-river,2027,county revaluation list
+0264,WALDWICK BORO,Waldwick,waldwick,,CoefficientDeviations.pdf
+0265,WALLINGTON BORO,Wallington,wallington,,CoefficientDeviations.pdf
+0266,WASHINGTON TWP,Washington Township,washington-township,2026,"2027CH123.pdf (WASHINGTON TWP), Twp spelled out"
+0267,WESTWOOD BORO,Westwood,westwood,2026,county revaluation list
+0268,WOODCLIFF LAKE BORO,Woodcliff Lake,woodcliff-lake,2026,county revaluation list
+0269,WOOD RIDGE BORO,Wood-Ridge,wood-ridge,2026,county revaluation list
+0270,WYCKOFF TWP,Wyckoff,wyckoff,2027,county revaluation list

@@ -1,0 +1,9 @@
+# Python packages for the FairAssess NJ pipeline. Exact versions so results repeat.
+pandas==3.0.6
+numpy==2.5.4
+pdfplumber==0.11.10
+openpyxl==3.1.5
+pyarrow==26.0.0
+scipy==1.18.1
+pytest==9.1.1
+pillow==12.3.0

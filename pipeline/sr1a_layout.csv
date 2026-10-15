@@ -1,0 +1,81 @@
+field,start,end,length,picture,type,decimals,column,note
+COUNTY-CODE,1,2,2,99,text,0,county_code,
+DISTRICT-CODE,3,4,2,99,text,0,district_code,"Saved as 4 digits (county + district, ""0201"") to match every other table."
+TOTAL ASSESSMENT,5,16,12,12,int,0,total_assessment,The older description PDF has BATCH-NUMBER and DLN here.
+OPERATOR-INITIALS,17,19,3,XXX,text,0,,Never kept (private).
+LAST-UPDATE-DATE,20,25,6,9(6),date_mmddyy,0,last_update_date,
+FILLER 1,26,33,8,X,text,0,,
+U-N-TYPE,34,34,1,X,text,0,un_type,
+SR-NU-CODE,35,37,3,XXX,text,0,sr_nu_code,"Left-aligned (""27 ""); spaces removed."
+REPORTED-SALES-PRICE,38,46,9,9(9),int,0,price_reported,
+VERIFIED-SALES-PRICE,47,55,9,9(9),int,0,price_verified,
+MAIN LOT ASSESSED-VALUE-LAND,56,64,9,9(9),int,0,av_land,
+MAIN LOT ASSESSED-VALUE-BLDG,65,73,9,9(9),int,0,av_bldg,
+MAIN LOT ASSESSED-VALUE-TOTAL,74,82,9,9(9),int,0,av_total,
+SALES-RATIO,83,87,5,S999V99,signed_decimal,2,state_sales_ratio,
+REALTY-TRANSFER-FEE,88,96,9,9(7)V99,decimal,2,,"Not kept. Sales2026 stores it with a written decimal point (10 characters, 88-97); Sales2025 stores whole dollars."
+RTF-ERROR-FLAG,97,97,1,X,text,0,,Not kept. In Sales2026 this position holds the last digit of the transfer fee.
+RTF-EXEMPT-CODE,98,98,1,X,text,0,,
+SERIAL-NUMBER,99,105,7,9(7),text,0,serial_number,
+FILLER 2,106,109,4,X(4),text,0,,
+GRANTOR-NAME,110,144,35,X(35),text,0,,Never kept (private).
+GRANTOR-STREET,145,169,25,X(25),text,0,,Never kept (private).
+GRANTOR-CITY-STATE,170,194,25,X(25),text,0,,Never kept (private).
+GRANTOR-ZIP,195,203,9,9(9),int,0,,Never kept (private).
+GRANTEE-NAME,204,238,35,X(35),text,0,,Never kept (private).
+GRANTEE-STREET,239,263,25,X(25),text,0,,Never kept (private).
+GRANTEE-CITY-STATE,264,288,25,X(25),text,0,,Never kept (private).
+GRANTEE-ZIP,289,297,9,9(9),int,0,,Never kept (private).
+PROPERTY-LOCATION,298,322,25,X(25),text,0,,Never kept (private).
+AGING-DATE,323,328,6,9(6),date_yymmdd,0,aging_date,
+DEED-BOOK,329,333,5,X(5),text,0,deed_book,
+DEED-PAGE,334,338,5,X(5),text,0,deed_page,
+DEED-DATE,339,344,6,9(6),date_yymmdd,0,deed_date,
+DATE-RECORDED,345,350,6,9(6),date_yymmdd,0,recorded_date,
+BLOCK,351,355,5,X(5),text,0,block,
+BLOCK-SUFFIX,356,359,4,X(4),text,0,block_suffix,
+LOT,360,364,5,X(5),text,0,lot,
+LOT-SUFFIX,365,368,4,X(4),text,0,lot_suffix,
+ETC,369,369,1,X,text,0,etc_flag,
+ADDL-BLOCK(1),370,378,9,X(9),text,0,addl_block_1,
+ADDL-LOT(1),379,387,9,X(9),text,0,addl_lot_1,
+ADDL-QUALIFIER(1),388,392,5,X(5),text,0,addl_qualifier_1,
+ADDL-VALUE-LAND(1),393,401,9,9(9),int,0,,
+ADDL-VALUE-BLDG(1),402,410,9,9(9),int,0,,
+ADDL-VALUE-TOTAL(1),411,419,9,9(9),int,0,addl_av_total_1,
+ADDL-BLOCK(2),420,428,9,X(9),text,0,addl_block_2,
+ADDL-LOT(2),429,437,9,X(9),text,0,addl_lot_2,
+ADDL-QUALIFIER(2),438,442,5,X(5),text,0,addl_qualifier_2,
+ADDL-VALUE-LAND(2),443,451,9,9(9),int,0,,
+ADDL-VALUE-BLDG(2),452,460,9,9(9),int,0,,
+ADDL-VALUE-TOTAL(2),461,469,9,9(9),int,0,addl_av_total_2,
+ADDL-BLOCK(3),470,478,9,X(9),text,0,addl_block_3,
+ADDL-LOT(3),479,487,9,X(9),text,0,addl_lot_3,
+ADDL-QUALIFIER(3),488,492,5,X(5),text,0,addl_qualifier_3,
+ADDL-VALUE-LAND(3),493,501,9,9(9),int,0,,
+ADDL-VALUE-BLDG(3),502,510,9,9(9),int,0,,
+ADDL-VALUE-TOTAL(3),511,519,9,9(9),int,0,addl_av_total_3,
+ADDL-BLOCK(4),520,528,9,X(9),text,0,addl_block_4,
+ADDL-LOT(4),529,537,9,X(9),text,0,addl_lot_4,
+ADDL-QUALIFIER(4),538,542,5,X(5),text,0,addl_qualifier_4,
+ADDL-VALUE-LAND(4),543,551,9,9(9),int,0,,
+ADDL-VALUE-BLDG(4),552,560,9,9(9),int,0,,
+ADDL-VALUE-TOTAL(4),561,569,9,9(9),int,0,addl_av_total_4,
+ADDL-BLOCK(5),570,578,9,X(9),text,0,addl_block_5,
+ADDL-LOT(5),579,587,9,X(9),text,0,addl_lot_5,
+ADDL-QUALIFIER(5),588,592,5,X(5),text,0,addl_qualifier_5,
+ADDL-VALUE-LAND(5),593,601,9,9(9),int,0,,
+ADDL-VALUE-BLDG(5),602,610,9,9(9),int,0,,
+ADDL-VALUE-TOTAL(5),611,619,9,9(9),int,0,addl_av_total_5,
+QUALIFICATION-CODES,620,624,5,X(5),text,0,qual_code,
+ASSESS-YEAR,625,626,2,99,int,0,assess_year,
+PROPERTY-CLASS,627,629,3,XXX,text,0,property_class,"Left-aligned (""2  ""); spaces removed."
+CLASS-4-TYPE,630,632,3,9(3),text,0,class_4_type,
+FILLER 3,633,638,6,9(6),text,0,,
+ASSESSOR-NU-CODE,639,641,3,X(3),text,0,assessor_nu_code,
+FIELD-STATUS-CODE,642,642,1,X,text,0,field_status_code,
+FIELD-DATE,643,648,6,9(6),int,0,,Not kept. Format unclear in the data.
+CRITICAL-ERROR-FLAG,649,649,1,X,text,0,critical_error_flag,
+FILLER 4,650,652,3,X,text,0,,
+YEAR-BUILT,653,656,4,9(4),int,0,year_built,
+LIVING-SPACE,657,663,7,9(7),int,0,living_sqft,Left-aligned with trailing spaces in Sales2025/2026.

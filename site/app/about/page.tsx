@@ -3,7 +3,7 @@ import { ComingSoon } from "@/components/ComingSoon";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "About | FairAssess NJ" };
+export const metadata: Metadata = { title: "About | Fair Assess NJ" };
 
 /**
  * Content comes in Prompt 13 (founder header, The Story, What Drives This
@@ -14,7 +14,7 @@ export default function AboutPage() {
     <main className="flex-1">
       <PageHeader
         eyebrow="About"
-        title="About FairAssess NJ"
+        title="About Fair Assess NJ"
         intro="Why this project exists and who built it."
       />
       <ComingSoon />

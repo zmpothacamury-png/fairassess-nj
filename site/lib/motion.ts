@@ -4,7 +4,7 @@
  * live trustandtransition.org, checked 2026-10-14):
  *   C:\Users\sxp15\trustAndTransition\TrustAndTransition\site.js
  *   C:\Users\sxp15\trustAndTransition\TrustAndTransition\site.css
- * Every value cites its line. Only colors and fonts differ (FairAssess tokens).
+ * Every value cites its line. Only colors and fonts differ (Fair Assess NJ tokens).
  * Full table: docs/site-format.md.
  *
  * app/layout.tsx turns these into CSS variables (motionCssVars), so

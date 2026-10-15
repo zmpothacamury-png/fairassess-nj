@@ -1,0 +1,281 @@
+district_code,district_name,year,amended,general_coeff,stratified_class1,stratified_class2,stratified_class4,segmented_class1,segmented_class2,segmented_class4,n_class1,n_class2,n_class4,n_total,source_file
+0201,Allendale Boro,2023,False,7.91,,8.18,,,8.18,0.93,,27,1,28,data/raw/state/CoefficientDeviations.pdf
+0201,Allendale Boro,2024,False,10.77,,7.55,,50.44,8.51,9.59,1,17,1,19,data/raw/state/CoefficientDeviations.pdf
+0201,Allendale Boro,2025,False,13.72,,13.72,,,13.72,,,23,,23,data/raw/state/CoefficientDeviations.pdf
+0201,Allendale Boro,2026,False,11.03,,10.68,,,10.68,17.86,,20,1,21,data/raw/state/CoefficientDeviations.pdf
+0202,Alpine Boro,2023,True,17.9,19.67,15.26,,30.49,15.8,18.09,3,18,1,22,data/raw/state/CoefficientDeviations.pdf
+0202,Alpine Boro,2024,False,10.41,,10.41,,,10.41,,,12,,12,data/raw/state/CoefficientDeviations.pdf
+0202,Alpine Boro,2025,True,21.39,25.45,19.66,,26.22,19.58,,6,16,,22,data/raw/state/CoefficientDeviations.pdf
+0202,Alpine Boro,2026,False,25.5,,22.48,,50.55,23.43,,1,12,,13,data/raw/state/CoefficientDeviations.pdf
+0203,Bergenfield Boro,2023,False,16.97,,15.65,28.04,,15.64,41.39,,202,11,213,data/raw/state/CoefficientDeviations.pdf
+0203,Bergenfield Boro,2024,False,16.69,4.6,14.74,36.64,17.57,14.76,54.38,2,137,7,146,data/raw/state/CoefficientDeviations.pdf
+0203,Bergenfield Boro,2025,False,16.3,,13.33,22.59,,13.8,45.36,,128,11,139,data/raw/state/CoefficientDeviations.pdf
+0203,Bergenfield Boro,2026,False,14.57,,14.46,15.61,,14.45,16.97,,162,8,170,data/raw/state/CoefficientDeviations.pdf
+0204,Bogota Boro,2023,False,16.2,,14.85,14.66,52.78,15.05,20.3,1,46,4,51,data/raw/state/CoefficientDeviations.pdf
+0204,Bogota Boro,2024,False,5.5,,4.71,,,4.74,23.68,,24,1,25,data/raw/state/CoefficientDeviations.pdf
+0204,Bogota Boro,2025,False,12.7,,12.14,7.05,,12.19,23.84,,43,2,45,data/raw/state/CoefficientDeviations.pdf
+0204,Bogota Boro,2026,False,11.99,47.0,10.18,,34.42,10.08,33.97,2,35,1,38,data/raw/state/CoefficientDeviations.pdf
+0205,Carlstadt Boro,2023,False,16.54,,13.26,25.6,,13.98,21.68,,6,3,9,data/raw/state/CoefficientDeviations.pdf
+0205,Carlstadt Boro,2024,False,18.17,,16.16,34.95,9.14,15.73,39.77,1,14,2,17,data/raw/state/CoefficientDeviations.pdf
+0205,Carlstadt Boro,2025,False,9.52,,8.25,15.31,,8.26,14.97,,13,3,16,data/raw/state/CoefficientDeviations.pdf
+0205,Carlstadt Boro,2026,False,19.59,,15.16,10.29,,15.68,27.43,,10,5,15,data/raw/state/CoefficientDeviations.pdf
+0206,Cliffside Park Boro,2023,False,15.79,,15.54,5.08,,15.59,21.99,,227,7,234,data/raw/state/CoefficientDeviations.pdf
+0206,Cliffside Park Boro,2024,False,15.32,,15.13,27.4,,15.12,28.07,,187,3,190,data/raw/state/CoefficientDeviations.pdf
+0206,Cliffside Park Boro,2025,False,15.94,,15.64,12.21,,15.72,22.56,,211,7,218,data/raw/state/CoefficientDeviations.pdf
+0206,Cliffside Park Boro,2026,False,17.36,,17.03,17.26,,17.08,22.65,,182,10,192,data/raw/state/CoefficientDeviations.pdf
+0207,Closter Boro,2023,False,16.29,,15.57,28.91,,15.6,28.07,,34,2,36,data/raw/state/CoefficientDeviations.pdf
+0207,Closter Boro,2024,False,10.69,,10.73,,,10.71,10.38,,38,1,39,data/raw/state/CoefficientDeviations.pdf
+0207,Closter Boro,2025,False,11.14,,10.43,20.11,,10.54,18.32,,24,2,26,data/raw/state/CoefficientDeviations.pdf
+0207,Closter Boro,2026,False,11.75,,10.27,10.02,17.06,10.23,32.56,1,31,2,34,data/raw/state/CoefficientDeviations.pdf
+0208,Cresskill Boro,2023,False,23.28,,23.66,,,23.75,6.92,,34,1,35,data/raw/state/CoefficientDeviations.pdf
+0208,Cresskill Boro,2024,False,17.86,,17.86,,,17.86,,,41,,41,data/raw/state/CoefficientDeviations.pdf
+0208,Cresskill Boro,2025,False,13.4,,13.29,1.7,,13.19,17.5,,39,2,41,data/raw/state/CoefficientDeviations.pdf
+0208,Cresskill Boro,2026,False,11.35,,10.22,,40.62,10.31,,1,28,,29,data/raw/state/CoefficientDeviations.pdf
+0209,Demarest Boro,2023,False,12.42,15.8,12.22,,19.03,12.21,,2,60,,62,data/raw/state/CoefficientDeviations.pdf
+0209,Demarest Boro,2024,False,12.76,,12.16,,,12.2,51.85,,70,1,71,data/raw/state/CoefficientDeviations.pdf
+0209,Demarest Boro,2025,False,13.07,,13.07,,,13.07,,,23,,23,data/raw/state/CoefficientDeviations.pdf
+0209,Demarest Boro,2026,False,8.54,,8.54,,,8.54,,,64,,64,data/raw/state/CoefficientDeviations.pdf
+0210,Dumont Boro,2023,False,14.84,,14.87,11.07,,14.89,13.53,,143,6,149,data/raw/state/CoefficientDeviations.pdf
+0210,Dumont Boro,2024,False,16.13,,14.52,42.46,,14.53,42.74,,132,8,140,data/raw/state/CoefficientDeviations.pdf
+0210,Dumont Boro,2025,False,12.51,,12.51,,,12.51,,,38,,38,data/raw/state/CoefficientDeviations.pdf
+0210,Dumont Boro,2026,False,9.03,,9.03,,,9.03,,,29,,29,data/raw/state/CoefficientDeviations.pdf
+0211,Elmwood Park Boro,2023,False,11.98,,10.84,8.5,,11.16,19.85,,68,7,75,data/raw/state/CoefficientDeviations.pdf
+0211,Elmwood Park Boro,2024,False,14.05,,9.75,56.93,,10.34,66.56,,71,5,76,data/raw/state/CoefficientDeviations.pdf
+0211,Elmwood Park Boro,2025,False,15.91,,15.32,17.24,17.28,15.23,22.24,1,86,9,96,data/raw/state/CoefficientDeviations.pdf
+0211,Elmwood Park Boro,2026,False,8.43,,8.09,,,8.1,20.86,,38,1,39,data/raw/state/CoefficientDeviations.pdf
+0212,East Rutherford Boro,2023,False,9.43,,8.89,13.8,,8.79,13.22,,18,3,21,data/raw/state/CoefficientDeviations.pdf
+0212,East Rutherford Boro,2024,False,14.68,,12.21,21.26,,11.82,33.24,,13,2,15,data/raw/state/CoefficientDeviations.pdf
+0212,East Rutherford Boro,2025,False,13.45,,6.77,,11.29,8.89,65.83,1,11,1,13,data/raw/state/CoefficientDeviations.pdf
+0212,East Rutherford Boro,2026,False,6.8,,7.13,,,6.81,6.79,,10,1,11,data/raw/state/CoefficientDeviations.pdf
+0213,Edgewater Boro,2023,False,10.71,,10.37,12.7,,10.35,23.84,,73,2,75,data/raw/state/CoefficientDeviations.pdf
+0213,Edgewater Boro,2024,False,9.24,,9.26,,,9.24,9.39,,78,1,79,data/raw/state/CoefficientDeviations.pdf
+0213,Edgewater Boro,2025,False,8.61,,8.7,,,8.7,2.73,,64,1,65,data/raw/state/CoefficientDeviations.pdf
+0213,Edgewater Boro,2026,False,8.63,,8.63,,,8.63,,,64,,64,data/raw/state/CoefficientDeviations.pdf
+0214,Emerson Boro,2023,False,10.63,,10.63,,,10.63,,,51,,51,data/raw/state/CoefficientDeviations.pdf
+0214,Emerson Boro,2024,False,13.41,,12.24,10.87,,12.28,31.6,,49,3,52,data/raw/state/CoefficientDeviations.pdf
+0214,Emerson Boro,2025,False,12.64,,10.62,24.61,,10.86,39.28,,45,3,48,data/raw/state/CoefficientDeviations.pdf
+0214,Emerson Boro,2026,False,18.01,,15.07,16.26,,15.74,57.94,,53,3,56,data/raw/state/CoefficientDeviations.pdf
+0215,Englewood City,2023,False,18.27,42.78,17.0,25.04,43.98,16.95,26.66,3,184,20,207,data/raw/state/CoefficientDeviations.pdf
+0215,Englewood City,2024,False,16.55,,16.68,8.84,33.65,16.62,12.67,1,145,7,153,data/raw/state/CoefficientDeviations.pdf
+0215,Englewood City,2025,False,17.45,,16.32,27.31,,16.33,35.37,,192,12,204,data/raw/state/CoefficientDeviations.pdf
+0215,Englewood City,2026,False,16.8,,16.05,26.79,,16.05,26.79,,186,14,200,data/raw/state/CoefficientDeviations.pdf
+0216,Englewood Cliffs Boro,2023,False,11.98,3.86,11.09,14.18,30.27,11.03,15.96,2,51,3,56,data/raw/state/CoefficientDeviations.pdf
+0216,Englewood Cliffs Boro,2024,False,11.95,5.11,12.03,,11.49,12.25,0.99,4,44,1,49,data/raw/state/CoefficientDeviations.pdf
+0216,Englewood Cliffs Boro,2025,False,11.64,14.67,11.42,,14.77,11.43,8.42,4,42,1,47,data/raw/state/CoefficientDeviations.pdf
+0216,Englewood Cliffs Boro,2026,False,12.97,7.91,12.32,27.25,15.48,12.41,24.21,2,49,2,53,data/raw/state/CoefficientDeviations.pdf
+0217,Fairlawn Boro,2023,False,13.38,,11.6,33.53,3.41,11.85,49.87,1,303,13,317,data/raw/state/CoefficientDeviations.pdf
+0217,Fairlawn Boro,2024,False,12.2,,10.6,20.24,,10.82,49.66,,218,8,226,data/raw/state/CoefficientDeviations.pdf
+0217,Fairlawn Boro,2025,False,12.82,,11.7,21.7,,11.9,42.22,,221,7,228,data/raw/state/CoefficientDeviations.pdf
+0217,Fairlawn Boro,2026,False,12.07,,9.68,37.6,78.51,9.91,75.44,1,237,7,245,data/raw/state/CoefficientDeviations.pdf
+0218,Fairview Boro,2023,False,14.49,,11.56,,53.68,12.17,24.07,1,21,1,23,data/raw/state/CoefficientDeviations.pdf
+0218,Fairview Boro,2024,False,10.67,,10.34,,,10.43,15.58,,21,1,22,data/raw/state/CoefficientDeviations.pdf
+0218,Fairview Boro,2025,False,10.62,,10.62,,,10.62,,,17,,17,data/raw/state/CoefficientDeviations.pdf
+0218,Fairview Boro,2026,False,15.69,,13.67,31.18,,13.67,31.14,,23,3,26,data/raw/state/CoefficientDeviations.pdf
+0219,Fort Lee Boro,2023,False,16.12,,15.94,10.29,,15.94,35.56,,313,3,316,data/raw/state/CoefficientDeviations.pdf
+0219,Fort Lee Boro,2024,True,16.78,13.42,15.29,55.79,22.03,15.24,55.94,2,287,11,300,data/raw/state/CoefficientDeviations.pdf
+0219,Fort Lee Boro,2025,False,14.3,,14.27,17.91,12.39,14.28,15.48,1,313,9,323,data/raw/state/CoefficientDeviations.pdf
+0219,Fort Lee Boro,2026,False,13.55,,13.51,11.95,,13.52,14.88,,256,7,263,data/raw/state/CoefficientDeviations.pdf
+0220,Franklin Lakes Boro,2023,False,16.85,45.26,15.19,,47.82,15.19,,7,131,,138,data/raw/state/CoefficientDeviations.pdf
+0220,Franklin Lakes Boro,2024,False,16.54,29.28,15.7,,29.4,15.68,38.22,4,86,1,91,data/raw/state/CoefficientDeviations.pdf
+0220,Franklin Lakes Boro,2025,False,17.8,2.4,17.03,39.12,28.77,16.94,39.01,2,74,2,78,data/raw/state/CoefficientDeviations.pdf
+0220,Franklin Lakes Boro,2026,False,15.23,41.58,14.75,,42.55,14.74,14.7,2,112,1,115,data/raw/state/CoefficientDeviations.pdf
+0221,Garfield City,2023,False,16.61,,14.6,25.0,,14.86,29.98,,153,20,173,data/raw/state/CoefficientDeviations.pdf
+0221,Garfield City,2024,False,19.03,28.37,16.92,24.59,39.11,17.14,32.35,2,114,13,129,data/raw/state/CoefficientDeviations.pdf
+0221,Garfield City,2025,False,18.25,,16.55,26.39,22.97,16.71,34.62,1,153,14,168,data/raw/state/CoefficientDeviations.pdf
+0221,Garfield City,2026,False,16.79,24.45,16.06,26.33,21.3,16.06,26.2,2,163,12,177,data/raw/state/CoefficientDeviations.pdf
+0222,Glen Rock Boro,2023,False,10.29,,10.11,,,10.12,24.83,,85,1,86,data/raw/state/CoefficientDeviations.pdf
+0222,Glen Rock Boro,2024,False,12.63,,12.63,,,12.63,,,77,,77,data/raw/state/CoefficientDeviations.pdf
+0222,Glen Rock Boro,2025,False,12.39,,12.48,,,12.48,4.28,,106,1,107,data/raw/state/CoefficientDeviations.pdf
+0222,Glen Rock Boro,2026,False,12.44,,11.21,21.3,,11.22,44.94,,106,4,110,data/raw/state/CoefficientDeviations.pdf
+0223,Hackensack City,2023,False,13.78,,11.42,18.29,3.5,11.6,26.88,1,103,18,122,data/raw/state/CoefficientDeviations.pdf
+0223,Hackensack City,2024,False,15.18,,12.07,38.04,60.46,12.22,45.49,1,281,26,308,data/raw/state/CoefficientDeviations.pdf
+0223,Hackensack City,2025,False,13.05,22.17,11.38,26.38,31.13,11.37,32.58,2,299,24,325,data/raw/state/CoefficientDeviations.pdf
+0223,Hackensack City,2026,False,13.98,,11.97,32.55,36.65,11.98,38.17,1,265,21,287,data/raw/state/CoefficientDeviations.pdf
+0224,Harrington Park Boro,2023,False,12.8,,12.98,9.76,,12.98,8.9,,43,2,45,data/raw/state/CoefficientDeviations.pdf
+0224,Harrington Park Boro,2024,False,9.38,,9.38,,,9.38,,,33,,33,data/raw/state/CoefficientDeviations.pdf
+0224,Harrington Park Boro,2025,False,13.33,,13.25,,,13.24,16.73,,38,1,39,data/raw/state/CoefficientDeviations.pdf
+0224,Harrington Park Boro,2026,False,16.79,,16.79,,,16.79,,,35,,35,data/raw/state/CoefficientDeviations.pdf
+0225,Hasbrouck Heights Boro,2023,False,13.2,,12.08,,,12.15,36.22,,22,1,23,data/raw/state/CoefficientDeviations.pdf
+0225,Hasbrouck Heights Boro,2024,False,12.74,,12.12,19.6,,12.11,21.93,,29,2,31,data/raw/state/CoefficientDeviations.pdf
+0225,Hasbrouck Heights Boro,2025,False,10.68,,10.43,21.11,,10.37,20.31,,63,2,65,data/raw/state/CoefficientDeviations.pdf
+0225,Hasbrouck Heights Boro,2026,False,5.79,,4.79,11.07,,4.63,13.49,,20,3,23,data/raw/state/CoefficientDeviations.pdf
+0226,Haworth Boro,2023,False,11.44,,11.35,,,11.37,14.47,,43,1,44,data/raw/state/CoefficientDeviations.pdf
+0226,Haworth Boro,2024,False,10.96,,11.28,5.53,,11.31,5.67,,31,2,33,data/raw/state/CoefficientDeviations.pdf
+0226,Haworth Boro,2025,False,9.61,,9.8,,,9.8,1.42,,41,1,42,data/raw/state/CoefficientDeviations.pdf
+0226,Haworth Boro,2026,False,14.29,,14.29,,,14.29,,,31,,31,data/raw/state/CoefficientDeviations.pdf
+0227,Hillsdale Boro,2023,False,11.43,,11.31,21.05,,11.3,18.25,,104,2,106,data/raw/state/CoefficientDeviations.pdf
+0227,Hillsdale Boro,2024,False,13.77,5.6,13.66,6.04,5.39,13.62,28.12,2,80,2,84,data/raw/state/CoefficientDeviations.pdf
+0227,Hillsdale Boro,2025,False,13.27,,13.41,0.57,,13.4,8.44,,70,2,72,data/raw/state/CoefficientDeviations.pdf
+0227,Hillsdale Boro,2026,False,15.28,5.76,13.7,45.24,30.17,13.64,44.87,2,72,3,77,data/raw/state/CoefficientDeviations.pdf
+0228,Hohokus Boro,2023,False,16.23,,16.23,,,16.23,,,68,,68,data/raw/state/CoefficientDeviations.pdf
+0228,Hohokus Boro,2024,False,14.46,13.13,14.57,,11.84,14.62,,2,36,,38,data/raw/state/CoefficientDeviations.pdf
+0228,Hohokus Boro,2025,False,16.37,,16.25,,17.84,16.27,20.16,1,51,1,53,data/raw/state/CoefficientDeviations.pdf
+0228,Hohokus Boro,2026,False,16.39,,16.39,,,16.39,,,18,,18,data/raw/state/CoefficientDeviations.pdf
+0229,Leonia Boro,2023,False,11.48,,10.28,7.03,,10.34,39.16,,74,3,77,data/raw/state/CoefficientDeviations.pdf
+0229,Leonia Boro,2024,False,11.69,,11.1,22.97,,11.1,22.98,,57,3,60,data/raw/state/CoefficientDeviations.pdf
+0229,Leonia Boro,2025,False,10.86,,10.25,19.62,,10.34,20.75,,58,3,61,data/raw/state/CoefficientDeviations.pdf
+0229,Leonia Boro,2026,False,8.36,,8.36,,,8.36,,,15,,15,data/raw/state/CoefficientDeviations.pdf
+0230,Little Ferry Boro,2023,False,13.9,,14.61,6.74,,14.66,7.12,,18,2,20,data/raw/state/CoefficientDeviations.pdf
+0230,Little Ferry Boro,2024,False,7.99,,7.21,,23.15,7.2,,1,19,,20,data/raw/state/CoefficientDeviations.pdf
+0230,Little Ferry Boro,2025,False,12.62,,11.73,,44.38,11.43,5.98,1,21,1,23,data/raw/state/CoefficientDeviations.pdf
+0230,Little Ferry Boro,2026,False,10.84,,10.43,,,10.41,23.39,,29,1,30,data/raw/state/CoefficientDeviations.pdf
+0231,Lodi Boro,2023,False,14.23,,12.86,30.16,,12.84,27.0,,120,13,133,data/raw/state/CoefficientDeviations.pdf
+0231,Lodi Boro,2024,False,16.75,,15.44,30.98,,15.45,35.08,,98,7,105,data/raw/state/CoefficientDeviations.pdf
+0231,Lodi Boro,2025,False,17.78,,17.1,26.9,,17.08,29.35,,100,6,106,data/raw/state/CoefficientDeviations.pdf
+0231,Lodi Boro,2026,False,14.78,,13.05,34.16,13.35,13.05,33.45,1,107,10,118,data/raw/state/CoefficientDeviations.pdf
+0232,Lyndhurst Twp,2023,False,27.51,,12.42,10.72,578.23,16.03,10.7,1,45,2,48,data/raw/state/CoefficientDeviations.pdf
+0232,Lyndhurst Twp,2024,False,10.24,,8.92,24.29,,8.92,24.28,,32,3,35,data/raw/state/CoefficientDeviations.pdf
+0232,Lyndhurst Twp,2025,False,14.31,,13.15,13.51,,13.19,20.78,,23,4,27,data/raw/state/CoefficientDeviations.pdf
+0232,Lyndhurst Twp,2026,False,10.74,,10.69,12.32,,10.64,11.91,,37,3,40,data/raw/state/CoefficientDeviations.pdf
+0233,Mahwah Twp,2023,True,11.4,33.38,10.71,23.26,41.55,10.74,25.51,6,335,3,344,data/raw/state/CoefficientDeviations.pdf
+0233,Mahwah Twp,2024,True,10.14,16.82,9.32,14.77,35.39,9.32,64.42,4,255,2,261,data/raw/state/CoefficientDeviations.pdf
+0233,Mahwah Twp,2025,False,11.55,42.96,11.13,,42.77,11.14,,4,305,,309,data/raw/state/CoefficientDeviations.pdf
+0233,Mahwah Twp,2026,False,10.67,24.83,10.44,,28.74,10.45,39.54,2,298,1,301,data/raw/state/CoefficientDeviations.pdf
+0234,Maywood Boro,2023,False,13.1,,10.83,18.48,27.46,11.0,31.13,1,24,2,27,data/raw/state/CoefficientDeviations.pdf
+0234,Maywood Boro,2024,False,8.72,,8.72,,,8.72,,,27,,27,data/raw/state/CoefficientDeviations.pdf
+0234,Maywood Boro,2025,False,9.6,,9.32,,,9.25,19.68,,29,1,30,data/raw/state/CoefficientDeviations.pdf
+0234,Maywood Boro,2026,False,12.43,,12.43,,,12.43,,,20,,20,data/raw/state/CoefficientDeviations.pdf
+0235,Midland Park Boro,2023,False,12.38,,11.84,10.51,,11.87,21.0,,68,4,72,data/raw/state/CoefficientDeviations.pdf
+0235,Midland Park Boro,2024,False,11.7,,11.86,8.62,,11.9,9.38,,47,4,51,data/raw/state/CoefficientDeviations.pdf
+0235,Midland Park Boro,2025,False,11.12,,10.8,,,10.82,25.58,,48,1,49,data/raw/state/CoefficientDeviations.pdf
+0235,Midland Park Boro,2026,False,13.48,,13.6,13.24,,13.55,11.98,,42,2,44,data/raw/state/CoefficientDeviations.pdf
+0236,Montvale Boro,2023,False,11.58,9.02,10.5,23.74,21.98,10.47,30.84,2,88,4,94,data/raw/state/CoefficientDeviations.pdf
+0236,Montvale Boro,2024,False,13.36,,12.36,,33.8,12.34,78.94,1,84,1,86,data/raw/state/CoefficientDeviations.pdf
+0236,Montvale Boro,2025,False,13.86,,12.63,8.75,23.33,12.69,63.58,1,93,2,96,data/raw/state/CoefficientDeviations.pdf
+0236,Montvale Boro,2026,False,15.67,,15.8,11.18,,15.81,10.54,,74,2,76,data/raw/state/CoefficientDeviations.pdf
+0237,Moonachie Boro,2023,False,4.41,,4.41,,,4.41,,,4,,4,data/raw/state/CoefficientDeviations.pdf
+0237,Moonachie Boro,2024,False,19.37,,19.37,,,19.37,,,6,,6,data/raw/state/CoefficientDeviations.pdf
+0237,Moonachie Boro,2025,False,11.24,,11.24,,,11.24,,,4,,4,data/raw/state/CoefficientDeviations.pdf
+0237,Moonachie Boro,2026,False,8.35,,8.35,,,8.35,,,4,,4,data/raw/state/CoefficientDeviations.pdf
+0238,New Milford Boro,2023,False,12.66,,12.66,,,12.66,,,98,,98,data/raw/state/CoefficientDeviations.pdf
+0238,New Milford Boro,2024,False,15.8,,15.8,,,15.8,,,70,,70,data/raw/state/CoefficientDeviations.pdf
+0238,New Milford Boro,2025,False,6.68,,6.92,,,6.92,0.24,,26,1,27,data/raw/state/CoefficientDeviations.pdf
+0238,New Milford Boro,2026,False,11.69,,11.69,,,11.69,,,106,,106,data/raw/state/CoefficientDeviations.pdf
+0239,North Arlington Boro,2023,False,11.92,,11.89,,,11.95,10.96,,33,1,34,data/raw/state/CoefficientDeviations.pdf
+0239,North Arlington Boro,2024,False,13.18,,11.49,,,11.71,63.2,,34,1,35,data/raw/state/CoefficientDeviations.pdf
+0239,North Arlington Boro,2025,False,11.43,,11.43,,,11.43,,,35,,35,data/raw/state/CoefficientDeviations.pdf
+0239,North Arlington Boro,2026,False,8.51,,8.51,,,8.51,,,29,,29,data/raw/state/CoefficientDeviations.pdf
+0240,Northvale Boro,2023,False,14.19,,14.71,1.16,,14.79,5.75,,28,2,30,data/raw/state/CoefficientDeviations.pdf
+0240,Northvale Boro,2024,False,14.11,,13.73,20.33,,13.83,19.05,,34,2,36,data/raw/state/CoefficientDeviations.pdf
+0240,Northvale Boro,2025,False,11.8,4.01,12.22,,7.05,12.21,5.0,2,40,1,43,data/raw/state/CoefficientDeviations.pdf
+0240,Northvale Boro,2026,False,7.18,,6.2,,,6.38,20.13,,16,1,17,data/raw/state/CoefficientDeviations.pdf
+0241,Norwood Boro,2023,False,12.46,,12.76,,,12.77,0.44,,40,1,41,data/raw/state/CoefficientDeviations.pdf
+0241,Norwood Boro,2024,False,18.12,,17.98,16.79,,18.06,19.18,,35,2,37,data/raw/state/CoefficientDeviations.pdf
+0241,Norwood Boro,2025,False,15.43,,15.17,16.23,,15.12,21.78,,41,2,43,data/raw/state/CoefficientDeviations.pdf
+0241,Norwood Boro,2026,False,8.05,,8.12,,,8.05,7.96,,25,1,26,data/raw/state/CoefficientDeviations.pdf
+0242,Oakland Boro,2023,False,11.47,,11.16,,,11.22,24.66,,57,1,58,data/raw/state/CoefficientDeviations.pdf
+0242,Oakland Boro,2024,False,14.79,,13.0,23.04,,13.35,46.56,,44,2,46,data/raw/state/CoefficientDeviations.pdf
+0242,Oakland Boro,2025,False,9.1,,8.05,11.47,50.43,8.25,8.82,1,47,4,52,data/raw/state/CoefficientDeviations.pdf
+0242,Oakland Boro,2026,False,8.17,,8.17,,,8.17,,,43,,43,data/raw/state/CoefficientDeviations.pdf
+0243,Old Tappan Boro,2023,False,13.01,,12.57,2.75,,12.64,28.03,,81,2,83,data/raw/state/CoefficientDeviations.pdf
+0243,Old Tappan Boro,2024,False,12.91,,13.09,,,13.09,4.1,,46,1,47,data/raw/state/CoefficientDeviations.pdf
+0243,Old Tappan Boro,2025,False,11.37,,11.37,,,11.37,,,55,,55,data/raw/state/CoefficientDeviations.pdf
+0243,Old Tappan Boro,2026,False,13.2,,13.2,,,13.2,,,21,,21,data/raw/state/CoefficientDeviations.pdf
+0244,Oradell Boro,2023,False,9.12,,8.54,14.9,,8.54,14.69,,29,3,32,data/raw/state/CoefficientDeviations.pdf
+0244,Oradell Boro,2024,False,13.13,,11.95,,,12.26,31.39,,21,1,22,data/raw/state/CoefficientDeviations.pdf
+0244,Oradell Boro,2025,False,10.93,,10.93,,,10.93,,,15,,15,data/raw/state/CoefficientDeviations.pdf
+0244,Oradell Boro,2026,False,13.2,,10.23,46.6,,10.52,34.69,,16,2,18,data/raw/state/CoefficientDeviations.pdf
+0245,Palisades Park Boro,2023,False,8.25,,8.25,,,8.25,,,34,,34,data/raw/state/CoefficientDeviations.pdf
+0245,Palisades Park Boro,2024,False,8.64,,8.12,9.17,,8.11,17.29,,50,3,53,data/raw/state/CoefficientDeviations.pdf
+0245,Palisades Park Boro,2025,False,9.33,,9.37,,,9.39,6.8,,46,1,47,data/raw/state/CoefficientDeviations.pdf
+0245,Palisades Park Boro,2026,False,12.26,,12.08,16.69,,12.05,17.19,,49,2,51,data/raw/state/CoefficientDeviations.pdf
+0246,Paramus Boro,2023,False,12.77,,11.22,27.73,14.21,11.05,38.46,1,76,5,82,data/raw/state/CoefficientDeviations.pdf
+0246,Paramus Boro,2024,False,13.79,16.67,13.3,,32.57,13.33,11.68,2,77,1,80,data/raw/state/CoefficientDeviations.pdf
+0246,Paramus Boro,2025,False,13.66,,13.01,18.22,48.53,12.99,24.11,1,99,3,103,data/raw/state/CoefficientDeviations.pdf
+0246,Paramus Boro,2026,False,14.95,,13.79,22.13,,13.75,33.09,,76,5,81,data/raw/state/CoefficientDeviations.pdf
+0247,Park Ridge Boro,2023,False,11.9,,11.11,22.97,,11.13,22.12,,107,8,115,data/raw/state/CoefficientDeviations.pdf
+0247,Park Ridge Boro,2024,False,14.22,,13.06,48.44,,13.05,47.58,,85,3,88,data/raw/state/CoefficientDeviations.pdf
+0247,Park Ridge Boro,2025,False,13.75,,13.22,,,13.16,62.73,,83,1,84,data/raw/state/CoefficientDeviations.pdf
+0247,Park Ridge Boro,2026,False,13.79,,13.79,14.39,,13.79,14.41,,93,2,95,data/raw/state/CoefficientDeviations.pdf
+0248,Ramsey Boro,2023,False,9.75,,9.29,25.54,,9.29,25.49,,207,6,213,data/raw/state/CoefficientDeviations.pdf
+0248,Ramsey Boro,2024,False,10.9,,10.7,,18.43,10.72,32.12,1,150,1,152,data/raw/state/CoefficientDeviations.pdf
+0248,Ramsey Boro,2025,False,8.65,,8.43,,,8.42,25.74,,73,1,74,data/raw/state/CoefficientDeviations.pdf
+0248,Ramsey Boro,2026,False,9.06,,9.16,2.25,4.68,9.17,8.06,1,53,2,56,data/raw/state/CoefficientDeviations.pdf
+0249,Ridgefield Boro,2023,False,11.04,,5.88,27.18,,6.42,31.84,,18,4,22,data/raw/state/CoefficientDeviations.pdf
+0249,Ridgefield Boro,2024,False,18.18,,17.65,,,17.53,31.01,,20,1,21,data/raw/state/CoefficientDeviations.pdf
+0249,Ridgefield Boro,2025,False,12.88,,12.61,16.27,,12.56,18.42,,34,2,36,data/raw/state/CoefficientDeviations.pdf
+0249,Ridgefield Boro,2026,False,9.4,,9.19,11.49,,9.22,12.41,,35,2,37,data/raw/state/CoefficientDeviations.pdf
+0250,Ridgefield Park Village,2023,False,12.94,,12.96,6.86,,12.94,13.08,,30,2,32,data/raw/state/CoefficientDeviations.pdf
+0250,Ridgefield Park Village,2024,False,12.62,,12.64,6.81,,12.62,12.55,,38,2,40,data/raw/state/CoefficientDeviations.pdf
+0250,Ridgefield Park Village,2025,False,14.57,,13.2,23.87,,13.35,30.85,,67,5,72,data/raw/state/CoefficientDeviations.pdf
+0250,Ridgefield Park Village,2026,False,16.63,,15.31,28.57,,15.31,28.84,,74,8,82,data/raw/state/CoefficientDeviations.pdf
+0251,Ridgewood Village,2023,False,12.09,,11.78,27.22,,11.82,28.83,,189,3,192,data/raw/state/CoefficientDeviations.pdf
+0251,Ridgewood Village,2024,False,14.75,,14.48,9.23,48.99,14.47,20.91,1,188,3,192,data/raw/state/CoefficientDeviations.pdf
+0251,Ridgewood Village,2025,False,12.67,,12.67,9.21,,12.68,12.11,,204,5,209,data/raw/state/CoefficientDeviations.pdf
+0251,Ridgewood Village,2026,False,13.35,,12.71,15.69,45.58,12.73,22.29,1,183,9,193,data/raw/state/CoefficientDeviations.pdf
+0252,River Edge Boro,2023,False,13.56,,13.76,3.29,,13.76,3.35,,100,2,102,data/raw/state/CoefficientDeviations.pdf
+0252,River Edge Boro,2024,False,12.45,,11.38,29.86,,11.41,46.31,,65,2,67,data/raw/state/CoefficientDeviations.pdf
+0252,River Edge Boro,2025,False,9.31,,8.72,15.17,,8.74,15.89,,23,2,25,data/raw/state/CoefficientDeviations.pdf
+0252,River Edge Boro,2026,False,8.9,,8.9,,,8.9,,,13,,13,data/raw/state/CoefficientDeviations.pdf
+0253,River Vale Twp,2023,False,12.59,,12.13,,54.83,12.16,24.07,1,122,1,124,data/raw/state/CoefficientDeviations.pdf
+0253,River Vale Twp,2024,False,9.07,7.69,9.13,,6.91,9.14,,3,86,,89,data/raw/state/CoefficientDeviations.pdf
+0253,River Vale Twp,2025,False,10.67,2.47,10.56,,3.62,10.54,37.26,2,87,1,90,data/raw/state/CoefficientDeviations.pdf
+0253,River Vale Twp,2026,False,11.61,,11.5,,,11.51,20.91,,104,1,105,data/raw/state/CoefficientDeviations.pdf
+0254,Rochelle Park Twp,2023,False,15.2,,11.0,14.07,,11.9,51.57,,66,6,72,data/raw/state/CoefficientDeviations.pdf
+0254,Rochelle Park Twp,2024,False,17.77,,17.73,,18.13,17.77,,1,54,,55,data/raw/state/CoefficientDeviations.pdf
+0254,Rochelle Park Twp,2025,False,13.39,,12.75,22.03,,12.69,23.24,,42,3,45,data/raw/state/CoefficientDeviations.pdf
+0254,Rochelle Park Twp,2026,False,14.41,,11.31,,,10.8,72.05,,16,1,17,data/raw/state/CoefficientDeviations.pdf
+0255,Rockleigh Boro,2023,False,0.0,,,,,,,,1,,1,data/raw/state/CoefficientDeviations.pdf
+0255,Rockleigh Boro,2024,False,13.14,,13.14,,,13.14,,,2,,2,data/raw/state/CoefficientDeviations.pdf
+0255,Rockleigh Boro,2025,False,0.0,,,,,,,,,,,data/raw/state/CoefficientDeviations.pdf
+0255,Rockleigh Boro,2026,False,3.55,,3.55,,,3.55,,,2,,2,data/raw/state/CoefficientDeviations.pdf
+0256,Rutherford Boro,2023,False,11.52,,10.9,10.41,110.61,10.84,12.03,1,153,6,160,data/raw/state/CoefficientDeviations.pdf
+0256,Rutherford Boro,2024,False,13.48,,13.48,,,13.48,,,94,,94,data/raw/state/CoefficientDeviations.pdf
+0256,Rutherford Boro,2025,False,11.96,,11.81,1.59,,11.82,18.09,,88,2,90,data/raw/state/CoefficientDeviations.pdf
+0256,Rutherford Boro,2026,False,14.61,,13.01,32.49,16.23,13.13,33.42,1,116,9,126,data/raw/state/CoefficientDeviations.pdf
+0257,Saddle Brook Twp,2023,False,11.44,,10.07,16.96,,10.36,26.58,,42,3,45,data/raw/state/CoefficientDeviations.pdf
+0257,Saddle Brook Twp,2024,False,12.93,,12.48,,29.24,12.62,,1,51,,52,data/raw/state/CoefficientDeviations.pdf
+0257,Saddle Brook Twp,2025,False,12.55,,12.15,2.94,,11.97,23.2,,37,2,39,data/raw/state/CoefficientDeviations.pdf
+0257,Saddle Brook Twp,2026,False,11.75,,11.54,,16.7,11.56,13.5,1,34,1,36,data/raw/state/CoefficientDeviations.pdf
+0258,Saddle River Boro,2023,False,15.05,,14.82,,21.96,14.86,,1,38,,39,data/raw/state/CoefficientDeviations.pdf
+0258,Saddle River Boro,2024,False,18.67,6.65,17.93,,21.8,18.26,,4,30,,34,data/raw/state/CoefficientDeviations.pdf
+0258,Saddle River Boro,2025,False,18.99,,18.99,,,18.99,,,40,,40,data/raw/state/CoefficientDeviations.pdf
+0258,Saddle River Boro,2026,False,12.35,,12.35,,,12.35,,,34,,34,data/raw/state/CoefficientDeviations.pdf
+0259,South Hackensack Twp,2023,False,12.8,,11.2,15.86,,10.93,15.29,,4,3,7,data/raw/state/CoefficientDeviations.pdf
+0259,South Hackensack Twp,2024,False,11.66,,5.87,,,8.01,29.9,,5,1,6,data/raw/state/CoefficientDeviations.pdf
+0259,South Hackensack Twp,2025,False,8.09,,9.29,,,8.18,7.78,,3,1,4,data/raw/state/CoefficientDeviations.pdf
+0259,South Hackensack Twp,2026,False,4.15,,4.15,,,4.15,,,2,,2,data/raw/state/CoefficientDeviations.pdf
+0260,Teaneck Twp,2023,False,13.28,,12.73,23.41,23.2,12.73,23.46,1,300,15,316,data/raw/state/CoefficientDeviations.pdf
+0260,Teaneck Twp,2024,False,10.64,2.74,9.76,15.44,28.42,9.76,24.51,2,87,3,92,data/raw/state/CoefficientDeviations.pdf
+0260,Teaneck Twp,2025,False,11.86,,11.86,13.42,13.85,11.86,11.66,1,253,6,260,data/raw/state/CoefficientDeviations.pdf
+0260,Teaneck Twp,2026,False,11.91,,11.47,11.39,,11.49,27.66,,257,7,264,data/raw/state/CoefficientDeviations.pdf
+0261,Tenafly Boro,2023,False,14.06,,13.34,30.66,,13.33,30.27,,157,7,164,data/raw/state/CoefficientDeviations.pdf
+0261,Tenafly Boro,2024,False,13.29,,13.02,,39.97,13.02,22.65,1,138,1,140,data/raw/state/CoefficientDeviations.pdf
+0261,Tenafly Boro,2025,False,14.84,,14.19,30.01,,14.18,29.32,,131,6,137,data/raw/state/CoefficientDeviations.pdf
+0261,Tenafly Boro,2026,False,14.53,,14.6,12.28,0.16,14.63,14.69,1,118,5,124,data/raw/state/CoefficientDeviations.pdf
+0262,Teterboro Boro,2023,False,0.0,,,,,,,,,1,1,data/raw/state/CoefficientDeviations.pdf
+0262,Teterboro Boro,2024,False,0.0,,,,,,,,,,,data/raw/state/CoefficientDeviations.pdf
+0262,Teterboro Boro,2025,False,0.0,,,,,,,,,,,data/raw/state/CoefficientDeviations.pdf
+0262,Teterboro Boro,2026,False,0.0,,,,,,,,,1,1,data/raw/state/CoefficientDeviations.pdf
+0263,Upper Saddle River Boro,2023,False,14.33,,14.33,,,14.33,,,94,,94,data/raw/state/CoefficientDeviations.pdf
+0263,Upper Saddle River Boro,2024,False,16.86,27.3,16.72,6.32,30.91,16.75,6.6,2,72,2,76,data/raw/state/CoefficientDeviations.pdf
+0263,Upper Saddle River Boro,2025,False,14.61,,12.77,58.68,,12.72,66.21,,109,4,113,data/raw/state/CoefficientDeviations.pdf
+0263,Upper Saddle River Boro,2026,False,16.47,,16.37,,,16.38,26.81,,101,1,102,data/raw/state/CoefficientDeviations.pdf
+0264,Waldwick Boro,2023,False,9.36,,8.83,15.66,,8.84,21.88,,98,4,102,data/raw/state/CoefficientDeviations.pdf
+0264,Waldwick Boro,2024,False,9.14,,9.14,,,9.14,,,38,,38,data/raw/state/CoefficientDeviations.pdf
+0264,Waldwick Boro,2025,False,11.41,,10.78,21.9,26.72,10.78,20.57,1,82,4,87,data/raw/state/CoefficientDeviations.pdf
+0264,Waldwick Boro,2026,False,10.46,,10.43,4.98,9.52,10.44,11.43,1,97,3,101,data/raw/state/CoefficientDeviations.pdf
+0265,Wallington Boro,2023,False,13.18,,12.62,17.27,,12.66,17.37,,48,6,54,data/raw/state/CoefficientDeviations.pdf
+0265,Wallington Boro,2024,False,20.81,,17.04,41.45,,17.55,44.65,,44,6,50,data/raw/state/CoefficientDeviations.pdf
+0265,Wallington Boro,2025,False,11.92,,11.22,,,11.22,23.69,,17,1,18,data/raw/state/CoefficientDeviations.pdf
+0265,Wallington Boro,2026,False,11.3,,11.25,12.76,,11.14,14.02,,49,3,52,data/raw/state/CoefficientDeviations.pdf
+0266,Washington Twp,2023,False,8.23,,8.23,,,8.23,,,82,,82,data/raw/state/CoefficientDeviations.pdf
+0266,Washington Twp,2024,False,8.77,,8.77,,9.43,8.77,,1,76,,77,data/raw/state/CoefficientDeviations.pdf
+0266,Washington Twp,2025,False,11.36,,10.54,41.43,14.84,10.54,44.03,1,85,2,88,data/raw/state/CoefficientDeviations.pdf
+0266,Washington Twp,2026,False,6.44,,6.44,,,6.44,,,30,,30,data/raw/state/CoefficientDeviations.pdf
+0267,Westwood Boro,2023,False,8.12,,8.08,1.03,,8.1,8.44,,22,2,24,data/raw/state/CoefficientDeviations.pdf
+0267,Westwood Boro,2024,False,13.2,,13.2,,,13.2,,,20,,20,data/raw/state/CoefficientDeviations.pdf
+0267,Westwood Boro,2025,False,15.51,,12.29,30.24,,12.53,31.9,,22,4,26,data/raw/state/CoefficientDeviations.pdf
+0267,Westwood Boro,2026,False,9.84,,10.24,7.16,,10.21,7.29,,14,2,16,data/raw/state/CoefficientDeviations.pdf
+0268,Woodcliff Lake Boro,2023,False,9.49,,9.84,,,9.84,0.62,,25,1,26,data/raw/state/CoefficientDeviations.pdf
+0268,Woodcliff Lake Boro,2024,False,11.62,,11.62,,,11.62,,,18,,18,data/raw/state/CoefficientDeviations.pdf
+0268,Woodcliff Lake Boro,2025,False,12.46,,12.46,,,12.46,,,14,,14,data/raw/state/CoefficientDeviations.pdf
+0268,Woodcliff Lake Boro,2026,False,9.33,,7.9,1.5,20.91,8.46,11.34,1,18,2,21,data/raw/state/CoefficientDeviations.pdf
+0269,Wood-Ridge Boro,2023,False,11.07,,11.07,,,11.07,,,80,,80,data/raw/state/CoefficientDeviations.pdf
+0269,Wood-Ridge Boro,2024,False,12.38,,11.02,46.98,,10.98,60.26,,68,2,70,data/raw/state/CoefficientDeviations.pdf
+0269,Wood-Ridge Boro,2025,False,11.51,,11.3,16.34,,11.32,15.68,,88,4,92,data/raw/state/CoefficientDeviations.pdf
+0269,Wood-Ridge Boro,2026,False,7.21,,7.21,,,7.21,,,25,,25,data/raw/state/CoefficientDeviations.pdf
+0270,Wyckoff Twp,2023,False,10.71,,10.92,4.59,,10.91,5.7,,130,5,135,data/raw/state/CoefficientDeviations.pdf
+0270,Wyckoff Twp,2024,False,13.12,,13.38,10.49,,13.37,7.87,,84,4,88,data/raw/state/CoefficientDeviations.pdf
+0270,Wyckoff Twp,2025,False,14.44,,14.23,22.28,,14.24,20.43,,183,6,189,data/raw/state/CoefficientDeviations.pdf
+0270,Wyckoff Twp,2026,False,13.31,,13.4,,,13.4,2.15,,131,1,132,data/raw/state/CoefficientDeviations.pdf

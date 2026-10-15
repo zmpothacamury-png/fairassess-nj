@@ -27,7 +27,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "FairAssess NJ",
+  title: "Fair Assess NJ",
   description:
     "A public, reproducible study of whether New Jersey towns over-assess lower-priced homes, plus a free homeowner tax-appeal checker. Join the waitlist.",
 };

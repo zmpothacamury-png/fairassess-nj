@@ -4,7 +4,7 @@ import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
-export const metadata: Metadata = { title: "How It Works | FairAssess NJ" };
+export const metadata: Metadata = { title: "How It Works | Fair Assess NJ" };
 
 /** Content comes in Prompt 12, from docs/methodology.md. */
 export default function MethodologyPage() {

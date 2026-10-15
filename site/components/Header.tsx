@@ -138,9 +138,9 @@ export function Header() {
     <>
       <header data-scrolled={scrolled} className="site-header sticky top-0 z-40 bg-white/95 backdrop-blur">
         <div className="mx-auto flex h-18 max-w-content items-center gap-6 px-6">
-          <Link href="/" className="focus-ring flex shrink-0 items-center gap-2" aria-label="FairAssess NJ home">
+          <Link href="/" className="focus-ring flex shrink-0 items-center gap-2" aria-label="Fair Assess NJ home">
             <Image src="/logo-icon.png" alt="" width={394} height={698} priority className="h-11 w-auto" />
-            <span className="font-heading text-lg font-extrabold tracking-wide text-navy-700">FAIRASSESS NJ</span>
+            <span className="font-heading text-lg font-extrabold tracking-wide text-navy-700">FAIR ASSESS NJ</span>
           </Link>
 
           <nav aria-label="Main" className="ml-auto hidden xl:block">

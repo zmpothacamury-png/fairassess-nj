@@ -1,0 +1,2031 @@
+district_code,district_name,year,general_tax_rate,source_file
+0201,ALLENDALE BORO,1997,2.39,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,1998,2.46,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,1999,2.6,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2000,2.71,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2001,2.83,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2002,1.81,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2003,1.91,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2004,2.05,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2005,2.18,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2006,2.36,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2007,2.45,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2008,2.546,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2009,2.618,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2010,2.642,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2011,2.672,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2012,2.311,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2013,2.357,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2014,2.383,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2015,2.245,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2016,2.291,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2017,2.288,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2018,2.297,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2019,2.349,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2020,2.413,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2021,2.349,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2022,2.277,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2023,2.199,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2024,2.109,data/raw/state/GTRhistory.xlsx
+0201,ALLENDALE BORO,2025,2.03,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,1997,0.93,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,1998,0.96,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,1999,1.0,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2000,1.03,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2001,1.05,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2002,1.13,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2003,1.13,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2004,1.18,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2005,0.55,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2006,0.58,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2007,0.61,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2008,0.625,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2009,0.67,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2010,0.67,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2011,0.705,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2012,0.705,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2013,0.724,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2014,0.741,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2015,0.77,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2016,0.768,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2017,0.801,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2018,0.776,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2019,0.779,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2020,0.759,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2021,0.777,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2022,0.767,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2023,0.79,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2024,0.818,data/raw/state/GTRhistory.xlsx
+0202,ALPINE BORO,2025,0.837,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,1997,3.46,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,1998,3.66,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,1999,3.61,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2000,3.79,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2001,3.95,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2002,4.13,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2003,4.41,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2004,4.56,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2005,2.57,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2006,2.75,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2007,2.92,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2008,2.99,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2009,2.808,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2010,2.867,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2011,2.931,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2012,2.97,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2013,3.031,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2014,3.065,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2015,3.122,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2016,3.171,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2017,3.222,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2018,3.238,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2019,3.262,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2020,3.3,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2021,3.322,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2022,3.357,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2023,3.41,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2024,3.527,data/raw/state/GTRhistory.xlsx
+0203,BERGENFIELD BORO,2025,3.738,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,1997,3.52,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,1998,3.54,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,1999,3.56,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2000,3.64,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2001,3.83,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2002,3.09,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2003,3.09,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2004,3.29,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2005,3.29,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2006,3.4,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2007,3.73,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2008,4.024,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2009,2.421,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2010,2.549,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2011,2.574,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2012,2.691,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2013,3.531,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2014,3.63,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2015,3.729,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2016,3.773,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2017,3.8,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2018,3.92,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2019,4.018,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2020,4.073,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2021,4.138,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2022,4.225,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2023,4.294,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2024,2.324,data/raw/state/GTRhistory.xlsx
+0204,BOGOTA BORO,2025,2.398,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,1997,1.84,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,1998,1.93,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,1999,2.09,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2000,2.18,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2001,2.23,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2002,2.28,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2003,2.37,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2004,2.55,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2005,2.78,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2006,3.06,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2007,3.3,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2008,3.505,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2009,3.828,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2010,4.001,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2011,4.015,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2012,4.145,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2013,1.982,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2014,1.991,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2015,2.07,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2016,2.126,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2017,1.906,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2018,1.922,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2019,1.835,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2020,1.775,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2021,1.813,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2022,1.688,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2023,1.645,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2024,1.661,data/raw/state/GTRhistory.xlsx
+0205,CARLSTADT BORO,2025,1.705,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,1997,2.28,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,1998,2.37,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,1999,2.46,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2000,2.54,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2001,2.61,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2002,2.74,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2003,2.89,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2004,1.74,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2005,1.86,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2006,1.98,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2007,2.04,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2008,2.114,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2009,2.203,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2010,2.282,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2011,2.095,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2012,2.138,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2013,2.181,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2014,2.212,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2015,2.275,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2016,2.345,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2017,2.392,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2018,2.438,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2019,2.442,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2020,2.488,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2021,2.517,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2022,2.565,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2023,2.676,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2024,2.756,data/raw/state/GTRhistory.xlsx
+0206,CLIFFSIDE PARK BORO,2025,2.836,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,1997,2.7,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,1998,2.72,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,1999,2.87,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2000,2.12,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2001,2.23,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2002,2.39,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2003,2.55,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2004,2.66,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2005,2.79,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2006,1.49,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2007,1.57,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2008,1.643,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2009,1.971,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2010,2.013,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2011,2.046,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2012,2.084,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2013,2.102,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2014,2.129,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2015,2.19,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2016,2.239,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2017,2.282,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2018,2.226,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2019,2.217,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2020,2.241,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2021,2.304,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2022,2.212,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2023,2.144,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2024,2.116,data/raw/state/GTRhistory.xlsx
+0207,CLOSTER BORO,2025,2.072,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,1997,2.57,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,1998,2.65,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,1999,2.77,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2000,2.77,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2001,2.84,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2002,3.03,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2003,3.18,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2004,1.65,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2005,1.79,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2006,1.87,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2007,1.99,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2008,2.101,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2009,2.214,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2010,2.3,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2011,2.348,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2012,2.324,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2013,2.413,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2014,2.482,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2015,2.559,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2016,2.641,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2017,2.722,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2018,2.399,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2019,2.407,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2020,2.432,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2021,2.442,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2022,2.407,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2023,2.321,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2024,2.3,data/raw/state/GTRhistory.xlsx
+0208,CRESSKILL BORO,2025,2.269,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,1997,2.33,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,1998,2.43,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,1999,2.52,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2000,2.65,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2001,2.76,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2002,2.97,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2003,1.72,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2004,1.87,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2005,1.96,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2006,2.0,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2007,2.06,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2008,2.102,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2009,2.176,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2010,2.22,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2011,2.266,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2012,2.295,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2013,2.348,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2014,2.36,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2015,2.412,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2016,2.445,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2017,2.484,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2018,2.545,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2019,2.626,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2020,2.704,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2021,2.769,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2022,2.839,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2023,2.918,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2024,3.057,data/raw/state/GTRhistory.xlsx
+0209,DEMAREST BORO,2025,1.805,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,1997,2.79,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,1998,2.87,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,1999,2.98,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2000,3.15,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2001,3.29,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2002,3.43,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2003,3.53,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2004,3.77,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2005,1.94,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2006,2.12,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2007,2.23,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2008,2.311,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2009,2.385,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2010,2.463,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2011,2.541,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2012,3.182,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2013,3.248,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2014,3.298,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2015,3.364,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2016,3.443,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2017,3.525,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2018,3.594,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2019,3.669,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2020,3.759,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2021,3.864,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2022,3.883,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2023,3.965,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2024,4.065,data/raw/state/GTRhistory.xlsx
+0210,DUMONT BORO,2025,2.34,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,1997,2.27,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,1998,2.29,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,1999,2.35,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2000,2.47,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2001,2.59,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2002,2.76,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2003,2.9,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2004,3.09,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2005,1.87,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2006,2.01,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2007,2.15,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2008,2.302,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2009,2.335,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2010,2.44,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2011,2.492,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2012,2.591,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2013,2.636,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2014,2.699,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2015,2.783,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2016,2.829,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2017,2.889,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2018,2.923,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2019,2.951,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2020,3.002,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2021,3.026,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2022,3.012,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2023,2.992,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2024,3.069,data/raw/state/GTRhistory.xlsx
+0211,ELMWOOD PARK BORO,2025,3.202,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,1997,1.86,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,1998,1.94,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,1999,1.92,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2000,1.98,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2001,2.06,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2002,2.17,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2003,2.24,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2004,2.39,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2005,2.5,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2006,2.69,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2007,2.58,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2008,2.841,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2009,3.084,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2010,1.552,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2011,1.618,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2012,1.735,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2013,1.845,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2014,1.904,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2015,1.967,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2016,1.945,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2017,2.074,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2018,1.778,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2019,1.832,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2020,1.819,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2021,1.797,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2022,1.751,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2023,1.623,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2024,1.621,data/raw/state/GTRhistory.xlsx
+0212,E RUTHERFORD BORO,2025,1.609,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,1997,2.5,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,1998,2.59,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,1999,2.05,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2000,2.21,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2001,2.16,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2002,2.32,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2003,2.52,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2004,2.61,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2005,2.72,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2006,2.84,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2007,2.96,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2008,1.093,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2009,1.149,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2010,1.225,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2011,1.48,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2012,1.566,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2013,1.626,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2014,1.701,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2015,1.755,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2016,1.779,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2017,1.8,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2018,1.833,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2019,1.896,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2020,1.945,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2021,2.253,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2022,1.612,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2023,1.597,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2024,1.589,data/raw/state/GTRhistory.xlsx
+0213,EDGEWATER BORO,2025,1.645,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,1997,3.33,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,1998,3.44,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,1999,2.46,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2000,2.58,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2001,2.69,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2002,2.87,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2003,3.12,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2004,3.24,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2005,3.42,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2006,3.54,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2007,1.79,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2008,1.84,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2009,1.908,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2010,1.994,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2011,2.329,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2012,2.387,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2013,2.443,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2014,2.496,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2015,2.55,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2016,2.604,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2017,2.662,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2018,2.717,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2019,2.845,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2020,2.911,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2021,2.969,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2022,3.028,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2023,3.216,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2024,3.303,data/raw/state/GTRhistory.xlsx
+0214,EMERSON BORO,2025,3.42,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,1997,2.97,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,1998,3.12,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,1999,3.09,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2000,2.99,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2001,3.15,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2002,3.26,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2003,3.46,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2004,3.81,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2005,4.02,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2006,4.16,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2007,1.84,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2008,1.906,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2009,1.968,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2010,2.023,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2011,2.401,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2012,2.365,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2013,2.477,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2014,2.514,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2015,2.535,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2016,2.557,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2017,2.641,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2018,2.722,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2019,2.789,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2020,2.815,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2021,2.89,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2022,2.949,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2023,2.98,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2024,3.073,data/raw/state/GTRhistory.xlsx
+0215,ENGLEWOOD CITY,2025,3.116,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,1997,1.25,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,1998,1.29,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,1999,1.29,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2000,1.33,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2001,1.39,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2002,0.93,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2003,0.94,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2004,0.95,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2005,1.02,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2006,1.08,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2007,1.16,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2008,0.721,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2009,0.751,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2010,0.795,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2011,0.794,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2012,0.825,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2013,0.849,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2014,0.87,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2015,0.93,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2016,0.979,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2017,0.998,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2018,1.043,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2019,1.081,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2020,1.151,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2021,1.124,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2022,1.123,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2023,1.141,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2024,1.155,data/raw/state/GTRhistory.xlsx
+0216,ENGLEWOOD CLIFFS BORO,2025,1.165,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,1997,2.55,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,1998,2.68,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,1999,2.75,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2000,2.85,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2001,3.04,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2002,3.26,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2003,3.37,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2004,3.67,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2005,3.89,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2006,4.26,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2007,2.03,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2008,2.103,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2009,2.153,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2010,2.283,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2011,2.337,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2012,2.942,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2013,2.989,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2014,3.026,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2015,3.078,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2016,3.137,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2017,3.226,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2018,3.308,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2019,3.37,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2020,3.43,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2021,3.456,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2022,3.453,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2023,3.495,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2024,3.549,data/raw/state/GTRhistory.xlsx
+0217,FAIRLAWN BORO,2025,3.661,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,1997,3.04,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,1998,3.14,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,1999,3.22,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2000,3.15,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2001,2.79,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2002,2.98,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2003,3.14,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2004,3.29,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2005,3.43,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2006,3.64,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2007,3.8,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2008,3.956,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2009,4.15,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2010,4.24,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2011,2.567,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2012,2.684,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2013,2.781,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2014,2.854,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2015,2.919,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2016,3.081,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2017,3.26,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2018,3.366,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2019,3.356,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2020,2.587,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2021,2.479,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2022,2.325,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2023,2.261,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2024,2.313,data/raw/state/GTRhistory.xlsx
+0218,FAIRVIEW BORO,2025,2.275,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,1997,2.44,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,1998,2.47,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,1999,2.45,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2000,2.44,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2001,2.5,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2002,2.6,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2003,2.65,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2004,1.5,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2005,1.59,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2006,1.66,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2007,1.72,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2008,1.831,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2009,1.892,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2010,1.947,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2011,1.988,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2012,2.052,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2013,2.123,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2014,2.161,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2015,2.202,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2016,2.254,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2017,2.272,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2018,2.298,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2019,2.353,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2020,2.409,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2021,2.432,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2022,2.483,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2023,2.474,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2024,2.607,data/raw/state/GTRhistory.xlsx
+0219,FORT LEE BORO,2025,2.7,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,1997,1.63,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,1998,1.69,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,1999,1.74,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2000,1.8,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2001,1.87,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2002,1.96,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2003,2.04,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2004,2.15,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2005,2.28,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2006,2.37,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2007,1.11,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2008,1.154,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2009,1.196,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2010,1.246,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2011,1.53,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2012,1.533,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2013,1.557,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2014,1.572,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2015,1.599,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2016,1.641,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2017,1.636,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2018,1.625,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2019,1.642,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2020,1.648,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2021,1.662,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2022,1.686,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2023,1.73,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2024,1.796,data/raw/state/GTRhistory.xlsx
+0220,FRANKLIN LAKES BORO,2025,1.904,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,1997,2.63,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,1998,2.74,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,1999,2.74,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2000,2.79,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2001,2.83,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2002,2.93,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2003,2.95,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2004,3.11,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2005,3.32,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2006,3.57,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2007,3.7,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2008,3.93,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2009,4.096,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2010,4.206,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2011,2.418,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2012,2.461,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2013,2.522,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2014,2.571,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2015,2.641,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2016,2.708,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2017,2.791,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2018,2.841,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2019,2.906,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2020,2.962,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2021,3.028,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2022,3.119,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2023,3.281,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2024,3.337,data/raw/state/GTRhistory.xlsx
+0221,GARFIELD CITY,2025,3.479,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,1997,2.62,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,1998,2.81,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,1999,2.88,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2000,3.0,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2001,3.14,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2002,3.35,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2003,2.21,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2004,2.41,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2005,2.54,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2006,2.66,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2007,2.23,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2008,2.313,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2009,2.411,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2010,2.519,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2011,2.595,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2012,2.645,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2013,2.68,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2014,2.71,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2015,2.746,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2016,2.79,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2017,2.831,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2018,2.887,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2019,2.969,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2020,3.049,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2021,3.043,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2022,3.081,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2023,3.16,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2024,3.288,data/raw/state/GTRhistory.xlsx
+0222,GLEN ROCK BORO,2025,3.407,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,1997,3.68,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,1998,3.72,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,1999,3.82,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2000,3.9,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2001,3.94,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2002,4.13,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2003,4.3,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2004,4.48,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2005,4.69,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2006,5.01,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2007,1.99,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2008,2.097,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2009,2.215,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2010,2.328,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2011,2.951,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2012,3.095,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2013,3.217,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2014,3.322,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2015,3.5,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2016,3.378,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2017,3.415,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2018,3.413,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2019,3.357,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2020,3.309,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2021,3.358,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2022,2.802,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2023,2.879,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2024,3.056,data/raw/state/GTRhistory.xlsx
+0223,HACKENSACK CITY,2025,3.209,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,1997,2.83,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,1998,2.91,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,1999,2.46,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2000,2.59,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2001,2.7,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2002,2.86,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2003,3.01,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2004,3.05,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2005,3.27,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2006,1.65,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2007,1.69,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2008,1.771,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2009,1.901,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2010,1.978,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2011,2.021,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2012,2.081,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2013,2.495,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2014,2.593,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2015,2.654,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2016,2.722,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2017,2.802,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2018,2.832,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2019,2.885,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2020,2.947,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2021,2.96,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2022,2.981,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2023,3.031,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2024,3.127,data/raw/state/GTRhistory.xlsx
+0224,HARRINGTON PARK BORO,2025,3.271,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,1997,2.48,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,1998,2.58,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,1999,2.64,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2000,2.72,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2001,2.75,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2002,2.93,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2003,3.1,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2004,3.36,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2005,3.52,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2006,1.78,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2007,1.89,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2008,1.997,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2009,2.07,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2010,2.169,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2011,2.243,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2012,2.742,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2013,2.836,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2014,2.904,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2015,2.986,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2016,3.035,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2017,2.856,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2018,2.852,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2019,2.845,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2020,2.876,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2021,2.824,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2022,2.692,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2023,2.577,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2024,2.555,data/raw/state/GTRhistory.xlsx
+0225,HASBROUCK HGHTS BORO,2025,2.657,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,1997,2.48,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,1998,2.56,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,1999,2.72,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2000,2.85,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2001,2.97,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2002,3.09,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2003,3.33,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2004,1.99,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2005,2.1,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2006,2.16,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2007,2.29,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2008,2.388,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2009,2.394,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2010,2.447,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2011,2.552,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2012,2.64,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2013,2.699,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2014,2.752,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2015,2.795,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2016,2.91,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2017,2.883,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2018,2.867,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2019,2.911,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2020,2.919,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2021,2.944,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2022,2.979,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2023,3.042,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2024,3.092,data/raw/state/GTRhistory.xlsx
+0226,HAWORTH BORO,2025,3.225,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,1997,2.41,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,1998,2.42,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,1999,2.51,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2000,2.58,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2001,2.73,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2002,2.87,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2003,3.02,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2004,3.26,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2005,3.52,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2006,3.8,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2007,1.79,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2008,1.873,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2009,1.93,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2010,2.04,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2011,2.11,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2012,2.16,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2013,2.569,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2014,2.609,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2015,2.628,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2016,2.714,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2017,2.755,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2018,2.801,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2019,2.901,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2020,2.907,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2021,2.966,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2022,2.999,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2023,3.082,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2024,3.172,data/raw/state/GTRhistory.xlsx
+0227,HILLSDALE BORO,2025,3.33,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,1997,2.04,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,1998,1.64,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,1999,1.76,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2000,1.9,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2001,2.05,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2002,2.1,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2003,2.23,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2004,2.41,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2005,2.47,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2006,1.27,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2007,1.34,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2008,1.391,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2009,1.441,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2010,1.51,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2011,1.848,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2012,1.882,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2013,1.914,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2014,1.954,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2015,1.989,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2016,2.059,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2017,2.092,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2018,2.132,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2019,2.155,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2020,2.2,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2021,2.251,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2022,2.277,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2023,2.33,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2024,2.407,data/raw/state/GTRhistory.xlsx
+0228,HOHOKUS BORO,2025,2.501,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,1997,3.22,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,1998,3.29,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,1999,3.29,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2000,3.32,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2001,2.64,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2002,2.78,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2003,2.99,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2004,3.24,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2005,3.46,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2006,3.59,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2007,3.8,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2008,3.966,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2009,2.17,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2010,2.287,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2011,2.38,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2012,2.474,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2013,2.488,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2014,2.746,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2015,2.791,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2016,2.785,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2017,2.911,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2018,2.946,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2019,2.982,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2020,3.09,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2021,3.201,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2022,3.184,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2023,3.361,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2024,3.409,data/raw/state/GTRhistory.xlsx
+0229,LEONIA BORO,2025,3.609,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,1997,2.7,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,1998,2.88,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,1999,2.97,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2000,3.09,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2001,3.17,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2002,3.34,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2003,3.47,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2004,3.69,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2005,1.78,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2006,1.93,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2007,2.06,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2008,2.158,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2009,2.226,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2010,2.34,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2011,2.415,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2012,2.47,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2013,2.561,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2014,2.635,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2015,3.349,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2016,3.352,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2017,3.341,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2018,3.301,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2019,3.26,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2020,3.244,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2021,3.234,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2022,2.943,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2023,2.747,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2024,2.505,data/raw/state/GTRhistory.xlsx
+0230,LITTLE FERRY BORO,2025,2.436,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,1997,3.22,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,1998,3.55,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,1999,3.7,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2000,3.67,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2001,3.8,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2002,3.93,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2003,4.11,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2004,2.24,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2005,2.4,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2006,2.58,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2007,2.74,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2008,2.79,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2009,2.819,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2010,2.939,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2011,3.065,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2012,3.103,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2013,3.18,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2014,3.193,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2015,3.203,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2016,3.242,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2017,3.242,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2018,3.246,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2019,3.24,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2020,3.285,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2021,3.305,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2022,3.264,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2023,3.276,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2024,3.352,data/raw/state/GTRhistory.xlsx
+0231,LODI BORO,2025,3.54,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,1997,2.33,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,1998,2.37,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,1999,2.48,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2000,2.55,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2001,2.65,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2002,2.84,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2003,2.99,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2004,3.06,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2005,3.2,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2006,1.45,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2007,1.6,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2008,1.639,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2009,1.691,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2010,1.813,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2011,1.906,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2012,2.55,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2013,2.631,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2014,2.711,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2015,2.747,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2016,2.836,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2017,2.901,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2018,2.976,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2019,2.952,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2020,2.974,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2021,3.04,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2022,3.172,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2023,2.032,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2024,2.086,data/raw/state/GTRhistory.xlsx
+0232,LYNDHURST TWP,2025,2.225,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,1997,1.85,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,1998,1.92,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,1999,2.05,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2000,2.09,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2001,1.24,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2002,1.34,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2003,1.41,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2004,1.55,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2005,1.69,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2006,1.79,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2007,1.9,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2008,1.976,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2009,2.063,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2010,2.124,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2011,1.58,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2012,1.626,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2013,1.664,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2014,1.694,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2015,1.723,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2016,1.747,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2017,1.786,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2018,1.815,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2019,1.841,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2020,1.904,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2021,1.951,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2022,1.972,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2023,2.037,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2024,2.064,data/raw/state/GTRhistory.xlsx
+0233,MAHWAH TWP,2025,2.127,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,1997,2.85,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,1998,2.89,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,1999,2.71,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2000,2.79,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2001,2.93,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2002,3.08,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2003,3.26,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2004,3.45,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2005,3.64,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2006,3.88,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2007,4.13,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2008,1.871,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2009,1.943,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2010,2.047,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2011,2.157,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2012,2.678,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2013,2.744,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2014,2.782,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2015,2.822,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2016,2.902,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2017,2.994,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2018,3.043,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2019,3.112,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2020,3.16,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2021,2.434,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2022,2.282,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2023,2.153,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2024,2.152,data/raw/state/GTRhistory.xlsx
+0234,MAYWOOD BORO,2025,2.156,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,1997,2.63,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,1998,2.71,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,1999,2.84,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2000,3.02,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2001,3.2,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2002,2.22,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2003,2.27,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2004,2.43,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2005,2.54,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2006,2.67,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2007,2.79,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2008,2.855,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2009,2.959,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2010,3.057,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2011,3.136,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2012,2.571,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2013,2.719,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2014,2.691,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2015,2.811,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2016,2.865,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2017,2.937,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2018,2.987,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2019,3.042,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2020,3.118,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2021,3.196,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2022,3.252,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2023,3.381,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2024,3.48,data/raw/state/GTRhistory.xlsx
+0235,MIDLAND PARK BORO,2025,3.688,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,1997,1.96,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,1998,2.0,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,1999,2.1,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2000,2.13,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2001,2.25,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2002,2.43,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2003,2.49,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2004,2.59,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2005,2.74,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2006,1.4,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2007,1.45,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2008,1.514,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2009,1.579,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2010,1.629,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2011,1.681,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2012,1.726,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2013,2.097,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2014,2.181,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2015,2.201,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2016,2.26,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2017,2.303,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2018,2.334,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2019,2.363,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2020,2.431,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2021,2.458,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2022,2.471,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2023,2.464,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2024,2.515,data/raw/state/GTRhistory.xlsx
+0236,MONTVALE BORO,2025,2.552,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,1997,1.89,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,1998,1.96,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,1999,2.08,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2000,2.16,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2001,2.18,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2002,2.38,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2003,2.46,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2004,2.53,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2005,1.35,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2006,1.43,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2007,1.52,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2008,1.641,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2009,1.712,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2010,1.805,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2011,1.837,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2012,1.93,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2013,1.943,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2014,2.001,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2015,2.111,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2016,2.379,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2017,2.411,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2018,2.423,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2019,2.311,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2020,2.307,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2021,2.295,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2022,2.159,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2023,2.02,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2024,1.828,data/raw/state/GTRhistory.xlsx
+0237,MOONACHIE BORO,2025,1.769,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,1997,2.49,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,1998,2.56,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,1999,2.62,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2000,2.72,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2001,2.86,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2002,3.05,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2003,3.16,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2004,3.28,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2005,1.79,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2006,1.88,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2007,2.0,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2008,2.096,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2009,2.183,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2010,2.296,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2011,2.385,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2012,2.448,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2013,3.086,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2014,3.158,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2015,3.255,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2016,3.322,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2017,3.38,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2018,3.45,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2019,3.543,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2020,3.605,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2021,3.648,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2022,3.723,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2023,3.915,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2024,4.035,data/raw/state/GTRhistory.xlsx
+0238,NEW MILFORD BORO,2025,2.178,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,1997,2.58,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,1998,2.56,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,1999,2.63,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2000,2.8,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2001,2.94,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2002,3.14,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2003,3.37,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2004,3.49,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2005,3.65,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2006,3.76,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2007,4.27,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2008,4.38,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2009,4.482,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2010,4.742,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2011,2.688,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2012,2.705,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2013,2.806,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2014,2.887,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2015,3.013,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2016,3.099,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2017,2.924,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2018,2.914,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2019,2.871,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2020,2.754,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2021,2.802,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2022,2.571,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2023,2.442,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2024,2.304,data/raw/state/GTRhistory.xlsx
+0239,NORTH ARLINGTON BORO,2025,2.236,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,1997,2.89,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,1998,2.98,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,1999,3.04,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2000,2.48,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2001,2.55,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2002,2.72,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2003,2.95,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2004,3.12,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2005,3.28,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2006,3.42,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2007,1.78,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2008,1.801,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2009,1.902,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2010,1.97,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2011,2.444,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2012,2.489,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2013,2.515,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2014,2.573,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2015,2.633,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2016,2.676,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2017,2.736,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2018,2.84,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2019,2.925,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2020,3.032,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2021,3.026,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2022,3.02,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2023,3.093,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2024,3.202,data/raw/state/GTRhistory.xlsx
+0240,NORTHVALE BORO,2025,3.328,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,1997,2.45,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,1998,2.52,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,1999,2.71,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2000,2.14,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2001,2.26,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2002,2.38,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2003,2.6,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2004,2.67,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2005,2.76,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2006,2.87,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2007,2.99,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2008,1.59,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2009,1.656,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2010,1.725,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2011,2.133,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2012,2.218,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2013,2.249,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2014,2.255,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2015,2.281,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2016,2.374,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2017,2.43,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2018,2.442,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2019,2.444,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2020,2.517,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2021,2.575,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2022,2.584,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2023,2.645,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2024,2.749,data/raw/state/GTRhistory.xlsx
+0241,NORWOOD BORO,2025,2.892,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,1997,2.64,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,1998,2.69,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,1999,2.64,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2000,2.65,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2001,2.71,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2002,2.9,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2003,3.11,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2004,3.35,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2005,1.67,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2006,1.8,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2007,1.91,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2008,1.983,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2009,2.052,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2010,2.098,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2011,2.49,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2012,2.527,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2013,2.566,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2014,2.611,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2015,2.666,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2016,2.72,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2017,2.796,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2018,2.833,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2019,2.894,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2020,2.999,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2021,3.07,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2022,2.352,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2023,2.374,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2024,2.3,data/raw/state/GTRhistory.xlsx
+0242,OAKLAND BORO,2025,2.185,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,1997,1.91,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,1998,2.03,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,1999,2.14,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2000,2.23,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2001,2.3,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2002,1.54,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2003,1.73,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2004,1.81,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2005,1.89,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2006,1.93,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2007,1.98,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2008,2.067,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2009,2.141,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2010,2.171,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2011,1.682,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2012,1.751,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2013,1.814,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2014,1.871,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2015,1.922,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2016,1.953,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2017,2.005,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2018,2.021,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2019,2.063,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2020,2.092,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2021,2.123,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2022,2.128,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2023,2.154,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2024,2.202,data/raw/state/GTRhistory.xlsx
+0243,OLD TAPPAN BORO,2025,2.346,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,1997,2.48,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,1998,2.54,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,1999,2.61,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2000,2.73,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2001,2.88,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2002,3.09,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2003,3.24,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2004,3.41,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2005,3.56,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2006,3.78,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2007,3.99,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2008,4.043,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2009,2.142,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2010,2.238,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2011,2.284,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2012,2.347,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2013,2.723,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2014,2.784,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2015,2.911,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2016,2.976,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2017,2.702,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2018,2.745,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2019,2.786,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2020,2.763,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2021,2.796,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2022,2.674,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2023,2.668,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2024,2.722,data/raw/state/GTRhistory.xlsx
+0244,ORADELL BORO,2025,2.295,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,1997,2.77,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,1998,2.76,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,1999,2.74,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2000,2.73,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2001,2.76,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2002,2.83,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2003,2.86,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2004,2.86,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2005,2.91,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2006,2.96,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2007,3.02,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2008,1.414,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2009,1.443,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2010,1.698,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2011,1.703,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2012,1.722,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2013,1.784,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2014,1.777,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2015,1.861,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2016,1.901,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2017,1.959,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2018,1.979,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2019,2.032,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2020,1.543,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2021,1.584,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2022,1.539,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2023,1.479,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2024,1.455,data/raw/state/GTRhistory.xlsx
+0245,PALISADES PARK BORO,2025,1.463,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,1997,1.97,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,1998,1.99,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,1999,2.13,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2000,2.18,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2001,2.28,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2002,2.34,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2003,2.44,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2004,1.37,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2005,1.47,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2006,1.55,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2007,1.61,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2008,1.482,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2009,1.545,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2010,1.637,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2011,1.665,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2012,1.677,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2013,1.726,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2014,1.719,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2015,1.734,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2016,1.752,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2017,1.801,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2018,1.833,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2019,1.856,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2020,1.595,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2021,1.654,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2022,1.552,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2023,1.534,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2024,1.514,data/raw/state/GTRhistory.xlsx
+0246,PARAMUS BORO,2025,1.499,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,1997,2.07,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,1998,2.1,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,1999,2.11,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2000,2.13,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2001,2.2,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2002,2.31,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2003,2.47,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2004,1.51,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2005,1.6,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2006,1.69,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2007,1.8,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2008,1.857,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2009,1.901,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2010,1.988,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2011,2.189,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2012,2.279,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2013,2.375,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2014,2.431,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2015,2.503,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2016,2.608,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2017,2.702,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2018,2.767,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2019,2.844,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2020,2.926,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2021,3.02,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2022,3.089,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2023,3.185,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2024,3.248,data/raw/state/GTRhistory.xlsx
+0247,PARK RIDGE BORO,2025,3.333,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,1997,2.62,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,1998,2.73,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,1999,2.84,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2000,2.91,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2001,3.04,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2002,3.19,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2003,1.81,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2004,1.91,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2005,2.04,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2006,2.14,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2007,2.25,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2008,2.331,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2009,2.398,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2010,2.494,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2011,2.562,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2012,2.589,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2013,2.603,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2014,2.655,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2015,2.701,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2016,2.287,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2017,2.352,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2018,2.397,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2019,2.458,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2020,2.57,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2021,2.593,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2022,2.623,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2023,2.737,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2024,2.822,data/raw/state/GTRhistory.xlsx
+0248,RAMSEY BORO,2025,2.059,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,1997,1.86,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,1998,1.88,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,1999,1.89,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2000,1.88,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2001,1.88,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2002,1.89,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2003,1.9,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2004,2.17,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2005,1.17,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2006,1.19,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2007,1.37,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2008,1.491,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2009,1.563,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2010,1.615,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2011,1.647,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2012,2.002,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2013,2.073,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2014,2.099,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2015,2.167,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2016,2.238,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2017,2.324,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2018,2.417,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2019,2.48,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2020,2.538,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2021,2.588,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2022,1.695,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2023,1.673,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2024,1.694,data/raw/state/GTRhistory.xlsx
+0249,RIDGEFIELD BORO,2025,1.694,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,1997,2.98,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,1998,3.18,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,1999,3.27,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2000,3.4,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2001,3.56,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2002,2.88,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2003,3.08,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2004,3.35,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2005,3.69,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2006,3.86,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2007,4.09,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2008,2.362,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2009,2.402,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2010,2.509,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2011,3.255,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2012,3.341,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2013,3.385,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2014,3.458,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2015,3.55,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2016,3.624,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2017,3.723,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2018,3.848,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2019,3.939,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2020,3.248,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2021,3.29,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2022,3.131,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2023,2.946,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2024,2.897,data/raw/state/GTRhistory.xlsx
+0250,RIDGEFIELD PARK VILLAGE,2025,3.061,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,1997,2.71,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,1998,2.83,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,1999,2.98,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2000,3.08,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2001,2.12,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2002,2.24,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2003,2.34,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2004,2.46,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2005,2.56,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2006,2.67,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2007,2.8,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2008,1.723,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2009,1.792,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2010,1.887,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2011,1.956,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2012,2.019,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2013,2.356,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2014,2.385,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2015,2.433,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2016,2.476,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2017,2.538,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2018,2.565,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2019,2.597,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2020,2.637,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2021,2.708,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2022,2.733,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2023,2.804,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2024,2.869,data/raw/state/GTRhistory.xlsx
+0251,RIDGEWOOD VILLAGE,2025,2.89,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,1997,2.5,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,1998,2.57,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,1999,2.76,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2000,2.83,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2001,2.99,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2002,3.13,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2003,3.36,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2004,3.6,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2005,1.93,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2006,2.09,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2007,2.22,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2008,2.316,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2009,2.442,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2010,2.565,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2011,2.671,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2012,3.065,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2013,3.132,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2014,3.223,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2015,3.217,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2016,3.286,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2017,3.362,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2018,3.395,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2019,3.468,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2020,3.57,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2021,3.627,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2022,3.7,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2023,3.866,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2024,3.965,data/raw/state/GTRhistory.xlsx
+0252,RIVEREDGE BORO,2025,2.42,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,1997,2.27,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,1998,2.35,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,1999,2.46,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2000,2.54,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2001,2.69,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2002,2.78,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2003,2.92,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2004,3.16,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2005,3.36,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2006,3.55,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2007,3.85,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2008,1.891,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2009,1.945,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2010,2.001,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2011,2.101,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2012,2.17,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2013,2.229,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2014,2.272,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2015,2.348,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2016,2.417,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2017,2.488,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2018,2.525,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2019,2.553,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2020,2.613,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2021,2.583,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2022,2.645,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2023,2.714,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2024,2.731,data/raw/state/GTRhistory.xlsx
+0253,RIVERVALE TWP,2025,2.801,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,1997,2.33,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,1998,2.36,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,1999,2.45,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2000,2.58,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2001,2.73,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2002,1.8,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2003,2.06,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2004,2.14,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2005,2.18,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2006,2.38,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2007,2.49,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2008,2.593,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2009,2.695,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2010,1.947,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2011,2.013,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2012,2.06,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2013,2.114,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2014,2.21,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2015,2.367,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2016,2.37,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2017,2.398,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2018,2.46,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2019,2.527,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2020,2.584,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2021,2.609,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2022,2.745,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2023,2.775,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2024,2.826,data/raw/state/GTRhistory.xlsx
+0254,ROCHELLE PARK TWP,2025,2.934,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,1997,0.98,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,1998,1.03,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,1999,0.84,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2000,1.09,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2001,1.06,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2002,1.35,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2003,1.42,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2004,1.38,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2005,1.33,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2006,0.58,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2007,0.6,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2008,0.647,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2009,0.702,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2010,0.938,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2011,1.052,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2012,0.956,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2013,1.006,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2014,1.001,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2015,0.989,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2016,0.956,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2017,0.873,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2018,0.946,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2019,0.959,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2020,0.871,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2021,0.775,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2022,0.74,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2023,0.775,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2024,0.834,data/raw/state/GTRhistory.xlsx
+0255,ROCKLEIGH BORO,2025,0.839,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,1997,2.73,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,1998,2.76,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,1999,2.91,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2000,3.02,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2001,3.12,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2002,3.22,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2003,3.41,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2004,3.52,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2005,3.71,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2006,1.77,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2007,1.96,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2008,2.041,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2009,2.107,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2010,2.212,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2011,2.267,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2012,2.337,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2013,2.382,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2014,2.454,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2015,2.533,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2016,2.604,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2017,2.663,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2018,2.701,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2019,2.739,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2020,2.851,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2021,2.929,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2022,2.969,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2023,3.042,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2024,3.121,data/raw/state/GTRhistory.xlsx
+0256,RUTHERFORD BORO,2025,3.2,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,1997,2.12,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,1998,2.16,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,1999,2.19,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2000,2.25,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2001,2.35,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2002,2.44,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2003,2.61,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2004,2.75,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2005,2.94,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2006,3.12,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2007,3.3,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2008,3.525,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2009,1.885,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2010,2.022,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2011,2.142,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2012,2.185,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2013,2.579,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2014,2.62,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2015,2.715,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2016,2.865,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2017,2.578,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2018,2.537,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2019,2.593,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2020,2.575,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2021,2.604,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2022,2.402,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2023,2.336,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2024,2.306,data/raw/state/GTRhistory.xlsx
+0257,SADDLE BROOK TWP,2025,2.373,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,1997,0.88,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,1998,0.93,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,1999,0.99,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2000,1.07,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2001,1.15,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2002,0.72,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2003,0.72,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2004,0.75,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2005,0.78,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2006,0.8,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2007,0.84,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2008,0.883,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2009,0.914,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2010,0.94,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2011,0.953,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2012,0.971,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2013,0.979,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2014,0.977,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2015,0.987,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2016,1.019,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2017,1.013,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2018,0.906,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2019,0.921,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2020,0.959,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2021,0.985,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2022,0.994,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2023,1.021,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2024,1.036,data/raw/state/GTRhistory.xlsx
+0258,SADDLE RIVER BORO,2025,1.067,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,1997,2.39,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,1998,2.27,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,1999,2.34,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2000,2.45,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2001,2.55,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2002,2.74,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2003,2.33,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2004,2.49,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2005,2.61,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2006,2.95,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2007,3.12,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2008,3.282,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2009,3.458,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2010,2.157,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2011,2.188,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2012,2.281,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2013,2.36,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2014,2.708,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2015,2.746,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2016,2.764,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2017,2.778,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2018,2.759,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2019,2.733,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2020,2.684,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2021,2.522,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2022,2.205,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2023,2.131,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2024,1.959,data/raw/state/GTRhistory.xlsx
+0259,SO HACKENSACK TWP,2025,1.851,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,1997,3.14,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,1998,3.24,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,1999,3.39,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2000,3.52,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2001,3.64,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2002,3.83,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2003,3.99,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2004,4.18,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2005,4.38,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2006,4.64,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2007,2.15,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2008,2.197,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2009,2.281,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2010,2.328,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2011,2.363,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2012,2.397,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2013,2.486,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2014,2.571,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2015,3.047,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2016,3.096,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2017,3.143,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2018,3.173,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2019,3.197,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2020,3.234,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2021,3.256,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2022,3.237,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2023,3.302,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2024,2.184,data/raw/state/GTRhistory.xlsx
+0260,TEANECK TWP,2025,2.292,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,1997,2.58,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,1998,2.62,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,1999,2.68,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2000,2.78,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2001,2.92,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2002,3.07,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2003,1.91,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2004,2.04,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2005,2.15,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2006,2.3,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2007,2.43,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2008,2.585,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2009,2.68,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2010,2.752,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2011,2.256,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2012,2.297,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2013,2.332,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2014,2.373,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2015,2.418,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2016,2.473,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2017,2.523,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2018,2.532,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2019,2.572,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2020,2.618,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2021,2.657,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2022,2.705,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2023,2.772,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2024,2.841,data/raw/state/GTRhistory.xlsx
+0261,TENAFLY BORO,2025,2.973,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,1997,1.18,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,1998,1.25,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,1999,1.34,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2000,1.36,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2001,1.35,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2002,1.32,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2003,1.36,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2004,0.96,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2005,1.0,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2006,1.01,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2007,1.08,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2008,0.944,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2009,0.983,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2010,1.284,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2011,1.278,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2012,1.327,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2013,1.348,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2014,1.291,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2015,1.2,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2016,1.086,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2017,1.138,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2018,1.155,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2019,1.104,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2020,1.097,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2021,1.144,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2022,1.146,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2023,1.178,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2024,1.052,data/raw/state/GTRhistory.xlsx
+0262,TETERBORO BORO,2025,1.05,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,1997,1.87,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,1998,1.91,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,1999,1.96,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2000,2.06,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2001,2.22,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2002,1.52,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2003,1.61,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2004,1.72,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2005,1.77,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2006,1.83,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2007,1.92,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2008,1.965,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2009,2.011,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2010,2.057,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2011,2.117,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2012,2.128,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2013,2.165,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2014,2.198,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2015,2.238,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2016,2.271,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2017,2.342,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2018,2.361,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2019,2.378,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2020,2.434,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2021,2.468,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2022,2.473,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2023,2.48,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2024,2.546,data/raw/state/GTRhistory.xlsx
+0263,UPPER SADDLE RIV BORO,2025,2.59,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,1997,2.82,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,1998,2.87,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,1999,2.94,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2000,3.03,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2001,3.1,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2002,3.23,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2003,3.44,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2004,3.74,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2005,1.81,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2006,1.96,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2007,2.09,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2008,2.158,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2009,2.228,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2010,2.325,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2011,2.381,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2012,2.42,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2013,2.454,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2014,2.51,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2015,2.572,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2016,2.602,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2017,2.656,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2018,2.679,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2019,2.766,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2020,2.767,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2021,2.794,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2022,2.848,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2023,2.908,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2024,2.214,data/raw/state/GTRhistory.xlsx
+0264,WALDWICK BORO,2025,2.295,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,1997,2.38,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,1998,2.51,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,1999,2.47,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2000,2.45,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2001,2.49,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2002,2.56,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2003,2.72,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2004,2.91,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2005,3.13,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2006,3.37,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2007,3.6,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2008,1.691,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2009,1.764,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2010,1.837,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2011,2.073,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2012,2.133,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2013,2.206,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2014,2.596,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2015,2.736,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2016,2.858,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2017,2.915,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2018,2.952,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2019,2.987,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2020,3.085,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2021,3.149,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2022,3.204,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2023,3.272,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2024,3.401,data/raw/state/GTRhistory.xlsx
+0265,WALLINGTON BORO,2025,1.95,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,1997,2.23,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,1998,2.31,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,1999,2.38,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2000,2.48,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2001,2.6,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2002,2.68,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2003,2.76,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2004,3.01,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2005,3.15,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2006,1.49,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2007,1.62,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2008,1.7,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2009,1.752,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2010,1.811,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2011,1.858,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2012,1.865,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2013,1.898,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2014,2.212,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2015,2.27,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2016,2.309,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2017,2.325,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2018,2.363,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2019,2.429,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2020,2.485,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2021,2.525,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2022,2.581,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2023,2.706,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2024,2.774,data/raw/state/GTRhistory.xlsx
+0266,WASHINGTON TWP,2025,2.859,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,1997,2.61,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,1998,2.63,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,1999,2.68,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2000,2.73,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2001,2.8,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2002,2.93,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2003,3.12,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2004,1.75,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2005,1.89,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2006,1.97,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2007,2.03,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2008,2.093,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2009,2.133,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2010,2.231,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2011,2.325,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2012,2.411,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2013,2.463,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2014,2.492,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2015,2.544,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2016,2.627,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2017,2.509,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2018,2.483,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2019,2.52,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2020,2.534,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2021,2.509,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2022,2.408,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2023,2.293,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2024,2.184,data/raw/state/GTRhistory.xlsx
+0267,WESTWOOD BORO,2025,2.162,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,1997,2.03,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,1998,2.11,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,1999,2.2,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2000,2.24,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2001,2.35,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2002,2.4,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2003,1.48,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2004,1.61,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2005,1.75,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2006,1.87,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2007,1.98,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2008,2.049,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2009,2.059,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2010,2.159,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2011,2.237,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2012,2.081,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2013,2.132,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2014,2.209,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2015,2.123,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2016,2.144,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2017,2.092,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2018,2.073,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2019,2.089,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2020,2.101,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2021,2.19,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2022,2.188,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2023,2.165,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2024,2.162,data/raw/state/GTRhistory.xlsx
+0268,WOODCLIFF LAKE BORO,2025,2.186,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,1997,2.7,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,1998,2.75,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,1999,2.8,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2000,2.89,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2001,3.08,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2002,2.02,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2003,2.08,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2004,2.12,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2005,2.44,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2006,2.67,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2007,2.86,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2008,3.037,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2009,3.201,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2010,3.349,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2011,3.438,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2012,3.515,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2013,3.6,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2014,3.691,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2015,3.768,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2016,3.833,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2017,2.62,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2018,2.683,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2019,2.774,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2020,2.816,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2021,2.823,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2022,2.795,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2023,2.825,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2024,2.868,data/raw/state/GTRhistory.xlsx
+0269,WOOD RIDGE BORO,2025,2.99,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,1997,1.94,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,1998,1.96,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,1999,2.02,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2000,2.1,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2001,2.14,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2002,2.25,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2003,2.31,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2004,2.43,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2005,2.58,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2006,1.26,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2007,1.34,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2008,1.391,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2009,1.428,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2010,1.474,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2011,1.518,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2012,1.534,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2013,1.555,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2014,1.587,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2015,1.713,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2016,1.732,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2017,1.76,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2018,1.782,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2019,1.81,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2020,1.835,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2021,1.854,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2022,1.842,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2023,1.893,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2024,1.95,data/raw/state/GTRhistory.xlsx
+0270,WYCKOFF TWP,2025,2.026,data/raw/state/GTRhistory.xlsx

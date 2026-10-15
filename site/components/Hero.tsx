@@ -26,7 +26,7 @@ export function Hero() {
               Do cheaper homes get taxed harder than expensive ones?
             </h1>
             <p className="mt-6 max-w-[56ch] text-lg text-ink-600">
-              FairAssess NJ checks town assessment records against actual
+              Fair Assess NJ checks town assessment records against actual
               sale prices, town by town. Homeowners who are over-assessed
               have a legal right to appeal.
             </p>
