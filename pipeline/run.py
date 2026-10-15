@@ -4,12 +4,12 @@ Usage from PowerShell (in the project folder):
     .\\.venv\\Scripts\\python -m pipeline.run          # every stage
     .\\.venv\\Scripts\\python -m pipeline.run clean    # start at the "clean" stage
 
-Stages so far: parse -> clean. Later prompts add more stages to STAGES.
+Stages so far: parse -> clean -> stats. Later prompts add more stages to STAGES.
 """
 
 import sys
 
-from pipeline import build_towns, clean, config, parse_ch123, parse_sr1a, parse_state_tables, profile_data
+from pipeline import build_stats, build_towns, clean, config, parse_ch123, parse_sr1a, parse_state_tables, profile_data
 
 
 def parse_stage():
@@ -35,10 +35,17 @@ def clean_inputs():
     return [config.SR1A_PARQUET, config.TOWNS_CSV, config.REVALUATION_TOWNS_CSV]
 
 
+def stats_inputs():
+    """Files the stats stage needs (made by the clean and parse stages)."""
+    return [config.SALES_CLEAN_CSV, config.REMOVED_ROWS_PARQUET, config.TOWNS_CSV,
+            config.CH123_CSV[config.CH123_TAX_YEAR]]
+
+
 # (name, function, files that must exist before the stage runs)
 STAGES = [
     ("parse", parse_stage, parse_inputs),
     ("clean", clean.main, clean_inputs),
+    ("stats", build_stats.main, stats_inputs),
 ]
 
 

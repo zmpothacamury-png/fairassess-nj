@@ -112,3 +112,56 @@ REMOVED_ROWS_PARQUET = INTERIM_DIR / "removed_rows.parquet"
 FILTER_LOG_CSV = PROCESSED_DIR / "filter_log.csv"
 C8_SENSITIVITY_CSV = PROCESSED_DIR / "c8_sensitivity.csv"
 FILTER_LOG_MD = DOCS_DIR / "filter-log.md"
+
+# ---------------------------------------------------------------- town statistics (methodology Sections 2 and 5)
+# PRB (Section 2.2, IAAO Appendix D): x = ln(value proxy) / 0.693, exactly as IAAO writes it.
+PRB_LOG_DIVISOR = 0.693
+PRB_VALUE_WEIGHT = 0.5  # value proxy = 0.5 x sale price + 0.5 x (assessed / median ratio)
+PRB_CI_Z = 1.96  # T4: PRB range = slope +/- 1.96 x standard error
+
+# T4: percentile bootstrap for median, COD, and PRD. Every town uses the same
+# seed (RANDOM_SEED above), so every run gives the same ranges.
+BOOTSTRAP_RESAMPLES = 2000
+CI_LOW_PCT = 2.5
+CI_HIGH_PCT = 97.5
+
+# IAAO reference ranges (Section 2.3).
+COD_MAX = 15.0  # our choice: judge COD against 15.0 (older, mixed suburbs)
+COD_MAX_NEWER_AREAS = 10.0  # IAAO guideline for newer or similar areas (shown as context only)
+COD_LOW_WARNING = 5.0  # IAAO: below 5.0 "may indicate sales chasing or non-representative samples"
+PRD_LOW, PRD_HIGH = 0.98, 1.03
+PRB_LOW, PRB_HIGH = -0.05, 0.05
+PRB_UNACCEPTABLE = 0.10  # IAAO: a 95% range outside -0.10 to 0.10 is "unacceptable"
+
+# T3: number of value quarters. Main results sort by the PRB value proxy;
+# sale price is kept as a comparison only.
+N_TIERS = 4
+TIER_BASIS_MAIN = "value_proxy"
+TIER_BASES = ["value_proxy", "sale_price"]
+
+# T7 / K10: Chapter 123 limits for tax year 2027 appeals; ratios above 100%
+# count as 100% ("RATIOS IN EXCESS OF 100% ARE TO BE CONSIDERED 100%").
+CH123_TAX_YEAR = 2027
+CH123_RATIO_CAP = 100.0
+# T7 is not shown for towns on the 2027 revaluation list (K14).
+T7_SKIP_REVAL_TAX_YEAR = 2027
+
+# T5 labels, in the order they are checked (Section 5.4).
+LABEL_NOT_ENOUGH = "Not enough sales"
+LABEL_REGRESSIVE = "Regressive pattern"
+LABEL_PROGRESSIVE = "Progressive pattern"
+LABEL_WITHIN = "Within standards"
+LABEL_MIXED = "Mixed signals"
+LABELS = [LABEL_REGRESSIVE, LABEL_PROGRESSIVE, LABEL_WITHIN, LABEL_MIXED, LABEL_NOT_ENOUGH]
+
+# Data quality flags (T6 and C9).
+QUALITY_NORMAL = "normal"
+QUALITY_LIMITED = "limited data"
+QUALITY_NOT_ENOUGH = "not enough sales"
+QUALITY_RECENT_REVAL = "recent revaluation"
+
+TOWN_STATS_CSV = PROCESSED_DIR / "town_stats.csv"
+TOWN_TIERS_CSV = PROCESSED_DIR / "town_tiers.csv"
+COUNTY_SUMMARY_JSON = PROCESSED_DIR / "county_summary.json"
+SENSITIVITY_CSV = PROCESSED_DIR / "sensitivity.csv"
+STATS_SUMMARY_MD = DOCS_DIR / "stats-summary.md"

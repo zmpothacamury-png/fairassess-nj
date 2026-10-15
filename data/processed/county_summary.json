@@ -1,0 +1,119 @@
+{
+  "source_file": "Sales2026",
+  "sales_recorded": "2025-07-01 to 2026-06-30",
+  "n_sales": 3806,
+  "n_towns": 70,
+  "n_towns_with_sales": 69,
+  "headline_version": "within_town",
+  "within_town": {
+    "about": "Each sale's assessed value is divided by its own town's median ratio before pooling, so differences in assessment level between towns are removed. Measures only the unevenness inside towns.",
+    "n_sales": 3806,
+    "median_ratio": 1.0,
+    "mean_ratio": 1.018317,
+    "weighted_mean_ratio": 1.008888,
+    "cod": 11.936994,
+    "prd": 1.009346,
+    "prb": 0.001404,
+    "prb_se": 0.003736,
+    "prb_ci_low": -0.005917,
+    "prb_ci_high": 0.008726,
+    "median_ci_low": 0.995414,
+    "median_ci_high": 1.003244,
+    "cod_ci_low": 11.601108,
+    "cod_ci_high": 12.281554,
+    "prd_ci_low": 1.004091,
+    "prd_ci_high": 1.015275
+  },
+  "pooled": {
+    "about": "All clean sales pooled with no adjustment. Mixes towns assessed at very different levels, so COD and PRD here partly reflect differences between towns.",
+    "n_sales": 3806,
+    "median_ratio": 0.613964,
+    "mean_ratio": 0.649613,
+    "weighted_mean_ratio": 0.646063,
+    "cod": 24.678174,
+    "prd": 1.005495,
+    "prb": 0.089694,
+    "prb_se": 0.0066,
+    "prb_ci_low": 0.076758,
+    "prb_ci_high": 0.102629,
+    "median_ci_low": 0.604319,
+    "median_ci_high": 0.623617,
+    "cod_ci_low": 24.131805,
+    "cod_ci_high": 25.233448,
+    "prd_ci_low": 0.997553,
+    "prd_ci_high": 1.012881
+  },
+  "towns_by_label": {
+    "Regressive pattern": 2,
+    "Progressive pattern": 1,
+    "Within standards": 28,
+    "Mixed signals": 17,
+    "Not enough sales": 22
+  },
+  "towns_by_data_quality": {
+    "normal": 30,
+    "limited data": 18,
+    "not enough sales": 1,
+    "recent revaluation": 21
+  },
+  "ranked_towns": 48,
+  "ranked_towns_meeting_iaao": {
+    "cod": 43,
+    "prd": 44,
+    "prb": 29
+  },
+  "ranked_towns_prb_range_below_zero": 9,
+  "ranked_towns_prb_range_above_zero": 4,
+  "ranked_towns_prb_range_outside_0_10": 1,
+  "ranked_towns_label_sensitive_to_outliers": 12,
+  "t7_value_quarters": {
+    "n_towns": 24,
+    "by_tier": [
+      {
+        "tier": 1,
+        "n_sales": 304,
+        "n_above_upper": 43,
+        "n_below_lower": 75,
+        "share_above_upper": 0.141447,
+        "share_below_lower": 0.246711
+      },
+      {
+        "tier": 2,
+        "n_sales": 297,
+        "n_above_upper": 30,
+        "n_below_lower": 84,
+        "share_above_upper": 0.10101,
+        "share_below_lower": 0.282828
+      },
+      {
+        "tier": 3,
+        "n_sales": 293,
+        "n_above_upper": 21,
+        "n_below_lower": 81,
+        "share_above_upper": 0.071672,
+        "share_below_lower": 0.276451
+      },
+      {
+        "tier": 4,
+        "n_sales": 287,
+        "n_above_upper": 36,
+        "n_below_lower": 60,
+        "share_above_upper": 0.125436,
+        "share_below_lower": 0.209059
+      }
+    ]
+  },
+  "state_average_ratio_range": {
+    "tax_year": 2027,
+    "source": "2027CH123.pdf",
+    "min": 47.06,
+    "min_town": "Garfield",
+    "max": 119.5,
+    "max_town": "Rockleigh"
+  },
+  "typical_ranked_town": {
+    "median_cod": 12.140314,
+    "median_prd": 1.011635,
+    "median_prb": -0.00349
+  }
+}

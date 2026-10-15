@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-10-15 (Prompt 6 follow-up: decisions and T7)
+- Zaden delegated the 6 open items. Methodology is now version 1.3: value quarters (T3) sort by the PRB value proxy (the sale-price version stays in `town_tiers.csv` as a comparison); new rule T8 makes the within-town countywide measure the headline; a PRB is "unacceptable" only if its whole 95% range is outside -0.10 to +0.10; the median ratio gets no pass/fail flag; PRB keeps IAAO's ln(V)/0.693.
+- Built T7: `town_tiers.csv` now has each quarter's Chapter 123 triggers and the count and share of sales above and below them (blank for the 24 towns on the 2027 revaluation list). `county_summary.json` adds T7 for 24 towns and the 2027 state average ratio range (47.06% Garfield to 119.50% Rockleigh).
+- `docs/stats-summary.md` adds the T7 table, why quarters use value, and a note that all 3 labeled towns (Bergenfield, Cliffside Park, Englewood) are on the 2027 revaluation list.
+- 6 new tests (46 in `test_stats.py`, 132 in all) pass. Two runs give identical files.
+
+## 2026-10-15 (Prompt 6: ratio statistics)
+- New `pipeline/stats.py`: small pure functions for median, mean, and weighted mean ratio, COD, PRD, PRB (with standard error and 95% range), the bootstrap ranges (2,000 resamples, seed 20261025), value quarters, the T5 label, the T6 data quality flag, and the IAAO pass/fail flags. Each docstring shows its formula.
+- New `pipeline/build_stats.py` and a `stats` stage in `pipeline/run.py`. Outputs: `data/processed/town_stats.csv` (all 70 towns), `town_tiers.csv`, `county_summary.json`, `sensitivity.csv` (labels at C8 fence 3.0, 1.5, and no trimming), and the generated `docs/stats-summary.md`.
+- Results (3,806 Sales2026 sales): 2 towns show a regressive pattern, 1 progressive, 28 within standards, 17 mixed signals, 22 not enough sales. Countywide within-town COD 11.9, PRD 1.009, PRB 0.001.
+- `pipeline/tests/test_stats.py`: 40 tests, including a 5-sale dataset worked out by hand. 126 pipeline tests pass. Two runs give identical files.
+- Methodology T3: added a proposed change (not adopted) to sort value quarters by the PRB value proxy instead of sale price. `town_tiers.csv` has both versions until Zaden decides.
+- `docs/data-dictionary.md` section 10 and the README run steps.
+
 ## 2026-10-15 (Website wording: simpler grammar)
 - Zaden asked for simpler grammar on the website with no dashes, colons, or semicolons, keeping the same tone, message, and formatting, and leaving the footer alone. Long sentences were split into shorter ones on the home page (The problem, What we're building, Methodology), the deadline and fee box ("The deadline is April 1", "The filing fee is $5 to $150"; facts unchanged), the teaching diagram, the waitlist section, and the Appeal Checker intro. Also the site description, the link-preview image description, and the scroll button's screen-reader name. Footer, disclaimer, and the hidden /design page unchanged. Lint, 62 unit tests, 60 browser tests, and the build pass.
 

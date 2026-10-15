@@ -1,0 +1,211 @@
+district_code,variant,n_sales,data_quality,label,median_ratio,cod,prd,prb,prb_ci_low,prb_ci_high
+0201,fence_3_0,17,recent revaluation,Not enough sales,,,,,,
+0201,fence_1_5,17,recent revaluation,Not enough sales,,,,,,
+0201,no_trim,17,recent revaluation,Not enough sales,,,,,,
+0202,fence_3_0,12,not enough sales,Not enough sales,,,,,,
+0202,fence_1_5,12,not enough sales,Not enough sales,,,,,,
+0202,no_trim,12,not enough sales,Not enough sales,,,,,,
+0203,fence_3_0,156,normal,Regressive pattern,0.477739,13.669997,1.030403,-0.098037,-0.161371,-0.034702
+0203,fence_1_5,150,normal,Mixed signals,0.473245,12.161417,1.021758,-0.054774,-0.110106,0.000558
+0203,no_trim,157,normal,Regressive pattern,0.47808,14.114904,1.032946,-0.109222,-0.175907,-0.042537
+0204,fence_3_0,34,limited data,Mixed signals,0.792963,8.517204,1.002703,0.058071,-0.09399,0.210132
+0204,fence_1_5,33,limited data,Mixed signals,0.791259,7.34102,1.007891,-0.103379,-0.231512,0.024754
+0204,no_trim,35,limited data,Mixed signals,0.794667,9.962253,1.005994,0.069763,-0.122877,0.262404
+0205,fence_3_0,10,recent revaluation,Not enough sales,,,,,,
+0205,fence_1_5,10,recent revaluation,Not enough sales,,,,,,
+0205,no_trim,10,recent revaluation,Not enough sales,,,,,,
+0206,fence_3_0,38,limited data,Regressive pattern,0.474634,17.478712,1.047492,-0.246788,-0.41797,-0.075606
+0206,fence_1_5,35,limited data,Mixed signals,0.463152,13.270426,1.021576,-0.083899,-0.22516,0.057362
+0206,no_trim,38,limited data,Regressive pattern,0.474634,17.478712,1.047492,-0.246788,-0.41797,-0.075606
+0207,fence_3_0,31,limited data,Within standards,0.830486,10.356587,1.015401,-0.030489,-0.099836,0.038857
+0207,fence_1_5,31,limited data,Within standards,0.830486,10.356587,1.015401,-0.030489,-0.099836,0.038857
+0207,no_trim,31,limited data,Within standards,0.830486,10.356587,1.015401,-0.030489,-0.099836,0.038857
+0208,fence_3_0,23,limited data,Within standards,0.796919,10.643564,0.990923,0.049624,-0.039777,0.139025
+0208,fence_1_5,21,limited data,Within standards,0.789846,8.188692,0.992558,0.029616,-0.041685,0.100917
+0208,no_trim,23,limited data,Within standards,0.796919,10.643564,0.990923,0.049624,-0.039777,0.139025
+0209,fence_3_0,61,normal,Within standards,0.908714,8.502575,0.99079,0.036967,-0.005256,0.079191
+0209,fence_1_5,59,normal,Within standards,0.908714,7.716462,0.999145,0.017375,-0.022776,0.057525
+0209,no_trim,61,normal,Within standards,0.908714,8.502575,0.99079,0.036967,-0.005256,0.079191
+0210,fence_3_0,28,limited data,Within standards,0.883475,6.601489,1.003038,0.009731,-0.139648,0.15911
+0210,fence_1_5,28,limited data,Within standards,0.883475,6.601489,1.003038,0.009731,-0.139648,0.15911
+0210,no_trim,29,limited data,Mixed signals,0.884229,8.848699,1.012289,-0.123909,-0.388438,0.14062
+0211,fence_3_0,37,limited data,Mixed signals,0.934909,8.273093,1.015502,-0.142752,-0.242439,-0.043065
+0211,fence_1_5,37,limited data,Mixed signals,0.934909,8.273093,1.015502,-0.142752,-0.242439,-0.043065
+0211,no_trim,37,limited data,Mixed signals,0.934909,8.273093,1.015502,-0.142752,-0.242439,-0.043065
+0212,fence_3_0,7,recent revaluation,Not enough sales,,,,,,
+0212,fence_1_5,6,recent revaluation,Not enough sales,,,,,,
+0212,no_trim,7,recent revaluation,Not enough sales,,,,,,
+0213,fence_3_0,7,recent revaluation,Not enough sales,,,,,,
+0213,fence_1_5,6,recent revaluation,Not enough sales,,,,,,
+0213,no_trim,7,recent revaluation,Not enough sales,,,,,,
+0214,fence_3_0,50,normal,Mixed signals,0.555433,14.013475,1.016521,-0.05755,-0.217924,0.102825
+0214,fence_1_5,49,normal,Within standards,0.554599,12.755573,1.008394,0.03499,-0.11007,0.18005
+0214,no_trim,50,normal,Mixed signals,0.555433,14.013475,1.016521,-0.05755,-0.217924,0.102825
+0215,fence_3_0,96,normal,Progressive pattern,0.48367,12.315137,0.965297,0.077716,0.04027,0.115162
+0215,fence_1_5,92,normal,Within standards,0.478682,10.690068,0.991708,0.037696,0.001317,0.074075
+0215,no_trim,101,normal,Mixed signals,0.487636,16.176919,0.983734,0.054477,-0.004084,0.113038
+0216,fence_3_0,49,normal,Mixed signals,0.744933,12.368949,0.990576,0.078654,-0.00094,0.158248
+0216,fence_1_5,47,normal,Within standards,0.744178,11.23529,1.002546,0.026058,-0.055261,0.107378
+0216,no_trim,49,normal,Mixed signals,0.744933,12.368949,0.990576,0.078654,-0.00094,0.158248
+0217,fence_3_0,212,normal,Within standards,0.459284,9.242288,1.006699,-0.006757,-0.056039,0.042524
+0217,fence_1_5,211,normal,Within standards,0.458222,9.126862,1.00605,0.0005,-0.048007,0.049007
+0217,no_trim,212,normal,Within standards,0.459284,9.242288,1.006699,-0.006757,-0.056039,0.042524
+0218,fence_3_0,15,recent revaluation,Not enough sales,,,,,,
+0218,fence_1_5,14,recent revaluation,Not enough sales,,,,,,
+0218,no_trim,15,recent revaluation,Not enough sales,,,,,,
+0219,fence_3_0,45,normal,Within standards,0.543676,15.416562,1.014741,9.6e-05,-0.112447,0.11264
+0219,fence_1_5,44,normal,Within standards,0.543395,13.864767,1.004785,0.035233,-0.059631,0.130097
+0219,no_trim,45,normal,Within standards,0.543676,15.416562,1.014741,9.6e-05,-0.112447,0.11264
+0220,fence_3_0,106,normal,Within standards,0.603917,15.096607,1.002918,0.047406,-0.001634,0.096446
+0220,fence_1_5,105,normal,Within standards,0.602833,14.694478,1.006997,0.035301,-0.01308,0.083682
+0220,no_trim,106,normal,Within standards,0.603917,15.096607,1.002918,0.047406,-0.001634,0.096446
+0221,fence_3_0,142,normal,Within standards,0.427827,14.269274,1.010395,0.041174,-0.043386,0.125733
+0221,fence_1_5,139,normal,Within standards,0.423784,13.264368,1.008578,0.022371,-0.052476,0.097217
+0221,no_trim,144,normal,Mixed signals,0.428535,15.669346,1.021728,-0.08927,-0.184859,0.006319
+0222,fence_3_0,102,normal,Mixed signals,0.518292,10.822141,1.017155,-0.085438,-0.156235,-0.014641
+0222,fence_1_5,100,normal,Mixed signals,0.515981,10.045611,1.014566,-0.078383,-0.140164,-0.016602
+0222,no_trim,103,normal,Mixed signals,0.519742,11.322384,1.020645,-0.114463,-0.188696,-0.040229
+0223,fence_3_0,86,normal,Within standards,0.603996,10.15199,1.009089,-0.022927,-0.103274,0.05742
+0223,fence_1_5,84,normal,Mixed signals,0.599305,9.645812,1.011634,-0.066775,-0.143647,0.010098
+0223,no_trim,87,normal,Mixed signals,0.60411,10.889117,1.013406,-0.058004,-0.149521,0.033512
+0224,fence_3_0,25,limited data,Mixed signals,0.528207,9.811506,0.999933,0.088678,-0.058305,0.23566
+0224,fence_1_5,25,limited data,Mixed signals,0.528207,9.811506,0.999933,0.088678,-0.058305,0.23566
+0224,no_trim,28,limited data,Regressive pattern,0.544542,15.914299,1.032155,-0.19356,-0.440435,0.053315
+0225,fence_3_0,20,limited data,Mixed signals,0.891382,4.601947,0.998005,0.075375,-0.019933,0.170683
+0225,fence_1_5,20,limited data,Mixed signals,0.891382,4.601947,0.998005,0.075375,-0.019933,0.170683
+0225,no_trim,20,limited data,Mixed signals,0.891382,4.601947,0.998005,0.075375,-0.019933,0.170683
+0226,fence_3_0,27,limited data,Within standards,0.491655,12.118202,1.012764,-0.039914,-0.155549,0.075722
+0226,fence_1_5,27,limited data,Within standards,0.491655,12.118202,1.012764,-0.039914,-0.155549,0.075722
+0226,no_trim,27,limited data,Within standards,0.491655,12.118202,1.012764,-0.039914,-0.155549,0.075722
+0227,fence_3_0,66,normal,Within standards,0.567911,13.0444,1.013628,-0.034187,-0.148298,0.079923
+0227,fence_1_5,65,normal,Within standards,0.567312,12.536496,1.01074,-0.007315,-0.117355,0.102726
+0227,no_trim,67,normal,Mixed signals,0.56851,14.31145,1.022827,-0.127132,-0.257375,0.003112
+0228,fence_3_0,18,recent revaluation,Not enough sales,,,,,,
+0228,fence_1_5,17,recent revaluation,Not enough sales,,,,,,
+0228,no_trim,18,recent revaluation,Not enough sales,,,,,,
+0229,fence_3_0,9,recent revaluation,Not enough sales,,,,,,
+0229,fence_1_5,9,recent revaluation,Not enough sales,,,,,,
+0229,no_trim,10,recent revaluation,Not enough sales,,,,,,
+0230,fence_3_0,17,recent revaluation,Not enough sales,,,,,,
+0230,fence_1_5,17,recent revaluation,Not enough sales,,,,,,
+0230,no_trim,18,recent revaluation,Not enough sales,,,,,,
+0231,fence_3_0,99,normal,Within standards,0.446963,13.80214,1.015065,-0.031914,-0.148337,0.084509
+0231,fence_1_5,96,normal,Within standards,0.439525,12.686783,1.012856,-0.033736,-0.141097,0.073625
+0231,no_trim,99,normal,Within standards,0.446963,13.80214,1.015065,-0.031914,-0.148337,0.084509
+0232,fence_3_0,33,limited data,Mixed signals,0.782011,10.985266,1.011618,-0.060615,-0.193527,0.072297
+0232,fence_1_5,33,limited data,Mixed signals,0.782011,10.985266,1.011618,-0.060615,-0.193527,0.072297
+0232,no_trim,33,limited data,Mixed signals,0.782011,10.985266,1.011618,-0.060615,-0.193527,0.072297
+0233,fence_3_0,292,normal,Within standards,0.587394,10.064594,1.017742,-0.035548,-0.060277,-0.010818
+0233,fence_1_5,279,normal,Within standards,0.580825,8.721482,1.014418,-0.034241,-0.054803,-0.013679
+0233,no_trim,293,normal,Within standards,0.587474,10.285102,1.015369,-0.025424,-0.051251,0.000402
+0234,fence_3_0,20,limited data,Within standards,0.765401,12.398531,1.016062,-0.045873,-0.268495,0.176748
+0234,fence_1_5,20,limited data,Within standards,0.765401,12.398531,1.016062,-0.045873,-0.268495,0.176748
+0234,no_trim,20,limited data,Within standards,0.765401,12.398531,1.016062,-0.045873,-0.268495,0.176748
+0235,fence_3_0,42,normal,Within standards,0.523269,13.551845,1.015662,-0.040614,-0.208712,0.127485
+0235,fence_1_5,41,normal,Within standards,0.522222,12.542275,1.011091,0.001542,-0.152879,0.155962
+0235,no_trim,42,normal,Within standards,0.523269,13.551845,1.015662,-0.040614,-0.208712,0.127485
+0236,fence_3_0,43,normal,Within standards,0.543474,15.789547,1.01286,-0.006641,-0.110172,0.09689
+0236,fence_1_5,42,normal,Within standards,0.538289,14.973121,1.005073,0.029799,-0.069563,0.129162
+0236,no_trim,43,normal,Within standards,0.543474,15.789547,1.01286,-0.006641,-0.110172,0.09689
+0237,fence_3_0,4,recent revaluation,Not enough sales,,,,,,
+0237,fence_1_5,4,recent revaluation,Not enough sales,,,,,,
+0237,no_trim,4,recent revaluation,Not enough sales,,,,,,
+0238,fence_3_0,100,normal,Mixed signals,0.863745,11.647711,1.027284,-0.18423,-0.265404,-0.103056
+0238,fence_1_5,98,normal,Mixed signals,0.863745,10.985256,1.022776,-0.160116,-0.236661,-0.08357
+0238,no_trim,100,normal,Mixed signals,0.863745,11.647711,1.027284,-0.18423,-0.265404,-0.103056
+0239,fence_3_0,28,limited data,Mixed signals,0.806726,8.635235,0.992118,0.143993,0.033253,0.254733
+0239,fence_1_5,26,limited data,Within standards,0.793674,7.24022,1.001383,0.030555,-0.088342,0.149452
+0239,no_trim,28,limited data,Mixed signals,0.806726,8.635235,0.992118,0.143993,0.033253,0.254733
+0240,fence_3_0,13,recent revaluation,Not enough sales,,,,,,
+0240,fence_1_5,13,recent revaluation,Not enough sales,,,,,,
+0240,no_trim,13,recent revaluation,Not enough sales,,,,,,
+0241,fence_3_0,19,recent revaluation,Not enough sales,,,,,,
+0241,fence_1_5,19,recent revaluation,Not enough sales,,,,,,
+0241,no_trim,19,recent revaluation,Not enough sales,,,,,,
+0242,fence_3_0,43,normal,Within standards,0.892157,8.175543,0.997551,0.030548,-0.029958,0.091053
+0242,fence_1_5,43,normal,Within standards,0.892157,8.175543,0.997551,0.030548,-0.029958,0.091053
+0242,no_trim,43,normal,Within standards,0.892157,8.175543,0.997551,0.030548,-0.029958,0.091053
+0243,fence_3_0,13,recent revaluation,Not enough sales,,,,,,
+0243,fence_1_5,13,recent revaluation,Not enough sales,,,,,,
+0243,no_trim,13,recent revaluation,Not enough sales,,,,,,
+0244,fence_3_0,16,recent revaluation,Not enough sales,,,,,,
+0244,fence_1_5,16,recent revaluation,Not enough sales,,,,,,
+0244,no_trim,16,recent revaluation,Not enough sales,,,,,,
+0245,fence_3_0,22,limited data,Mixed signals,0.875546,13.578628,1.011415,0.056249,-0.148203,0.260701
+0245,fence_1_5,21,limited data,Within standards,0.870988,11.518788,1.014464,-0.039158,-0.200825,0.122509
+0245,no_trim,23,limited data,Regressive pattern,0.870988,16.179465,1.059935,-0.08082,-0.312809,0.15117
+0246,fence_3_0,69,normal,Mixed signals,0.859264,13.281807,0.985282,0.113733,0.044138,0.183328
+0246,fence_1_5,67,normal,Mixed signals,0.858295,12.20951,0.989133,0.08306,0.017282,0.148839
+0246,no_trim,69,normal,Mixed signals,0.859264,13.281807,0.985282,0.113733,0.044138,0.183328
+0247,fence_3_0,72,normal,Within standards,0.525189,14.662881,1.014972,-0.004631,-0.140562,0.1313
+0247,fence_1_5,67,normal,Mixed signals,0.515579,11.729701,1.002382,0.075196,-0.025583,0.175975
+0247,no_trim,72,normal,Within standards,0.525189,14.662881,1.014972,-0.004631,-0.140562,0.1313
+0248,fence_3_0,30,limited data,Within standards,0.829893,10.479303,1.004505,0.03793,-0.062936,0.138795
+0248,fence_1_5,30,limited data,Within standards,0.829893,10.479303,1.004505,0.03793,-0.062936,0.138795
+0248,no_trim,30,limited data,Within standards,0.829893,10.479303,1.004505,0.03793,-0.062936,0.138795
+0249,fence_3_0,29,limited data,Within standards,0.832375,7.712429,1.002682,0.013356,-0.089861,0.116574
+0249,fence_1_5,28,limited data,Within standards,0.826245,6.996999,1.000373,0.024037,-0.065591,0.113664
+0249,no_trim,30,limited data,Within standards,0.83283,8.857229,1.006388,-0.003547,-0.129817,0.122722
+0250,fence_3_0,67,normal,Mixed signals,0.686029,16.130543,1.028966,-0.267795,-0.444548,-0.091042
+0250,fence_1_5,66,normal,Mixed signals,0.684959,15.324915,1.026163,-0.248978,-0.413347,-0.084608
+0250,no_trim,67,normal,Mixed signals,0.686029,16.130543,1.028966,-0.267795,-0.444548,-0.091042
+0251,fence_3_0,181,normal,Within standards,0.503889,12.348392,1.011653,-0.023661,-0.05846,0.011138
+0251,fence_1_5,179,normal,Within standards,0.5015,11.950376,1.00942,-0.020021,-0.053216,0.013175
+0251,no_trim,182,normal,Within standards,0.504347,12.869692,1.00988,-0.008271,-0.046882,0.03034
+0252,fence_3_0,12,recent revaluation,Not enough sales,,,,,,
+0252,fence_1_5,12,recent revaluation,Not enough sales,,,,,,
+0252,no_trim,12,recent revaluation,Not enough sales,,,,,,
+0253,fence_3_0,77,normal,Within standards,0.611075,12.249425,1.011673,0.011524,-0.076966,0.100014
+0253,fence_1_5,76,normal,Within standards,0.610938,11.677061,1.009301,0.021181,-0.060227,0.102588
+0253,no_trim,77,normal,Within standards,0.611075,12.249425,1.011673,0.011524,-0.076966,0.100014
+0254,fence_3_0,14,recent revaluation,Not enough sales,,,,,,
+0254,fence_1_5,14,recent revaluation,Not enough sales,,,,,,
+0254,no_trim,14,recent revaluation,Not enough sales,,,,,,
+0255,fence_3_0,2,recent revaluation,Not enough sales,,,,,,
+0255,fence_1_5,2,recent revaluation,Not enough sales,,,,,,
+0255,no_trim,2,recent revaluation,Not enough sales,,,,,,
+0256,fence_3_0,89,normal,Mixed signals,0.562636,12.162426,1.022473,-0.144257,-0.247807,-0.040707
+0256,fence_1_5,85,normal,Mixed signals,0.558559,10.361912,1.01855,-0.143598,-0.22994,-0.057257
+0256,no_trim,91,normal,Mixed signals,0.5655,13.381307,1.027406,-0.171536,-0.289274,-0.053798
+0257,fence_3_0,32,limited data,Within standards,0.707151,11.482117,1.011822,0.003096,-0.183647,0.189838
+0257,fence_1_5,30,limited data,Mixed signals,0.710626,9.727043,1.002748,0.063237,-0.089793,0.216267
+0257,no_trim,32,limited data,Within standards,0.707151,11.482117,1.011822,0.003096,-0.183647,0.189838
+0258,fence_3_0,29,limited data,Mixed signals,0.716418,12.963283,0.99754,0.07568,-0.029801,0.181161
+0258,fence_1_5,29,limited data,Mixed signals,0.716418,12.963283,0.99754,0.07568,-0.029801,0.181161
+0258,no_trim,29,limited data,Mixed signals,0.716418,12.963283,0.99754,0.07568,-0.029801,0.181161
+0259,fence_3_0,2,recent revaluation,Not enough sales,,,,,,
+0259,fence_1_5,2,recent revaluation,Not enough sales,,,,,,
+0259,no_trim,2,recent revaluation,Not enough sales,,,,,,
+0260,fence_3_0,230,normal,Within standards,0.808753,11.971085,1.01222,-0.011379,-0.058212,0.035454
+0260,fence_1_5,222,normal,Within standards,0.805101,10.700628,1.008206,0.00048,-0.040271,0.041231
+0260,no_trim,230,normal,Within standards,0.808753,11.971085,1.01222,-0.011379,-0.058212,0.035454
+0261,fence_3_0,118,normal,Mixed signals,0.550215,14.880612,1.033654,-0.04624,-0.091,-0.00148
+0261,fence_1_5,114,normal,Within standards,0.542097,13.720306,1.024938,-0.029976,-0.070815,0.010862
+0261,no_trim,118,normal,Mixed signals,0.550215,14.880612,1.033654,-0.04624,-0.091,-0.00148
+0262,fence_3_0,0,recent revaluation,Not enough sales,,,,,,
+0262,fence_1_5,0,recent revaluation,Not enough sales,,,,,,
+0262,no_trim,0,recent revaluation,Not enough sales,,,,,,
+0263,fence_3_0,92,normal,Within standards,0.501976,14.881031,1.012133,0.038811,-0.035077,0.112698
+0263,fence_1_5,87,normal,Within standards,0.498214,12.728781,1.019037,-0.020842,-0.084969,0.043286
+0263,no_trim,94,normal,Within standards,0.502605,16.378959,1.020497,0.012751,-0.071909,0.097411
+0264,fence_3_0,92,normal,Within standards,0.759373,10.434488,1.006013,0.007138,-0.082609,0.096886
+0264,fence_1_5,91,normal,Mixed signals,0.758571,10.118779,1.00376,0.051694,-0.037481,0.140869
+0264,no_trim,92,normal,Within standards,0.759373,10.434488,1.006013,0.007138,-0.082609,0.096886
+0265,fence_3_0,47,normal,Mixed signals,0.804464,11.39313,0.984253,0.14726,0.088021,0.206499
+0265,fence_1_5,45,normal,Mixed signals,0.804464,10.146592,0.992529,0.129367,0.044791,0.213942
+0265,no_trim,47,normal,Mixed signals,0.804464,11.39313,0.984253,0.14726,0.088021,0.206499
+0266,fence_3_0,27,limited data,Within standards,0.894133,6.849205,1.004538,-0.012397,-0.142442,0.117649
+0266,fence_1_5,27,limited data,Within standards,0.894133,6.849205,1.004538,-0.012397,-0.142442,0.117649
+0266,no_trim,27,limited data,Within standards,0.894133,6.849205,1.004538,-0.012397,-0.142442,0.117649
+0267,fence_3_0,11,recent revaluation,Not enough sales,,,,,,
+0267,fence_1_5,10,recent revaluation,Not enough sales,,,,,,
+0267,no_trim,11,recent revaluation,Not enough sales,,,,,,
+0268,fence_3_0,17,recent revaluation,Not enough sales,,,,,,
+0268,fence_1_5,14,recent revaluation,Not enough sales,,,,,,
+0268,no_trim,17,recent revaluation,Not enough sales,,,,,,
+0269,fence_3_0,14,recent revaluation,Not enough sales,,,,,,
+0269,fence_1_5,14,recent revaluation,Not enough sales,,,,,,
+0269,no_trim,15,recent revaluation,Not enough sales,,,,,,
+0270,fence_3_0,120,normal,Within standards,0.643921,12.63846,1.009572,-0.002349,-0.055106,0.050407
+0270,fence_1_5,118,normal,Within standards,0.643921,12.034325,1.004569,0.026427,-0.023728,0.076582
+0270,no_trim,121,normal,Mixed signals,0.645955,13.771456,1.019114,-0.054935,-0.123433,0.013563

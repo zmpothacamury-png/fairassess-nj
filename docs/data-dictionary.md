@@ -207,3 +207,52 @@ C8 at the main fence (3.0 x IQR) and the check fence (1.5 x IQR), one row per to
 | `low_fence_3_0`, `high_fence_3_0`, `low_fence_1_5`, `high_fence_1_5` | decimal | Fences on the relative-ratio scale. |
 | `removed_3_0`, `removed_1_5`, `extra_removed_at_1_5` | number | Sales removed at each fence, and the difference. |
 | `sales_after_3_0`, `sales_after_1_5` | number | Sales left at each fence. |
+
+## 10. Town statistics (`pipeline/build_stats.py`, methodology Sections 2 and 5)
+
+All four files use the clean Sales2026 sales only (rule T0). Ratios are decimals (0.80 = 80%).
+
+### `data/processed/town_stats.csv`
+One row per town (all 70). Towns with under 20 sales (or 2026 revaluation towns under 20) have blank statistics, flags, and rank (rule T6).
+
+| Column | Type | Meaning |
+|---|---|---|
+| `district_code`, `town`, `slug` | text | Town code, display name, URL slug (from `towns.csv`). |
+| `revaluation_tax_year` | number | 2026 or 2027 if the town is on the county's revaluation list, else blank. |
+| `n_sales` | number | Clean Sales2026 sales (T1). |
+| `data_quality` | text | `normal` (40+), `limited data` (20 to 39), `not enough sales` (under 20), `recent revaluation` (2026 revaluation town under 20; C9). |
+| `label` | text | T5 label: Regressive pattern, Progressive pattern, Within standards, Mixed signals, Not enough sales. |
+| `prb_rank` | number | 1 = most negative PRB. Blank for "Not enough sales". |
+| `median_ratio`, `mean_ratio`, `weighted_mean_ratio` | decimal | Section 2.2. |
+| `cod`, `prd`, `prb` | number | Section 2.2. COD is a percent (15.0 = 15%). |
+| `*_ci_low`, `*_ci_high` | number | 95% range (T4). Median, COD, PRD: bootstrap, 2,000 resamples, seed 20261025. PRB: slope +/- 1.96 x `prb_se`. |
+| `prb_se` | number | Standard error of the PRB slope. |
+| `cod_meets_iaao` | true/false | COD at most 15.0 (Section 2.3, our choice). |
+| `cod_below_5` | true/false | COD under 5.0 (IAAO: "may indicate sales chasing or non-representative samples"). |
+| `prd_meets_iaao` | true/false | PRD from 0.98 to 1.03. |
+| `prb_meets_iaao` | true/false | PRB from -0.05 to +0.05. |
+| `prb_ci_outside_0_10` | true/false | The whole 95% PRB range is below -0.10 or above +0.10 (IAAO "unacceptable"). |
+| `label_fence_1_5`, `label_no_trim` | text | The label if C8 used 1.5 x IQR, or no trimming (from `sensitivity.csv`). |
+| `label_sensitive_to_outliers` | true/false | `label_fence_1_5` differs from `label` (Section 4, C8). |
+
+### `data/processed/town_tiers.csv`
+Median ratio by value quarter (T3) and the Chapter 123 shares (T7), for towns with 20 or more sales. `value_proxy` rows are the main results; `sale_price` rows are a comparison only (methodology T3).
+
+| Column | Type | Meaning |
+|---|---|---|
+| `district_code`, `town` | text | Town. |
+| `tier_basis` | text | `value_proxy` (sorted by the PRB value proxy; main) or `sale_price` (comparison). |
+| `tier` | number | 1 = lowest-value quarter, 4 = highest. Extra sales go to the lower quarters. |
+| `n` | number | Sales in the quarter. |
+| `value_low`, `value_high` | dollars | Range of the sort key in the quarter (value proxy or sale price). |
+| `sale_price_low`, `sale_price_high` | dollars | Range of sale prices in the quarter. |
+| `median_ratio` | decimal | Median ratio of the quarter. |
+| `lower_trigger`, `upper_trigger` | percent | Chapter 123 triggers *L\** and *U\** for tax year 2027 (printed limits from 2027CH123.pdf, capped at 100; rule K10). Blank for 2027 revaluation towns. |
+| `n_above_upper`, `share_above_upper` | number | Sales in the quarter with ratio x 100 above *U\** (T7), and that count / `n`. Blank for 2027 revaluation towns (K14). |
+| `n_below_lower`, `share_below_lower` | number | Same, below *L\**. |
+
+### `data/processed/county_summary.json`
+Countywide numbers for the home page (rule T8). `within_town` (the headline) divides each sale's assessed value by its own town's median ratio before pooling, so only unevenness inside towns is measured. `pooled` uses the raw ratios (reference only). Both have n, median, mean, weighted mean, COD, PRD, PRB, and their 95% ranges. Also: towns by label and data quality, how many ranked towns meet each IAAO range, how many have a PRB range fully below or above 0, `t7_value_quarters` (T7 counts and shares added up over every town that shows T7), `state_average_ratio_range` (lowest and highest 2027 state average ratio, with town names), and the median COD, PRD, and PRB of ranked towns.
+
+### `data/processed/sensitivity.csv`
+One row per town and version (`fence_3_0` = main results, `fence_1_5`, `no_trim`): n, data quality, label, median ratio, COD, PRD, PRB and its range. No bootstrap.

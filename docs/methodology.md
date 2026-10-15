@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.2 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.3 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -19,7 +19,7 @@
 
 "Regressive" means cheaper homes are assessed at a higher share of their value than expensive homes. When that happens, owners of cheaper homes pay more than their fair share of the town's taxes.
 
-**Supporting finding (T7).** For each town, what share of sold homes in each price quarter had a ratio above the town's 2027 Chapter 123 limit? This links the town rankings to the appeal checker: it shows which homeowners are most likely to have grounds to appeal. It is a description, not a separate hypothesis test.
+**Supporting finding (T7).** For each town, what share of sold homes in each value quarter had a ratio above the town's 2027 Chapter 123 limit? This links the town rankings to the appeal checker: it shows which homeowners are most likely to have grounds to appeal. It is a description, not a separate hypothesis test.
 
 **Planned for version 2.0.** H2, the revaluation-drift question: does the regressive pattern grow with each year since a town's last revaluation? v1 does not test H2.
 
@@ -72,6 +72,10 @@ A PRB of -0.05 means the ratio falls by about 5% each time home value doubles.
 | PRB | -0.05 to +0.05; if the 95% range falls outside -0.10 to +0.10, IAAO calls it "unacceptable" | Section 9.2.7 (page 19) |
 
 *Our choice:* the site judges COD against **15.0**. *Reason:* most Bergen towns are older, built-out suburbs with a mix of home ages and styles, which matches IAAO's "older or more heterogeneous areas" row. The town page also mentions the 10.0 guideline for newer areas.
+
+*Our choice:* a town's PRB counts as IAAO "unacceptable" only when its **whole** 95% range is below -0.10 or above +0.10. *Reason:* IAAO says "PRBs for which 95% confidence intervals fall outside the range of -0.10 to 0.10"; reading "fall outside" as the whole range avoids calling a small town unacceptable just because its range is wide.
+
+*Our choice:* the median ratio gets **no** pass/fail flag. *Reason:* New Jersey towns assess at a fraction of market value on purpose (Bergen's 2027 average ratios run from 47.06% in Garfield to 119.50% in Rockleigh; 2027CH123.pdf), and Chapter 123 already handles the level. A level test made for 100% assessment would fail almost every town and mislead readers.
 
 ### 2.4 New Jersey's Chapter 123 test
 
@@ -207,8 +211,10 @@ Rules run in this order: C1, C2, C10, C3, C7, C4, C5, C6, C9, then C8 last (outl
 
 - **T1** Number of sales.
 - **T2** Median ratio, mean ratio, weighted mean ratio, COD, PRD, PRB (Section 2.2 formulas).
-- **T3** Median ratio by sale price quarter. Sort the town's sales by sale price and split them into 4 equal-count groups: Q1 (cheapest 25%) to Q4 (most expensive 25%). If the count does not divide by 4, the extra sales go to the lower quarters. Ties in price are broken by the order in the file so the result repeats exactly.
-- **T7** For each price quarter: the share of sales with a ratio above the town's Chapter 123 upper trigger *U\** and below the lower trigger *L\** (rule K10 defines both, using 2027CH123.pdf). Not shown for towns on the 2027 revaluation list (Chapter 123 does not apply there in 2027; see K14).
+- **T3** Median ratio by value quarter. Sort the town's sales by the PRB value proxy *V_i* (Section 2.2, using the town's own median ratio) and split them into 4 equal-count groups: Q1 (lowest-value 25%) to Q4 (highest-value 25%). If the count does not divide by 4, the extra sales go to the lower quarters. Ties are broken by the order in the file so the result repeats exactly. Only towns with 20 or more sales get quarters (T6).
+  - *Our choice (adopted in 1.3; earlier versions sorted by sale price). Reason:* a sale price includes random luck (a quick sale, a bidding war). Homes that happened to sell low land in the cheapest quarter *and* get a high ratio for that same reason, so sorting by sale price makes towns look more regressive than they are. IAAO builds the value proxy for exactly this reason: it averages the sale price with the assessment, so neither one decides the order alone. In our Sales2026 data, sorting by sale price puts a higher median ratio in Q1 than in Q4 in 36 of 48 ranked towns (median gap 5.7 points). Sorting by the value proxy does so in 22 of 48 (median gap 0.5 points the other way), which agrees with PRB. `town_tiers.csv` keeps the sale-price version as a comparison (`tier_basis` = `sale_price`); results and the site use `value_proxy`.
+- **T7** For each value quarter (T3): the share of sales with a ratio above the town's Chapter 123 upper trigger *U\** and below the lower trigger *L\** (rule K10 defines both, using 2027CH123.pdf). Not shown for towns on the 2027 revaluation list (Chapter 123 does not apply there in 2027; see K14). "Above" means the ratio x 100 is strictly greater than *U\**; "below" means strictly less than *L\**, matching K11. The county row adds up the counts of every town that shows T7.
+- **T8** Countywide measures (home page). *Our choice.* The headline version is **within-town**: divide each sale's assessed value by its own town's median ratio, then pool all clean Sales2026 sales (every town, including towns with under 20 sales) and compute the Section 2.2 measures and T4 ranges. *Reason:* Bergen towns assess at very different levels (2027 average ratios from 47.06% in Garfield to 119.50% in Rockleigh), so pooling raw ratios would mostly measure differences between towns, not unevenness inside them. Each town sets its own assessments, so inside-town evenness is the fair test. A **pooled** version on raw ratios is also saved, as a reference only.
 
 ### 5.2 Confidence intervals
 
@@ -380,6 +386,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.3 | 2026-10-15 | Prompt 6 town statistics. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). T3 quarters now sort by the PRB value proxy, not sale price (sale-price version kept as a comparison). New T8: countywide headline is within-town (each sale divided by its town's median ratio). Section 2.3: PRB "unacceptable" means the whole 95% range is outside -0.10 to +0.10; no pass/fail for the median ratio. T7 now says "value quarter", strict above/below, and how the county row adds up. PRB keeps ln(V)/0.693 (the prompt said log2; IAAO's form wins). |
 | 1.2 | 2026-10-15 | Prompt 5 cleaning findings. Zaden asked Claude to decide ("best interests of winning, usefulness, the goal, and the prompt"). C8 now says it runs per town *and* per SR1A file. C10 also drops codes starting with lowercase "c" (1 sale). C9 note now gives the real counts: 0 removed in Sales2026, 1,093 in Sales2025. Named `c8_sensitivity.csv`. |
 | 1.1 | 2026-10-15 | Prompt 4 data findings. Zaden asked Claude to decide ("whatever most aligns with the prompts, the goal, usefulness, and winning"). C6 now tests TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped, not kept. Section 3.1 updated: YTDSR1A2026 is an older copy of Sales2026; Sales2024 does not follow the layout; LAST-UPDATE-DATE is MMDDYY; record_id defined. |
 | 1.0 | 2026-10-14 | Zaden asked Claude to choose all 19 decision-list items "to best align with the goal, prompt, winning the competition, and being a useful tool." Claude kept every draft default (T0, C4, C6, C8, C9, C10, T4, T5, T6, K2 to K6, V2 0.25, V3 10 points), kept the two document-driven rules (K10 100% trigger; K14 no Chapter 123 result in 2027 revaluation towns), and brought old H3 back as descriptive table T7. Added sources: IAAO Standard on Ratio Studies (2013) and NJ *Guidelines for use of 36 Nonusable Categories* (May 2025), quoted in `data/raw/notes/ratio-study-standards.md`. These confirmed the July 1 to June 30 sampling period, the full non-usable code list, IAAO ranges, and the PRB formula (now ln(V)/0.693 exactly as IAAO writes it). Added notes on state categories 27, 30, and 36; COD judged against 15.0. YTDSR1A2026.zip kept but unused. |
