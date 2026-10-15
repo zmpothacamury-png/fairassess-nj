@@ -10,7 +10,7 @@ from pipeline.build_towns import drop_type_word, make_slug, title_name
 from pipeline.parse_ch123 import missing_codes, parse_ch123_text
 from pipeline.parse_sr1a import (add_record_ids, check_layout, decode_date, decode_decimal,
                                  decode_int, expand_year, load_layout, parse_line)
-from pipeline.parse_state_tables import cod_values, parse_cod_text
+from pipeline.parse_state_tables import cod_values, parse_cod_text, parse_tev_text
 
 LAYOUT = load_layout()
 
@@ -233,7 +233,8 @@ def test_parse_cod_text_handles_county_prefix_wrapped_names_and_amended():
 
 
 def test_state_tables_cover_all_70_towns():
-    for path in [config.DIR_RATIOS_CSV, config.STATE_COD_CSV, config.TAX_RATES_CSV, config.AVG_RES_CSV]:
+    for path in [config.DIR_RATIOS_CSV, config.STATE_COD_CSV, config.TAX_RATES_CSV, config.AVG_RES_CSV,
+                 config.TEV_CSV]:
         df = pd.read_csv(path, dtype={"district_code": str})
         assert df["district_code"].nunique() == config.N_TOWNS, path.name
 
@@ -250,6 +251,31 @@ def test_director_ratio_2026_equals_ch123_2027_average():
     m = dr[dr.year == 2026].merge(ch, on="district_code")
     assert len(m) == config.N_TOWNS
     assert (m.director_ratio.round(2) == m.average_ratio.round(2)).all()
+
+
+def test_parse_tev_text_reads_rows_and_tax_court_marks():
+    text = ("BERGEN COUNTY\n"
+            "0201 ALLENDALE BORO 2,324,465,600 85.11 2,731,131,007 0 100,000 2,731,231,007\n"
+            "0202 ALPINE BORO** 2,009,236,000 96.24 2,087,734,830 0 0 2,087,734,830\n"
+            "0301 BASS RIVER TWP 1,000 50.00 2,000 0 0 2,000\n"
+            "BERGEN COUNTY 1,000 50.00 2,000 0 0 2,000\n")
+    rows = parse_tev_text(text, 2025)
+    assert [r["district_code"] for r in rows] == ["0201", "0202"]
+    assert rows[0]["agg_assessed"] == 2_324_465_600 and rows[0]["average_ratio"] == 85.11
+    assert rows[0]["agg_true_value"] == 2_731_131_007 and rows[0]["personal_property"] == 100_000
+    assert not rows[0]["amended_by_tax_court"]
+    assert rows[1]["district_name"] == "ALPINE BORO" and rows[1]["amended_by_tax_court"]
+
+
+def test_tev_csv_has_both_years_and_matches_ch123():
+    tev = pd.read_csv(config.TEV_CSV, dtype={"district_code": str})
+    assert tev.groupby("year").district_code.nunique().to_dict() == {2025: config.N_TOWNS, 2026: config.N_TOWNS}
+    # Aggregate true value = aggregate assessed / average ratio (state rounding).
+    assert ((100 * tev.agg_assessed / tev.agg_true_value - tev.average_ratio).abs() < 0.005).all()
+    ch = pd.read_csv(config.CH123_CSV[2027], dtype={"district_code": str})
+    m = tev[tev.year == 2026].merge(ch, on="district_code", suffixes=("_tev", "_ch123"))
+    assert (m.average_ratio_tev == m.average_ratio_ch123).all()
+    assert tev.set_index(["year", "district_code"]).at[(2026, "0201"), "agg_assessed"] == 2_585_471_600
 
 
 # ---------------------------------------------------------------- towns

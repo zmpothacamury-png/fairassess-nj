@@ -4,6 +4,7 @@
 - CoefficientDeviations.pdf -> data/processed/state_cod_bergen.csv
 - GTRhistory.xlsx          -> data/processed/tax_rates_bergen.csv
 - 2026AvgResStat.pdf       -> data/processed/avg_residential_bergen.csv
+- 2025TEV.pdf, 2026TEV.pdf -> data/processed/tev_bergen.csv
 
 Every table keys on district_code ("0201" ... "0270").
 Run: .venv\\Scripts\\python.exe -m pipeline.parse_state_tables
@@ -192,6 +193,41 @@ def parse_avg_residential(path=config.AVG_RES_PDF):
     return df.sort_values("district_code").reset_index(drop=True)
 
 
+# ---------------------------------------------------------------- Tables of Equalized Valuations
+
+# One town row: code, name (Tax Court changes marked "**"), then 6 numbers:
+# aggregate assessed, average ratio, aggregate true value, class II railroad,
+# personal property, equalized valuation.
+TEV_ROW = re.compile(r"^(\d{4}) (.+?)(\*\*)? ([\d,]+) ([\d.]+) ([\d,]+) ([\d,]+) ([\d,]+) ([\d,]+)$")
+
+
+def parse_tev_text(text, year, county=config.COUNTY_CODE):
+    """Read the town rows for one county from the text of a Table of Equalized Valuations."""
+    rows = []
+    for line in text.splitlines():
+        m = TEV_ROW.match(line.strip())
+        if not m or not m[1].startswith(county):
+            continue
+        rows.append({
+            "year": year, "district_code": m[1], "district_name": m[2].strip(),
+            "agg_assessed": int(m[4].replace(",", "")), "average_ratio": float(m[5]),
+            "agg_true_value": int(m[6].replace(",", "")), "class2_railroad": int(m[7].replace(",", "")),
+            "personal_property": int(m[8].replace(",", "")), "equalized_valuation": int(m[9].replace(",", "")),
+            "amended_by_tax_court": m[3] is not None,
+        })
+    return rows
+
+
+def parse_tev(year, path=None):
+    """Bergen rows of one year's Table of Equalized Valuations."""
+    path = path or config.TEV_PDFS[year]
+    with pdfplumber.open(path) as pdf:
+        text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+    df = pd.DataFrame(parse_tev_text(text, year))
+    df["source_file"] = f"data/raw/state/{path.name}"
+    return df.sort_values("district_code").reset_index(drop=True)
+
+
 # ---------------------------------------------------------------- run all
 
 def find_2026_tax_rate_file():
@@ -221,6 +257,10 @@ def main():
     ar = parse_avg_residential()
     ar.to_csv(config.AVG_RES_CSV, index=False)
     print(f"Avg residential: {len(ar)} towns; avg_tax_bill filled for {ar.avg_tax_bill.notna().sum()}")
+
+    tev = pd.concat([parse_tev(year) for year in sorted(config.TEV_PDFS)], ignore_index=True)
+    tev.to_csv(config.TEV_CSV, index=False)
+    print("Equalized valuations: " + ", ".join(f"{y} {n} towns" for y, n in tev.groupby("year").size().items()))
 
 
 if __name__ == "__main__":

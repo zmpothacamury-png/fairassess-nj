@@ -4,12 +4,13 @@ Usage from PowerShell (in the project folder):
     .\\.venv\\Scripts\\python -m pipeline.run          # every stage
     .\\.venv\\Scripts\\python -m pipeline.run clean    # start at the "clean" stage
 
-Stages so far: parse -> clean -> stats. Later prompts add more stages to STAGES.
+Stages so far: parse -> clean -> stats -> validate. Later prompts add more stages to STAGES.
 """
 
 import sys
 
-from pipeline import build_stats, build_towns, clean, config, parse_ch123, parse_sr1a, parse_state_tables, profile_data
+from pipeline import (build_stats, build_towns, clean, config, parse_ch123, parse_sr1a, parse_state_tables,
+                      profile_data, validate)
 
 
 def parse_stage():
@@ -25,7 +26,7 @@ def parse_inputs():
     """Raw files the parse stage needs."""
     sr1a = [config.RAW_SR1A_DIR / spec["zip"] for spec in config.SR1A_FILES]
     state = [*config.CH123_PDFS.values(), config.DIR_RATIOS_XLSX, config.COD_PDF,
-             config.GTR_XLSX, config.AVG_RES_PDF]
+             config.GTR_XLSX, config.AVG_RES_PDF, *config.TEV_PDFS.values()]
     reference = [config.SR1A_LAYOUT_PDF, config.NONUSABLE_CODES_CSV, config.REVALUATION_TOWNS_CSV]
     return sr1a + state + reference
 
@@ -41,11 +42,19 @@ def stats_inputs():
             config.CH123_CSV[config.CH123_TAX_YEAR]]
 
 
+def validate_inputs():
+    """Files the validate stage needs (made by the parse, clean, and stats stages)."""
+    return [config.SR1A_PARQUET, config.SALES_CLEAN_CSV, config.TOWNS_CSV, config.TOWN_STATS_CSV,
+            config.CH123_CSV[config.CH123_TAX_YEAR], config.STATE_COD_CSV, config.AVG_RES_CSV,
+            config.DIR_RATIOS_CSV, config.TEV_CSV]
+
+
 # (name, function, files that must exist before the stage runs)
 STAGES = [
     ("parse", parse_stage, parse_inputs),
     ("clean", clean.main, clean_inputs),
     ("stats", build_stats.main, stats_inputs),
+    ("validate", validate.main, validate_inputs),
 ]
 
 

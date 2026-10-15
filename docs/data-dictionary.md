@@ -126,6 +126,22 @@ From `data/raw/state/2026AvgResStat.pdf`. One row per town. Values are matched t
 | `n_sales` | count | "# of Sales" (V1). |
 | `avg_sale_price` | dollars | Average sale price. |
 
+### Tables of Equalized Valuations: `data/processed/tev_bergen.csv`
+
+From `data/raw/state/2025TEV.pdf` (amended by the Tax Court) and `2026TEV.pdf`, made by `pipeline/parse_state_tables.py`. One row per town and year (2 x 70 rows). Used by rule V4.
+
+| Column | Type / units | Meaning |
+|---|---|---|
+| `year` | number | Table year (2025 or 2026). |
+| `district_code`, `district_name` | text | Town code and name as printed. |
+| `agg_assessed` | dollars | Column 1: aggregate assessed valuation of real property. |
+| `average_ratio` | percent | Column 2: average ratio of assessed to true value. 2026 = the 2027 Chapter 123 ratio. |
+| `agg_true_value` | dollars | Column 3: aggregate true value of real property (= `agg_assessed` / `average_ratio`). |
+| `class2_railroad`, `personal_property` | dollars | Columns 4 and 5. |
+| `equalized_valuation` | dollars | Column 6. |
+| `amended_by_tax_court` | true/false | Name marked "**" in the table (changed by the Tax Court). |
+| `source_file` | text | The PDF it came from. |
+
 ## 7. Master town list: `data/processed/towns.csv`
 
 Made by `pipeline/build_towns.py`. 70 rows.
@@ -256,3 +272,43 @@ Countywide numbers for the home page (rule T8). `within_town` (the headline) div
 
 ### `data/processed/sensitivity.csv`
 One row per town and version (`fence_3_0` = main results, `fence_1_5`, `no_trim`): n, data quality, label, median ratio, COD, PRD, PRB and its range. No bootstrap.
+
+## 11. Validation (`pipeline/validate.py`, methodology Section 8)
+
+### `data/processed/validation.csv`
+One row per town (all 70). Compares our numbers with the state's. Ratios here are **percents** (80.0 = 80%), like the state's tables. "State-style" sales = every usable Sales2026 sale in property classes 1, 2, and 4, with no other cleaning, and ratio = TOTAL ASSESSMENT / sale price (the state's pairing; rule V2). Blank = no sales.
+
+| Column | Type | Meaning |
+|---|---|---|
+| `district_code`, `town` | text | Town code and display name (from `towns.csv`). |
+| `revaluation_tax_year` | number | 2026 or 2027 if on the county's revaluation list, else blank. |
+| `state_one_year_ratio` | percent | V4: 2026 aggregate assessed / `state_one_year_true_value`. |
+| `our_ratio_state_style` | percent | V4: 2026 aggregate assessed / `our_one_year_true_value`. |
+| `diff_one_year_pp`, `flag_over_5pp` | points, true/false | Ours minus the state's; \|gap\| more than `VALIDATION_FLAG_PP` (5.0). |
+| `state_average_ratio` | percent | Published 2027 Chapter 123 average ratio (`2027CH123.pdf`). |
+| `our_average_ratio_two_year`, `diff_two_year_pp` | percent, points | 2026 aggregate assessed / ((our one-year true value + 2025 true value) / 2), and its gap to the published ratio. |
+| `averaging_effect_pp` | points | Published ratio minus the state's one-year ratio (the part caused by averaging with 2025). |
+| `our_simple_mean_ratio`, `diff_simple_mean_pp` | percent, points | First try: plain average of the state-style sales ratios, and its gap to the published ratio. |
+| `our_n_classes_1_2_4`, `state_n_classes_1_2_4`, `counts_match` | number, true/false | State-style sale count, the state's TOTAL count (`CoefficientDeviations.pdf`, 2026), and whether they are equal. |
+| `our_class2_median`, `n_clean` | percent, number | Our published class-2 median ratio and clean sale count (`sales_clean.csv`, Sales2026). |
+| `diff_class2_median_pp`, `v3_flag_over_10pp` | points, true/false | Class-2 median minus the published ratio; more than 10 points apart (V3). |
+| `state_cod_class2` | number | State "coefficient of deviation," class 2, stratified, 2026. |
+| `our_cod_state_style`, `diff_cod`, `v2_pass` | number, true/false | Our mean-based coefficient on the usable class-2 sales (V2), the difference, and whether it is within 0.25. Blank if either side is missing. |
+| `our_cod_main_lot` | number | Same, using the main-lot assessment only (shows what the TOTAL ASSESSMENT choice changes). |
+| `our_iaao_cod` | number | Our published IAAO COD (`town_stats.csv`; blank for hidden towns). |
+| `state_avg_sale_price`, `state_n_class2` | dollars, number | State 2026 average residential sale price and number of sales (`2026AvgResStat.pdf`). |
+| `our_mean_price_class2_usable` | dollars | Our average price of the same usable class-2 sales (should equal the state's). |
+| `our_median_price_clean`, `price_diff_pct` | dollars, percent | Our clean median price, and how far it is from the state's average. |
+| `n_class1`, `n_class2_usable`, `n_class4`, `n_multi_lot` | number | State-style sales by class, and how many cover extra lots. |
+| `class2_weighted_ratio`, `other_weighted_ratio` | percent | Total assessed / total price for homes, and for classes 1 and 4 together. |
+| `residential_share_assessed` | decimal | Home assessed total ("# of Line Items" x "Avg Assessment") / 2026 aggregate assessed. |
+| `agg_assessed_2025`, `agg_assessed_2026`, `agg_true_value_2025` | dollars | From `tev_bergen.csv`. |
+| `state_one_year_true_value` | dollars | 2 x (2026 aggregate true value) - (2025 aggregate true value). |
+| `our_one_year_true_value` | dollars | Home total / home ratio + other total / other ratio (a group with no sales uses the other group's ratio). |
+| `min_ratio`, `max_ratio` | percent | Lowest and highest state-style sale ratio. |
+| `share_old_assessment` | decimal | Share of state-style sales with ASSESS-YEAR before 26. |
+| `first_recorded`, `last_recorded` | date | Recording dates of the first and last state-style sale. |
+| `n_nonusable_cat27` | number | Non-usable sales (any class) with state code 27 (recorded July to December before a revaluation). |
+| `state_ratio_2025` | percent | 2025 Table average ratio. |
+| `state_director_ratio_2026`, `tev_ratio_2026` | percent | 2026 Director's ratio (`DirRatios.xlsx`) and 2026 Table ratio; both equal `state_average_ratio` in every town. |
+| `flag_rank`, `investigated` | number, true/false | 1 = biggest V4 gap over the flag; the top 10 flagged are written up in `docs/validation.md`. |

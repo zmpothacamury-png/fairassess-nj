@@ -388,4 +388,5 @@ def test_report_written(built, tmp_path):
 
 
 def test_run_has_stats_stage():
-    assert [name for name, _, _ in run.STAGES][-1] == "stats"
+    names = [name for name, _, _ in run.STAGES]
+    assert names.index("stats") == names.index("clean") + 1

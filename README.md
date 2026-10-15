@@ -26,7 +26,7 @@ Set up Python (Windows PowerShell, Python 3.11 or newer):
     py -m venv .venv
     .\.venv\Scripts\python.exe -m pip install -r pipeline\requirements.txt
 
-Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, then stats) and stops with a clear message if an input file is missing:
+Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, stats, then validate) and stops with a clear message if an input file is missing:
 
     .\.venv\Scripts\python.exe -m pipeline.run
 
@@ -37,6 +37,10 @@ To rerun only the cleaning step (and any later stages):
 To rerun only the town statistics:
 
     .\.venv\Scripts\python.exe -m pipeline.run stats
+
+To rerun only the check against the state's numbers (writes data\processed\validation.csv and the results block in docs\validation.md):
+
+    .\.venv\Scripts\python.exe -m pipeline.run validate
 
 Run the Python tests:
 

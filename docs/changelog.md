@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-10-15 (Prompt 7 follow-up: town page decision)
+- Decided (Zaden delegated): town pages will show the state's 2027 average ratio beside our home median, with a plain-English note on why they differ (land and commercial property, price weighting, two-year blend; extra line for 2026 revaluation towns). Recorded in `docs/validation.md` ("What I changed", item 5). To be built in the town-pages prompt; no site files changed now.
+
+## 2026-10-15 (Prompt 7 follow-up: the state's method found, rule V4)
+- Zaden delegated the 4 open items. Found how the Director computes the average ratio: a 2026 Tax Court opinion (*City of New Brunswick v. Director*) describes "a weighted, classified and multi-year-averaged sales study" that averages each year's true value with the prior year's. Saved the opinion and the 2025 Table of Equalized Valuations in `data/raw/`, with quotes in `data/raw/notes/director-average-ratio-method.md`.
+- New `data/processed/tev_bergen.csv` (2025 and 2026 Tables, parse stage). New rule V4 in `pipeline/validate.py`: rebuild the state's one-year ratio from our sales (weighted, homes vs other property) and compare it with the state's one-year ratio backed out of the two Tables. Result: **70 of 70 towns within 5 points, 66 within 1 point**; no town flagged. Averaging with the prior year raises the published ratio in 69 of 70 towns (median +4.6 points), which explains the old gap.
+- Methodology 1.4: Section 2.4 (how the ratio is computed), Section 3.1 (2 new sources), V1/V2/V3 pipeline numbers, V2 uses TOTAL ASSESSMENT for multi-lot sales, new V4 with the 5-point flag, Section 7 limitation. No cleaning or statistics rule changed.
+- `docs/validation.md` rewritten around V4, with the "What I changed" section filled in. `validation.csv` has new columns (data dictionary section 11; new `tev_bergen.csv` entry). 152 pipeline tests pass.
+
+## 2026-10-15 (Prompt 7: validation against state ratios)
+- New `pipeline/validate.py` and a `validate` stage in `pipeline/run.py`. Output: `data/processed/validation.csv` (all 70 towns) and a generated results block inside `docs/validation.md` (the rest of that file is hand-written and kept on rerun).
+- Result: for 44 of 70 towns, our state-style ratio (mean of all usable class 1, 2, and 4 sales) was within 5 points of the state's 2027 average ratio. The state's ratio is higher in 69 of 70 towns (median gap 4.5 points), and in 4 towns it is higher than every one of the town's sales, so the state uses a step our files do not describe. Same sales as the state in 70 of 70 towns; V2 coefficient match in 69 of 69; average sale price match in 69 of 69.
+- Found that the state pairs multi-lot sales with TOTAL ASSESSMENT (its SALES-RATIO field). Using it in the validation comparison fixes the 4 old V2 misses. No cleaning rule or methodology rule changed.
+- `docs/validation.md` rewritten: how the state computes its ratio (and what is not in our files), our two versions, the full table, the 10 biggest flagged towns explained (mostly small samples and 2026 revaluations; Wallington unexplained), and what this means for the rankings.
+- `config.py`: validation constants (5-point flag is a proposal, not yet in the methodology). 13 new tests in `test_validate.py`; 145 pipeline tests pass. Two runs give identical files. README and data dictionary section 11.
+
 ## 2026-10-15 (Prompt 6 follow-up: decisions and T7)
 - Zaden delegated the 6 open items. Methodology is now version 1.3: value quarters (T3) sort by the PRB value proxy (the sale-price version stays in `town_tiers.csv` as a comparison); new rule T8 makes the within-town countywide measure the headline; a PRB is "unacceptable" only if its whole 95% range is outside -0.10 to +0.10; the median ratio gets no pass/fail flag; PRB keeps IAAO's ln(V)/0.693.
 - Built T7: `town_tiers.csv` now has each quarter's Chapter 123 triggers and the count and share of sales above and below them (blank for the 24 towns on the 2027 revaluation list). `county_summary.json` adds T7 for 24 towns and the 2027 state average ratio range (47.06% Garfield to 119.50% Rockleigh).

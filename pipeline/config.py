@@ -67,6 +67,12 @@ DIR_RATIOS_XLSX = RAW_STATE_DIR / "DirRatios.xlsx"
 COD_PDF = RAW_STATE_DIR / "CoefficientDeviations.pdf"
 GTR_XLSX = RAW_STATE_DIR / "GTRhistory.xlsx"
 AVG_RES_PDF = RAW_STATE_DIR / "2026AvgResStat.pdf"
+# Tables of Equalized Valuations. 2026 = the year behind the 2027 Chapter 123
+# ratios; 2025 (amended) gives the prior-year aggregate true value (rule V4).
+TEV_PDFS = {
+    2025: RAW_STATE_DIR / "2025TEV.pdf",
+    2026: RAW_STATE_DIR / "2026TEV.pdf",
+}
 NONUSABLE_CODES_CSV = REFERENCE_DIR / "nonusable_codes.csv"
 REVALUATION_TOWNS_CSV = REFERENCE_DIR / "bergen_revaluation_towns.csv"
 
@@ -77,6 +83,7 @@ DIR_RATIOS_CSV = PROCESSED_DIR / "director_ratios_bergen.csv"
 STATE_COD_CSV = PROCESSED_DIR / "state_cod_bergen.csv"
 TAX_RATES_CSV = PROCESSED_DIR / "tax_rates_bergen.csv"
 AVG_RES_CSV = PROCESSED_DIR / "avg_residential_bergen.csv"
+TEV_CSV = PROCESSED_DIR / "tev_bergen.csv"
 TOWNS_CSV = PROCESSED_DIR / "towns.csv"
 DATA_PROFILE_MD = DOCS_DIR / "data-profile.md"
 
@@ -165,3 +172,20 @@ TOWN_TIERS_CSV = PROCESSED_DIR / "town_tiers.csv"
 COUNTY_SUMMARY_JSON = PROCESSED_DIR / "county_summary.json"
 SENSITIVITY_CSV = PROCESSED_DIR / "sensitivity.csv"
 STATS_SUMMARY_MD = DOCS_DIR / "stats-summary.md"
+
+# ---------------------------------------------------------------- validation (methodology Section 8)
+# The state's own sample: usable Sales2026 sales in property classes 1, 2, and 4
+# (leading number of PROPERTY-CLASS, so 4A, 4B, 4C count as 4 and 15C does not count as 1). These are the
+# classes CoefficientDeviations.pdf reports; its TOTAL count equals our usable
+# class 1 + 2 + 4 count in all 70 Bergen towns.
+STATE_STUDY_CLASSES = ["1", "2", "4"]
+STATE_COD_YEAR = 2026  # CoefficientDeviations.pdf rows that match the Sales2026 sampling period
+# V4, Section 8: flag a town whose one-year ratio (state's method, our sales) differs
+# from the state's one-year ratio by more than this many percentage points.
+VALIDATION_FLAG_PP = 5.0
+V3_FLAG_PP = 10.0  # V3, Section 8: flag if our class-2 median differs by more than 10 points
+V2_PASS_PP = 0.25  # V2, Section 8: state-style coefficient within 0.25 points
+VALIDATION_MAX_INVESTIGATE = 10  # write up at most the 10 biggest flagged gaps
+
+VALIDATION_CSV = PROCESSED_DIR / "validation.csv"
+VALIDATION_MD = DOCS_DIR / "validation.md"

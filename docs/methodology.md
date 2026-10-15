@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.3 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.4 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -82,6 +82,7 @@ A PRB of -0.05 means the ratio falls by about 5% each time home value doubles.
 Sources: `data/raw/state/ch123definitions.pdf` (Division of Taxation summary of Chapter 123, Laws of 1973, with 3 worked examples); `data/raw/state/2027CH123.pdf` (certified list for tax year 2027); Form A-1 instructions 9 and 10 (quoted in `data/raw/notes/appeal-deadlines-and-fees.md`).
 
 - **Average ratio.** Each town's average ratio of assessed value to true value, set by the Director of the Division of Taxation "as of October 1 of the year preceding the tax year" (ch123definitions.pdf, page 1). For tax year 2027, that is the list promulgated as of **October 1, 2026** (2027CH123.pdf, page 1). The same ratio appears in the 2026 Table of Equalized Valuations (for example, Allendale 89.97 in both).
+  - **How the Director computes it.** ch123definitions.pdf does not say. A 2026 Tax Court opinion does (`data/raw/notes/director-average-ratio-method.md`): it is "a weighted, classified and multi-year-averaged sales study." For each class, assessed values are compared with usable sale prices, giving "more weight to higher valued properties"; the class true values are added up; and "Averaging the current year's true value with the prior year's aggregate true value leads to the current year's aggregate true value. The average ratio is the ratio of assessed value to aggregate true value." So the 2027 ratio mixes the 2026 sales study with last year's value. Rule V4 checks this against our data.
 - **Common level range.** "Plus or minus 15% of the average ratio for that district" (ch123definitions.pdf, page 1). We always use the **lower and upper limits exactly as printed** in 2027CH123.pdf. We never recompute them. (In the state's own example, an average ratio of 95.41 gives limits of 81.10 and 109.72.)
 - **100% rule.** 2027CH123.pdf says under every county table: "RATIOS IN EXCESS OF 100% ARE TO BE CONSIDERED 100%." The state calls 100% the "county percentage level" (ch123definitions.pdf: "in all counties this level is 100%"). 7 Bergen towns have a 2027 average ratio above 100%: Elmwood Park, Leonia, Northvale, Norwood, Old Tappan, Rockleigh, and Wood-Ridge.
 - **What the County Board does** (ch123definitions.pdf, page 1 and Examples I to III):
@@ -108,7 +109,8 @@ All files are in `data/raw/` and are never edited.
 | `sr1a/SR1Afilelayout.pdf` | Field positions for the 663-character extract. **Our files are 663 characters per line, so this is the layout we use.** | Parsing |
 | `sr1a/SR1A_FileLayout_Description.pdf` | Meaning of each field (dated 7/7/2011). | Field meanings |
 | `state/2027CH123.pdf` | Average ratios, lower and upper limits for tax year 2027 appeals. Promulgated as of October 1, 2026 (signed September 22, 2026). | Checker test; T7; validation |
-| `state/2026TEV.pdf` | 2026 Table of Equalized Valuations, promulgated as of October 1, 2026. | Cross-check of average ratios |
+| `state/2026TEV.pdf` | 2026 Table of Equalized Valuations, promulgated as of October 1, 2026. | Cross-check of average ratios; V4 |
+| `state/2025TEV.pdf` | 2025 Table of Equalized Valuations, certified October 1, 2025, as amended by the Tax Court January 30, 2026 (https://www.nj.gov/treasury/taxation/pdf/lptval/2024/2025TEV.pdf). | V4 (prior-year aggregate true value) |
 | `state/DirRatios.xlsx` | Director's ratio history, 2002 to 2026, every town. | Town page context; 2.0 |
 | `state/CoefficientDeviations.pdf` | State "coefficients of deviation" (dated 9/17/2026), years 2023 to 2026, by property class, with sale counts. | Validation |
 | `state/2026AvgResStat.pdf` | 2026 average residential statistics, including number of sales per town. | Validation (sale counts) |
@@ -118,6 +120,7 @@ All files are in `data/raw/` and are never edited.
 | `notes/ratio-study-standards.md` + 2 PDFs | IAAO standard (2013) and NJ non-usable sale rules (May 2025). | Sections 2, 3.2, 4 |
 | `notes/bergen-revaluations-2026-2027.md` | County list of 2026 and 2027 revaluation/reassessment towns (as of January 7, 2026). | Rules C9, K14 |
 | `notes/appeal-deadlines-and-fees.md` | Form A-1 deadline, fees, and rules. | Checker result text |
+| `notes/director-average-ratio-method.md` + PDF | Tax Court, *City of New Brunswick v. Director* (January 27, 2026): how the Director computes the average ratio. | Section 2.4; V4 |
 
 **SR1A layout differences found** (the documents and the data disagree; we follow the data and the 663-character layout):
 - Positions 5 to 16 hold TOTAL ASSESSMENT in our files (SR1Afilelayout.pdf), not BATCH-NUMBER and DLN (older description).
@@ -355,7 +358,7 @@ The pipeline writes the index to `data/processed/price_index.csv` and the site s
 - **Small towns.** 22 Bergen towns have under 20 cleaned sales in one year, so they get no statistics in v1.
 - **The time adjustment is countywide.** One index for all of Bergen. A town whose prices moved faster or slower than the county will be a little off. Median prices also shift when a different mix of homes sells (for example, more large homes in summer).
 - **No sales after June 30, 2026.** Values are held flat from the last full month to October 1, 2026.
-- **The state's average ratio is not a single-family median.** It covers more than single-family homes, and its exact calculation is not in our files. Our median ratio will not equal it (Section 8).
+- **The state's average ratio is not a single-family median.** It covers vacant land, homes, and commercial property, weights by price and by class, and averages in the prior year (Section 2.4). Our single-family median will not equal it (V3). We reproduce the state's method in V4, except that we use 2 classes (homes and everything else) where the state uses 4, because classes 1 and 4 have very few sales per town.
 - **This is not an appraisal.** It is a screening tool. A homeowner who appeals must bring their own comparable sales, and assessments of other homes are not accepted as evidence (Form A-1, instruction 10).
 
 ---
@@ -364,17 +367,23 @@ The pipeline writes the index to `data/processed/price_index.csv` and the site s
 
 Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
-**V1. Same sales as the state (pass = exact).** Before our extra filters (C1, C2, C3 only), the usable class-2 count per town in Sales2026 must equal the class-2 count for 2026 in CoefficientDeviations.pdf and the "# of Sales" in 2026AvgResStat.pdf. Scratch check on 2026-10-14: 70 of 70 towns match.
+**V1. Same sales as the state (pass = exact).** Before our extra filters (C1, C2, C3 only), the usable class-2 count per town in Sales2026 must equal the class-2 count for 2026 in CoefficientDeviations.pdf and the "# of Sales" in 2026AvgResStat.pdf. Pipeline: 70 of 70 towns match (4,917 sales; test `test_v1_sales2026_counts_match_state_counts`). Adding classes 1 and 4, our count also equals the state's TOTAL count in 70 of 70 towns (5,141 sales).
 
 **V2. Coefficient of deviation.** The state's "coefficient of deviation" is not the same measure as the IAAO COD. In a scratch check, the state's class-2 numbers match the average distance from the **mean** ratio (100 x average of |R_i - mean ratio| / mean ratio), computed on the V1 sales with no trimming, within 0.02 in 56 of 66 towns. The IAAO COD (distance from the median) matched in only 7. No document on file explains the state's formula, so this match is our evidence.
-- Test: compute the mean-based version on the V1 sales and compare to the state's class-2 "stratified" column for 2026.
-- Pass: within **0.25** points. (Scratch check: 62 of 66 towns.) *Our choice. Reason:* that is close enough to show we read the same sales the same way, while allowing small state-side edits we cannot see.
+- Test: compute the mean-based version on the V1 sales and compare to the state's class-2 "stratified" column for 2026. For a sale that includes extra lots, use TOTAL ASSESSMENT (all lots), not the main lot. *Reason:* that is how the state pairs them: the SR1A file's own SALES-RATIO field equals TOTAL ASSESSMENT / price on every usable multi-lot sale (34 of 34 in classes 1, 2, and 4 in Sales2026).
+- Pass: within **0.25** points. (Pipeline, 2026-10-15: **69 of 69** towns with a state value. With main-lot assessments only, 65.) *Our choice. Reason:* that is close enough to show we read the same sales the same way, while allowing small state-side edits we cannot see.
 - The site still publishes the IAAO COD. The validation page explains the difference.
 
-**V3. Median ratio vs the state's average ratio (reported, not pass/fail).** Our class-2 median ratio will usually be **below** the state's average ratio. In the scratch check, the gap averaged about 6 points and reached about 23 points (Carlstadt). That is expected: the state's ratio covers more than single-family homes and uses a method not in our files.
+**V3. Median ratio vs the state's average ratio (reported, not pass/fail).** Our class-2 median ratio will usually be **below** the state's average ratio. In the pipeline (2026-10-15) the median gap is -6.8 points and 13 towns are more than 10 points apart (largest: Rockleigh and Carlstadt). That is expected: the state's ratio covers more than single-family homes, weights by price and class, and averages in the prior year (Section 2.4; V4 shows this explains the gap).
 - Flag for review any town where the gap is more than **10** percentage points. *Our choice. Reason:* a gap that large is worth a second look, but it is not proof of an error. A 5-point flag would mark most towns and hide the ones that matter.
 
-**If a town is off** (fails V1 or V2, or is flagged in V3):
+**V4. The state's method, rebuilt (pass/fail by town).** This checks that our sales data reproduces the state's average ratio when we follow the state's method (Section 2.4).
+1. *State's one-year ratio.* The state publishes only the averaged value. Since 2026 aggregate true value = (one-year true value + 2025 aggregate true value) / 2, the one-year true value = 2 x (2026 aggregate true value) - (2025 aggregate true value), using `2026TEV.pdf` and `2025TEV.pdf`. One-year ratio = 2026 aggregate assessed / one-year true value.
+2. *Our one-year ratio.* From the V1 sales plus classes 1 and 4 (every usable Sales2026 sale in classes 1, 2, and 4; no other cleaning; TOTAL ASSESSMENT as in V2): the weighted ratio (total assessed / total price) for homes (class 2) and for everything else. Home assessed total = "# of Line Items" x "Avg Assessment" in `2026AvgResStat.pdf`; everything else = the town's 2026 aggregate assessed minus that. Our one-year true value = home total / home ratio + other total / other ratio. *Our choice:* 2 groups, not the state's 4, because most towns have only a handful of class 1 and class 4 sales; if a town has no sales in one group, that group is valued at the other group's ratio.
+3. Compare the two. **Flag a town if they differ by more than 5 percentage points** (`VALIDATION_FLAG_PP` in `pipeline/config.py`). *Our choice. Reason:* this is a like-for-like comparison, so a 5-point miss would mean a real problem in our data or our reading of the method. (V3 keeps 10 points because it compares two different measures on purpose.) We also report how many towns are within 1 and 2 points.
+- Pipeline result (2026-10-15): **70 of 70 towns within 5 points, 66 within 1 point**; none flagged. The same sales' plain average was within 5 points of the published ratio in only 44 towns, because averaging with the prior year raises the published ratio in 69 of 70 towns (median +4.6 points). Details in `docs/validation.md`.
+
+**If a town is off** (fails V1, V2, or V4, or is flagged in V3):
 1. Re-check the parsing (field positions, YYMMDD dates), the usable flag, the class, and the assessment year.
 2. Look at the town's individual sales for multi-lot or odd records.
 3. Write what we found in `docs/validation.md`.
@@ -386,6 +395,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.4 | 2026-10-15 | Prompt 7 validation. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). Section 2.4 now says how the Director computes the average ratio (weighted, by class, averaged with the prior year), from a 2026 Tax Court opinion saved in `data/raw/notes/`. Added `2025TEV.pdf`. V2 uses TOTAL ASSESSMENT for multi-lot sales (the state's own pairing) and gives pipeline numbers. V3 gives pipeline numbers. New V4: rebuild the state's one-year ratio and flag towns more than 5 points apart. Section 7 limitation updated. No cleaning or town statistics rule changed. |
 | 1.3 | 2026-10-15 | Prompt 6 town statistics. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). T3 quarters now sort by the PRB value proxy, not sale price (sale-price version kept as a comparison). New T8: countywide headline is within-town (each sale divided by its town's median ratio). Section 2.3: PRB "unacceptable" means the whole 95% range is outside -0.10 to +0.10; no pass/fail for the median ratio. T7 now says "value quarter", strict above/below, and how the county row adds up. PRB keeps ln(V)/0.693 (the prompt said log2; IAAO's form wins). |
 | 1.2 | 2026-10-15 | Prompt 5 cleaning findings. Zaden asked Claude to decide ("best interests of winning, usefulness, the goal, and the prompt"). C8 now says it runs per town *and* per SR1A file. C10 also drops codes starting with lowercase "c" (1 sale). C9 note now gives the real counts: 0 removed in Sales2026, 1,093 in Sales2025. Named `c8_sensitivity.csv`. |
 | 1.1 | 2026-10-15 | Prompt 4 data findings. Zaden asked Claude to decide ("whatever most aligns with the prompts, the goal, usefulness, and winning"). C6 now tests TOTAL ASSESSMENT > main-lot total (the old ADDL-BLOCK test would have dropped 881 Sales2025 sales because of "00000" placeholders); multi-lot sales are still dropped, not kept. Section 3.1 updated: YTDSR1A2026 is an older copy of Sales2026; Sales2024 does not follow the layout; LAST-UPDATE-DATE is MMDDYY; record_id defined. |
