@@ -4,9 +4,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { Reveal } from "@/components/Reveal";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { REPORT_PROBLEM_URL } from "@/lib/nav";
-import { CONTACT_EMAIL } from "@/lib/site";
+import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Contact | Fair Assess NJ" };
+export const metadata: Metadata = { title: SITE_NAME };
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 
@@ -28,13 +28,13 @@ export default function ContactPage() {
           <div>
             <p className="eyebrow text-blue-600">Get Updates</p>
             <h2 className="mt-2 font-heading text-2xl font-bold text-navy-900">
-              Get an email when the tools launch
+              New towns and appeal season reminders
             </h2>
             <div className="mt-6">
               <WaitlistForm source="contact" />
               <p className="mt-4 text-sm text-ink-600">
-                Free. No spam. We only use your email to tell you when the
-                checker launches.
+                Free. No spam. We only use your email to tell you about new
+                towns and to remind you when appeal season comes around.
               </p>
             </div>
           </div>

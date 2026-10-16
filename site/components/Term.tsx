@@ -36,12 +36,18 @@ function useExplainer() {
   return { open, setOpen, wrapRef, buttonRef, id };
 }
 
-function Panel({ id, children }: { id: string; children: ReactNode }) {
+/**
+ * The pop-up box. "center" sits under the word; "end" lines up with the
+ * button's right edge and opens toward the left, so a button in a card's
+ * top-right corner keeps its box over its own card.
+ */
+function Panel({ id, align = "center", children }: { id: string; align?: "center" | "end"; children: ReactNode }) {
+  const position = align === "end" ? "right-0" : "left-1/2 -translate-x-1/2";
   return (
     <span
       id={id}
       role="note"
-      className="absolute left-1/2 top-full z-20 mt-2 block w-72 max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-card border border-outline-200 bg-white p-4 text-left text-sm font-normal normal-case tracking-normal text-ink-800 shadow-raised"
+      className={`absolute top-full z-20 mt-2 block w-72 max-w-[calc(100vw-2rem)] rounded-card border border-outline-200 bg-white p-4 text-left text-sm font-normal normal-case tracking-normal text-ink-800 shadow-raised ${position}`}
     >
       {children}
     </span>
@@ -88,7 +94,11 @@ export function InfoButton({ label, children }: { label: string; children: React
       >
         <Info aria-hidden="true" className="h-5 w-5" strokeWidth={2} />
       </button>
-      {open && <Panel id={id}>{children}</Panel>}
+      {open && (
+        <Panel id={id} align="end">
+          {children}
+        </Panel>
+      )}
     </span>
   );
 }

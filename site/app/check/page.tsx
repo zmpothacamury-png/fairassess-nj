@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { SITE_NAME } from "@/lib/site";
 import { AppealBasics } from "@/components/AppealBasics";
 import { ComingSoon } from "@/components/ComingSoon";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "Appeal Checker | Fair Assess NJ" };
+export const metadata: Metadata = { title: SITE_NAME };
 
 /** Tool 2. Content comes in Prompt 11. Appeals are mentioned, so the deadline and fee show (CLAUDE.md rule 7). */
 export default function CheckPage() {

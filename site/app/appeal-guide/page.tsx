@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { SITE_NAME } from "@/lib/site";
 import { AppealBasics } from "@/components/AppealBasics";
 import { ComingSoon } from "@/components/ComingSoon";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
-export const metadata: Metadata = { title: "Appeal Guide | Fair Assess NJ" };
+export const metadata: Metadata = { title: SITE_NAME };
 
 /** Content comes in Prompt 12. Appeals are discussed, so the deadline and fee show (CLAUDE.md rule 7). */
 export default function AppealGuidePage() {

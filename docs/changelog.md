@@ -1,5 +1,63 @@
 # Changelog
 
+## 2026-10-15 (Prompt 9 follow-up 3: final touch-ups)
+- Every page's browser tab now reads just "Fair Assess NJ", with the logo icon. The name lives in `SITE_NAME` in `site/lib/site.ts`.
+- The 4th home stat card now shows "12" with the label "Months of recorded sales", so all 4 numbers line up.
+- The gold pivot dot on the inner-page header line (Town Rankings, Appeal Checker, How It Works, Appeal Guide, About, Contact, Privacy, 404) is now a full circle, the same size as before. Only the NJ watermark is clipped now, not the dot.
+- About page: removed the "What Drives This Work" eyebrow. The section heading is just "Four promises to every homeowner".
+- Results: 88 unit tests, 71 browser tests, lint, and build pass with no warnings.
+
+## 2026-10-15 (Prompt 9 follow-up 2: Zaden's design changes and the About page)
+- Home stat cards:
+  - added a 4th card, "9 towns leaning regressive" (out of 48 ranked; from `county.json` `ranked_towns_prb_range_below_zero`)
+  - all 4 cards sit on one row on laptops and desktops (2 by 2 on iPads, stacked on phones)
+  - simpler wording in the summaries and info pop-ups
+- Fixed info pop-ups that were cut off behind the next card. The card with an open pop-up is now lifted above the others, and the "i" pop-up opens toward the inside of its own card.
+- Rankings preview: the limited-data and 2027 revaluation notes are removed (Zaden). The outlier note stays. Town pages will still show those notes.
+- Inner pages (Town Rankings, Appeal Checker, How It Works, Appeal Guide, About, Contact, Privacy, 404) now use Fair Assess NJ colors instead of T&T's dark navy:
+  - light blue page header with the balance line
+  - white closing band with the blue | green stripe
+- "Scroll to explore" is now a white pill with a blue outline on every page. The home page is otherwise unchanged.
+- About page built:
+  - founder header and bio
+  - "The Story" in Zaden's own words, from `private/about-founder.md`, with his approval. The only change is the website's name spacing, "Fair Assess NJ". No source links, per the rule 5 exception.
+  - "What Drives This Work": 4 cards. The accuracy card shows "70 of 70 towns within 5 points" from `validation.json` and links to `docs/validation.md`.
+  - closing band to Contact
+- Results: 88 unit tests, 71 browser tests, lint, and build pass with no warnings.
+
+## 2026-10-15 (Prompt 9 follow-up: home page decisions)
+- Zaden delegated items 1–3 and approved 4 and 5.
+  1. The rankings preview now also says how many ranked towns have a PRB whose whole 95% range is below zero: 9 of 48, from `county.json`. The regressive stat card's info pop-up says the same.
+  2. The preview still shows the top 5 by PRB (methodology 5.4). Any town with the "Regressive pattern" label that ranks below the top 5 is now named under the list, with its rank, PRB, PRD, and caveats. Today that is Bergenfield, rank 6. New helper `labeledOutsidePreview` with 2 tests.
+  3. The founder line is kept.
+- Item 4: the Get Updates form now says "new towns and appeal season reminders". This covers the contact page heading and note, the form's button ("Get updates"), and its success message.
+- Results: 88 unit tests, 71 browser tests, lint, and build pass with no warnings.
+
+## 2026-10-15 (Prompt 9: site layout, navigation, home page)
+- New home page (`site/app/page.tsx`), built in this order:
+  1. hero ("Is your home assessed fairly?", two buttons, NJ watermark, logo on the right)
+  2. three stat cards: 70 towns analyzed, using 3,806 sales; 2 towns showing a regressive pattern out of 48 ranked; 12 months of recorded sales, July 2025 to June 2026
+  3. "How it works" 01–03
+  4. "Why it matters", with a made-up two-home example, labeled as made up
+  5. rankings preview: the first 5 towns by PRB, each with its real label, PRB and PRD to 4 decimals, and caveats
+  6. Meet the Founder teaser + "Get updates" link
+  7. closing CTA band
+  8. the disclaimer
+- All numbers on the page come from `meta.json`, `county.json`, and `towns.json` through `lib/data/load.ts`.
+- The waitlist form is no longer on the home page. It lives at `/contact#updates`.
+- New `site/lib/home.ts` (formatting, rankings preview, PRB in plain words, label text, caveats, example tax shares) with 13 tests in `home.test.ts`.
+- Layout changes:
+  - "Skip to main content" link
+  - new default title and description (no more "Join the waitlist")
+  - the footer reads "Data as of" through `loadMeta()`, shows it as "June 30, 2026", and shows the methodology version
+- The 404 page gets the balance divider and Home + Check My Assessment buttons.
+- `StatCard` takes an optional link. Removed the old landing sections that were no longer used: `ProblemSection`, `BuildingSection`, `MethodologySection`, `WaitlistSection`, `ConceptDiagram`.
+- `lib/data/load.ts`: added a bundler ignore comment, which removes the "whole project traced" build warning.
+- Browser tests:
+  - `e2e/layout.spec.ts` adds a 375px screen
+  - `e2e/motion.spec.ts` now targets the new section IDs (`#numbers`, `#rankings`)
+- Results: 86 unit tests, 71 browser tests, lint, and build pass with no warnings.
+
 ## 2026-10-15 (Prompt 8 follow-up: export decisions)
 - Zaden delegated the 3 open items. (1) Comps keep the full deed date (rule K6 counts days); no street names. (2) The price index chart starts at the comp window, October 2024 (new `chart_from` in `price-index.json`); January to April 2024 have only 1 to 8 sales each and stay in the table only. Methodology 1.5 adds this display note; the index math is unchanged. (3) Each town's cleaning-log rows moved from `filter-log.json` into its own town file (`filter_log`), so town pages can show how many sales each rule removed; `filter-log.json` keeps the rules and county rows (227 KB to 3.4 KB).
 - Sizes now: total 988.8 KB (budget 5 MB); largest town file 53.5 KB, Mahwah (budget 150 KB). Data contract and zod schemas updated. 3 new pipeline tests (177 pass); site tests, validate-data, lint, and build pass.

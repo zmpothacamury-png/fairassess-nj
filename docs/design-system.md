@@ -191,7 +191,7 @@ Blue and green can look alike to some color-blind readers. Charts must also use 
 | `Skeleton` | Loading placeholder. Pulses only if the visitor allows motion. |
 | `Header` | Logo icon + "FAIRASSESS NJ" as live Montserrat 800 text; tabs Home, Town Rankings, Appeal Checker, Learn (How It Works, Appeal Guide), About; "Check My Assessment" button; menu below 1280px that slides in from the right; current page gets a gold underline and `aria-current`. Format and motion: `docs/site-format.md`. |
 | `Footer` | Brand + disclaimer; link columns Site, Tools, Project (Methodology, Privacy, About, Contact, GitHub); "Data as of", source, and independence lines; "Built by Zaden Pothacamury, Ramapo High School." and the tagline. Details: `docs/site-format.md`. |
-| `PageHeader`, `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces from Prompt 2B. See `docs/site-format.md`. |
+| `PageHeader`, `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces from Prompt 2B. Colors changed on 2026-10-15: light blue page header, `CtaBand` `tone` "light" (inner pages) or "navy" (home), white scroll-cue pill. See `docs/site-format.md`. |
 
 ---
 

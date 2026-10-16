@@ -31,7 +31,8 @@ export async function readDataFile<S extends z.ZodType>(
 ): Promise<z.infer<S>> {
   let raw: unknown;
   try {
-    raw = JSON.parse(await readFile(path.join(dir, file), "utf8"));
+    // The ignore comment stops the bundler from tracing the whole project: pages read these files at build time.
+    raw = JSON.parse(await readFile(path.join(/*turbopackIgnore: true*/ dir, file), "utf8"));
   } catch (err) {
     throw new DataFileError(`${file}: cannot read as JSON (${(err as Error).message})`);
   }

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { SITE_NAME } from "@/lib/site";
 import { ComingSoon } from "@/components/ComingSoon";
 import { CtaBand } from "@/components/CtaBand";
 import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
-export const metadata: Metadata = { title: "How It Works | Fair Assess NJ" };
+export const metadata: Metadata = { title: SITE_NAME };
 
 /** Content comes in Prompt 12, from docs/methodology.md. */
 export default function MethodologyPage() {

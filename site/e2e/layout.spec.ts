@@ -3,6 +3,7 @@ import { expect, test } from "@playwright/test";
 /** Every page must fit its screen: no sideways scrolling on phones, iPads, or desktops. */
 const PAGES = ["/", "/towns", "/check", "/methodology", "/appeal-guide", "/about", "/contact", "/privacy", "/design", "/no-such-page"];
 const SCREENS = [
+  { name: "small phone", width: 375, height: 667 },
   { name: "phone", width: 390, height: 844 },
   { name: "iPad portrait", width: 768, height: 1024 },
   { name: "iPad landscape", width: 1024, height: 768 },

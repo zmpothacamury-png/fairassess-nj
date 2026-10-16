@@ -9,18 +9,18 @@ test.describe("Scroll to explore button", () => {
     await expect(cue).toBeVisible();
 
     await cue.click();
-    // Wait for the smooth scroll to settle on the second section (#problem).
+    // Wait for the smooth scroll to settle on the second section (#numbers, the headline numbers).
     await expect
       .poll(async () =>
         page.evaluate(() => {
           const header = document.querySelector<HTMLElement>(".site-header")!.offsetHeight;
-          const top = document.getElementById("problem")!.getBoundingClientRect().top;
+          const top = document.getElementById("numbers")!.getBoundingClientRect().top;
           return Math.round(top - header);
         }),
       )
       .toBe(-4); // T&T lands 4px past the header line (site.js:234).
 
-    await expect(page.locator("#problem")).toBeFocused();
+    await expect(page.locator("#numbers")).toBeFocused();
   });
 
   test("hides when the footer comes into view", async ({ page }) => {
@@ -33,7 +33,7 @@ test.describe("Scroll to explore button", () => {
 test.describe("Text transitions", () => {
   test("content below the fold starts hidden and appears when scrolled to", async ({ page }) => {
     await page.goto("/");
-    const block = page.locator("#methodology [data-reveal]").first();
+    const block = page.locator("#rankings [data-reveal]").first();
     await expect.poll(() => block.evaluate((el) => Number(getComputedStyle(el).opacity))).toBeLessThan(0.05);
 
     await block.evaluate((el) => window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - 200));

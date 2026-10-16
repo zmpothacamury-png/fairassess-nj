@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { SITE_NAME } from "@/lib/site";
 import type { ReactNode } from "react";
 import { CalendarDays, FileText, House, Info, Map, Scale, SearchCheck } from "lucide-react";
 import { BalanceDivider } from "@/components/BalanceDivider";
@@ -19,7 +20,7 @@ import { APPROVED_PAIRS, contrastRatio, parseColorTokens } from "@/lib/contrast"
 
 /** Style guide for reviewing the design system. Hidden from search engines and the nav. */
 export const metadata: Metadata = {
-  title: "Design system | Fair Assess NJ",
+  title: SITE_NAME,
   robots: { index: false, follow: false },
 };
 

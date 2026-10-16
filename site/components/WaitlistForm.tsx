@@ -16,9 +16,9 @@ const UNIQUE_VIOLATION = "23505";
 type Status = "idle" | "loading" | "success" | "error";
 
 /**
- * Waitlist email signup form. Used in the hero and in the waitlist section,
- * and on the Contact page, with a different `source` label so we can tell
- * which one people use.
+ * "Get updates" email signup form (the Supabase waitlist table). Lives on the
+ * Contact page at #updates. `source` records where people signed up; "hero"
+ * and "footer" are kept because older rows use them.
  */
 export function WaitlistForm({ source }: { source: "hero" | "footer" | "contact" }) {
   const inputId = useId();
@@ -64,8 +64,8 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" | "contact"
       >
         <CircleCheck aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-green-700" strokeWidth={2} />
         <span>
-          You&rsquo;re on the list. We&rsquo;ll email you when the checker
-          launches.
+          You&rsquo;re signed up. We&rsquo;ll email you about new towns and
+          appeal season reminders.
         </span>
       </p>
     );
@@ -117,7 +117,7 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" | "contact"
         disabled={status === "loading"}
         className={`${buttonClasses("primary", "md")} whitespace-nowrap`}
       >
-        {status === "loading" ? "Joining…" : "Join the waitlist"}
+        {status === "loading" ? "Signing up…" : "Get updates"}
       </button>
       {status === "error" && (
         <p role="alert" className="flex gap-1.5 text-sm text-navy-900 sm:basis-full">

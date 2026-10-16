@@ -118,12 +118,18 @@ Written in Prompt 2B (2026-10-14). FairAssess NJ follows the same site **format*
 
 | Page | Skeleton | Built in |
 |---|---|---|
-| Home | Hero (eyebrow, headline, paragraph, buttons **Check My Assessment** + **See Town Rankings**, three stat figures from `county.json`, logo visual on the right) → "How It Works" 01–03 cards → "Two free tools" cards → rankings preview → "Why it matters" → "Meet the Founder" teaser + "Read the Full Story" → closing band "Is your assessment fair? Find out in two minutes." + Check My Assessment. **No testimonials** (never invent quotes). | Prompt 9 (current landing content stays until then) |
+| Home | Hero (eyebrow, headline, one sentence, buttons **Check my assessment** + **See town rankings**, NJ watermark, logo visual on the right) → three StatCards from `meta.json` and `county.json` → "How It Works" 01–03 cards → "Why it matters" (made-up two-home example, labeled) → rankings preview (first 5 towns by PRB, with real labels and caveats) → "Meet the Founder" teaser + "Read the Full Story" + "Get updates" link → closing band "Is your assessment fair? Find out in two minutes." + Check My Assessment → disclaimer. Prompt 9 set this order and dropped the "Two free tools" cards (the hero buttons and CTA band cover both tools). **No testimonials** (never invent quotes). | Prompt 9 (built) |
 | Town Rankings, Appeal Checker, How It Works, Appeal Guide | `PageHeader` (eyebrow + h1 + intro) → content → `CtaBand` pointing to the other tool | Shell now; content Prompts 10–12 |
-| About | Founder header (logo, "About the Founder", "Zaden Pothacamury", "Founder, FairAssess NJ", bio) → "The Story" ("Why FairAssess NJ exists", 3 paragraphs in Zaden's words) → "What Drives This Work" (Accuracy, Transparency, Privacy, Free & accessible) → team (only if Zaden gives names) → band "Want to get in touch?" → `/contact` | Shell now; content Prompt 13 (needs Zaden's grade and his own words) |
+| About | Founder header (logo, "About the Founder", "Zaden Pothacamury", "Founder, Fair Assess NJ", bio) → "The Story" ("Why Fair Assess NJ exists", 3 paragraphs in Zaden's words) → "Four promises to every homeowner" (no eyebrow; Accuracy with the real validation number from `validation.json`, Transparency, Privacy, Free & accessible) → band "Want to get in touch?" → `/contact`. No team section (no other names given). | Built 2026-10-15 (Zaden asked for it after Prompt 9) |
 | Contact | `PageHeader` → Get Updates form at `#updates` (the Supabase waitlist form) beside: email, Report a data problem, press/partnerships | Now |
 | Privacy | `PageHeader` → content | Shell now |
 | 404 | `PageHeader` → buttons home and Check My Assessment | Now |
+
+### Inner-page colors (changed 2026-10-15, Zaden: "different than T&T", not too green or yellow)
+- **Page header:** the logo's light blue tint (blue-100) instead of T&T's dark navy band, with a faint NJ outline, a blue-600 eyebrow with a gold dot, a navy-900 heading, and the logo's blue | green balance line with a gold pivot along the bottom. The About page's founder header uses the same look.
+- **Closing band (`CtaBand`):** inner pages use a white panel with the blue | green stripe on top and a blue button (`tone="light"`, the default). The home page keeps the navy band (`tone="navy"`), which Zaden asked to keep.
+- **Browser tab:** every page's title is exactly "Fair Assess NJ" (`SITE_NAME`), with the logo favicon.
+- **Scroll to explore:** a white frosted pill with a blue-600 outline, navy text, and a blue chevron, on every page. T&T's sizes and motion are unchanged.
 
 ### Motion: same values, our colors
 - **Where the numbers live:** `site/lib/motion.ts` holds every number above, each with its T&T line. The root layout passes them to the CSS as variables, so `app/globals.css` uses the same values.

@@ -1,22 +1,10 @@
-import { existsSync, readFileSync } from "node:fs";
-import { join } from "node:path";
 import Image from "next/image";
 import Link from "next/link";
+import { loadMeta } from "@/lib/data/load";
+import { formatLongDate } from "@/lib/home";
 import { FOOTER_COLUMNS } from "@/lib/nav";
 import type { NavLink } from "@/lib/nav";
 import { Disclaimer } from "./Disclaimer";
-
-/**
- * "Data as of" date, read at build time from site/public/data/meta.json
- * (written by the pipeline's export step; never hand-edited). Until the
- * pipeline has run, the footer says so instead of showing a made-up date.
- */
-function readDataAsOf(): string | null {
-  const file = join(process.cwd(), "public", "data", "meta.json");
-  if (!existsSync(file)) return null;
-  const meta = JSON.parse(readFileSync(file, "utf8")) as { data_as_of?: string };
-  return meta.data_as_of ?? null;
-}
 
 const LINK = "focus-ring text-ink-800 underline-offset-4 transition-colors hover:text-blue-600 hover:underline";
 
@@ -62,9 +50,10 @@ function BalanceLine({ thick = false }: { thick?: boolean }) {
  * (like the logo's background), navy text, the full-color logo icon, and the
  * logo's blue/green balance with its gold pivot dot as the dividers.
  */
-export function Footer() {
+export async function Footer() {
   const year = new Date().getFullYear();
-  const dataAsOf = readDataAsOf();
+  // "Data as of" comes from meta.json (pipeline export; never hand-edited), checked by the loader.
+  const meta = await loadMeta();
 
   return (
     <footer className="bg-blue-100 text-ink-800">
@@ -106,7 +95,8 @@ export function Footer() {
           <div className="grid max-w-prose gap-4 text-sm lg:max-w-none lg:grid-cols-3 lg:gap-8">
             <p>
               <span className="font-semibold text-navy-900">Data as of: </span>
-              {dataAsOf ?? "Not yet published. The first results are coming soon."}
+              <span className="tabular-nums">{formatLongDate(meta.data_as_of)}</span>
+              <span className="block text-ink-600">Methodology version {meta.methodology_version}</span>
             </p>
             <p>
               <span className="font-semibold text-navy-900">Source: </span>

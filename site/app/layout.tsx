@@ -7,7 +7,7 @@ import { Header } from "@/components/Header";
 import { RevealController } from "@/components/RevealController";
 import { ScrollCue } from "@/components/ScrollCue";
 import { motionCssVars } from "@/lib/motion";
-import { SITE_URL } from "@/lib/site";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 // Headings and eyebrows: Montserrat, to match the logo's geometric wordmark.
 const montserrat = Montserrat({
@@ -27,9 +27,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Fair Assess NJ",
+  // Zaden: the browser tab always reads "Fair Assess NJ" (with the logo icon), on every page.
+  title: SITE_NAME,
   description:
-    "A public, reproducible study of whether New Jersey towns over-assess lower-priced homes. It also offers a free tax-appeal checker for homeowners. Join the waitlist.",
+    "Free tools for Bergen County homeowners. See how evenly each town assesses homes, using public sales data, and check whether you might have grounds for a property tax appeal.",
+  openGraph: { siteName: SITE_NAME, type: "website" },
 };
 
 /*
@@ -51,7 +53,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script dangerouslySetInnerHTML={{ __html: ENABLE_REVEAL }} />
       </head>
       <body className="flex min-h-full flex-col bg-mist-50 font-sans text-base text-ink-800 antialiased">
+        {/* First stop for keyboard users: jumps past the header to the page content. */}
+        <a
+          href="#main-content"
+          className="focus-ring sr-only z-50 rounded-control bg-white px-4 py-2 font-semibold text-blue-600 shadow-raised focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+        >
+          Skip to main content
+        </a>
         <Header />
+        {/* Skip-link target, right before every page's <main>. */}
+        <div id="main-content" tabIndex={-1} className="scroll-mt-24 outline-none" />
         {children}
         <Footer />
         <ScrollCue />

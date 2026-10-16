@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
+import { SITE_NAME } from "@/lib/site";
 import { ComingSoon } from "@/components/ComingSoon";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "Privacy | Fair Assess NJ" };
+export const metadata: Metadata = { title: SITE_NAME };
 
 /** Content comes in a later prompt. */
 export default function PrivacyPage() {

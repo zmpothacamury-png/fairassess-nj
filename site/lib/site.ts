@@ -13,3 +13,6 @@ export const GITHUB_URL = "https://github.com/zmpothacamury-png/fairassess-nj";
 
 /** Public project email (Zaden, 2026-10-14). */
 export const CONTACT_EMAIL = "fairassessnj@gmail.com";
+
+/** The site's name. Every page's browser tab shows exactly this (Zaden, 2026-10-15). */
+export const SITE_NAME = "Fair Assess NJ";
