@@ -6,12 +6,15 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { loadValidation } from "@/lib/data/load";
 import { formatCount } from "@/lib/home";
-import { GITHUB_URL, SITE_NAME } from "@/lib/site";
+import { CONTACT_EMAIL, GITHUB_URL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
+import { SOURCES } from "@/lib/sources";
 
-export const metadata: Metadata = {
-  title: SITE_NAME,
-  description: "Who built Fair Assess NJ, why, and the values behind it.",
-};
+export const metadata: Metadata = pageMetadata({
+  path: "/about",
+  description:
+    "Who built Fair Assess NJ, why, and the values behind it.",
+});
 
 /** The full write-up of our check against the state's ratios (docs/validation.md). */
 const VALIDATION_URL = `${GITHUB_URL}/blob/main/docs/validation.md`;
@@ -31,9 +34,20 @@ const STORY = [
   "When I began researching property assessments, I discovered a troubling national trend: lower-priced homes are frequently over-assessed compared to more expensive ones. This means the families who can least afford it are often carrying an unfair tax burden. I wanted to know if this was happening right here in Bergen County—and more importantly, I wanted to create a solution. While the data to check these assessments is public, it’s buried in massive state spreadsheets. Fair Assess NJ takes that complex data and makes it simple, accessible, and actionable for every homeowner.",
 ];
 
+/** Version 2.0 roadmap, in Zaden's words from the Prompt 13 brief (CLAUDE.md "Out of scope for v1"). */
+const NEXT = [
+  "Cover all of New Jersey.",
+  "Address lookup using the state's MOD-IV parcel records.",
+  "A stronger fairness test using a regression model that accounts for home features like size and age.",
+  "Testing whether assessments get less fair each year after a town's last revaluation.",
+  "Collecting appeal results from county tax boards.",
+  "A Spanish version and easier design for older homeowners.",
+];
+
 /**
  * About page in T&T's About structure (docs/site-format.md): founder header,
- * The Story, What Drives This Work, and a closing band to Contact. No team
+ * The Story, What Drives This Work, What's next (2.0) with Credits, and a
+ * closing band to Contact. No team
  * section (no other names given).
  */
 export default async function AboutPage() {
@@ -98,9 +112,9 @@ export default async function AboutPage() {
             <Image
               src="/logo-icon.png"
               alt="Fair Assess NJ logo: a house on balance scales over an outline of New Jersey"
-              width={394}
-              height={698}
-              priority
+              width={118}
+              height={208}
+              loading="eager"
               className="h-40 w-auto sm:h-52"
             />
           </Reveal>
@@ -174,6 +188,70 @@ export default async function AboutPage() {
             </a>
             .
           </p>
+        </div>
+      </section>
+
+      <section id="next" className="bg-white">
+        <div className="mx-auto grid max-w-content gap-12 px-6 py-20 sm:py-24 lg:grid-cols-12">
+          <div className="lg:col-span-7">
+            <Reveal>
+              <SectionHeading
+                eyebrow="Version 2.0"
+                title="What's next"
+                description="Version 1 covers single-family homes in Bergen County. Here is what comes after it."
+              />
+            </Reveal>
+            <Reveal as="ol" group className="flex flex-col gap-4">
+              {NEXT.map((item, i) => (
+                <li key={item} className="flex gap-4 text-lg text-ink-800">
+                  <span aria-hidden="true" className="w-8 shrink-0 font-heading font-bold tabular-nums text-blue-600">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  {item}
+                </li>
+              ))}
+            </Reveal>
+          </div>
+          <Reveal className="lg:col-span-5">
+            <div className="rounded-card bg-mist-50 p-6 sm:p-8">
+              <h2 className="font-heading text-xl font-bold text-navy-900">Credits</h2>
+              <ul className="mt-4 flex flex-col gap-3 text-base text-ink-800">
+                <li>
+                  Data: the{" "}
+                  <a href={SOURCES.sr1a.url} className={LINK} rel="noopener noreferrer">
+                    New Jersey Division of Taxation
+                  </a>
+                  .
+                </li>
+                <li>
+                  Measures: the{" "}
+                  <a href={SOURCES.iaao.url} className={LINK} rel="noopener noreferrer">
+                    IAAO Standard on Ratio Studies
+                  </a>
+                  .
+                </li>
+                <li>
+                  Code and data:{" "}
+                  <a href={GITHUB_URL} className={LINK} rel="noopener noreferrer">
+                    open on GitHub
+                  </a>
+                  .
+                </li>
+                <li>
+                  Email:{" "}
+                  <a href={`mailto:${CONTACT_EMAIL}`} className={LINK}>
+                    {CONTACT_EMAIL}
+                  </a>
+                </li>
+              </ul>
+              <Link
+                href="/contact#updates"
+                className="focus-ring pressable mt-6 inline-flex min-h-12 items-center rounded-control border-2 border-blue-600 bg-white px-4 text-sm font-semibold text-blue-600 hover:border-navy-700 hover:text-navy-700"
+              >
+                Get Updates
+              </Link>
+            </div>
+          </Reveal>
         </div>
       </section>
 

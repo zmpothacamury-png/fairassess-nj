@@ -214,3 +214,27 @@ RATIO_DIGITS = 4  # ratios, PRD, PRB, and shares
 COD_DIGITS = 2  # COD and percent-point numbers
 TOWN_FILE_MAX_BYTES = 150 * 1024  # size budget: each towns/<slug>.json
 SITE_DATA_MAX_BYTES = 5 * 1024 * 1024  # size budget: everything in site/public/data
+
+# ---------------------------------------------------------------- appeal checker reference (methodology Section 6)
+# The Python reference version of the checker (pipeline/checker_reference.py).
+# The website keeps its own copy of these numbers in site/lib/checker/config.ts,
+# so the two versions are written independently and the tests compare them.
+PRICE_INDEX_JSON = SITE_DATA_DIR / "price-index.json"
+CHECKER_INPUT_MIN = 10_000  # K1 input range (our choice), whole dollars
+CHECKER_INPUT_MAX = 20_000_000
+CHECKER_BANDS = (0.15, 0.25)  # K2: +/- 15%, widened to +/- 25%
+CHECKER_WIDEN_BELOW = 8  # K2: widen if the 15% band finds fewer than 8 comps
+CHECKER_MIN_COMPS = 5  # K3: fewer than 5 after widening -> "Not enough data"
+CHECKER_DAYS_PER_MONTH = 30.4375  # K6
+CHECKER_HALF_LIFE_MONTHS = 12  # K6
+CHECKER_OWN_ESTIMATE_WARN = 0.20  # K9
+CHECKER_FLOAT_TOLERANCE = 1e-6  # Section 6.8: within this many points of a limit = on the limit
+CHECKER_PERCENTILE_TOLERANCE = 1e-9  # Section 6.8: K7 running weight within this share of the target
+# K13: Form A-1 filing fees as (assessed value below, fee) rows, and deadlines.
+CHECKER_FEES = [(150_000, 5), (500_000, 25), (1_000_000, 100), (float("inf"), 150)]
+CHECKER_DEADLINE = "April 1"
+CHECKER_DEADLINE_REVAL = "May 1"
+CHECKER_FIXTURES_JSON = PIPELINE_DIR / "fixtures" / "checker_cases.json"
+CHECKER_N_RANDOM_CASES = 22  # random real towns in the fixtures (plus named real towns and edge cases)
+CHECKER_SWEEP_STEP = 0.01  # Section 7 sweep: try assessed values 1% apart across each town's comp range
+CHECKER_SWEEP_CSV = PROCESSED_DIR / "checker_grounds_sweep.csv"

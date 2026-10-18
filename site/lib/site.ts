@@ -16,3 +16,7 @@ export const CONTACT_EMAIL = "fairassessnj@gmail.com";
 
 /** The site's name. Every page's browser tab shows exactly this (Zaden, 2026-10-15). */
 export const SITE_NAME = "Fair Assess NJ";
+
+/** The site-wide description: home page, search results, and the WebApplication JSON-LD. */
+export const SITE_DESCRIPTION =
+  "Free tools for Bergen County homeowners. See how evenly each town assesses homes, using public sales data, and check whether you might have grounds for a property tax appeal.";

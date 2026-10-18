@@ -3,6 +3,10 @@
 // the contract does not list (for example a street name on a comp) fails validation.
 import { z } from "zod";
 
+// No eval: Zod would otherwise test `Function("")`, which the site's
+// Content-Security-Policy blocks and the browser reports (Prompt 14).
+z.config({ jitless: true });
+
 const isoDate = z.iso.date(); // YYYY-MM-DD
 const month = z.string().regex(/^\d{4}-(0[1-9]|1[0-2])$/, "expected YYYY-MM");
 const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/, "expected a lowercase slug");

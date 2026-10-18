@@ -30,7 +30,7 @@ from pipeline import config, price_index, stats, validate
 
 TOWN_STAT_FIELDS = ["median_ratio", "median_ci_low", "median_ci_high", "mean_ratio", "weighted_mean_ratio",
                     "cod", "cod_ci_low", "cod_ci_high", "prd", "prd_ci_low", "prd_ci_high",
-                    "prb", "prb_se", "prb_ci_low", "prb_ci_high"]
+                    "prb", "prb_intercept", "prb_se", "prb_ci_low", "prb_ci_high"]
 IAAO_FLAG_FIELDS = ["cod_meets_iaao", "cod_below_5", "prd_meets_iaao", "prb_meets_iaao", "prb_ci_outside_0_10"]
 TIER_FIELDS = ["tier", "n", "value_low", "value_high", "sale_price_low", "sale_price_high", "median_ratio",
                "lower_trigger", "upper_trigger", "n_above_upper", "n_below_lower",

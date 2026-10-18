@@ -24,7 +24,9 @@ export function Hero({ nTowns }: { nTowns: number }) {
         aria-hidden="true"
         width={1179}
         height={2091}
-        priority
+        sizes="660px"
+        // Usually the largest thing in the first screen (Lighthouse LCP), so it loads first.
+        preload
         className="pointer-events-none absolute -right-48 -top-16 h-[130%] w-auto max-w-none opacity-40 select-none sm:-left-24 sm:right-auto"
       />
 
@@ -56,9 +58,9 @@ export function Hero({ nTowns }: { nTowns: number }) {
           <Image
             src="/logo-icon.png"
             alt="Fair Assess NJ logo: a house on balance scales over an outline of New Jersey"
-            width={394}
-            height={698}
-            priority
+            width={253}
+            height={448}
+            loading="eager"
             className="h-56 w-auto sm:h-72 lg:h-[28rem]"
           />
         </div>

@@ -81,6 +81,7 @@ def test_tiny_prb():
     p = stats.prb(TINY_A, TINY_S)
     assert p["n"] == 5
     assert p["prb"] == pytest.approx(-0.0549, abs=1e-4)
+    assert p["intercept"] == pytest.approx(0.9873, abs=1e-4)
     assert p["se"] == pytest.approx(0.1276, abs=1e-4)
     assert p["ci_low"] == pytest.approx(-0.3049, abs=1e-4)
     assert p["ci_high"] == pytest.approx(0.1952, abs=1e-4)

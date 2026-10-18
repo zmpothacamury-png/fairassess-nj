@@ -24,7 +24,7 @@ import {
 import type { RankedEntry, SortDir, SortKey, TownFilter } from "@/lib/towns";
 
 const FIELD =
-  "focus-ring min-h-12 w-full rounded-control border border-ink-600 bg-white px-3 text-base text-ink-800";
+  "focus-ring min-h-12 w-full rounded-control border border-ink-600 bg-white px-3 text-base text-ink-800 placeholder:text-ink-600";
 const TOWN_LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 const RANKED_LABELS = LABELS.filter((l) => l !== "Not enough sales");
 const SORT_KEYS: SortKey[] = ["prb", "prd", "cod", "median", "n_sales", "name"];

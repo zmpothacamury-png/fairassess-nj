@@ -411,3 +411,63 @@ footer[tabindex="-1"]:focus {
     transition: none;
   }
 }
+
+/* Appeal checker (Prompt 12): the balance meter's small scale icon tips once
+   when a result appears. The result itself never animates; it is already on
+   screen. Reduced motion shows the final angle with no movement. */
+.scale-tilt {
+  transform-box: view-box;
+  transform-origin: 28px 12px; /* the gold pivot */
+  transform: rotate(var(--tilt, 0deg));
+  animation: scale-tilt 500ms var(--ease-out) both; /* once per result; never delays it */
+}
+@keyframes scale-tilt {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(var(--tilt, 0deg));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scale-tilt {
+    animation: none;
+  }
+}
+
+/* Print (Prompt 12, "Print or save this result"): only the checker result,
+   with its own logo, inputs, and date header (ResultView PrintHeader). The
+   site chrome, the page header, and the form are left off the page. */
+@media print {
+  @page {
+    margin: 16mm 14mm;
+  }
+  html,
+  body {
+    background: var(--color-white) !important;
+    font-size: 11pt;
+  }
+  .site-header,
+  .mobile-menu,
+  .scroll-cue,
+  body > footer,
+  main > header {
+    display: none !important;
+  }
+  .has-reveal [data-reveal],
+  .has-reveal [data-reveal-group] > * {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .split-accent,
+  .rounded-card {
+    break-inside: avoid;
+  }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    font-weight: 400;
+    color: var(--color-ink-600);
+    word-break: break-all;
+  }
+}

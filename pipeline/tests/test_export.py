@@ -166,8 +166,9 @@ def test_check_sizes_enforces_budgets(monkeypatch):
 
 
 def test_run_has_index_and_export_stages_last():
+    """index then export come last, followed only by the checker fixtures stage (Prompt 11)."""
     names = [name for name, _, _ in run.STAGES]
-    assert names[-2:] == ["index", "export"]
+    assert names[-3:] == ["index", "export", "fixtures"]
 
 
 # ---------------------------------------------------------------- real exported files

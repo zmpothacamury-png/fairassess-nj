@@ -1,6 +1,6 @@
 # FairAssess NJ design system
 
-Built in Prompt 2 (2026-10-14). The look comes from the logo: a house on balance scales over a pale New Jersey outline, blue on the left, green on the right, with a gold pivot point. The feel is balanced, civic, calm, and clear.
+Built in Prompt 2 (2026-10-14). Redesigned in Prompt 10 Part B (2026-10-18): same colors, logo, tabs, and T&T motion; new body font, fluid type scale, no shadows at rest, micro-interaction motion. The audit and every change: `docs/redesign-audit.md`. The look comes from the logo: a house on balance scales over a pale New Jersey outline, blue on the left, green on the right, with a gold pivot point. The feel is balanced, civic, calm, and clear.
 
 - **Source of truth for values:** `site/app/globals.css` (Tailwind v4 `@theme static`).
 - **Live style guide:** `/design` on the site. It is not in the nav and is hidden from search engines.
@@ -124,41 +124,70 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 ## 3. Typography
 
 - **Headings:** Montserrat 700 and 800 (via `next/font`), class `font-heading`. Matches the logo's geometric all-caps wordmark.
-- **Eyebrow labels:** the `eyebrow` utility: Montserrat 700, uppercase, letter-spacing 0.08em, 14px. Usually `text-blue-600`. Like the logo's tagline.
-- **Body and UI:** Inter 400, 500, 600 (via `next/font`), the default `font-sans`.
-- **Numbers:** every statistic and dollar amount uses `tabular-nums` so columns line up. Table number cells use `class="num"`.
+- **Eyebrow labels:** the `eyebrow` utility: Montserrat 700, uppercase, letter-spacing 0.08em, 14px. Usually `text-blue-600`. Like the logo's tagline. One per section head at most. Town pages keep report numbers ("01 · Key numbers"); other pages don't number their eyebrows.
+- **Body and UI:** **Public Sans** 400, 500, 600, 700 (via `next/font`), the default `font-sans`. It is the U.S. Web Design System's typeface: official and civic without being flashy. (Prompt 10B; replaced Inter, which three design skills flag as the default "AI" font.)
+- **Numbers:** every statistic and dollar amount uses `tabular-nums` so columns line up. Table number cells use `class="num"`. Counts use `formatCount()` (1,284, never 1284).
 - **Line length:** about 65 characters (`max-w-prose`).
+- **Wrapping:** `h1` to `h3` use `text-wrap: balance`; paragraphs, list items, and captions use `text-wrap: pretty` (no lone last word). Set in `app/globals.css`.
+- **Running text** is ink-800. ink-600 is for secondary notes, captions, and source lines only.
 
-**Type scale:** 18px body, each step ×1.25, rounded to whole pixels. Tailwind's default sizes are switched off, so only these exist:
+**Type scale:** 18px body, each step x1.25 at desktop size. The large steps are **fluid** (`clamp()`), so headings shrink on phones instead of wrapping to 4-5 lines. Large steps also get tighter letter-spacing (set on the token, so every use gets it). Tailwind's default sizes are switched off, so only these exist:
 
-| Class | Size | Use |
-|---|---|---|
-| text-4xl | 55px | Home hero heading |
-| text-3xl | 44px | Page heading, big stats |
-| text-2xl | 35px | Section heading (h2) |
-| text-xl | 28px | Sub-heading (h3) |
-| text-lg | 22px | Lead paragraph, card title |
-| text-base | 18px | Body text |
-| text-sm | 14px | Captions, source lines, eyebrows |
+| Class | Phone to desktop | Tracking | Use |
+|---|---|---|---|
+| text-5xl | 44 to 72px | -0.025em | Home hero heading only |
+| text-4xl | 40 to 55px | -0.02em | "How it works" step numbers |
+| text-3xl | 34 to 44px | -0.02em | Page heading (h1), big stat values |
+| text-2xl | 28 to 35px | -0.015em | Section heading (h2), figures |
+| text-xl | 24 to 28px | -0.01em | Sub-heading (h3) |
+| text-lg | 20 to 22px | 0 | Lead paragraph, card title |
+| text-base | 18px | 0 | Body text |
+| text-sm | 14px | 0 | Captions, source lines, eyebrows |
+| text-xs | 13px | 0 | Chart ticks and axis labels only (`CHART_FONT` in `lib/chart.ts`) |
+
+**Figures** (a small label over a big number, like the Chapter 123 row on town pages): label `text-sm text-ink-600`, value `font-heading text-2xl font-bold tabular-nums text-navy-900`. Use a `<dl>` (the `dt` label comes first in the HTML).
+
+**StatCard values** step down a size when long: up to 8 characters `text-3xl`, up to 10 `text-2xl`, longer `text-xl`. (break-ui: "$16,500,000" ran out of the card.)
 
 ---
 
 ## 4. Shape, spacing, icons
 
-- **Spacing:** 8px grid. Tailwind's unit is 4px, so use even steps only (`p-2` = 8px, `p-4` = 16px, `p-6` = 24px ...). Section padding is `py-20 sm:py-24`.
-- **Content width:** `max-w-content` = 1120px, with `px-6` side padding.
-- **Corners** (echo the logo's rounded strokes): `rounded-card` 12px for cards, `rounded-control` 8px for buttons and inputs, `rounded-full` for pills and dots. Default Tailwind radii are switched off.
-- **Shadows:** `shadow-soft` for cards, `shadow-raised` for pop-ups and menus. Nothing heavier.
-- **Touch targets:** buttons and nav links are at least 48px tall.
+- **Spacing:** 8px grid. Tailwind's unit is 4px, so use even steps only (`p-2` = 8px, `p-4` = 16px, `p-6` = 24px ...). Section padding is `py-20 sm:py-24`. The short band right under a page header uses `py-12 sm:py-16`. Groups inside a section are tight; sections are far apart.
+- **Grid:** `max-w-content` = 1120px, with `px-6` side padding. Two-part layouts use 12 columns: text 7 + aside 5, heading 5 + text 7, or heading 4 + text 8 (About's story).
+- **Corners** (echo the logo's rounded strokes): `rounded-card` 12px for cards and panels, `rounded-control` 8px for buttons, inputs, and small inner pieces, `rounded-full` for pills and dots. Default Tailwind radii are switched off (`rounded-sm` does not exist).
+- **Surfaces, three kinds:**
+  1. **Card:** white, 1px `outline-200` border, **no shadow**. For things a visitor compares side by side (stat cards, chart frames, ranking rows).
+  2. **Tone panel:** `bg-mist-50` on a white band (or white on a mist band), no border. For a side note or a group of figures.
+  3. **Floating:** white, border, `shadow-raised`. Only pop-ups, menus, tooltips, and the skip link.
+  Never put a card inside a card.
+- **Shadows:** `shadow-raised` for things that float. `shadow-soft` stays as a token, but nothing at rest uses it (Prompt 10B). The sticky header's scroll shadow and the scroll cue's shadow are T&T values and stay.
+- **Touch targets:** buttons and nav links are at least 48px tall; menu items and the "More numbers" button at least 44px.
 - **Icons:** `lucide-react` with `strokeWidth={2}`, matching the logo's even line weight. Decorative icons get `aria-hidden="true"`.
 - **Focus:** the `focus-ring` utility (2px blue-600 outline, 2px offset) on every interactive element; `focus-ring-dark` (gold-400) on navy surfaces. The footer is light (blue-100), so it uses `focus-ring`.
+- **Browser surfaces:** `accent-color` and `caret-color` blue-600, scrollbar outline-200, selection gold-100 with navy text, underline offset 0.2em. All in `app/globals.css`.
+
+### Micro-interactions (Prompt 10B)
+
+Only for hover, press, focus, menus, pop-ups, and disclosures. The scroll reveal, scroll cue, header elevation, tab underline, and mobile menu keep T&T's exact values (`lib/motion.ts`, `docs/site-format.md`).
+
+| Utility or pattern | What it does | Values | Reduced motion |
+|---|---|---|---|
+| `pressable` | Buttons and button-like links: colors change, and pressing shrinks to 97% | 120ms (`--duration-press`), `--ease-out` = `cubic-bezier(0.23, 1, 0.32, 1)` | No shrink; colors still change |
+| `pop-in` | Term and "i" pop-ups, Learn menu: fade in and grow from 97% at the corner nearest their button (`origin-top`, `origin-top-right`, `origin-top-left`) | 160ms (`--duration-pop`), `--ease-out`, using `@starting-style` | Fade only |
+| Chevrons | Learn menu and "More numbers" chevrons turn over | 160ms, `--ease-out` | No animation |
+| Link arrows | The arrow after "See the rankings" and similar links nudges 2px on hover | 120ms | Only with `motion-safe:` |
+| Disclosures | "More numbers" and "Show all 48 towns" on /towns phone cards open **instantly**; Show all moves focus to the first new town | none | none |
+| Checker scale icon | The small balance scale above the balance meter tips once when a result appears: blue side down above the range, level within, green side down below (`.scale-tilt` in `globals.css`) | 500ms, `--ease-out`; the result itself never animates | No movement; shows the final angle |
+
+Rules: hover colors use Tailwind's `hover:` (v4 applies it only on devices that can hover, so a tap never leaves a stuck color). Never `transition: all`. Never animate from `scale(0)`. Things people open often (disclosures, sorting, filters) don't animate. Never animate checker results.
 
 ---
 
 ## 5. Motifs
 
-- **A. Balance divider** (`BalanceDivider`): a thin line, blue-600 on the left half and green-600 on the right, with an 8px gold-400 dot at the center. Goes between major sections. Decorative, so screen readers skip it.
-- **B. NJ watermark:** `public/nj-outline.png`, the New Jersey outline from the logo in outline-200, at 50% opacity behind the home hero. It is decorative (`alt=""`, `aria-hidden`).
+- **A. Balance divider** (`BalanceDivider`): a thin line, blue-600 on the left half and green-600 on the right, with an 8px gold-400 dot at the center. **At most one per page** (Prompt 10B; home had four). After it, sections are set apart by white | mist tone steps. Page headers and the footer have their own balance line. Decorative, so screen readers skip it.
+- **B. NJ watermark:** `public/nj-outline.png`, the New Jersey outline from the logo in outline-200, at 40% opacity behind the home hero (60% in page headers). On phones it sits at the right edge so it never crosses the headline. Always give it `max-w-none`: Tailwind's base `max-width: 100%` squeezed it out of shape on phones (Lighthouse "image aspect ratio"). It is decorative (`alt=""`, `aria-hidden`).
 - **C. Split accent** (`split-accent` utility): a 4px stripe across the top, blue | green. Used on a few key cards (Zaden removed it from the top of the header in Prompt 2B). Drawn as a background stripe, not `border-image`, because `border-image` would recolor every border.
 
 ### Chart palette
@@ -170,6 +199,8 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 | Reference lines: the 1.0 fairness line, town average, Chapter 123 range | gold-400 | Dashed line |
 | Context data | outline-200 marks, ink-600 labels | Small dots |
 
+**Chart text:** 13px ticks and axis labels (12px for town names and second lines on phones), from `CHART_FONT` in `lib/chart.ts`. Gridlines: horizontal only on the bar chart and the scatter; vertical only on the forest plot. Tooltips use the floating surface (white, border, `shadow-raised`, 14px tabular numbers). Every chart sits in `ChartFrame`: title, caption, chart, "View as table", source line.
+
 Blue and green can look alike to some color-blind readers. Charts must also use different marker shapes and **direct labels**, never color alone. Every chart also needs a text or table alternative (CLAUDE.md rule 11).
 
 ---
@@ -178,20 +209,31 @@ Blue and green can look alike to some color-blind readers. Charts must also use 
 
 | Component | What it is |
 |---|---|
-| `Button` | Primary (blue fill), secondary (outline), ghost (text). Pass `href` for a link. `buttonClasses()` gives the same look to other elements. |
-| `Card` | White card, outline border, soft shadow. `accent` adds the split stripe. |
-| `StatCard` | Big number + label + one plain-English line + info button + optional "Source:" line. |
-| `StatusPill` | The four checker results, plus `neutral` for labels like "In development". |
-| `Callout` | Info / caution / success note with an icon and a colored left edge. |
+| `Button` | Primary (blue fill), secondary (outline; hover turns navy), ghost (text). Pass `href` for a link. `buttonClasses()` gives the same look to other elements. All are `pressable`. |
+| `Card` | White card, outline border, no shadow. `accent` adds the split stripe. |
+| `StatCard` | Value on its own line (steps down a size when long), then the label with the "i" button, optional details, one plain-English line, and the link and "Source:" pinned to the bottom, so a row of cards lines up. |
+| `StatusPill` | The four checker results, plus `neutral` for labels like "In development". Never wraps. |
+| `Callout` | Info / caution / success note on a tinted surface with an icon and a bold title. **No colored side stripe** (Prompt 10B; impeccable flags it as a stock "AI" pattern). |
 | `Disclaimer` | The exact CLAUDE.md rule 4 text. Exported as `DISCLAIMER_TEXT` too. |
 | `SectionHeading` | Eyebrow + title + optional subtitle. `as` sets the heading level. |
-| `BalanceDivider` | Motif A. |
-| `Term` | A word with a dotted underline that opens a short definition. Works with Enter/Space; Escape closes and returns focus. `InfoButton` is the same pop-up behind an "i" icon. |
+| `BalanceDivider` | Motif A. At most one per page. |
+| `Term` | A word with a dotted underline that opens a short definition (`pop-in`). Works with Enter/Space; Escape closes and returns focus. `InfoButton` is the same pop-up behind a 40px "i" button. |
 | `DataTable` | Keyboard-scrollable wrapper for `.data-table` (sticky header, zebra rows, right-aligned tabular numbers). |
 | `Skeleton` | Loading placeholder. Pulses only if the visitor allows motion. |
-| `Header` | Logo icon + "FAIRASSESS NJ" as live Montserrat 800 text; tabs Home, Town Rankings, Appeal Checker, Learn (How It Works, Appeal Guide), About; "Check My Assessment" button; menu below 1280px that slides in from the right; current page gets a gold underline and `aria-current`. Format and motion: `docs/site-format.md`. |
+| `Header` | Logo icon + "FAIR ASSESS NJ" as live Montserrat 800 text; tabs Home, Town Rankings, Appeal Checker, Learn (How It Works, Appeal Guide), About; "Check My Assessment" button; menu below 1280px that slides in from the right; current page gets a gold underline (desktop) or a gold dot (menu) and `aria-current`. Format and motion: `docs/site-format.md`. |
 | `Footer` | Brand + disclaimer; link columns Site, Tools, Project (Methodology, Privacy, About, Contact, GitHub); "Data as of", source, and independence lines; "Built by Zaden Pothacamury, Ramapo High School." and the tagline. Details: `docs/site-format.md`. |
-| `PageHeader`, `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces from Prompt 2B. Colors changed on 2026-10-15: light blue page header, `CtaBand` `tone` "light" (inner pages) or "navy" (home), white scroll-cue pill. See `docs/site-format.md`. |
+| `PageHeader` | Light blue band: optional `back` link, eyebrow, h1, intro (ink-800), optional `meta` row (a town page's label pill, rank, and sales), and the balance line with its gold pivot. |
+| `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces from Prompt 2B. `CtaBand` `tone` "light" (inner pages) or "navy" (home). `Reveal` takes `as="ol"` or `"ul"` so a list can be a reveal group. The home hero is not wrapped in `Reveal` (the first screen shows at full strength). See `docs/site-format.md`. |
+| `ChartFrame` | Chart title, caption, chart, "View as table" (`pressable`), source line. |
+| `content/blocks` | `Band` (section padding, white or mist), `Source` and `SourceLine` (source links, max 65 characters wide), `Disclosure` (native `<details>`, opens instantly), `Figure`. Used by How It Works, Appeal Guide, and Privacy. |
+| `content/Formula` | A KaTeX formula drawn at build time (no math JavaScript in the browser), with MathML for screen readers and a plain-English line under it. Scrolls sideways inside its box on phones. |
+| `content/FilterFunnel` | The cleaning funnel: one row per rule with a bar (blue = left, pale = removed), the counts in words, and a one-line reason. Plain HTML. |
+| `content/PriceIndexChart` | Recharts line of the Bergen price index, square markers, gold 1.00 line with a text label. |
+| `checker/CheckerApp` | The /check form and result (Prompt 12). Calls only `validateInputs` and `runChecker`; loads one town file. Focus moves to the result heading; a live region announces it. |
+| `checker/TownCombobox` | Searchable town list (ARIA combobox + listbox). Opens instantly; Down/Up/Home/End/Enter/Escape. |
+| `checker/MoneyInput` | Dollar field: "$" prefix, commas as you type (cursor kept), number keypad. Leaves cents and letters as typed so the engine can explain them. |
+| `checker/BalanceMeter` | The signature visual: a ratio track (blue below the range, green inside, gold above), gold average dot, navy bar + whisker for the homeowner, a ring for their own estimate, direct labels, a screen-reader sentence, and the tilting scale icon. |
+| `checker/ResultView` | Verdict card, meter, key numbers, warnings, Show the math, comps table, What to do next, buttons, disclaimer, print-only header. |
 
 ---
 

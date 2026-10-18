@@ -1,6 +1,6 @@
 # FairAssess NJ Methodology
 
-**Version 1.5 (2026-10-15).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
+**Version 1.6 (2026-10-18).** This file is the source of truth for every analysis rule. If code and this file disagree, the code is wrong. Stop and tell Zaden. Changing a rule needs Zaden's approval and a changelog line (Section 9).
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -346,12 +346,35 @@ The pipeline writes the index to `data/processed/price_index.csv` and the site s
 - So for these towns the checker **does not give a Chapter 123 result**. It still shows the market value estimate (K8), clearly labeled, plus a warning: the town is getting new assessments for 2027; our numbers use the assessments from before that change; wait for the 2027 assessment notice and compare it to the estimate; the appeal deadline for these towns is May 1.
 - The exact wording is written in a later site prompt and checked by Zaden.
 
+### 6.8 How the checker is tested
+
+The checker is written **twice**, by two separate routes from this section:
+- **The website version** (TypeScript, `site/lib/checker/`). This is what homeowners use. It runs only in the browser.
+- **The reference version** (Python, `pipeline/checker_reference.py`). It was written from this file, not copied from the TypeScript.
+
+The pipeline's last stage (`fixtures`) runs the Python version on **58 cases** and saves its answers in `pipeline/fixtures/checker_cases.json`. The website's tests run the TypeScript version on the same cases. They must agree: the same result, dollar amounts within $1, and ratios within 0.0001. If someone changes a rule in one version only, the tests fail.
+
+**The cases**
+- 29 real cases: 22 towns and assessed values picked at random (seed 20261025), plus named towns with special rules. Teterboro has no comps. Rockleigh has very few sales and a ratio over 100%. Elmwood Park has an average ratio over 100%. Ridgewood is on the 2027 revaluation list. Old Tappan and Alpine are two of the few real values that give "may have grounds".
+- 20 made-up edge cases: zero comps; exactly 5 comps (the minimum) and 4 comps; band widening; exactly 8 comps (no widening); comps exactly 15% away; a ratio exactly at the upper limit, exactly at the lower limit, and just above; a borderline result; under-assessed; the homeowner's estimate 25% and 15% away; 2026 and 2027 revaluation towns; an average ratio over 100%; a printed lower limit over 100% (like Rockleigh); no tax rate; and old sales that need time adjustment.
+- 9 invalid inputs: blank, letters, negative, cents, too small, too large, an unknown town, no town, and letters in the homeowner's estimate.
+- 3 cases worked out by hand, step by step, in the test comments (`site/lib/checker/checker.test.ts`). Both versions must match them.
+
+**Boundaries** (how the code reads K2, K7, and K11)
+- A comp exactly 15% (or 25%) away is inside the band. The code checks this with whole numbers, so there is no rounding error.
+- A homeowner ratio exactly on a limit is **within** the range. "Above" means strictly greater than *U\**, and "below" means strictly less than *L\**. Computers store decimals with tiny rounding errors, so a ratio within 0.000001 points of a limit counts as exactly on it.
+- In K7, a running weight within one billionth of the target counts as reaching it. This only matters when weights are equal and land exactly on the target.
+- The ratio is compared to the limits without rounding. The site shows it with 2 decimals.
+
+**Privacy check.** The engine is pure functions. It gets the town file and the price index as inputs and makes no network calls. The only request in `site/lib/checker/` is a plain GET for the public town file (`/data/towns/<slug>.json`). That request has no body, no query string, and no cookies. It does show our web host which town file was loaded, the same as visiting that town's page. It never includes a dollar amount. The tests check this 3 ways. They scan the checker files for any other way to send or store data. They run every case with `fetch` replaced by a spy that must never be called. They also check the town loader asks for the town file only.
+
 ---
 
 ## 7. Limitations
 
 - **No home features in the checker.** The homeowner gives only a town and an assessed value, so comps are matched by assessed value. Size, age, lot, condition, and updates are not used. (Sold homes in the SR1A file do have YEAR-BUILT and LIVING-SPACE filled for most Bergen rows. Using them needs the same facts about the homeowner's own home, which is the 2.0 MOD-IV address lookup.)
 - **Matching by assessed value is circular.** If the homeowner's assessment is wrong, the comps we pick are tied to that wrong number. This is the main reason the checker says "may" and shows a range.
+- **The comps alone rarely find grounds to appeal.** Because comps are matched by assessed value, the homeowner's ratio comes out close to the ratios of similar homes, and those sit near the town's typical ratio. Our single-family medians are usually below the state's average ratio (V3), so they rarely reach the upper limit, which is 15% above it. We tested this by running the checker at assessed values 1% apart across every town's range of comp assessments (`data/processed/checker_grounds_sweep.csv`, made by the `fixtures` stage). 42 towns gave a Chapter 123 result. Of the 3,894 values with a result, 7 gave "may have grounds" (all in Alpine and Old Tappan), 2,470 gave "within the normal range", and 1,417 gave "may be lower than typical". In the typical town, the highest ratio we found was 13 points below the upper limit. So the checker's most useful job is often testing the **homeowner's own estimate** (K9), such as an appraisal or sales they found. When the comps find no grounds and the homeowner has not entered an estimate, the result says so and invites them to add one (`suggestOwnEstimate`).
 - **Class 2 includes 2- to 4-family homes.** SR1A cannot separate them from single-family homes.
 - **SR1A coding errors.** Usable/non-usable codes, property class, and prices are entered by people. A few errors will remain after cleaning.
 - **The state already removes extreme ratios** (category 36). That means our COD and PRB describe the sales the state kept, which may slightly understate how uneven assessments really are.
@@ -395,6 +418,7 @@ Results go in `docs/validation.md`. The pipeline runs these as tests and checks.
 
 | Version | Date | What changed |
 |---|---|---|
+| 1.6 | 2026-10-18 | Prompt 11 checker engine. New Section 6.8, "How the checker is tested": two independent versions (TypeScript and Python), 58 shared cases, and how the code reads the boundaries (band edge inside; a ratio on a limit is within; tiny rounding allowances). No rule changed. Section 7: new limitation, "The comps alone rarely find grounds to appeal" (numbers from the new `checker_grounds_sweep.csv`). Claude decided Prompt 11's YOU DECIDE items 1 to 6 at Zaden's request. |
 | 1.5 | 2026-10-15 | Prompt 8 export. Zaden asked Claude to decide ("best intersts of winning ..., the usefullness of the website, the success of the website, ... and the goal of the project"). Section 6.3: the price index chart starts at the comp window (display only; the index math is unchanged). No other rule changed. Export choices that are not methodology rules (comps keep the full deed date for K6; no street names; each town's filter log in its town file) are in `docs/data-contract.md`. |
 | 1.4 | 2026-10-15 | Prompt 7 validation. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). Section 2.4 now says how the Director computes the average ratio (weighted, by class, averaged with the prior year), from a 2026 Tax Court opinion saved in `data/raw/notes/`. Added `2025TEV.pdf`. V2 uses TOTAL ASSESSMENT for multi-lot sales (the state's own pairing) and gives pipeline numbers. V3 gives pipeline numbers. New V4: rebuild the state's one-year ratio and flag towns more than 5 points apart. Section 7 limitation updated. No cleaning or town statistics rule changed. |
 | 1.3 | 2026-10-15 | Prompt 6 town statistics. Zaden asked Claude to decide ("best interests of winning ..., the usefulness of the website, ... the goal of the project, and the instructions of the prompt"). T3 quarters now sort by the PRB value proxy, not sale price (sale-price version kept as a comparison). New T8: countywide headline is within-town (each sale divided by its town's median ratio). Section 2.3: PRB "unacceptable" means the whole 95% range is outside -0.10 to +0.10; no pass/fail for the median ratio. T7 now says "value quarter", strict above/below, and how the county row adds up. PRB keeps ln(V)/0.693 (the prompt said log2; IAAO's form wins). |

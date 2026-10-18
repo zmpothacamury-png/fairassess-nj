@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
 import { Mail, MessageSquareWarning, Newspaper } from "lucide-react";
+import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 import { Reveal } from "@/components/Reveal";
 import { WaitlistForm } from "@/components/WaitlistForm";
 import { REPORT_PROBLEM_URL } from "@/lib/nav";
-import { CONTACT_EMAIL, SITE_NAME } from "@/lib/site";
+import { CONTACT_EMAIL } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = { title: SITE_NAME };
+export const metadata: Metadata = pageMetadata({
+  path: "/contact",
+  description:
+    "Contact Fair Assess NJ, sign up for updates on new towns and appeal season, or report a data problem.",
+});
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 
@@ -34,7 +40,11 @@ export default function ContactPage() {
               <WaitlistForm source="contact" />
               <p className="mt-4 text-sm text-ink-600">
                 Free. No spam. We only use your email to tell you about new
-                towns and to remind you when appeal season comes around.
+                towns and to remind you when appeal season comes around. Details:{" "}
+                <Link href="/privacy" className={LINK}>
+                  Privacy
+                </Link>
+                .
               </p>
             </div>
           </div>

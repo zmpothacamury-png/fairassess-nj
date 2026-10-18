@@ -49,7 +49,7 @@ Countywide results, copied from `data/processed/county_summary.json` and rounded
 | `source_file`, `sales_recorded` | text | Which sales were used and their recording dates. |
 | `n_sales`, `n_towns`, `n_towns_with_sales` | integer | Counts. |
 | `headline_version` | `"within_town"` or `"pooled"` | Which version the home page leads with (within_town, rule T8). |
-| `within_town`, `pooled` | object | The Section 2.2 measures for all sales together. `within_town` first divides each sale by its own town's median ratio; `pooled` uses raw ratios (reference only). Fields: `about` (plain-English note), `n_sales`, `median_ratio`, `mean_ratio`, `weighted_mean_ratio`, `cod`, `prd`, `prb`, `prb_se`, and 95% ranges `*_ci_low` / `*_ci_high` for median, COD, PRD, and PRB. |
+| `within_town`, `pooled` | object | The Section 2.2 measures for all sales together. `within_town` first divides each sale by its own town's median ratio; `pooled` uses raw ratios (reference only). Fields: `about` (plain-English note), `n_sales`, `median_ratio`, `mean_ratio`, `weighted_mean_ratio`, `cod`, `prd`, `prb`, `prb_intercept`, `prb_se`, and 95% ranges `*_ci_low` / `*_ci_high` for median, COD, PRD, and PRB. |
 | `towns_by_label` | object | Number of towns with each label (T5). Every label is present. |
 | `towns_by_data_quality` | object | Number of towns with each data quality flag (T6, C9). |
 | `ranked_towns` | integer | Towns with statistics (20 or more sales). |
@@ -79,6 +79,7 @@ A list with one entry per town (all 70), in district code order.
 | `stats.cod` | number (percent) | IAAO coefficient of dispersion. |
 | `stats.prd` | number | Price-related differential. |
 | `stats.prb`, `stats.prb_se` | number | Price-related bias and its standard error. |
+| `stats.prb_intercept` | number | The intercept *a* of the PRB line *y = a + b x* (Section 2.2). The town page uses it to draw the PRB trend line on the scatter chart: ratio = median x (1 + a + PRB x ln(value) / 0.693). |
 | `stats.*_ci_low`, `*_ci_high` | same as measure | 95% ranges for median, COD, PRD (bootstrap) and PRB (slope +/- 1.96 x SE), rule T4. |
 | `stats.cod_meets_iaao` | true/false | COD at or below 15.0 (our choice in Section 2.3). |
 | `stats.cod_below_5` | true/false | COD under 5.0 (IAAO warning sign). |

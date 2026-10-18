@@ -75,12 +75,14 @@ def prb(assessed, prices):
     standard error = sqrt( sum(residual^2) / (n - 2) / sum((x - mean x)^2) )
     95% range = b - 1.96 x SE to b + 1.96 x SE
 
-    Returns a dict: prb, se, ci_low, ci_high, n. With fewer than 3 sales,
+    intercept a = mean y - b x mean x (the site draws the trend line with it)
+
+    Returns a dict: prb, intercept, se, ci_low, ci_high, n. With fewer than 3 sales,
     or if every value proxy is the same, the numbers are NaN.
     """
     a, s = _arrays(assessed, prices)
     n = len(a)
-    out = {"prb": math.nan, "se": math.nan, "ci_low": math.nan, "ci_high": math.nan, "n": n}
+    out = {"prb": math.nan, "intercept": math.nan, "se": math.nan, "ci_low": math.nan, "ci_high": math.nan, "n": n}
     if n < 3:
         return out
     r = a / s
@@ -92,10 +94,10 @@ def prb(assessed, prices):
     if sxx == 0:
         return out
     b = float(np.sum(dx * (y - y.mean())) / sxx)
-    intercept = y.mean() - b * x.mean()
+    intercept = float(y.mean() - b * x.mean())
     resid = y - (intercept + b * x)
     se = float(math.sqrt(np.sum(resid ** 2) / (n - 2) / sxx))
-    out.update(prb=b, se=se, ci_low=b - config.PRB_CI_Z * se, ci_high=b + config.PRB_CI_Z * se)
+    out.update(prb=b, intercept=intercept, se=se, ci_low=b - config.PRB_CI_Z * se, ci_high=b + config.PRB_CI_Z * se)
     return out
 
 
@@ -291,5 +293,5 @@ def point_measures(assessed, prices):
         "median_ratio": median_ratio(r), "mean_ratio": mean_ratio(r),
         "weighted_mean_ratio": weighted_mean_ratio(a, s),
         "cod": cod(r), "prd": prd(a, s),
-        "prb": p["prb"], "prb_se": p["se"], "prb_ci_low": p["ci_low"], "prb_ci_high": p["ci_high"],
+        "prb": p["prb"], "prb_intercept": p["intercept"], "prb_se": p["se"], "prb_ci_low": p["ci_low"], "prb_ci_high": p["ci_high"],
     }

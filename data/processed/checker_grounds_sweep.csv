@@ -1,0 +1,71 @@
+slug,town,revaluation_tax_year,n_comps_in_file,n_values_tried,n_may_have_grounds,n_within_range,n_possibly_under_assessed,n_not_enough_data,n_revaluation_no_test,max_points_above_upper_trigger
+allendale,Allendale,2026.0,17,169,0,56,15,98,0,-6.38
+alpine,Alpine,,22,354,2,83,1,268,0,2.15
+bergenfield,Bergenfield,2027.0,216,149,0,0,0,0,149,
+bogota,Bogota,,56,124,0,79,12,33,0,-18.62
+carlstadt,Carlstadt,2026.0,10,69,0,0,50,19,0,-23.19
+cliffside-park,Cliffside Park,2027.0,78,157,0,0,0,11,146,
+closter,Closter,2026.0,31,154,0,92,56,6,0,-15.5
+cresskill,Cresskill,2026.0,23,179,0,65,22,92,0,-21.88
+demarest,Demarest,,81,209,0,164,15,30,0,-5.94
+dumont,Dumont,2026.0,28,70,0,70,0,0,0,-9.31
+east-rutherford,East Rutherford,2026.0,7,70,0,24,6,40,0,-18.88
+edgewater,Edgewater,2026.0,7,91,0,0,13,78,0,-30.82
+elmwood-park,Elmwood Park,2026.0,37,89,0,0,89,0,0,-9.67
+emerson,Emerson,2027.0,71,115,0,0,0,0,115,
+englewood,Englewood,2027.0,159,344,0,0,0,79,265,
+englewood-cliffs,Englewood Cliffs,,79,216,0,109,68,39,0,-7.31
+fair-lawn,Fair Lawn,2027.0,319,116,0,0,0,0,116,
+fairview,Fairview,2026.0,15,106,0,37,41,28,0,-12.67
+fort-lee,Fort Lee,2027.0,74,222,0,0,0,41,181,
+franklin-lakes,Franklin Lakes,2027.0,150,243,0,0,0,3,240,
+garfield,Garfield,2027.0,239,169,0,0,0,11,158,
+glen-rock,Glen Rock,2027.0,168,142,0,0,0,2,140,
+hackensack,Hackensack,2027.0,138,135,0,0,0,0,135,
+harrington-park,Harrington Park,2027.0,47,141,0,0,0,37,104,
+hasbrouck-heights,Hasbrouck Heights,2026.0,20,70,0,70,0,0,0,-12.0
+haworth,Haworth,2027.0,43,173,0,0,0,19,154,
+hillsdale,Hillsdale,2027.0,104,138,0,0,0,11,127,
+ho-ho-kus,Ho-Ho-Kus,2026.0,18,94,0,38,48,8,0,-11.71
+leonia,Leonia,2026.0,9,83,0,52,0,31,0,-10.81
+little-ferry,Little Ferry,2026.0,17,63,0,9,47,7,0,-23.45
+lodi,Lodi,2027.0,159,131,0,0,0,0,131,
+lyndhurst,Lyndhurst,2026.0,33,108,0,80,19,9,0,-21.13
+mahwah,Mahwah,2027.0,469,312,0,0,0,59,253,
+maywood,Maywood,2026.0,20,97,0,57,4,36,0,-11.93
+midland-park,Midland Park,2027.0,67,116,0,0,0,0,116,
+montvale,Montvale,2027.0,81,174,0,0,0,14,160,
+moonachie,Moonachie,2026.0,4,62,0,0,0,62,0,
+new-milford,New Milford,,125,132,0,83,47,2,0,-14.02
+north-arlington,North Arlington,2026.0,28,117,0,69,31,17,0,-17.18
+northvale,Northvale,2026.0,13,91,0,0,74,17,0,-13.83
+norwood,Norwood,2026.0,19,168,0,75,28,65,0,-5.02
+oakland,Oakland,2026.0,43,210,0,131,0,79,0,-7.96
+old-tappan,Old Tappan,2026.0,13,150,5,13,35,97,0,2.43
+oradell,Oradell,2026.0,16,96,0,53,21,22,0,-20.44
+palisades-park,Palisades Park,2026.0,22,107,0,69,38,0,0,-10.0
+paramus,Paramus,2026.0,69,174,0,53,113,8,0,-3.37
+park-ridge,Park Ridge,2027.0,107,127,0,0,0,0,127,
+ramsey,Ramsey,2026.0,30,140,0,87,38,15,0,-17.13
+ridgefield,Ridgefield,2026.0,29,131,0,20,83,28,0,-14.36
+ridgefield-park,Ridgefield Park,,108,77,0,77,0,0,0,-7.3
+ridgewood,Ridgewood,2027.0,309,266,0,0,0,16,250,
+river-edge,River Edge,2026.0,12,98,0,31,18,49,0,-15.51
+river-vale,River Vale,2027.0,118,167,0,0,0,17,150,
+rochelle-park,Rochelle Park,2026.0,14,71,0,15,48,8,0,-7.36
+rockleigh,Rockleigh,2026.0,2,48,0,0,0,48,0,
+rutherford,Rutherford,2027.0,139,126,0,0,0,4,122,
+saddle-brook,Saddle Brook,2026.0,32,111,0,37,36,38,0,-18.53
+saddle-river,Saddle River,,48,195,0,61,90,44,0,-12.04
+south-hackensack,South Hackensack,2026.0,2,11,0,0,0,11,0,
+teaneck,Teaneck,,380,216,0,129,46,41,0,-16.51
+tenafly,Tenafly,2027.0,187,305,0,0,0,62,243,
+teterboro,Teterboro,2026.0,0,0,0,0,0,0,0,
+upper-saddle-river,Upper Saddle River,2027.0,159,196,0,0,0,9,187,
+waldwick,Waldwick,,138,116,0,80,34,2,0,-10.03
+wallington,Wallington,,63,314,0,74,60,180,0,-13.41
+washington-township,Washington Township,2026.0,27,93,0,52,32,9,0,-14.07
+westwood,Westwood,2026.0,11,77,0,54,0,23,0,-15.01
+wood-ridge,Wood-Ridge,2026.0,14,85,0,30,38,17,0,-3.54
+woodcliff-lake,Woodcliff Lake,2026.0,17,238,0,92,1,145,0,-22.86
+wyckoff,Wyckoff,2027.0,213,182,0,0,0,0,182,

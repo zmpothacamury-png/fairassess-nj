@@ -1,5 +1,104 @@
 # Changelog
 
+## 2026-10-18 (Prompt 15: Testing and reliability)
+- New browser tests. `e2e/home.spec.ts`: the home page's headline numbers match `meta.json` and `county.json`; every nav tab (and both Learn links) opens its page, and only that tab is marked current, on desktop and in the phone menu; the 404 page links home.
+- `e2e/towns.spec.ts`: the forest plot and the rankings table list the same 48 towns in the same order; clicking a town opens its page; a regressive town (Bergenfield), a within-standards town (Fair Lawn), and a limited-data town (Closter) each show their 4 measures, draw their charts, and open the chart table.
+- `e2e/check.spec.ts`: invalid inputs (no town, blank, letters, negative, cents, too small, too large, letters in the estimate) each show the right error; `/check?town=` picks the town (an unknown slug leaves it empty); a stricter privacy test records every request and fails if a typed amount appears in any URL, header, or body, if any request goes to another domain, or if a typed amount is in cookies or browser storage. All 5 verdicts were already covered.
+- `playwright.config.ts`: 2 workers; on GitHub, 1 retry and an HTML report.
+- New `site/scripts/check-real-homes.ts` (`npm run check-real-homes`): runs `private/test-homes.csv` through the website's checker engine and writes `private/real-home-results.md` (verdict, estimate, range, comps, warnings, flags, and the full math for the 2 homes with the fewest comps). Both files stay private.
+- New `.github/workflows/ci.yml`: Python tests, and site unit tests, lint, validate-data, build, and Playwright on every push and pull request, with pip, npm, Next.js, and Playwright caches. The build uses placeholder (not secret) Supabase values so the waitlist test works.
+- New `scripts/check-all.ps1`: the same checks on Windows, with a PASS/FAIL summary; it stops an old test server on port 3100 first.
+- New `docs/usability-test.md`: a 15-minute family test script (5 tasks, what to watch for, 4 questions, a blank results table).
+- 196 pytest, 256 Vitest, 156 Playwright, lint, build pass.
+
+## 2026-10-18 (Prompt 14: SEO, accessibility, performance, security)
+- Search and sharing: every page has its own description, a canonical link, and Open Graph and Twitter tags (`lib/seo.ts`). The browser tab still reads "Fair Assess NJ" everywhere, and town pages no longer set their own tab title. Each of the 70 town pages has a generated share image (`next/og`) with the town name, label, and logo. New `sitemap.xml` (78 URLs) and `robots.txt` (everything except `/design`). JSON-LD: WebApplication (every page) and Dataset (the town stats CSV, on /towns).
+- Analytics: Vercel Web Analytics, page views only, on Vercel builds only. Each URL is sent without its `?query` and `#hash`, and there are no custom events (a test enforces both). /privacy updated, with a source note `data/raw/notes/vercel-web-analytics.md`.
+- Security headers in `next.config.ts`: Content-Security-Policy (only this site plus the Supabase URL), X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy, frame-ancestors 'none'. Zod set to `jitless` so it never tries `eval`. Waitlist checked in a test (request faked, nothing saved).
+- Performance: page-header and hero outline images preloaded at about their shown size. Logos ask for small files. Recharts loads after the page shows on /towns and town pages, with same-height placeholders. Cache header for `/data/*`. A site-wide loading page was tried and removed, because it made pre-built pages jump.
+- New error pages: `app/error.tsx` and `app/global-error.tsx` in the brand style, both with the disclaimer.
+- Accessibility: new `e2e/a11y.spec.ts` (axe on 9 pages and the checker result, lang, focus, 200% zoom, keyboard sort, chart tables). axe found 0 issues before and after.
+- Lighthouse mobile (median of 3): 94 to 95 Performance and 100 in Accessibility, Best Practices, and SEO on /, /towns, a town page, and /check. Before: /towns was 89. Full results in `docs/quality-report.md`.
+- 256 Vitest, 145 Playwright, lint, build pass.
+
+## 2026-10-18 (Prompt 13 follow-up: decisions)
+- Re-checked the appeal sources online: Form A-1 and the hearing guide are unchanged (same file hash). Added 4 facts from the Bergen Board page (assessment presumed correct; in-person filing; property record search link; 2025 hearing dates posted, hearings in person). The Appeal Guide now says "Sources last checked: October 18, 2026".
+- May 1, 2027 is a Saturday: the checker result, the 24 revaluation-town pages, and the Appeal Guide now say so and quote Form A-1's next-business-day rule, with "confirm the exact date with the Board". New tested helper `weekendDeadlineNote`.
+- How It Works: the "rarely finds grounds" limitation links to `checker_grounds_sweep.csv` on GitHub.
+- 246 Vitest, 112 Playwright, lint, build pass.
+
+## 2026-10-18 (Prompt 13: How It Works, Appeal Guide, About, Contact, Privacy)
+- New source note `data/raw/notes/appeal-info.md` (the file the prompt names): word-for-word quotes from the saved Form A-1 and the state's *Guide to Tax Appeal Hearings* PDFs, plus the Bergen Board and state web page facts from `appeal-deadlines-and-fees.md`. It ends with the facts the sources don't cover. No existing file in `data/raw/` was changed.
+- `/methodology` ("How It Works") built: the question and what our answers are (patterns, not accusations); every state file with its link and dates; the cleaning funnel from `filter-log.json` with a reason per rule; the measures with KaTeX formulas, the IAAO ranges, and the label rules; Chapter 123 with a labeled made-up example; how the checker works, with the price index chart and table; validation (headline, comparison figures, what changed, the full 70-town table in an expandable section); limitations; version, changelog, CSV, GitHub.
+- `/appeal-guide` built: 7 steps for a 2027 appeal. Every fact is followed by its source link. Facts the sources don't cover say "Check with the Bergen County Board of Taxation". Lists the 24 towns with a May 1 deadline. "Sources last checked" date.
+- `/about`: founder header and Story unchanged (Zaden's words). Added "What's next" (the 6 Version 2.0 items) and Credits with a Get Updates link.
+- `/contact`: page description and a Privacy link under the updates form. The waitlist code is unchanged (Zaden confirmed it works).
+- `/privacy` built from what the code does: the checker saves and sends nothing (the only request is the public town file); the updates list stores email, sign-up page, and date in Supabase (insert-only from the site); no analytics or tracking cookies; no ads or selling; delete on request.
+- New components: `content/blocks`, `content/Formula`, `content/FilterFunnel`, `content/PriceIndexChart`. New sources in `lib/sources.ts` (state data files, Bergen paper form, state appeal page). Added `katex` 0.16.47 (exact). Removed the unused `ComingSoon` and `AppealBasics` components.
+- impeccable detector on the 5 pages: source lines now stop at reading width (it flagged long lines). Page-header eyebrows and the numbered report sections on How It Works are kept on purpose.
+- Tests: new `e2e/content-pages.spec.ts` (9 tests). 245 Vitest, 112 Playwright, lint, build pass.
+
+## 2026-10-18 (Prompt 12: appeal checker page)
+- `/check` is live. Step 1: a searchable list of all 70 towns (arrow keys, Enter, Escape; `?town=<slug>` preselects one, and the slug is the only thing ever read from the URL). Step 2: assessed value, with commas added as you type. Step 3 (optional, collapsed): your own market value estimate. A lock-icon privacy line sits beside the form. Errors show under each field in plain words and are linked with `aria-describedby`.
+- The page only calls `validateInputs` and `runChecker` (Prompt 11). It does no checker math of its own. The browser downloads one file: the public town file you pick.
+- Result: keyboard focus moves to the result heading and a live region announces it. Verdict card (5 verdicts, including "No Chapter 123 test in 2027" for revaluation towns, K14), strength, both tests side by side when you enter your own estimate, the balance meter, key numbers (savings only for "may have grounds", labeled as estimates with the 2025 tax rate), warnings, "Show the math", the sales we compared you to (sale month only, no street names), and "What to do next" (deadline, fee, 5 filing steps, all from `data/raw/notes/appeal-deadlines-and-fees.md` with source links). Then Print or save, Check another home, and the disclaimer.
+- Balance meter: blue zone below the town's common level range, green inside, gold above; gold dot for the average ratio; navy bar with a whisker for your ratio; a ring for your own estimate. Every mark is labeled, and a sentence for screen readers says the same. A small scale icon tips once (500ms): blue side down above the range, level within, green side down below. It stays still with reduced motion.
+- Print stylesheet: logo, inputs, date, result, math (always open), comps, next steps with link addresses, and the disclaimer. No header, footer, form, or buttons.
+- Loading skeleton; a friendly "Try again" if the town file fails; "not enough data" explains why and lists other options (the appeal guide, asking the assessor which sales they used, finding 3 to 5 sales yourself, or entering your own estimate).
+- Design checks on /check: impeccable audit and detector (placeholder text contrast fixed here and on /towns; the page-header eyebrow flag is the site's locked pattern), review-animations (scale tilt cut from 900ms to 500ms; the wide "Show the math" bar no longer shrinks when pressed), break-ui (limit labels overlapped when both limits are over 100%, now fixed; nothing else broke at 320, 640, or 1280px). Notes in `docs/redesign-audit.md` section 9.
+- New sources in `site/lib/sources.ts`: Bergen online filing and the state's Guide to Tax Appeal Hearings (both already quoted in `appeal-deadlines-and-fees.md`).
+- Tests: 32 new component tests (form validation, every verdict from a fixed result, privacy scan); new `e2e/check.spec.ts` (10 tests: every verdict at 375px with no sideways scroll, keyboard only, privacy: requests and URL, print view, Check another home, retry). 245 Vitest, 103 Playwright, lint, typecheck, build pass.
+
+## 2026-10-18 (Prompt 10 Part B follow-up: decisions)
+- /towns on phones: cards show the first 12 towns, then a "Show all 48 towns" button (a search or filter always shows every match); towns without enough sales sit two across. Phone page 25,180px to 11,712px. New e2e test.
+- Tab underline now grows with a transform instead of animating `right` (same look and timing as Trust & Transition).
+- Before/after screenshots saved as JPEG (33 MB to 15.4 MB).
+
+## 2026-10-18 (Prompt 10 Part B: UI redesign)
+- Audit first: `docs/redesign-audit.md` (impeccable audit and detector, taste-skill lint and inspector, Lighthouse, 26 before screenshots). Then a visual and usability redesign. No number, label, source line, disclaimer, color token, logo, tab, route, or T&T motion value changed.
+- Body font is now Public Sans (the U.S. Web Design System typeface) instead of Inter. Headings stay Montserrat.
+- Fluid type scale: big headings shrink on phones instead of wrapping to 4-5 lines; tighter letter-spacing on large type; new 72px home headline (`text-5xl`) and 13px chart text (`text-xs`).
+- Cards have no shadow at rest (outline only); side notes are tinted panels; only pop-ups and menus float. Callouts lost their colored side stripe. At most one balance divider per page.
+- Small motion for hover, press, pop-ups, and menus (120-160ms, off or fade-only with reduced motion). The scroll reveal, scroll cue, and header keep T&T's exact values.
+- Home: bigger hero chosen from 3 prototypes ("Refined"); the hero now shows at full strength on load (it failed Lighthouse's contrast check while fading in on phones). "How it works" is a numbered list, not three boxes. Rankings preview and founder sections are side-by-side layouts.
+- Town pages: label, rank, and sales count moved into the page header. The Chapter 123 numbers lead as a row of figures. Comparison and context numbers sit in single panels.
+- /towns: label counts as figures beside the intro; the table starts at 1024px (it scrolled sideways at 768px); phones and iPads get compact cards with a "More numbers" button.
+- About: "The Story" is a side-by-side layout. 404: one line, not two.
+- Fixes found with break-ui (worst-case data): long stat values like "$16,500,000" step down a size; sales counts show commas (1,284); label pills never wrap; the town column has a minimum width.
+- Fixes found in the audit: "Scroll to explore" no longer wraps on phones; the NJ watermark keeps its shape (Lighthouse "image aspect ratio").
+- Lighthouse mobile: home 96/100/100/100 (was 85-95/96/96/100); /towns 91/100/100/100 (was 89-90/100/100/100). 213 Vitest and 92 Playwright tests pass; build clean.
+- Docs: `docs/design-system.md` (type, surfaces, micro-interactions, components), `docs/site-format.md` (page patterns, checklist), `/design` style guide.
+
+## 2026-10-18 (Prompt 10 Part A follow-up: decisions)
+- Zaden asked Claude to decide the 6 open items. Kept: the "include limited data" toggle starts on; the Median ratio column; no average tax bill (2026 assessments x 2025 rate would mix years); the label pill colors.
+- 2027 revaluation warning on town pages: now also says that for a reassessment the County Board's own rules decide, and the county list does not say which towns have which (methodology 2.4 and K14).
+- `AppealBasics` (on /check and /appeal-guide): rewritten from Form A-1 for Bergen only. It now gives the 45-day rule, May 1 in the tax year of a town-wide revaluation or reassessment (it used to say "the year after"), received-not-postmarked, the weekend rule, and all 4 fee tiers, with source links. The other-county line is gone.
+
+## 2026-10-18 (Prompt 10 Part A: town rankings and town pages)
+- New `/towns` page: intro with pop-up definitions (assessment ratio, PRB, PRD, COD), a forest plot of every ranked town's PRB and 95% range with the gold IAAO band, and a rankings table with search, a label filter, a limited-data toggle, and sorting (PRB by default). Phones get cards. The 22 towns without enough sales are listed below the table with the reason. Links to the CSV download and How It Works.
+- New `/towns/[slug]` pages, all 70 built ahead of time (unknown towns are a 404): summary sentence, label and caveats (limited data, outlier sensitivity, 2026/2027 revaluations), 4 stat cards, "Assessment ratio by home value" and "Every sale" charts, a Chapter 123 box with the deadline, fee, and a "Check my assessment in <Town>" button, our median beside the state's ratio, context numbers, and the sales removed by each cleaning rule. Every chart has a caption, a source line, and a "View as table" button.
+- Pipeline: new `prb_intercept` field (the PRB line's intercept) in `town_stats.csv`, `towns.json`, the town files, `county.json`, and the CSV download, so the town page can draw the official PRB trend line. Reran from the stats stage. No other number changed. Data contract, data dictionary, and schema updated.
+- New `data/raw/notes/state-data-sources.md`: official links for `2027CH123.pdf`, `2026AvgResStat.pdf`, the tax-rate files, and the SR1A page. The 3 PDFs match our copies byte for byte.
+- Added Recharts 3.10.1 for charts. Chart colors use the design tokens (`site/lib/chart.ts`).
+- `StatCard` has an optional `details` slot (used for the 95% range and IAAO pass/outside lines).
+- Town pages use their own browser tab title ("<Town> property assessment fairness | Fair Assess NJ") for search. Other pages keep "Fair Assess NJ". Claude decided this at Zaden's request.
+- Tests: new `lib/towns.test.ts` (summary template, table sorting and filtering, stat lines, PRB trend line, Chapter 123 lines, notes) and `lib/chart.test.ts`; new `e2e/towns.spec.ts` (keyboard access to every chart dot, aria-sort, filters, 404); two town pages added to the layout test. The pytest hand-worked PRB test now also checks the intercept.
+
+## 2026-10-18 (Prompt 11 follow-up: decisions)
+- Zaden asked Claude to decide the 6 open items. Kept: the 5th result for 2027 revaluation towns (rule K14), a ratio exactly on a limit counts as within, the own-estimate test still runs when sales are thin, the "limited data" warning below 8 sales, and loading the town file as the only request.
+- New `data/processed/checker_grounds_sweep.csv` (fixtures stage). It shows how often the comps alone give each result. Only 7 of 3,894 tested values (Alpine and Old Tappan) give "may have grounds".
+- Methodology Section 7: new limitation explaining this. Section 6.8: the town-file request shows which town was picked, never a dollar amount.
+- The checker result has a new `suggestOwnEstimate` flag, so the checker page can invite the homeowner to enter their own estimate when the comps find no grounds.
+
+## 2026-10-18 (Prompt 11: appeal checker engine)
+- New `site/lib/checker/`: the appeal checker's math as pure TypeScript functions (methodology Section 6): `validateInputs`, `selectComps`, `timeAdjust`, `scoreComps`, `estimateMarketValue`, `chapter123Test`, `estimateSavings`, and `runChecker`. Settings are in `config.ts`. No UI yet.
+- Results can be: may have grounds (strong or borderline), within range, possibly under-assessed, not enough data, or (for the 24 towns on the 2027 revaluation list) an estimate with no Chapter 123 result, as rule K14 says.
+- Privacy: the engine makes no network calls. The only request is `fetchTownFile`, a plain GET for the public town file, with no homeowner input in it.
+- New `pipeline/checker_reference.py`: a second checker in Python, written from the methodology. The new `fixtures` stage (last in `pipeline.run`) writes 58 test cases to `pipeline/fixtures/checker_cases.json`.
+- Tests: 92 new Vitest tests (3 cases worked by hand, all 58 cases matched to the Python answers, edge cases, invalid inputs, privacy). 13 new pytest tests.
+- Methodology 1.6: new Section 6.8, "How the checker is tested". No rule changed. `meta.json` now says 1.6.
+- Finding: with real data, only 2 towns (Old Tappan and Alpine) give "may have grounds" at any assessed value we tried. Comps are matched by assessed value (Section 7), so a home's ratio comes out close to its neighbors'.
+
 ## 2026-10-15 (Prompt 9 follow-up 3: final touch-ups)
 - Every page's browser tab now reads just "Fair Assess NJ", with the logo icon. The name lives in `SITE_NAME` in `site/lib/site.ts`.
 - The 4th home stat card now shows "12" with the label "Months of recorded sales", so all 4 numbers line up.

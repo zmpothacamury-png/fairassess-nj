@@ -15,18 +15,17 @@ import { RankingsExplorer } from "@/components/towns/RankingsExplorer";
 import { loadCounty, loadMeta, loadTowns } from "@/lib/data/load";
 import { formatCount, formatLongDate, formatMonthYear } from "@/lib/home";
 import { NAV_CTA } from "@/lib/nav";
-import { SITE_NAME } from "@/lib/site";
+import { CSV_PATH, datasetJsonLd, jsonLdScript, pageMetadata } from "@/lib/seo";
 import { SOURCES } from "@/lib/sources";
 import { rankedTowns, signed4, sortRanked, unrankedTowns } from "@/lib/towns";
 
-export const metadata: Metadata = {
-  title: SITE_NAME,
+export const metadata: Metadata = pageMetadata({
+  path: "/towns",
   description:
     "How evenly each Bergen County town assesses single-family homes, ranked by the IAAO's price-related bias (PRB) test, from public NJ sales data.",
-};
+});
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
-const CSV_PATH = "/downloads/fairassess-nj-town-stats.csv";
 
 /**
  * Tool 1: Town Rankings. Every number comes from towns.json, county.json, and
@@ -54,6 +53,8 @@ export default async function TownsPage() {
 
   return (
     <main className="flex-1">
+      {/* Structured data for search engines: the town statistics CSV as a Dataset. */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(datasetJsonLd(meta)) }} />
       <PageHeader
         eyebrow="Tool 1"
         title="Town Rankings"

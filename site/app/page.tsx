@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { BalanceDivider } from "@/components/BalanceDivider";
 import { CtaBand } from "@/components/CtaBand";
 import { Disclaimer } from "@/components/Disclaimer";
@@ -11,6 +12,10 @@ import { WhyItMatters } from "@/components/WhyItMatters";
 import { loadCounty, loadMeta, loadTowns } from "@/lib/data/load";
 import { formatCount, formatMonthYear, labeledOutsidePreview, monthsSpanned, rankingPreview } from "@/lib/home";
 import { NAV_CTA } from "@/lib/nav";
+import { pageMetadata } from "@/lib/seo";
+import { SITE_DESCRIPTION } from "@/lib/site";
+
+export const metadata: Metadata = pageMetadata({ path: "/", description: SITE_DESCRIPTION });
 
 const SOURCE = "NJ Division of Taxation SR1A sales files";
 

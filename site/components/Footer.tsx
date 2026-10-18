@@ -62,7 +62,7 @@ export async function Footer() {
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-8">
           <div className="lg:col-span-5">
             <p className="flex items-center gap-2 font-heading text-lg font-extrabold tracking-wide text-navy-700">
-              <Image src="/logo-icon.png" alt="" width={394} height={698} className="h-10 w-auto" />
+              <Image src="/logo-icon.png" alt="" width={23} height={40} className="h-10 w-auto" />
               FAIR ASSESS NJ
             </p>
             <Disclaimer className="mt-6 max-w-md" />

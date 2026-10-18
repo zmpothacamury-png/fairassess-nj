@@ -324,6 +324,23 @@ export function appealDeadline(town: Pick<TownEntry, "revaluation_tax_year">): {
   };
 }
 
+const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const MONTH_NAMES = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+/**
+ * "May 1, 2027" -> a note when the deadline falls on a Saturday or Sunday, quoting Form A-1
+ * instruction 1 (data/raw/notes/appeal-info.md): the last day moves to the next business day.
+ * We only name the weekday; the exact new date (a holiday could move it again) is the Board's to confirm.
+ * Returns null on a weekday. Counted in UTC so the time zone can never change the day.
+ */
+export function weekendDeadlineNote(date: string): string | null {
+  const m = /^([A-Z][a-z]+) (\d{1,2}), (\d{4})$/.exec(date);
+  if (!m) throw new Error(`not a deadline date: ${date}`);
+  const day = new Date(Date.UTC(Number(m[3]), MONTH_NAMES.indexOf(m[1]), Number(m[2]))).getUTCDay();
+  if (day !== 0 && day !== 6) return null;
+  return `${date} is a ${WEEKDAYS[day]}. Form A-1 says a deadline on a weekend or legal holiday moves to the next business day. Confirm the exact date with the Bergen County Board of Taxation.`;
+}
+
 /** Filing fees by assessed value (methodology K13, Form A-1 instruction 4). */
 export const FILING_FEES = [
   { range: "Under $150,000", fee: "$5" },

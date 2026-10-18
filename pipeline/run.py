@@ -4,14 +4,15 @@ Usage from PowerShell (in the project folder):
     .\\.venv\\Scripts\\python -m pipeline.run          # every stage
     .\\.venv\\Scripts\\python -m pipeline.run clean    # start at the "clean" stage
 
-Stages: parse -> clean -> stats -> validate -> index -> export. The export stage
-writes the website's JSON files into site/public/data/.
+Stages: parse -> clean -> stats -> validate -> index -> export -> fixtures. The export
+stage writes the website's JSON files into site/public/data/. The fixtures stage runs
+the Python reference checker on those files and writes pipeline/fixtures/checker_cases.json.
 """
 
 import sys
 
-from pipeline import (build_stats, build_towns, clean, config, export, parse_ch123, parse_sr1a, parse_state_tables,
-                      price_index, profile_data, validate)
+from pipeline import (build_stats, build_towns, checker_reference, clean, config, export, parse_ch123, parse_sr1a,
+                      parse_state_tables, price_index, profile_data, validate)
 
 
 def parse_stage():
@@ -63,6 +64,11 @@ def export_inputs():
             config.COUNTY_SUMMARY_JSON, config.METHODOLOGY_MD]
 
 
+def fixtures_inputs():
+    """Files the fixtures stage needs (made by the export stage)."""
+    return [config.PRICE_INDEX_JSON, config.SITE_DATA_DIR / "towns.json"]
+
+
 # (name, function, files that must exist before the stage runs)
 STAGES = [
     ("parse", parse_stage, parse_inputs),
@@ -71,6 +77,7 @@ STAGES = [
     ("validate", validate.main, validate_inputs),
     ("index", price_index.main, index_inputs),
     ("export", export.main, export_inputs),
+    ("fixtures", checker_reference.main, fixtures_inputs),
 ]
 
 

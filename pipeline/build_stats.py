@@ -111,13 +111,13 @@ TOWN_STATS_COLUMNS = [
     "district_code", "town", "slug", "revaluation_tax_year", "n_sales", "data_quality", "label", "prb_rank",
     "median_ratio", "median_ci_low", "median_ci_high", "mean_ratio", "weighted_mean_ratio",
     "cod", "cod_ci_low", "cod_ci_high", "prd", "prd_ci_low", "prd_ci_high",
-    "prb", "prb_se", "prb_ci_low", "prb_ci_high",
+    "prb", "prb_intercept", "prb_se", "prb_ci_low", "prb_ci_high",
     "cod_meets_iaao", "cod_below_5", "prd_meets_iaao", "prb_meets_iaao", "prb_ci_outside_0_10",
     "label_fence_1_5", "label_no_trim", "label_sensitive_to_outliers",
 ]
 ROUND_COLUMNS = ["median_ratio", "median_ci_low", "median_ci_high", "mean_ratio", "weighted_mean_ratio",
                  "cod", "cod_ci_low", "cod_ci_high", "prd", "prd_ci_low", "prd_ci_high",
-                 "prb", "prb_se", "prb_ci_low", "prb_ci_high"]
+                 "prb", "prb_intercept", "prb_se", "prb_ci_low", "prb_ci_high"]
 
 
 def town_stats_table(sales, towns, sens):

@@ -243,6 +243,7 @@ One row per town (all 70). Towns with under 20 sales (or 2026 revaluation towns 
 | `cod`, `prd`, `prb` | number | Section 2.2. COD is a percent (15.0 = 15%). |
 | `*_ci_low`, `*_ci_high` | number | 95% range (T4). Median, COD, PRD: bootstrap, 2,000 resamples, seed 20261025. PRB: slope +/- 1.96 x `prb_se`. |
 | `prb_se` | number | Standard error of the PRB slope. |
+| `prb_intercept` | number | Intercept *a* of the PRB line *y = a + b x* (Section 2.2). Added 2026-10-18 (Prompt 10A) so the town page can draw the PRB trend line. |
 | `cod_meets_iaao` | true/false | COD at most 15.0 (Section 2.3, our choice). |
 | `cod_below_5` | true/false | COD under 5.0 (IAAO: "may indicate sales chasing or non-representative samples"). |
 | `prd_meets_iaao` | true/false | PRD from 0.98 to 1.03. |
@@ -329,3 +330,20 @@ The Bergen monthly price index for the checker's time adjustment (rules K4 and K
 
 ### Website files
 `pipeline/export.py` writes the JSON files in `site/public/data/` and the open-data CSV `site/public/downloads/fairassess-nj-town-stats.csv`. Every file and field is described in **`docs/data-contract.md`**.
+
+## 13. Appeal checker reference and sweep (`pipeline/checker_reference.py`, methodology Sections 6.8 and 7)
+
+Made by the `fixtures` stage, after the export stage.
+
+**`pipeline/fixtures/checker_cases.json`**: the shared test cases. `cases[]` has `id`, `description`, `input` (`town`, `assessed_value`, `own_estimate`, as typed text), `town_data` (a made-up town for edge cases, or null for a real town), and `expected` (the Python reference's answer: `valid`, then either `errors` or the result fields). `tolerances` gives the allowed difference ($1 and 0.0001). The website's tests (`site/lib/checker/checker.test.ts`) must match every case.
+
+**`data/processed/checker_grounds_sweep.csv`**: one row per town. The checker runs, with no own estimate, at assessed values 1% apart from the town's lowest to highest comp assessment.
+
+| Column | Meaning |
+|---|---|
+| `slug`, `town`, `revaluation_tax_year` | Town. |
+| `n_comps_in_file` | Comps in the town's site file. |
+| `n_values_tried` | Assessed values tried. |
+| `n_may_have_grounds`, `n_within_range`, `n_possibly_under_assessed`, `n_not_enough_data`, `n_revaluation_no_test` | How many tried values gave each result. They add up to `n_values_tried`. |
+| `max_points_above_upper_trigger` | The highest homeowner ratio found minus the upper trigger U\*, in percentage points (negative = never reached it). Blank if no value got a Chapter 123 result. |
+

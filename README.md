@@ -26,7 +26,7 @@ Set up Python (Windows PowerShell, Python 3.11 or newer):
     py -m venv .venv
     .\.venv\Scripts\python.exe -m pip install -r pipeline\requirements.txt
 
-Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, stats, validate, index, then export) and stops with a clear message if an input file is missing:
+Build the data tables (needs the raw files in data\raw\). One command runs every stage in order (parse, clean, stats, validate, index, export, then fixtures) and stops with a clear message if an input file is missing:
 
     .\.venv\Scripts\python.exe -m pipeline.run
 
@@ -47,6 +47,10 @@ To rebuild only the website's data files (the price index, then the JSON files i
     .\.venv\Scripts\python.exe -m pipeline.run index
 
 Every file and field the site reads is described in docs\data-contract.md.
+
+To rebuild only the appeal checker's test cases (pipelineixtures\checker_cases.json, made by the Python reference checker in pipeline\checker_reference.py; the website's tests check that its checker gives the same answers):
+
+    .\.venv\Scripts\python.exe -m pipeline.run fixtures
 
 Run the Python tests:
 

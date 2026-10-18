@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Tier, TownEntry, TownStats } from "./data/schema";
 import {
   appealDeadline,
+  weekendDeadlineNote,
   assessmentAt,
   ch123Triggers,
   DEFAULT_FILTER,
@@ -227,6 +228,14 @@ describe("Chapter 123 and appeal facts", () => {
     expect(appealDeadline({ revaluation_tax_year: 2027 }).date).toBe("May 1, 2027");
     expect(appealDeadline({ revaluation_tax_year: 2026 }).date).toBe("April 1, 2027");
     expect(appealDeadline({ revaluation_tax_year: null }).date).toBe("April 1, 2027");
+  });
+
+  it("notes a weekend deadline: May 1, 2027 is a Saturday; April 1, 2027 is a Thursday", () => {
+    expect(weekendDeadlineNote("May 1, 2027")).toMatch(/^May 1, 2027 is a Saturday\. Form A-1 says/);
+    expect(weekendDeadlineNote("April 1, 2027")).toBeNull();
+    expect(weekendDeadlineNote("May 2, 2027")).toMatch(/is a Sunday/);
+    expect(weekendDeadlineNote("May 3, 2027")).toBeNull();
+    expect(() => weekendDeadlineNote("2027-05-01")).toThrow();
   });
 });
 

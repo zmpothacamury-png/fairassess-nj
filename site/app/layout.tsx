@@ -6,8 +6,10 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { RevealController } from "@/components/RevealController";
 import { ScrollCue } from "@/components/ScrollCue";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import { motionCssVars } from "@/lib/motion";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { jsonLdScript, webApplicationJsonLd } from "@/lib/seo";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 // Headings and eyebrows: Montserrat, to match the logo's geometric wordmark.
 const montserrat = Montserrat({
@@ -29,9 +31,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   // Zaden: the browser tab always reads "Fair Assess NJ" (with the logo icon), on every page.
   title: SITE_NAME,
-  description:
-    "Free tools for Bergen County homeowners. See how evenly each town assesses homes, using public sales data, and check whether you might have grounds for a property tax appeal.",
+  description: SITE_DESCRIPTION,
   openGraph: { siteName: SITE_NAME, type: "website" },
+  twitter: { card: "summary_large_image" },
 };
 
 /*
@@ -51,6 +53,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: ENABLE_REVEAL }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdScript(webApplicationJsonLd(SITE_DESCRIPTION)) }} />
       </head>
       <body className="flex min-h-full flex-col bg-mist-50 font-sans text-base text-ink-800 antialiased">
         {/* First stop for keyboard users: jumps past the header to the page content. */}
@@ -67,6 +70,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Footer />
         <ScrollCue />
         <RevealController />
+        {/* Only on Vercel, where the analytics script exists; local builds would get a 404 for it. */}
+        {process.env.VERCEL && <SiteAnalytics />}
       </body>
     </html>
   );

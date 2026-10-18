@@ -13,17 +13,18 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { StatCard } from "@/components/StatCard";
 import { StatusPill } from "@/components/StatusPill";
 import { Term } from "@/components/Term";
-import { SaleScatter } from "@/components/towns/SaleScatter";
-import { TierChart } from "@/components/towns/TierChart";
+import { SaleScatter, TierChart } from "@/components/towns/LazyCharts";
 import { loadCounty, loadFilterLog, loadMeta, loadTown, loadTowns, loadValidation } from "@/lib/data/load";
 import type { TownFile, Validation } from "@/lib/data/schema";
 import { tierRange } from "@/lib/chart";
 import { formatCount, formatDollars, formatMonthYear, formatPercent } from "@/lib/home";
-import { GITHUB_URL, SITE_NAME } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
+import { GITHUB_URL } from "@/lib/site";
 import { SOURCES } from "@/lib/sources";
 import type { SourceKey } from "@/lib/sources";
 import {
   appealDeadline,
+  weekendDeadlineNote,
   assessmentAt,
   ch123Triggers,
   FILING_FEES,
@@ -51,10 +52,8 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const town = await loadTown(slug);
-  return {
-    title: `${town.name} property assessment fairness | ${SITE_NAME}`,
-    description: summarySentence(town),
-  };
+  // ownImage: the town's generated share image (opengraph-image.tsx) applies.
+  return pageMetadata({ path: `/towns/${town.slug}`, description: summarySentence(town), ownImage: true });
 }
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
@@ -475,6 +474,7 @@ function Chapter123Section({ town }: { town: TownFile }) {
               Appeal deadline: <span className="tabular-nums">{deadline.date}</span>
             </p>
             <p className="mt-1">{deadline.detail}</p>
+            {weekendDeadlineNote(deadline.date) && <p className="mt-1">{weekendDeadlineNote(deadline.date)}</p>}
             <p className="mt-1">
               The County Board must receive your appeal by then. A postmark is not enough. If the deadline falls on a
               weekend or legal holiday, it moves to the next business day.

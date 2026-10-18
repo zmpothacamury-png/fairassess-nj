@@ -70,6 +70,21 @@ test.describe("Town Rankings page", () => {
     await expect(page.getByRole("region", { name: "PRB by town, as a table" })).toBeVisible();
   });
 
+  test("the forest plot and the table show the same towns, and a town name opens its page", async ({ page }) => {
+    await page.goto("/towns");
+    // The chart loads just after the page (LazyCharts), so wait for its dots first.
+    await expect(page.locator("#forest-plot svg a")).toHaveCount(48);
+    const dotTowns = await page.locator("#forest-plot svg a").evaluateAll((els) => els.map((a) => a.getAttribute("href")));
+    const table = page.getByRole("region", { name: "Town rankings table" });
+    const rowTowns = await table.locator("tbody tr a").evaluateAll((els) => els.map((a) => a.getAttribute("href")));
+    expect([...rowTowns].sort()).toEqual([...dotTowns].sort());
+    // Both list the towns in rank order (PRB, most negative first) by default.
+    expect(rowTowns).toEqual(dotTowns);
+    await table.getByRole("link", { name: "Teaneck" }).click();
+    await expect(page).toHaveURL(/\/towns\/teaneck$/);
+    await expect(page.getByRole("heading", { level: 1 })).toContainText("Teaneck");
+  });
+
   test("links to the CSV download", async ({ page }) => {
     await page.goto("/towns");
     const res = await page.request.get("/downloads/fairassess-nj-town-stats.csv");
@@ -84,7 +99,7 @@ test.describe("Town Rankings page", () => {
 test.describe("Town pages", () => {
   test("a ranked town has its title, summary, charts, checker link, and disclaimer", async ({ page }) => {
     await page.goto("/towns/bergenfield");
-    await expect(page).toHaveTitle("Bergenfield property assessment fairness | Fair Assess NJ");
+    await expect(page).toHaveTitle("Fair Assess NJ");
     await expect(page.locator('meta[name="description"]')).toHaveAttribute("content", /lowest value quarter/);
     await expect(page.getByRole("heading", { name: "Assessment ratio by home value" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Every sale" })).toBeVisible();
@@ -95,6 +110,33 @@ test.describe("Town pages", () => {
     await expect(page.getByText("Appeal deadline: May 1, 2027")).toBeVisible();
     await expect(page.getByText("is an independent student research project").first()).toBeVisible();
   });
+
+  // One town of each kind (labels from towns.json): regressive, within standards, and limited data (20 to 39 sales).
+  const KINDS = [
+    { slug: "bergenfield", name: "Bergenfield", label: "Regressive pattern", limited: false },
+    { slug: "fair-lawn", name: "Fair Lawn", label: "Within standards", limited: false },
+    { slug: "closter", name: "Closter", label: "Within standards", limited: true },
+  ];
+  for (const k of KINDS) {
+    test(`${k.name} (${k.label}${k.limited ? ", limited data" : ""}) shows its stats and draws its charts`, async ({ page }) => {
+      await page.goto(`/towns/${k.slug}`);
+      await expect(page.getByRole("heading", { level: 1 })).toContainText(k.name);
+      await expect(page.locator("main").getByText(k.label, { exact: true }).first()).toBeVisible();
+      const limitedNote = page.getByText("Limited data", { exact: true });
+      if (k.limited) await expect(limitedNote.first()).toBeVisible();
+      else await expect(limitedNote).toHaveCount(0);
+      for (const label of ["Median assessment ratio", "COD (evenness)", "PRD (price-related differential)", "PRB (price-related bias)"]) {
+        await expect(page.locator("#numbers").getByText(label, { exact: true })).toBeVisible();
+      }
+      const charts = page.locator("#charts");
+      await charts.scrollIntoViewIfNeeded();
+      await expect(charts.locator("svg.recharts-surface").first()).toBeVisible();
+      await expect.poll(() => charts.locator("svg.recharts-surface").count()).toBeGreaterThanOrEqual(2);
+      await charts.getByRole("button", { name: "View as table" }).first().click();
+      await expect(page.getByRole("region", { name: "Assessment ratio by home value, as a table" }).locator("tbody tr")).toHaveCount(4);
+      await expect(page.getByText("is an independent student research project").first()).toBeVisible();
+    });
+  }
 
   test("a town without enough sales explains why and still links to the checker", async ({ page }) => {
     await page.goto("/towns/allendale");
