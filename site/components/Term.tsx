@@ -42,12 +42,13 @@ function useExplainer() {
  * top-right corner keeps its box over its own card.
  */
 function Panel({ id, align = "center", children }: { id: string; align?: "center" | "end"; children: ReactNode }) {
-  const position = align === "end" ? "right-0" : "left-1/2 -translate-x-1/2";
+  // pop-in (app/globals.css) grows the box from the edge nearest its button: top center or top right.
+  const position = align === "end" ? "right-0 origin-top-right" : "left-1/2 -translate-x-1/2 origin-top";
   return (
     <span
       id={id}
       role="note"
-      className={`absolute top-full z-20 mt-2 block w-72 max-w-[calc(100vw-2rem)] rounded-card border border-outline-200 bg-white p-4 text-left text-sm font-normal normal-case tracking-normal text-ink-800 shadow-raised ${position}`}
+      className={`pop-in absolute top-full z-20 mt-2 block w-72 max-w-[calc(100vw-2rem)] rounded-card border border-outline-200 bg-white p-4 text-left text-sm leading-relaxed font-normal normal-case tracking-normal text-ink-800 shadow-raised ${position}`}
     >
       {children}
     </span>
@@ -69,7 +70,7 @@ export function Term({ children, definition }: { children: string; definition: R
         aria-expanded={open}
         aria-controls={id}
         onClick={() => setOpen(!open)}
-        className="focus-ring cursor-help underline decoration-blue-600 decoration-dotted decoration-2 underline-offset-4"
+        className="focus-ring cursor-help underline decoration-blue-600 decoration-dotted decoration-2 underline-offset-4 transition-colors duration-[var(--duration-press)] hover:text-blue-600 aria-expanded:text-blue-600"
       >
         {children}
       </button>
@@ -90,7 +91,7 @@ export function InfoButton({ label, children }: { label: string; children: React
         aria-controls={id}
         aria-label={`What does "${label}" mean?`}
         onClick={() => setOpen(!open)}
-        className="focus-ring inline-flex h-8 w-8 items-center justify-center rounded-full text-blue-600 hover:bg-blue-100"
+        className="focus-ring pressable inline-flex h-10 w-10 items-center justify-center rounded-full text-blue-600 hover:bg-blue-100 aria-expanded:bg-blue-100"
       >
         <Info aria-hidden="true" className="h-5 w-5" strokeWidth={2} />
       </button>

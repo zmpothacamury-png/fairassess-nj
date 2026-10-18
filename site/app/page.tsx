@@ -75,11 +75,10 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* One balance divider per page (Prompt 10B); after it, sections are set apart by white | mist tone steps. */}
       <BalanceDivider />
       <HowItWorks />
-      <BalanceDivider />
       <WhyItMatters />
-      <BalanceDivider />
       <RankingsPreview
         towns={preview}
         leanRegressiveCount={county.ranked_towns_prb_range_below_zero}
@@ -88,7 +87,6 @@ export default async function Home() {
         regressiveCount={regressive}
         salesSource={`${county.source_file}, recorded ${from} to ${to}`}
       />
-      <BalanceDivider />
       <FounderTeaser />
       <CtaBand
         title="Is your assessment fair? Find out in two minutes."

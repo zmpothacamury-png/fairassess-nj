@@ -1,7 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 /** Every page must fit its screen: no sideways scrolling on phones, iPads, or desktops. */
-const PAGES = ["/", "/towns", "/check", "/methodology", "/appeal-guide", "/about", "/contact", "/privacy", "/design", "/no-such-page"];
+const PAGES = ["/", "/towns", "/towns/bergenfield", "/towns/allendale", "/check", "/methodology", "/appeal-guide", "/about", "/contact", "/privacy", "/design", "/no-such-page"];
 const SCREENS = [
   { name: "small phone", width: 375, height: 667 },
   { name: "phone", width: 390, height: 844 },

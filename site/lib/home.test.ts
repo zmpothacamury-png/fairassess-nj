@@ -22,7 +22,7 @@ const STATS = {
   mean_ratio: 0.82, weighted_mean_ratio: 0.8,
   cod: 10, cod_ci_low: 9, cod_ci_high: 11,
   prd: 1.02, prd_ci_low: 1.0, prd_ci_high: 1.04,
-  prb: -0.1, prb_se: 0.02, prb_ci_low: -0.14, prb_ci_high: -0.06,
+  prb: -0.1, prb_intercept: 0, prb_se: 0.02, prb_ci_low: -0.14, prb_ci_high: -0.06,
   cod_meets_iaao: true, cod_below_5: false, prd_meets_iaao: true, prb_meets_iaao: false,
   prb_ci_outside_0_10: false,
   label_fence_1_5: "Mixed signals", label_no_trim: "Mixed signals", label_sensitive_to_outliers: false,

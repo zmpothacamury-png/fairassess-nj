@@ -29,7 +29,7 @@ export function StatusPill({ status, children }: { status: Status; children: str
   const { box, icon, Icon } = STATUS_STYLES[status];
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-semibold ${box}`}
+      className={`inline-flex items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1 text-sm font-semibold ${box}`}
     >
       {Icon && <Icon aria-hidden="true" className={`h-4 w-4 shrink-0 ${icon}`} strokeWidth={2} />}
       {children}

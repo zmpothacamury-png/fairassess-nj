@@ -1,50 +1,55 @@
 import { CalendarDays, Receipt } from "lucide-react";
+import { FILING_FEES } from "@/lib/towns";
+import { SOURCES } from "@/lib/sources";
+
+const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 
 /**
- * Deadline and fee facts. Shown wherever the page talks about appealing,
- * per CLAUDE.md rule 7.
+ * Deadline and fee facts for Bergen County appeals. Shown wherever the page
+ * talks about appealing (CLAUDE.md rule 7).
  *
- * Sources (checked 2026-09-11):
- * - Deadline: NJ Division of Taxation, "A Guide to Tax Appeal Hearings"
- *   (nj.gov/treasury/taxation) and nj.gov/treasury/taxation/lpt/lpt-appeal.shtml.
- * - Filing fee tiers: N.J.A.C. 18:12A-1.6, as summarized by county tax
- *   boards and NJ property-tax-appeal law firms.
- * These are state rules and change rarely, but always confirm with your
- * county board before filing — some counties add local steps or forms.
- *
- * TODO (site prompt): source notes now live in
- * data/raw/notes/appeal-deadlines-and-fees.md. The deadline text below still
- * needs the "45 days after notices, whichever is later" rule, and the
- * non-Bergen counties should come out.
+ * Source: NJ Form A-1 instructions 1 and 4, quoted in
+ * data/raw/notes/appeal-deadlines-and-fees.md (methodology K13). Town pages
+ * show the town's own deadline (lib/towns.ts appealDeadline).
  */
 export function AppealBasics({ className = "" }: { className?: string }) {
   return (
     <div
       className={`flex flex-col gap-4 rounded-card border border-outline-200 bg-white px-6 py-4 text-base text-ink-600 lg:flex-row lg:items-start lg:gap-6 ${className}`}
     >
-      <div className="flex gap-2">
+      <div className="flex gap-2 lg:flex-1">
         <CalendarDays aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-gold-700" strokeWidth={2} />
         <p>
           <strong className="block text-navy-900">The deadline is April 1</strong>
-          It is May 1 in the year after a revaluation or reassessment.
-          Burlington, Gloucester, and Monmouth counties use January 15
-          instead.
+          Or 45 days after your town finishes mailing assessment notices, if that is later. In a town with a town-wide
+          revaluation or reassessment that year, it is May 1. The County Board must receive your appeal by then; a
+          postmark is not enough. A weekend or holiday deadline moves to the next business day.
         </p>
       </div>
-      <div className="flex gap-2">
+      <div className="flex gap-2 lg:flex-1">
         <Receipt aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-gold-700" strokeWidth={2} />
-        <p className="tabular-nums">
-          <strong className="block text-navy-900">
-            The filing fee is $5 to $150
-          </strong>
-          Your assessed value sets the fee. It is $5 under $150,000 and
-          $25 up to $500,000. It is $100 up to $1,000,000 and $150 above
-          that.
-        </p>
+        <div>
+          <strong className="block text-navy-900">The filing fee is $5 to $150</strong>
+          <p>Your assessed value sets the fee:</p>
+          <ul className="mt-1 tabular-nums">
+            {FILING_FEES.map((f) => (
+              <li key={f.range}>
+                {f.range}: <span className="font-semibold text-navy-900">{f.fee}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
-      <p className="text-sm text-ink-600 lg:max-w-[22ch]">
-        Always check your county tax board for your town&rsquo;s exact
-        deadline, fee, and forms before filing.
+      <p className="text-sm text-ink-600 lg:max-w-[24ch]">
+        Source:{" "}
+        <a href={SOURCES.form_a1.url} className={LINK} rel="noopener noreferrer">
+          NJ Form A-1
+        </a>
+        . Confirm deadlines, fees, and forms with the{" "}
+        <a href={SOURCES.bergen_board.url} className={LINK} rel="noopener noreferrer">
+          Bergen County Board of Taxation
+        </a>
+        .
       </p>
     </div>
   );

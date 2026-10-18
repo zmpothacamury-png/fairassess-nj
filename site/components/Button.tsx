@@ -4,13 +4,14 @@ import type { ComponentProps, ReactNode } from "react";
 type Variant = "primary" | "secondary" | "ghost";
 type Size = "md" | "lg";
 
+// pressable (app/globals.css): color changes and a 3% press shrink over 120ms.
 const BASE =
-  "focus-ring inline-flex items-center justify-center gap-2 rounded-control font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-60";
+  "focus-ring pressable inline-flex items-center justify-center gap-2 rounded-control font-semibold select-none disabled:pointer-events-none disabled:opacity-60";
 
 const VARIANTS: Record<Variant, string> = {
   primary: "bg-blue-600 text-white hover:bg-navy-700",
-  secondary: "border-2 border-blue-600 bg-white text-blue-600 hover:bg-blue-100",
-  ghost: "text-blue-600 hover:bg-blue-100",
+  secondary: "border-2 border-blue-600 bg-white text-blue-600 hover:border-navy-700 hover:text-navy-700",
+  ghost: "text-blue-600 hover:bg-blue-100 hover:text-navy-700",
 };
 
 const SIZES: Record<Size, string> = {

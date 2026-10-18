@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import { Inter, Montserrat } from "next/font/google";
+import { Montserrat, Public_Sans } from "next/font/google";
 import "./globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -17,11 +17,11 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
-// Body text and UI: Inter.
-const inter = Inter({
-  variable: "--font-inter",
+// Body text and UI: Public Sans, the U.S. Web Design System's typeface (Prompt 10B; replaced Inter).
+const publicSans = Public_Sans({
+  variable: "--font-public-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -44,7 +44,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${inter.variable} h-full`}
+      className={`${montserrat.variable} ${publicSans.variable} h-full`}
       style={motionCssVars as CSSProperties}
       // The script above adds a class before React loads; that is expected.
       suppressHydrationWarning

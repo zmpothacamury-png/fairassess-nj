@@ -77,13 +77,18 @@ function LearnMenu({ label, items, pathname }: { label: string; items: NavLink[]
         className={`${TAB} ${active ? "text-navy-900" : "text-ink-600 hover:text-navy-900"}`}
       >
         {label}
-        <ChevronDown aria-hidden="true" className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`} strokeWidth={2} />
+        <ChevronDown
+          aria-hidden="true"
+          className={`h-4 w-4 transition-transform duration-[var(--duration-pop)] ease-[var(--ease-out)] motion-reduce:transition-none ${open ? "rotate-180" : ""}`}
+          strokeWidth={2}
+        />
       </button>
       {open && (
+        // pop-in: fades in and grows from its top-left corner, under the "Learn" button (160ms).
         <ul
           ref={areaRef}
           id="learn-menu"
-          className="absolute left-0 top-full z-50 mt-1 w-56 rounded-card border border-outline-200 bg-white p-2 shadow-raised"
+          className="pop-in absolute left-0 top-full z-50 mt-1 w-56 origin-top-left rounded-card border border-outline-200 bg-white p-2 shadow-raised"
         >
           {items.map((item) => {
             const current = isActive(item.href, pathname);
@@ -93,7 +98,7 @@ function LearnMenu({ label, items, pathname }: { label: string; items: NavLink[]
                   href={item.href}
                   aria-current={current ? "page" : undefined}
                   onClick={() => setOpen(false)}
-                  className={`focus-ring block rounded-control px-4 py-2 text-sm font-semibold hover:bg-blue-100 ${
+                  className={`focus-ring flex min-h-11 items-center rounded-control px-4 text-sm font-semibold transition-colors duration-[var(--duration-press)] hover:bg-blue-100 hover:text-navy-900 ${
                     current ? "bg-blue-100 text-navy-900" : "text-ink-800"
                   }`}
                 >
@@ -170,7 +175,7 @@ export function Header() {
             aria-controls="mobile-menu"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             onClick={() => setMenuOpen(!menuOpen)}
-            className="focus-ring ml-auto inline-flex h-12 w-12 items-center justify-center rounded-control border border-ink-600 text-navy-900 xl:hidden"
+            className="focus-ring pressable ml-auto inline-flex h-12 w-12 items-center justify-center rounded-control border border-ink-600 text-navy-900 hover:bg-blue-100 xl:hidden"
           >
             {menuOpen ? <X aria-hidden="true" className="h-6 w-6" /> : <Menu aria-hidden="true" className="h-6 w-6" />}
           </button>
@@ -195,10 +200,15 @@ export function Header() {
                   href={link.href}
                   aria-current={active ? "page" : undefined}
                   onClick={() => setMenuOpen(false)}
-                  className={`focus-ring flex min-h-12 items-center border-l-4 pl-4 text-lg font-semibold ${
-                    active ? "border-gold-400 text-navy-900" : "border-transparent text-ink-800"
+                  className={`focus-ring flex min-h-12 items-center gap-3 rounded-control px-2 text-lg font-semibold ${
+                    active ? "text-navy-900" : "text-ink-800"
                   }`}
                 >
+                  {/* The current page gets the logo's gold pivot dot (same meaning as the desktop gold underline). */}
+                  <span
+                    aria-hidden="true"
+                    className={`h-2 w-2 shrink-0 rounded-full ${active ? "bg-gold-400" : "bg-transparent"}`}
+                  />
                   {link.label}
                 </Link>
               </li>

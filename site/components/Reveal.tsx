@@ -17,18 +17,21 @@ export function Reveal({
   children,
   className = "",
   group = false,
+  as: Tag = "div",
 }: {
   children: ReactNode;
   className?: string;
   group?: boolean;
+  /** The element to render (Prompt 10B): "ol" or "ul" lets a list be the group, so each item reveals in turn. */
+  as?: "div" | "ol" | "ul";
 }) {
   return group ? (
-    <div data-reveal-group="" className={className}>
+    <Tag data-reveal-group="" className={className}>
       {children}
-    </div>
+    </Tag>
   ) : (
-    <div data-reveal="" className={className}>
+    <Tag data-reveal="" className={className}>
       {children}
-    </div>
+    </Tag>
   );
 }

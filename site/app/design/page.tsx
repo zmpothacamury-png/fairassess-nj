@@ -44,14 +44,17 @@ const ROLES: Record<string, string> = {
   "gray-100": "“Not enough data” background, skeletons",
 };
 
+// Large steps are fluid (Prompt 10B): `px` is the desktop size, `phone` the smallest.
 const TYPE_SCALE = [
-  { cls: "text-4xl", px: 55, use: "Home hero heading" },
-  { cls: "text-3xl", px: 44, use: "Page heading, big stats" },
-  { cls: "text-2xl", px: 35, use: "Section heading (h2)" },
-  { cls: "text-xl", px: 28, use: "Sub-heading (h3)" },
-  { cls: "text-lg", px: 22, use: "Lead paragraph, card title" },
-  { cls: "text-base", px: 18, use: "Body text" },
-  { cls: "text-sm", px: 14, use: "Captions, source lines, eyebrows" },
+  { cls: "text-5xl", px: 72, phone: 44, use: "Home hero heading" },
+  { cls: "text-4xl", px: 55, phone: 40, use: "How it works numbers" },
+  { cls: "text-3xl", px: 44, phone: 34, use: "Page heading, big stats" },
+  { cls: "text-2xl", px: 35, phone: 28, use: "Section heading (h2), figures" },
+  { cls: "text-xl", px: 28, phone: 24, use: "Sub-heading (h3)" },
+  { cls: "text-lg", px: 22, phone: 20, use: "Lead paragraph, card title" },
+  { cls: "text-base", px: 18, phone: 18, use: "Body text" },
+  { cls: "text-sm", px: 14, phone: 14, use: "Captions, source lines, eyebrows" },
+  { cls: "text-xs", px: 13, phone: 13, use: "Chart ticks and axis labels only" },
 ];
 
 function Block({ id, title, children }: { id: string; title: string; children: ReactNode }) {
@@ -142,7 +145,7 @@ export default function DesignPage() {
             {TYPE_SCALE.map((step) => (
               <li key={step.cls} className="grid gap-2 border-b border-outline-200 pb-4 sm:grid-cols-[10rem_1fr] sm:items-baseline">
                 <span className="text-sm tabular-nums text-ink-600">
-                  {step.cls} &middot; {step.px}px
+                  {step.cls} &middot; {step.phone === step.px ? `${step.px}px` : `${step.phone} to ${step.px}px`}
                   <br />
                   {step.use}
                 </span>
@@ -153,7 +156,7 @@ export default function DesignPage() {
             ))}
           </ul>
           <p className="mt-6 max-w-prose text-base text-ink-800">
-            Body text is Inter at 18px with a line length of about 65 characters (max-w-prose).
+            Body text is Public Sans (the U.S. Web Design System typeface) at 18px with a line length of about 65 characters (max-w-prose).
             All statistics and money use tabular numbers so columns line up:
           </p>
           <p className="mt-2 font-heading text-xl font-bold tabular-nums text-navy-900">
@@ -174,11 +177,11 @@ export default function DesignPage() {
             <div className="flex h-24 w-40 items-center justify-center rounded-control border border-outline-200 bg-white text-sm text-ink-600">
               8px: controls
             </div>
-            <div className="flex h-24 w-40 items-center justify-center rounded-card border border-outline-200 bg-white text-sm text-ink-600 shadow-soft">
-              12px + shadow-soft
+            <div className="flex h-24 w-40 items-center justify-center rounded-card border border-outline-200 bg-white text-sm text-ink-600">
+              12px card: outline, no shadow
             </div>
             <div className="flex h-24 w-40 items-center justify-center rounded-card bg-white text-sm text-ink-600 shadow-raised">
-              shadow-raised
+              shadow-raised: pop-ups and menus only
             </div>
           </div>
           <p className="mt-8 text-sm text-ink-600">Icons: lucide-react, 2px stroke.</p>
@@ -231,6 +234,11 @@ export default function DesignPage() {
             <Button size="lg">Large primary</Button>
             <Button disabled>Disabled</Button>
           </div>
+          <p className="mt-4 max-w-prose text-sm text-ink-600">
+            States (Prompt 10B): hover darkens to navy (only on devices that can hover); press shrinks to 97% over
+            120ms (off with reduced motion); keyboard focus shows a 2px blue ring; disabled is 60% opacity and cannot
+            be clicked. Menus and pop-ups fade in and grow from 97% at the edge nearest their button over 160ms.
+          </p>
 
           <p className="mt-10 text-base font-semibold text-navy-900">Status pills (checker results)</p>
           <div className="mt-4 flex flex-wrap gap-4">

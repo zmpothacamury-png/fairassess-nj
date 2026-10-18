@@ -16,7 +16,11 @@ const STEPS = [
   },
 ];
 
-/** "How it works" as numbered 01-03 cards (T&T's numbered card pattern). */
+/**
+ * "How it works" as a real ordered list: three steps in a row, each with a
+ * report-style number (01-03, docs/site-format.md) and a hairline rule.
+ * Prompt 10B: no boxes, so the steps read as one sequence, not three cards.
+ */
 export function HowItWorks() {
   return (
     <section id="how-it-works" className="bg-white">
@@ -24,18 +28,22 @@ export function HowItWorks() {
         <Reveal>
           <SectionHeading eyebrow="How it works" title="Three steps, all from public data" />
         </Reveal>
-        <Reveal group className="grid gap-6 md:grid-cols-3">
+        <Reveal group as="ol" className="grid gap-10 md:grid-cols-3 md:gap-8">
           {STEPS.map((step, i) => (
-            <div key={step.title} className="rounded-card border border-outline-200 bg-mist-50 p-6 sm:p-8">
-              <p aria-hidden="true" className="font-heading text-3xl font-extrabold tabular-nums text-blue-600">
-                {String(i + 1).padStart(2, "0")}
-              </p>
-              <h3 className="mt-4 font-heading text-lg font-bold text-navy-900">
+            <li key={step.title} className="flex flex-col">
+              <div aria-hidden="true" className="flex items-center gap-4">
+                <span className="font-heading text-4xl font-extrabold tabular-nums text-blue-600">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                {/* A hairline from each number toward the next step. Neutral: blue, green, and gold carry meaning. */}
+                <span className="h-px flex-1 bg-outline-200" />
+              </div>
+              <h3 className="mt-6 font-heading text-lg font-bold text-navy-900">
                 <span className="sr-only">Step {i + 1}: </span>
                 {step.title}
               </h3>
-              <p className="mt-2 text-base text-ink-600">{step.text}</p>
-            </div>
+              <p className="mt-2 max-w-[38ch] text-base text-ink-800">{step.text}</p>
+            </li>
           ))}
         </Reveal>
       </div>

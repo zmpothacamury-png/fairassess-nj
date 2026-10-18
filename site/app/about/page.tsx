@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { BalanceDivider } from "@/components/BalanceDivider";
 import { CtaBand } from "@/components/CtaBand";
 import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -91,7 +90,7 @@ export default async function AboutPage() {
             alt=""
             width={1179}
             height={2091}
-            className="absolute -right-10 -top-10 h-[160%] w-auto opacity-60 select-none sm:right-[6%]"
+            className="absolute -right-10 -top-10 h-[160%] w-auto max-w-none opacity-60 select-none sm:right-[6%]"
           />
         </div>
         <div className="relative mx-auto grid max-w-content items-center gap-10 px-6 pb-14 pt-16 md:grid-cols-[auto_1fr] md:gap-14">
@@ -112,7 +111,7 @@ export default async function AboutPage() {
             </p>
             <h1 className="mt-4 font-heading text-3xl font-bold text-navy-900">Zaden Pothacamury</h1>
             <p className="mt-2 font-semibold text-navy-700">Founder, Fair Assess NJ</p>
-            <p className="mt-4 max-w-prose text-lg text-ink-600">
+            <p className="mt-4 max-w-prose text-lg text-ink-800">
               Fair Assess NJ was founded by Zaden Pothacamury, a junior at Ramapo High School in Franklin Lakes, New
               Jersey. He built it so any Bergen County homeowner can check whether their assessment is fair, using
               public data, for free.
@@ -127,19 +126,20 @@ export default async function AboutPage() {
       </header>
 
       <section id="story" className="bg-white">
-        <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
-          <Reveal>
-            <SectionHeading eyebrow="The Story" title="Why Fair Assess NJ exists" />
+        {/* Editorial split (Prompt 10B): the heading stays in view on the left while the story reads on the right. */}
+        <div className="mx-auto grid max-w-content gap-2 px-6 py-20 sm:py-24 lg:grid-cols-12 lg:gap-8">
+          <Reveal className="lg:col-span-4">
+            <div className="lg:sticky lg:top-28">
+              <SectionHeading eyebrow="The Story" title="Why Fair Assess NJ exists" />
+            </div>
           </Reveal>
-          <Reveal group className="flex max-w-prose flex-col gap-6 text-lg text-ink-800">
+          <Reveal group className="flex max-w-prose flex-col gap-6 text-lg text-ink-800 lg:col-span-8">
             {STORY.map((paragraph) => (
               <p key={paragraph.slice(0, 24)}>{paragraph}</p>
             ))}
           </Reveal>
         </div>
       </section>
-
-      <BalanceDivider />
 
       <section id="values" className="bg-mist-50">
         <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
@@ -150,7 +150,7 @@ export default async function AboutPage() {
             {values.map((value) => (
               <div
                 key={value.title}
-                className="flex flex-col rounded-card border border-outline-200 bg-white p-6 shadow-soft sm:p-8"
+                className="flex flex-col rounded-card border border-outline-200 bg-white p-6 sm:p-8"
               >
                 <h3 className="font-heading text-lg font-bold text-navy-900">{value.title}</h3>
                 <p className="mt-2 flex-1 text-base text-ink-600">{value.body}</p>

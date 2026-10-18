@@ -36,19 +36,23 @@ export function RankingsPreview({
   return (
     <section id="rankings" className="bg-white">
       <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
-        <Reveal>
-          <SectionHeading
-            eyebrow="Town rankings preview"
-            title={`The ${towns.length} towns that lean most regressive`}
-          />
-          <div className="-mt-4 mb-10 flex max-w-prose flex-col gap-4 text-base text-ink-800 sm:mb-12">
-            <p>
+        {/* Split (Prompt 10B): the two tests on the left, how to read the list beside it, instead of a
+            three-paragraph wall above the list. Same words and numbers. */}
+        <Reveal className="mb-10 grid gap-8 sm:mb-12 lg:grid-cols-12 lg:items-end lg:gap-8">
+          <div className="lg:col-span-7">
+            <SectionHeading
+              eyebrow="Town rankings preview"
+              title={`The ${towns.length} towns that lean most regressive`}
+            />
+            <p className="-mt-4 max-w-prose text-base text-ink-800">
               We use two standard tests from the International Association of Assessing Officers (IAAO), the
               professional group for assessors. <strong className="font-semibold text-navy-900">PRB</strong> (price-related
               bias) shows how the assessment ratio changes as home value goes up.{" "}
               <strong className="font-semibold text-navy-900">PRD</strong> (price-related differential) compares the
               average ratio with a value-weighted one; above 1.03 means cheaper homes tend to have higher ratios.
             </p>
+          </div>
+          <div className="flex flex-col gap-4 rounded-card bg-mist-50 p-6 text-base text-ink-800 lg:col-span-5">
             <p>
               These are the first {towns.length} of the <span className="tabular-nums">{rankedCount}</span> towns with
               enough sales to rank, sorted by PRB. A town gets the &ldquo;Regressive pattern&rdquo; label only when both
@@ -69,7 +73,7 @@ export function RankingsPreview({
             return (
               <article
                 key={town.slug}
-                className="grid gap-4 rounded-card border border-outline-200 bg-white p-6 shadow-soft md:grid-cols-[auto_1fr_auto] md:items-start md:gap-8"
+                className="grid gap-4 rounded-card border border-outline-200 bg-white p-6 md:grid-cols-[auto_1fr_auto] md:items-start md:gap-8"
               >
                 <p className="font-heading text-xl font-extrabold tabular-nums text-blue-600">
                   <span className="sr-only">Rank </span>
@@ -93,7 +97,7 @@ export function RankingsPreview({
                     </ul>
                   )}
                 </div>
-                <dl className="grid grid-cols-3 gap-x-6 gap-y-1 text-sm md:grid-cols-1 md:text-right">
+                <dl className="grid grid-cols-3 gap-x-6 gap-y-1 text-sm md:text-right">
                   <div>
                     <dt className="text-ink-600">PRB</dt>
                     <dd className="font-semibold tabular-nums text-navy-900">{town.stats.prb.toFixed(4)}</dd>
@@ -129,9 +133,13 @@ export function RankingsPreview({
           </a>
           .
         </p>
-        <Link href="/towns" className={`${LINK} mt-6 inline-flex min-h-12 items-center gap-1`}>
+        <Link href="/towns" className={`${LINK} group mt-6 inline-flex min-h-12 items-center gap-1`}>
           See the full town rankings
-          <ArrowRight aria-hidden="true" className="h-4 w-4" strokeWidth={2} />
+          <ArrowRight
+            aria-hidden="true"
+            className="h-4 w-4 transition-transform duration-[var(--duration-press)] ease-[var(--ease-out)] motion-safe:group-hover:translate-x-0.5"
+            strokeWidth={2}
+          />
         </Link>
       </div>
     </section>

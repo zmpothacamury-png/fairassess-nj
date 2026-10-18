@@ -31,7 +31,7 @@ export function WhyItMatters() {
         </Reveal>
 
         <Reveal>
-          <figure className="rounded-card border border-outline-200 bg-white p-6 shadow-soft sm:p-8">
+          <figure className="rounded-card border border-outline-200 bg-white p-6 sm:p-8">
             <StatusPill status="neutral">Example with made-up numbers</StatusPill>
             <figcaption className="mt-4 font-heading text-lg font-bold text-navy-900">
               Two homes in the same town

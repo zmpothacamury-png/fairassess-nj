@@ -60,7 +60,7 @@ export function WaitlistForm({ source }: { source: "hero" | "footer" | "contact"
     return (
       <p
         role="status"
-        className="flex gap-2 rounded-card border-l-4 border-green-600 bg-green-100 px-4 py-3 text-base text-navy-900"
+        className="flex gap-2 rounded-card bg-green-100 px-4 py-3 text-base text-navy-900"
       >
         <CircleCheck aria-hidden="true" className="mt-0.5 h-5 w-5 shrink-0 text-green-700" strokeWidth={2} />
         <span>

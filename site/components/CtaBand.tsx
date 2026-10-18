@@ -27,7 +27,7 @@ export function CtaBand({
       <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
         <Reveal
           className={`flex flex-wrap items-center justify-between gap-8 overflow-hidden rounded-card px-8 py-12 sm:px-14 ${
-            navy ? "bg-navy-900" : "split-accent border border-outline-200 bg-white shadow-soft"
+            navy ? "bg-navy-900" : "split-accent border border-outline-200 bg-white"
           }`}
         >
           <div className="max-w-prose">
