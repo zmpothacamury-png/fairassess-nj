@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-18 (Prompt 16: README and open-source readiness)
+- Safety check before going public: nothing from `private/`, `data/raw/`, `data/interim/`, or any `.env` file is tracked or was ever in the history (only empty `.gitkeep` files and the blank `site/.env.local.example`). A search of all 16 commits found no keys, tokens, passwords, or real Supabase URLs. Committed data has no owner names or street addresses.
+- New `README.md`: logo, tagline, live link, CI badge, both features with screenshots, why it matters, a data-flow diagram, methodology in brief with the validation headline, Windows PowerShell steps (download the raw data, set up Python, run the pipeline, run the site, run `scripts\check-all.ps1`), project structure, testing, data sources and license, the 2.0 roadmap (the six items on /about), a placeholder "How AI was used" section, the disclaimer, and author and contact.
+- New `docs/screenshots/` images (desktop 1280px and phone 390px): home, town rankings, the Bergenfield page, and a checker result for an example input (Teaneck, $450,000).
+- New `CONTRIBUTING.md` and a "Bug report" issue template. The "Report a data problem" template now asks for the source too.
+- `site/README.md`: removed out-of-date parts (pre-launch description, old to-do list for removed components, old palette, a fake email). Kept the run steps and the Supabase setup checklist.
+- Removed the old draft folder `src/` (replaced by `pipeline/`; approved 2026-10-14) and the empty `docs/log.md`. CLAUDE.md updated to match.
+- LICENSE stays the standard MIT text so GitHub recognizes it. The data note (public NJ records; our processed data under CC-BY 4.0) is in the README.
+- 196 pytest, 256 Vitest, lint, validate-data, build, 156 Playwright pass.
+
 ## 2026-10-18 (Prompt 15: Testing and reliability)
 - New browser tests. `e2e/home.spec.ts`: the home page's headline numbers match `meta.json` and `county.json`; every nav tab (and both Learn links) opens its page, and only that tab is marked current, on desktop and in the phone menu; the 404 page links home.
 - `e2e/towns.spec.ts`: the forest plot and the rankings table list the same 48 towns in the same order; clicking a town opens its page; a regressive town (Bergenfield), a within-standards town (Fair Lawn), and a limited-data town (Closter) each show their 4 measures, draw their charts, and open the chart table.

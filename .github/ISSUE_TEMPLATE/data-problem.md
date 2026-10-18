@@ -1,6 +1,6 @@
 ---
 name: Report a data problem
-about: Tell us about a number on FairAssess NJ that looks wrong.
+about: A number, deadline, fee, or link on FairAssess NJ looks wrong.
 title: "Data problem: "
 labels: data
 ---
@@ -11,8 +11,8 @@ Thank you for helping keep FairAssess NJ accurate.
 
 **Town:**
 
-**Which page?** (for example: Town Rankings, a town page, the Appeal Checker)
+**Which page?** (for example: Town Rankings, a town page, the Appeal Checker, the Appeal Guide)
 
-**What looks wrong?**
+**What looks wrong?** (the number or text you saw)
 
-**What do you think it should be, and where did you see that?** (a link to a public source helps)
+**Source:** What do you think it should be, and where did you see that? (a link to a public source, such as the NJ Division of Taxation or the Bergen County Board of Taxation, helps a lot)

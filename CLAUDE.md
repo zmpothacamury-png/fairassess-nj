@@ -33,14 +33,14 @@ Zaden, a high school student. Explain things in simple words. He uses Windows, s
 - data/processed/ — final pipeline tables (CSV). Committed if each file is under 5 MB.
 - data/reference/ — Director's Ratios, tax rates, revaluation years, non-usable sale codes.
 - pipeline/ — Python code. Tests in pipeline/tests/.
-  - Transition note: early draft code still lives in src/. When the pipeline is built, move the v1 modules into pipeline/ and then delete src/ (Zaden approved this on 2026-10-14). src/hedonic.py is 2.0 roadmap work (hedonic regression), not v1. Do not build on it for v1.
+  - Transition note: the old draft folder src/ was deleted in Prompt 16 (2026-10-18), as Zaden approved on 2026-10-14. Its hedonic regression stub (src/hedonic.py, 2.0 roadmap work) is still in the git history (commit b476d12 and earlier).
   - Done in Prompt 2 (2026-10-14): DISCLAIMER.md and the site footer now use the combined disclaimer in rule 4.
   - Name on the website (Zaden, 2026-10-15): only the website writes the name "Fair Assess NJ" (two words; "FAIR ASSESS NJ" in the wordmark), including inside the rule 4 disclaimer as shown on the site. Everything else (repo docs, DISCLAIMER.md, logo artwork) keeps "FairAssess NJ".
 - notebooks/ — exploratory notebooks, numbered 01_, 02_, ...
 - reports/ — memos and one-page town findings.
 - site/ — the Next.js website. site/public/data/ holds the generated JSON. Never hand-edit it.
 - site/content/ — Markdown for the appeals guide, methodology, and about pages.
-- docs/ — methodology.md, validation.md, data-dictionary.md, facts-sheet.md, video-script.md, site-format.md, changelog.md. (docs/log.md is an older work log, kept for reference. New session entries go in private/build-log.md.)
+- docs/ — methodology.md, validation.md, data-dictionary.md, facts-sheet.md, video-script.md, site-format.md, changelog.md. New session entries go in private/build-log.md. (The old empty docs/log.md was deleted in Prompt 16.)
 - brand/ — original logo files.
 - private/ — NEVER pushed: gameplan, test homes, build log, notes. Never copy text from here into other files unless Zaden asks.
 

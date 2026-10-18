@@ -1,9 +1,13 @@
 # FairAssess NJ website
 
 Next.js (App Router) + Tailwind CSS. Deployed on Vercel, which builds only
-this `site/` folder. This is the pre-launch landing page: its one job is
-collecting waitlist emails before the analysis and appeal checker are
-ready.
+this `site/` folder. The project overview, data download steps, and
+pipeline commands are in the main [README](../README.md).
+
+The site reads the JSON files in `public/data/`, which the Python pipeline
+writes (never edit them by hand). Design tokens and components:
+[docs/design-system.md](../docs/design-system.md). Page layouts:
+[docs/site-format.md](../docs/site-format.md).
 
 ## Run it locally (Windows PowerShell)
 
@@ -15,8 +19,8 @@ Copy-Item .env.local.example .env.local
 npm run dev
 ```
 
-Open http://localhost:3000. The waitlist form will show the generic error
-message until `.env.local` has real Supabase values in it.
+Open http://localhost:3000. Only the waitlist form needs Supabase. It shows
+the generic error message until `.env.local` has real values in it.
 
 Before saying a change is done, always run:
 
@@ -75,33 +79,3 @@ Do these once, in order, in the Supabase and Vercel dashboards.
    After adding or editing one, trigger a new deploy (push a commit, or
    click **Redeploy** in the Vercel dashboard).
 
-## Placeholders to fill in before launch
-
-- `components/ProblemSection.tsx` — the "How assessments work" column has
-  a TODO to confirm wording once the methodology is final.
-- `components/ProblemSection.tsx` — the regressivity column has a TODO
-  placeholder statistic (`[Placeholder statistic: X%...]`). Do not publish
-  a number here until it comes from the actual analysis.
-- `components/AppealBasics.tsx` — TODO to confirm the current county tax
-  board filing fee schedule (it scales with assessed value) and fill in
-  the real numbers. The April 1 / May 1 deadline text is general NJ law;
-  double check it still matches state law at launch time.
-- `components/MethodologySection.tsx` — TODO to paste in the finished
-  methodology summary from `docs/methodology.md`.
-- `components/Footer.tsx` — TODO to swap the placeholder contact email
-  (`contact@fairassessnj.org`) for a real one.
-
-## Color palette and fonts (for the logo designer)
-
-Deep navy `#0B2545` and secondary navy `#1B4965` on pale blue-gray
-`#E8EDF2` and off-white `#FAFBFC`, with a single muted gold `#B8860B`
-accent used sparingly; headline serif is Source Serif 4, body/UI sans is
-Source Sans 3.
-
-## Notes for future Claude Code sessions
-
-Tailwind CSS here is v4, which configures itself in CSS (see the
-`@theme inline` block in `app/globals.css`) instead of a
-`tailwind.config.js` file. That's where the `ink` / `slate` / `mist` /
-`paper` / `gold` / `signal` color tokens and the serif/sans font
-variables are defined.
