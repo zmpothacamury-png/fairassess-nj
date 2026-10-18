@@ -235,10 +235,6 @@ The processed data has no owner names or street addresses.
 - Collecting appeal results from county tax boards.
 - A Spanish version and easier design for older homeowners.
 
-## How AI was used
-
-[Zaden will write this section.]
-
 ## Disclaimer
 
 FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.

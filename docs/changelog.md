@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-18 (Prompt 16: README and open-source readiness)
+- Took the AI assistant instruction files (`CLAUDE.md`, `site/CLAUDE.md`, `site/AGENTS.md`) out of the public repo. They stay on Zaden's computer and are now in `.gitignore`. Removed the placeholder "How AI was used" section from `README.md`.
 - Safety check before going public: nothing from `private/`, `data/raw/`, `data/interim/`, or any `.env` file is tracked or was ever in the history (only empty `.gitkeep` files and the blank `site/.env.local.example`). A search of all 16 commits found no keys, tokens, passwords, or real Supabase URLs. Committed data has no owner names or street addresses.
 - New `README.md`: logo, tagline, live link, CI badge, both features with screenshots, why it matters, a data-flow diagram, methodology in brief with the validation headline, Windows PowerShell steps (download the raw data, set up Python, run the pipeline, run the site, run `scripts\check-all.ps1`), project structure, testing, data sources and license, the 2.0 roadmap (the six items on /about), a placeholder "How AI was used" section, the disclaimer, and author and contact.
 - New `docs/screenshots/` images (desktop 1280px and phone 390px): home, town rankings, the Bergenfield page, and a checker result for an example input (Teaneck, $450,000).
