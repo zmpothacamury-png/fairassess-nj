@@ -23,18 +23,18 @@ import { TownCombobox, type TownOption } from "./TownCombobox";
 
 const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 
-/** The privacy line Prompt 12 asks for (CLAUDE.md rule 3), with the website's spelling of the name. */
+/** The privacy line (privacy rule), with the website's spelling of the name. */
 export const PRIVACY_LINE = "Nothing you type leaves your browser. Fair Assess NJ does not save or send your information.";
 
 type Status = "idle" | "loading" | "error" | "done";
 type Errors = Partial<Record<InputField, string>>;
 
 /**
- * The appeal checker form and result (Prompt 12). All checker math is in
+ * The appeal checker form and result. All checker math is in
  * lib/checker; this file only collects the inputs, loads the one public town
  * file, calls validateInputs and runChecker, and shows the answer.
  *
- * Privacy (CLAUDE.md rule 3): nothing typed here is sent, stored, or put in
+ * Privacy (privacy rule): nothing typed here is sent, stored, or put in
  * the URL. The only request is the town file, /data/towns/<slug>.json. The
  * town slug is the only thing read from the URL (?town=), and it is never
  * written back. Tests: components/checker/checker-ui.test.tsx, e2e/check.spec.ts.

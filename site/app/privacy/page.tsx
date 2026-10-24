@@ -20,7 +20,7 @@ const LAST_UPDATED = "October 18, 2026";
 
 /**
  * Privacy, in plain language. Every statement here describes what the code
- * does (CLAUDE.md rule 3): the checker's only request is the public town file
+ * does (privacy rule): the checker's only request is the public town file
  * (lib/checker/load-town.ts); the waitlist stores email, source, and date
  * (supabase/schema.sql) behind Row Level Security that allows insert only;
  * Vercel Web Analytics counts page views only, with the ?query and #hash

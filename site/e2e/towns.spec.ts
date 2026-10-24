@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-/** Town Rankings and town pages (Prompt 10A): keyboard access, sorting, filters, and page basics. */
+/** Town Rankings and town pages: keyboard access, sorting, filters, and page basics. */
 
 test.describe("Town Rankings page", () => {
   test("every forest-plot dot is a link reachable with Tab, and focus shows its details", async ({ page }) => {

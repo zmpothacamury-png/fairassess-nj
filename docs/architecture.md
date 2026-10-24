@@ -1,7 +1,7 @@
 # Architecture
 
 How FairAssess NJ is put together for v1 (Bergen County, single-family homes).
-Written 2026-10-14 after the Prompt 1 repo audit.
+Written 2026-10-14 after the first repo audit.
 
 ## Folder layout
 
@@ -69,7 +69,7 @@ fairassessnj/
 Key points:
 - No analysis runs on a server. The pipeline runs on Zaden's machine. The checker runs in the browser.
 - The site only reads static JSON. Every file and field is listed in `docs/data-contract.md`, with a matching zod schema in `site/lib/data/schema.ts`.
-- `npm run build` first runs `npm run validate-data`. If a data file is missing, has the wrong shape, or is over the size budget (150 KB per town file, 5 MB in all), **the build fails**, so bad data never reaches users. (Changed in Prompt 8; before that, the build passed without data.)
+- `npm run build` first runs `npm run validate-data`. If a data file is missing, has the wrong shape, or is over the size budget (150 KB per town file, 5 MB in all), **the build fails**, so bad data never reaches users. (Changed 2026-10-15; before that, the build passed without data.)
 - Pages read the files with `site/lib/data/load.ts`, which validates each file again on read.
 - Supabase is used only for the waitlist (and maybe a feedback form later).
 
@@ -89,5 +89,5 @@ Key points:
 | `/design` | Internal style guide (hidden from search engines, not in the nav) |
 | 404 page | `app/not-found.tsx`: friendly "page not found" with links home |
 
-Every page shows the disclaimer from CLAUDE.md rule 4, word for word.
+Every page shows the disclaimer, word for word.
 Header tabs, footer layout, page skeletons, and motion: see `docs/site-format.md`.

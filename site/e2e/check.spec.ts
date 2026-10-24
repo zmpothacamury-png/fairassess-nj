@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 
 /**
- * Appeal checker (Prompt 12): every verdict in a real browser, keyboard use,
+ * Appeal checker: every verdict in a real browser, keyboard use,
  * 375px phones, and privacy (nothing typed reaches a request or the URL).
  * Inputs are real examples from the data (checked against the engine).
  */

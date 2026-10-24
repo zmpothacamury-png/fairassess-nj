@@ -80,7 +80,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* One balance divider per page (Prompt 10B); after it, sections are set apart by white | mist tone steps. */}
+      {/* One balance divider per page; after it, sections are set apart by white | mist tone steps. */}
       <BalanceDivider />
       <HowItWorks />
       <WhyItMatters />

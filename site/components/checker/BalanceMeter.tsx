@@ -14,7 +14,7 @@ export type MeterRange = {
 export type MeterMarker = { mid: number; low?: number; high?: number; label: string };
 
 /**
- * The balance meter (Prompt 12's signature visual). A horizontal track of
+ * The balance meter (the checker's signature visual). A horizontal track of
  * assessment ratios: blue zone below the town's common level range, green
  * inside it, gold above it (the result colors). The gold dot is the town's
  * average ratio, like the logo's pivot. The navy bar is the homeowner's ratio

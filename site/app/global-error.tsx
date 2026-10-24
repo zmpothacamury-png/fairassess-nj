@@ -6,8 +6,8 @@ import { SITE_NAME } from "@/lib/site";
 
 /**
  * Last-resort error page, used only if the site's layout itself breaks
- * (Prompt 14). It replaces the whole page, so it brings its own <html>,
- * styles, title, and the rule 4 disclaimer. Plain links, not client
+ * too. It replaces the whole page, so it brings its own <html>,
+ * styles, title, and the required disclaimer. Plain links, not client
  * navigation, so the visitor gets a fresh page.
  */
 export default function GlobalError({ retry }: { error: Error & { digest?: string }; retry: () => void }) {

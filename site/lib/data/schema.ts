@@ -4,7 +4,7 @@
 import { z } from "zod";
 
 // No eval: Zod would otherwise test `Function("")`, which the site's
-// Content-Security-Policy blocks and the browser reports (Prompt 14).
+// Content-Security-Policy blocks and the browser reports.
 z.config({ jitless: true });
 
 const isoDate = z.iso.date(); // YYYY-MM-DD

@@ -6,7 +6,7 @@ import { labelStatus } from "@/lib/towns";
 /**
  * Helpers for the generated share images (next/og). Those images can't use
  * CSS variables, so colors are read from the design tokens in globals.css
- * (rule 9: no hex colors in components).
+ * (design-token rule: no hex colors in components).
  */
 const CSS = readFileSync(path.join(process.cwd(), "app", "globals.css"), "utf8");
 

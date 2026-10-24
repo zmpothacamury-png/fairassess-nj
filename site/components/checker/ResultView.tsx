@@ -44,7 +44,7 @@ function Figure({ label, value, note, small = false }: { label: ReactNode; value
 export type CheckedInputs = { townName: string; assessedValue: number; ownEstimate: number | null; checkedOn: string };
 
 /**
- * The checker result (Prompt 12). It only shows what runChecker returned; it
+ * The checker result. It only shows what runChecker returned; it
  * never re-does any math. It appears at once: nothing here fades or slides in
  * (site-format: never animate a checker result). Only the small scale icon in
  * the balance meter tilts, and only if the visitor allows motion.
@@ -286,13 +286,13 @@ export const ResultView = forwardRef<
         Printing happens on your device. Nothing is saved.
       </p>
 
-      {/* 9. Disclaimer, right under the result (CLAUDE.md rule 4). */}
+      {/* 9. Disclaimer, right under the result (disclaimer rule). */}
       <Disclaimer className="border-t border-outline-200 pt-6" />
     </div>
   );
 });
 
-/** Only on paper: the logo, the inputs, and the date (Prompt 12 print stylesheet). */
+/** Only on paper: the logo, the inputs, and the date (print stylesheet). */
 function PrintHeader({ inputs }: { inputs: CheckedInputs }) {
   return (
     <div className="hidden print:block">

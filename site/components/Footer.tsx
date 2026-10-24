@@ -40,7 +40,7 @@ function BalanceLine({ thick = false }: { thick?: boolean }) {
 }
 
 /**
- * Site footer, on every page (CLAUDE.md rule 4). Three bands on the site grid:
+ * Site footer, on every page (disclaimer rule). Three bands on the site grid:
  * 1. Brand + disclaimer (left), link columns (right).
  * 2. Data trust lines: data date, source, independence.
  * 3. Bottom bar: credit and the tagline (T&T's tagline spot).

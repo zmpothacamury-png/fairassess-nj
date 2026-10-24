@@ -1,6 +1,6 @@
 # Site format
 
-Written in Prompt 2B (2026-10-14). Updated in Prompt 10 Part B (2026-10-18, UI redesign): page patterns and the "not vibe coded" checklist below; values in `docs/design-system.md`. FairAssess NJ follows the same site **format** as Zaden's other site, Trust & Transition (trustandtransition.org, "T&T"): the same kind of tabs, page skeletons, scroll-to-explore button, and text transitions with the **same motion values**. Colors, fonts, and components come from `docs/design-system.md`. Page content comes from Prompts 9–13.
+Written 2026-10-14. Updated 2026-10-18 (UI redesign): page patterns and the design quality checklist below; values in `docs/design-system.md`. FairAssess NJ follows the same site **format** as Zaden's other site, Trust & Transition (trustandtransition.org, "T&T"): the same kind of tabs, page skeletons, scroll-to-explore button, and text transitions with the **same motion values**. Colors, fonts, and components come from `docs/design-system.md`. Page content is built on top of these patterns.
 
 **T&T source used:** `C:\Users\sxp15\trustAndTransition\TrustAndTransition\` (`site.css`, `site.js`, `index.html`, `about.html`, `contact.html`). These files are identical to the live trustandtransition.org (checked 2026-10-14). Citations below are `file:line` in that folder. No T&T text, logo, images, or colors were copied.
 
@@ -83,7 +83,7 @@ Written in Prompt 2B (2026-10-14). Updated in Prompt 10 Part B (2026-10-18, UI r
 | Scroll cue hover | lift 2px | 0.45s | same | — | hover | — | site.css:127-128 |
 | Scroll cue click | smooth scroll to next section/footer | browser smooth scroll | browser | — | click; next stop > 40px below; lands header − 4px | — | site.js:228-238 |
 | Header elevation | border and shadow fade in | 0.3s | same | — | scrollY > 8 | Yes | site.js:12-16; site.css:28-30 |
-| Tab underline | gold 2px line grows left→right (ours: `scaleX` from the left edge, Prompt 10B; T&T animates `right`) | 0.3s | same | — | hover, or current page | — | site.css:37-41 |
+| Tab underline | gold 2px line grows left→right (ours: `scaleX` from the left edge; T&T animates `right`) | 0.3s | same | — | hover, or current page | — | site.css:37-41 |
 | Mobile menu | slides in from the right (translateX 100%→0) | 0.3s | same | — | menu button | — | site.css:44-48 |
 | Buttons | lift 2px, shadow grows | 0.25s | same | — | hover | — | site.css:56-64 |
 | Cards (some) | lift 5px, shadow grows | 0.32s | same | — | hover | — | site.css:84-87 |
@@ -118,16 +118,16 @@ Written in Prompt 2B (2026-10-14). Updated in Prompt 10 Part B (2026-10-18, UI r
 
 | Page | Skeleton | Built in |
 |---|---|---|
-| Home | Hero (eyebrow, headline at `text-5xl`, one sentence, buttons **Check my assessment** + **See town rankings**, NJ watermark, logo visual on the right) → four StatCards from `meta.json` and `county.json` → the page's one balance divider → "How It Works" 01–03 as a numbered list (no boxes) → "Why it matters" (made-up two-home example, labeled) → rankings preview (first 5 towns by PRB, with real labels and caveats) → "Meet the Founder" teaser + "Read the Full Story" + "Get updates" link → closing band "Is your assessment fair? Find out in two minutes." + Check My Assessment → disclaimer. Prompt 9 set this order and dropped the "Two free tools" cards (the hero buttons and CTA band cover both tools). **No testimonials** (never invent quotes). Prompt 10B: the hero is not wrapped in `Reveal`; rankings preview and founder teaser are 12-column splits. | Prompt 9 (built), 10B (restyled) |
-| Town Rankings | `PageHeader` → intro split (how the tests work, left; label counts as figures, right) → forest plot → rankings: table from 1024px; below 1024px compact cards with "More numbers", first 12 towns then "Show all" (a search or filter shows every match) → towns without enough sales (two across on phones) → "Check our numbers" → `CtaBand` → disclaimer | Prompt 10A, restyled 10B |
-| Town page | `PageHeader` with `back` link and `meta` row (label pill, rank, sales) → short band (what the label means + notes) → 01 Key numbers (4 StatCards) → 02 Charts → 03 Chapter 123 (figure row, sentence, deadline + fee, checker button) → 04 Checking our work (figure panel + text) → 05 Context (one panel of 3 figures) → 06 Data notes → `CtaBand` → disclaimer | Prompt 10A, restyled 10B |
-| Appeal Checker | `PageHeader` ("Is your assessment fair?") → white band: 12-column split, form (Steps 1–3, 7 columns) and aside (privacy panel with lock icon; "What the checker does" with Term pop-ups, 5 columns; on phones the privacy panel comes first) → mist band: the result, which appears at once (never revealed or faded in): verdict card → balance meter → key numbers → warnings → Show the math → comps table → What to do next → Print / Check another home → disclaimer → `CtaBand` to /towns. Print shows only the result. | Prompt 12 |
-| How It Works | `PageHeader` (with methodology version in `meta`) → short band: 01 The question (split with an "On this page" list) → numbered report sections 02–09, white | mist: data sources table, cleaning funnel (ChartFrame + table), measure cards with KaTeX formulas + IAAO range table + label rules, Chapter 123 with a labeled made-up example, checker steps 01–06 + price index chart, validation (headline, figure row, "What I changed", full table in a `<details>`), limitations, versions + CSV + GitHub + disclaimer → `CtaBand` to /check | Prompt 13 |
-| Appeal Guide | `PageHeader` ("Sources last checked" in `meta`) → short band: figure row (deadline, revaluation deadline, fee) + "You file your own appeal" callout + step links → 7 numbered steps, each a 12-column split (big number + h2 left, text right), white | mist; every fact followed by its source link; missing facts say "Check with the Bergen County Board of Taxation" → disclaimer + source list → `CtaBand` to /check. Facts only from `data/raw/notes/appeal-info.md`. | Prompt 13 |
-| About | Founder header (logo, "About the Founder", "Zaden Pothacamury", "Founder, Fair Assess NJ", bio) → "The Story" ("Why Fair Assess NJ exists", 3 paragraphs in Zaden's words) → "Four promises to every homeowner" (no eyebrow; Accuracy with the real validation number from `validation.json`, Transparency, Privacy, Free & accessible) → "What's next" (Version 2.0, 6 items) beside a Credits panel (data, measures, GitHub, email, Get Updates) → band "Want to get in touch?" → `/contact`. No team section (no other names given). | Built 2026-10-15; roadmap and credits Prompt 13 |
+| Home | Hero (eyebrow, headline at `text-5xl`, one sentence, buttons **Check my assessment** + **See town rankings**, NJ watermark, logo visual on the right) → four StatCards from `meta.json` and `county.json` → the page's one balance divider → "How It Works" 01–03 as a numbered list (no boxes) → "Why it matters" (made-up two-home example, labeled) → rankings preview (first 5 towns by PRB, with real labels and caveats) → "Meet the Founder" teaser + "Read the Full Story" + "Get updates" link → closing band "Is your assessment fair? Find out in two minutes." + Check My Assessment → disclaimer. This order dropped the "Two free tools" cards (the hero buttons and CTA band cover both tools). **No testimonials** (never invent quotes). The hero is not wrapped in `Reveal`; rankings preview and founder teaser are 12-column splits. | Built 2026-10-15, restyled 2026-10-18 |
+| Town Rankings | `PageHeader` → intro split (how the tests work, left; label counts as figures, right) → forest plot → rankings: table from 1024px; below 1024px compact cards with "More numbers", first 12 towns then "Show all" (a search or filter shows every match) → towns without enough sales (two across on phones) → "Check our numbers" → `CtaBand` → disclaimer | 2026-10-18 |
+| Town page | `PageHeader` with `back` link and `meta` row (label pill, rank, sales) → short band (what the label means + notes) → 01 Key numbers (4 StatCards) → 02 Charts → 03 Chapter 123 (figure row, sentence, deadline + fee, checker button) → 04 Checking our work (figure panel + text) → 05 Context (one panel of 3 figures) → 06 Data notes → `CtaBand` → disclaimer | 2026-10-18 |
+| Appeal Checker | `PageHeader` ("Is your assessment fair?") → white band: 12-column split, form (Steps 1–3, 7 columns) and aside (privacy panel with lock icon; "What the checker does" with Term pop-ups, 5 columns; on phones the privacy panel comes first) → mist band: the result, which appears at once (never revealed or faded in): verdict card → balance meter → key numbers → warnings → Show the math → comps table → What to do next → Print / Check another home → disclaimer → `CtaBand` to /towns. Print shows only the result. | 2026-10-18 |
+| How It Works | `PageHeader` (with methodology version in `meta`) → short band: 01 The question (split with an "On this page" list) → numbered report sections 02–09, white | mist: data sources table, cleaning funnel (ChartFrame + table), measure cards with KaTeX formulas + IAAO range table + label rules, Chapter 123 with a labeled made-up example, checker steps 01–06 + price index chart, validation (headline, figure row, "What I changed", full table in a `<details>`), limitations, versions + CSV + GitHub + disclaimer → `CtaBand` to /check | 2026-10-18 |
+| Appeal Guide | `PageHeader` ("Sources last checked" in `meta`) → short band: figure row (deadline, revaluation deadline, fee) + "You file your own appeal" callout + step links → 7 numbered steps, each a 12-column split (big number + h2 left, text right), white | mist; every fact followed by its source link; missing facts say "Check with the Bergen County Board of Taxation" → disclaimer + source list → `CtaBand` to /check. Facts only from `data/raw/notes/appeal-info.md`. | 2026-10-18 |
+| About | Founder header (logo, "About the Founder", "Zaden Pothacamury", "Founder, Fair Assess NJ", bio) → "The Story" ("Why Fair Assess NJ exists", 3 paragraphs in Zaden's words) → "Four promises to every homeowner" (no eyebrow; Accuracy with the real validation number from `validation.json`, Transparency, Privacy, Free & accessible) → "What's next" (Version 2.0, 6 items) beside a Credits panel (data, measures, GitHub, email, Get Updates) → band "Want to get in touch?" → `/contact`. No team section (no other names given). | Built 2026-10-15; roadmap and credits 2026-10-18 |
 | Contact | `PageHeader` → Get Updates form at `#updates` (the Supabase waitlist form) beside: email, Report a data problem, press/partnerships | Now |
-| Privacy | `PageHeader` ("Last updated" in `meta`) → one narrow column of 5 items with icons (the checker, the updates list, analytics and cookies, no ads, reporting a problem) → `CtaBand` to /contact | Prompt 13 |
-| 404 | `PageHeader` → buttons Home and Check My Assessment (no second divider) | Now, restyled 10B |
+| Privacy | `PageHeader` ("Last updated" in `meta`) → one narrow column of 5 items with icons (the checker, the updates list, analytics and cookies, no ads, reporting a problem) → `CtaBand` to /contact | 2026-10-18 |
+| 404 | `PageHeader` → buttons Home and Check My Assessment (no second divider) | Now, restyled 2026-10-18 |
 
 ### Inner-page colors (changed 2026-10-15, Zaden: "different than T&T", not too green or yellow)
 - **Page header:** the logo's light blue tint (blue-100) instead of T&T's dark navy band, with a faint NJ outline, a blue-600 eyebrow with a gold dot, a navy-900 heading, and the logo's blue | green balance line with a gold pivot along the bottom. The About page's founder header uses the same look.
@@ -148,14 +148,14 @@ Written in Prompt 2B (2026-10-14). Updated in Prompt 10 Part B (2026-10-18, UI r
   3. **Focus:** clicking the cue also moves keyboard focus to the section it scrolls to.
   4. **Card hover lift:** not used yet. Button hover keeps the design-system look.
   5. **Reduced motion:** smooth scrolling also turns off (the cue jumps instantly).
-  6. **Home hero is not revealed** (Prompt 10B). It is the first screen, so it shows at full strength on load. Wrapped in `Reveal`, its buttons loaded part-transparent on phones and failed Lighthouse's contrast check. Every other `Reveal` keeps T&T's exact timing.
-  7. **Scroll cue label never wraps** (`white-space: nowrap`, Prompt 10B). On phones `left: 50%` capped its width and the label broke onto two lines. Sizes and motion unchanged.
-  8. **Micro-interactions** (Prompt 10B): press, hover, focus, pop-ups, menus, and chevrons have their own short motion (120–160ms). Table in `docs/design-system.md` section 4. They never touch the T&T values.
+  6. **Home hero is not revealed**. It is the first screen, so it shows at full strength on load. Wrapped in `Reveal`, its buttons loaded part-transparent on phones and failed Lighthouse's contrast check. Every other `Reveal` keeps T&T's exact timing.
+  7. **Scroll cue label never wraps** (`white-space: nowrap`). On phones `left: 50%` capped its width and the label broke onto two lines. Sizes and motion unchanged.
+  8. **Micro-interactions**: press, hover, focus, pop-ups, menus, and chevrons have their own short motion (120–160ms). Table in `docs/design-system.md` section 4. They never touch the T&T values.
 - **Accessibility:**
   - Content is always in the HTML, so search engines and no-JavaScript visitors see everything.
   - The scroll cue is a real button. It is hidden from screen readers and removed from the Tab order while it is invisible.
   - **Never wrap a checker result in `Reveal`.** Results must appear at once.
-- **Replaces:** this spec replaces the "under 200ms" note in Prompt 9.
+- **Replaces:** this spec replaces the earlier "under 200ms" note.
 
 ### Side by side
 
@@ -176,7 +176,7 @@ Written in Prompt 2B (2026-10-14). Updated in Prompt 10 Part B (2026-10-18, UI r
 
 ---
 
-## 3. "Not vibe coded" checklist (Prompt 18 runs this)
+## 3. Design quality checklist (run before launch)
 
 Goal: automatic credibility, like a state agency report crossed with a well-run research institute.
 
@@ -190,7 +190,7 @@ Goal: automatic credibility, like a state agency report crossed with a well-run 
 - [ ] Real data and the logo are the only visuals. No stock photos, decorative blobs, gradient meshes, glassmorphism, or emoji.
 - [ ] No icon-in-a-colored-circle on every card.
 - [ ] No shadow on anything at rest. Cards are outline only; side notes are tone panels; only pop-ups and menus float (`shadow-raised`).
-- [ ] No colored side stripe on callouts, list items, or menu items (impeccable flags it). Use a tinted surface + icon + bold title.
+- [ ] No colored side stripe on callouts, list items, or menu items (a stock template look). Use a tinted surface + icon + bold title.
 - [ ] At most one `BalanceDivider` per page. Separate sections by white | mist tone steps.
 - [ ] Never a card inside a card. Never three identical boxed cards as a section's whole layout: use a numbered list, a 12-column split, or a figure row.
 - [ ] Mostly white, mist, and navy. Blue, green, and gold carry meaning (assessed vs. market, fair vs. caution, the balance point), never decoration.
@@ -206,11 +206,11 @@ Goal: automatic credibility, like a state agency report crossed with a well-run 
 - [ ] "Checked against state ratios" note with the real validation number (from the pipeline's validation output).
 - [ ] Methodology version.
 - [ ] Open-source link (GitHub).
-- [ ] The disclaimer, word for word (CLAUDE.md rule 4).
+- [ ] The disclaimer, word for word (disclaimer rule).
 
 **Copy**
 - [ ] Specific, calm, real numbers. Eighth-grade reading level.
-- [ ] No hype words: "revolutionary", "unlock", "game-changing", "AI-powered", "seamless", "cutting-edge".
+- [ ] No hype words: "revolutionary", "unlock", "game-changing", "seamless", "cutting-edge".
 - [ ] Never "you will win". Deadline and fee wherever appeals come up.
 - [ ] No leftover template text (no "Lorem", "Coming soon" on a launched page, default Next.js text, or placeholder links).
 
@@ -218,8 +218,8 @@ Goal: automatic credibility, like a state agency report crossed with a well-run 
 - [ ] Only the T&T motion in `lib/motion.ts` for page motion. Micro-interactions follow the table in `docs/design-system.md` section 4 (120–160ms, transform/opacity/color only, `--ease-out`, reduced-motion fallback). No other animations.
 - [ ] Things opened often (disclosures, sort, filters) open instantly.
 
-**Worst-case data (break-ui, Prompt 10B)**
+**Worst-case data**
 - [ ] Long names wrap; numbers never wrap or truncate. Counts use `formatCount()`. Long stat values step down a size.
-- [ ] Test new tables and cards with: "Lower Alloways Creek Township", 1,284 sales, PRB −0.4445 (−0.9821 to +0.2607), $16,500,000, an empty list, and a list of one. The results of the first run are in `docs/redesign-audit.md`.
+- [ ] Test new tables and cards with: "Lower Alloways Creek Township", 1,284 sales, PRB −0.4445 (−0.9821 to +0.2607), $16,500,000, an empty list, and a list of one.
 - [ ] Reduced motion turns movement off; content still shows.
 - [ ] Nothing a homeowner needs (checker results, deadlines) waits on an animation.

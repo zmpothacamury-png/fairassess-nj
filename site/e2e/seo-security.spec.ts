@@ -1,7 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 
 /**
- * Search, sharing, and security headers (Prompt 14). Runs against the
+ * Search, sharing, and security headers. Runs against the
  * production build (npm run build first).
  */
 /** Collects every Content-Security-Policy violation the browser reports (even ones code catches, like a try/catch around eval). */

@@ -24,7 +24,7 @@ const LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-
 /*
  * "The Story" is Zaden's own words (private/about-founder.md), used with his
  * approval. Keep them word for word; the only change is the website's name
- * spacing, "Fair Assess NJ". CLAUDE.md rule 5 exception: these paragraphs show
+ * spacing, "Fair Assess NJ". Sourcing rule exception: these paragraphs show
  * no source links. Their two outside facts are backed up in
  * data/raw/notes/about-page-facts.md.
  */
@@ -34,7 +34,7 @@ const STORY = [
   "When I began researching property assessments, I discovered a troubling national trend: lower-priced homes are frequently over-assessed compared to more expensive ones. This means the families who can least afford it are often carrying an unfair tax burden. I wanted to know if this was happening right here in Bergen County—and more importantly, I wanted to create a solution. While the data to check these assessments is public, it’s buried in massive state spreadsheets. Fair Assess NJ takes that complex data and makes it simple, accessible, and actionable for every homeowner.",
 ];
 
-/** Version 2.0 roadmap, in Zaden's words from the Prompt 13 brief (CLAUDE.md "Out of scope for v1"). */
+/** Version 2.0 roadmap, in Zaden's words (the v1 scope list). */
 const NEXT = [
   "Cover all of New Jersey.",
   "Address lookup using the state's MOD-IV parcel records.",
@@ -140,7 +140,7 @@ export default async function AboutPage() {
       </header>
 
       <section id="story" className="bg-white">
-        {/* Editorial split (Prompt 10B): the heading stays in view on the left while the story reads on the right. */}
+        {/* Editorial split: the heading stays in view on the left while the story reads on the right. */}
         <div className="mx-auto grid max-w-content gap-2 px-6 py-20 sm:py-24 lg:grid-cols-12 lg:gap-8">
           <Reveal className="lg:col-span-4">
             <div className="lg:sticky lg:top-28">

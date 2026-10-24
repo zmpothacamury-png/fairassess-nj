@@ -28,7 +28,7 @@ const FIELD =
 const TOWN_LINK = "focus-ring font-semibold text-blue-600 underline underline-offset-4 hover:text-navy-700";
 const RANKED_LABELS = LABELS.filter((l) => l !== "Not enough sales");
 const SORT_KEYS: SortKey[] = ["prb", "prd", "cod", "median", "n_sales", "name"];
-/** Phone and iPad cards show this many towns until "Show all" (Prompt 10B). A search or label filter shows every match. */
+/** Phone and iPad cards show this many towns until "Show all". A search or label filter shows every match. */
 const CARDS_FIRST = 12;
 
 /** Data quality in a few words: limited data and outlier sensitivity (T6, C8). */
@@ -258,7 +258,7 @@ export function RankingsExplorer({
             </p>
           </div>
 
-          {/* Phones and iPads: one compact card per town (Prompt 10B). Rank, label, PRB and any data-quality
+          {/* Phones and iPads: one compact card per town. Rank, label, PRB and any data-quality
               note stay in view; PRD, COD, median ratio, and sales sit behind "More numbers". Two columns on iPads. */}
           <ul aria-label="Town cards" className="mt-4 grid gap-3 sm:grid-cols-2 lg:hidden">
             {cards.map((t, i) => {
@@ -368,7 +368,7 @@ export function RankingsExplorer({
           there.
         </p>
         {thin.length > 0 ? (
-          // Two across on phones (name over its count), side by side from sm (Prompt 10B: shorter phone page).
+          // Two across on phones (name over its count), side by side from sm (shorter phone page).
           <ul className="mt-6 grid grid-cols-2 gap-x-6 gap-y-2 lg:grid-cols-3">
             {thin.map((t) => (
               <li

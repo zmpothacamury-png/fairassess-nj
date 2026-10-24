@@ -62,7 +62,7 @@ export default async function TownsPage() {
       />
 
       <section className="bg-white">
-        {/* Editorial split (Prompt 10B): how the tests work on the left, the label counts as figures on the right. */}
+        {/* Editorial split: how the tests work on the left, the label counts as figures on the right. */}
         <div className="mx-auto grid max-w-content gap-12 px-6 py-20 sm:py-24 lg:grid-cols-12 lg:gap-8">
           <Reveal className="flex max-w-prose flex-col gap-4 text-base text-ink-800 lg:col-span-7">
             <p className="text-lg">

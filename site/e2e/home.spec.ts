@@ -3,7 +3,7 @@ import path from "node:path";
 import { expect, test } from "@playwright/test";
 
 /**
- * Home page, navigation, and the 404 page (Prompt 15). The headline numbers are read
+ * Home page, navigation, and the 404 page. The headline numbers are read
  * from the same pipeline files the page uses, so the test fails if the page shows
  * anything else. (Scroll-to-explore and reduced motion are in motion.spec.ts.)
  */

@@ -1,6 +1,6 @@
 /**
  * Required on every page, every results page, and every checker result
- * (CLAUDE.md rule 4). Word for word. Do not shorten or reword it.
+ * (disclaimer rule). Word for word. Do not shorten or reword it.
  */
 export const DISCLAIMER_TEXT =
   "Fair Assess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.";

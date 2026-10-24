@@ -1,12 +1,12 @@
 # Quality report: SEO, accessibility, performance, security
 
-Prompt 14, 2026-10-18. Every number below comes from a test run on Zaden's machine against the production build (`npm run build`, then `npm run start -- -p 3100`).
+Written 2026-10-18. Every number below comes from a test run on Zaden's machine against the production build (`npm run build`, then `npm run start -- -p 3100`).
 
 ## 1. Lighthouse (mobile)
 
 Lighthouse 13.5.0, default mobile settings (simulated slow 4G and a slower phone CPU), headless Chrome. Scores are out of 100.
 
-**Before** (one run per page, before any Prompt 14 change):
+**Before** (one run per page, before any of these changes):
 
 | Page | Performance | Accessibility | Best Practices | SEO | LCP | CLS | TBT |
 |---|---|---|---|---|---|---|---|
@@ -72,7 +72,7 @@ Each check below is now an automated test, so it stays true.
 2. **Logo images were about 9 times bigger than shown.** The header, footer, hero, and About logos now ask for files near their shown size (for example 25 x 44 in the header instead of 394 x 698). `priority` (deprecated in Next.js 16) was replaced.
 3. **Chart code (Recharts) now loads after the page shows,** on `/towns` (forest plot) and town pages (two charts). Each chart keeps a box of its exact height while it loads, so nothing moves (CLS stays 0). The tables and all the numbers are in the page from the start. The forest plot's Recharts part moved to `components/towns/ForestChart.tsx`. This change took `/towns` from 89 to 94.
 4. **Cache header for `/data/*.json`**: browsers keep the files 10 minutes, and Vercel's CDN keeps them until the next deploy.
-5. Already in place before Prompt 14: every page is built ahead of time (all 70 town pages through `generateStaticParams`), and fonts load through `next/font`.
+5. Already in place before: every page is built ahead of time (all 70 town pages through `generateStaticParams`), and fonts load through `next/font`.
 
 **A loading page was tried and removed.** A site-wide `app/loading.tsx` made every pre-built page send its skeleton first and the real content at the end of the HTML. On a slow phone, the footer showed first and then jumped (CLS 0.38) and the page took longer. Every page is pre-built, so visitors never wait on the server, and the file was removed. Places that do load something (the checker's town file) already show their own loading message.
 
@@ -100,7 +100,7 @@ Set for every path in `site/next.config.ts`:
 - Share images: the site-wide `opengraph-image.png` / `twitter-image.png` with alt text. Each town page has its own image made with `next/og` (`app/towns/[slug]/opengraph-image.tsx`): the town name, its label in the label's colors, and the logo on the mist background. All 70 are made at build time. Colors are read from the design tokens. The font is Montserrat (SIL Open Font License, `site/assets/fonts/`).
 - `sitemap.xml`: 8 pages and 70 town pages, dated with the data export date. `robots.txt`: everything allowed except `/design`.
 - JSON-LD: `WebApplication` on every page. `Dataset` on `/towns` for the town stats CSV (name, description, SR1A source, CC-BY 4.0 license from the README, date modified from `meta.json`).
-- Icons: `favicon.ico`, `icon.png`, `apple-icon.png` (from Prompt 2) are linked on every page (tested).
+- Icons: `favicon.ico`, `icon.png`, `apple-icon.png` are linked on every page (tested).
 
 ## 7. Analytics
 

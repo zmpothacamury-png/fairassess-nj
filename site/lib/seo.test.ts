@@ -71,7 +71,7 @@ describe("analytics", () => {
     expect(e.type).toBe("pageview");
   });
 
-  it("only SiteAnalytics imports analytics, and no custom events exist (rule 3)", () => {
+  it("only SiteAnalytics imports analytics, and no custom events exist (privacy rule)", () => {
     const hits: string[] = [];
     const walk = (dir: string) => {
       for (const name of readdirSync(dir)) {

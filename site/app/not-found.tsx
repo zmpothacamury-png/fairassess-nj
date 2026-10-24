@@ -3,8 +3,8 @@ import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
 /**
- * 404 page in the brand style: short message and two ways back. Prompt 10B:
- * the second balance line under the header was removed (the header already
+ * 404 page in the brand style: short message and two ways back.
+ * The second balance line under the header was removed (the header already
  * ends in one).
  */
 export default function NotFound() {

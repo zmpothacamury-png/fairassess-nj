@@ -1,4 +1,4 @@
-// Words and display choices for the appeal checker page (Prompt 12).
+// Words and display choices for the appeal checker page.
 //
 // The page never re-does any checker math (methodology Section 6). Everything
 // here only reads a CheckerResult from lib/checker and picks words, colors,

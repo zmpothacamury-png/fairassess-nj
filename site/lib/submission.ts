@@ -1,4 +1,4 @@
-// Numbers and helpers for the hidden submission pages (/cover and /handout, Prompt 17).
+// Numbers and helpers for the hidden submission pages (/cover and /handout).
 // Every number comes from the pipeline's JSON files or from the website's own checker
 // engine run on them. Nothing here is typed in by hand.
 import QRCode from "qrcode";
@@ -9,7 +9,7 @@ import type { County, PriceIndex, TownFile } from "@/lib/data/schema";
  *  Same example as the README checker screenshot. */
 export const EXAMPLE_HOME = { townSlug: "teaneck", assessedValue: 450_000 } as const;
 
-/** The town used for the handout's headline finding (Zaden, Prompt 17). */
+/** The town used for the handout's headline finding (Zaden). */
 export const HEADLINE_TOWN = "new-milford";
 
 /** Run the website's checker on the example home. */

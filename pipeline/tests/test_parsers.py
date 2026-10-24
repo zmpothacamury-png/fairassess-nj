@@ -1,4 +1,4 @@
-"""Tests for the Prompt 4 parsers (SR1A, Chapter 123, state tables, towns)."""
+"""Tests for the parsers (SR1A, Chapter 123, state tables, towns)."""
 
 from datetime import date
 

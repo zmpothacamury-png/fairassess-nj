@@ -31,7 +31,7 @@ const CHECK_BOARD = (
 /**
  * "How to Appeal in Bergen County". Every legal or procedural fact comes ONLY
  * from data/raw/notes/appeal-info.md and is followed by its source link
- * (CLAUDE.md rule 5). Anything the notes don't cover says "Check with the
+ * (sourcing rule). Anything the notes don't cover says "Check with the
  * Bergen County Board of Taxation" instead of guessing.
  */
 export default async function AppealGuidePage() {

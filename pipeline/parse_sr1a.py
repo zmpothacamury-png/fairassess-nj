@@ -24,7 +24,7 @@ from pipeline import config
 
 # Our short column name for each SR1A field we keep. Fields not listed here
 # are not kept. Names, addresses, and the seller's "name control" are never
-# kept (CLAUDE.md rule 2).
+# kept (no-secrets rule).
 COLUMN_NAMES = {
     "COUNTY-CODE": "county_code",
     "DISTRICT-CODE": "district_code",
@@ -65,7 +65,7 @@ COLUMN_NAMES = {
 }
 
 # Date formats. The PDF gives no format. These come from checking the data
-# (Prompt 4): deed, recording, and aging dates read as YYMMDD (for example,
+# itself: deed, recording, and aging dates read as YYMMDD (for example,
 # Sales2026 recording dates run 250701 to 260630). LAST-UPDATE-DATE reads as
 # MMDDYY (values like 122925 = December 29, 2025 cannot be YYMMDD).
 DATE_FORMATS = {

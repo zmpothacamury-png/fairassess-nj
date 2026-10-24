@@ -6,7 +6,7 @@ import { Button } from "./Button";
  * buttons on the left; the logo visual on the right. The New Jersey outline
  * sits behind it as a faint watermark (Motif B). `nTowns` comes from meta.json.
  *
- * Prompt 10B ("Refined", picked from 3 prototypes): a larger fluid headline
+ * "Refined" (picked from 3 prototypes): a larger fluid headline
  * (text-5xl, 44 -> 72px) so the first screen has one dominant element, and
  * the logo anchored to the 12-column grid. The hero is NOT wrapped in Reveal:
  * it is the first screen, so it shows at full strength on load. (Wrapped, its

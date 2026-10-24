@@ -22,7 +22,7 @@ export function Reveal({
   children: ReactNode;
   className?: string;
   group?: boolean;
-  /** The element to render (Prompt 10B): "ol" or "ul" lets a list be the group, so each item reveals in turn. */
+  /** The element to render: "ol" or "ul" lets a list be the group, so each item reveals in turn. */
   as?: "div" | "ol" | "ul";
 }) {
   return group ? (

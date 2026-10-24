@@ -3,7 +3,7 @@ import { loadTown, loadTowns } from "@/lib/data/load";
 import { fontFile, labelColors, publicImage, token } from "@/lib/og";
 
 /**
- * Share image for each town page (Prompt 14): the town name, its label, and
+ * Share image for each town page: the town name, its label, and
  * the logo on the mist background, with the NJ outline as in the page header.
  */
 export const alt = "Fair Assess NJ town page: the town's name and its assessment label, with the Fair Assess NJ logo.";

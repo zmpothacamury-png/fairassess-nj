@@ -1,6 +1,6 @@
 # Video script (2:30 to 3:00)
 
-Prompt 17, 2026-10-23. A first-person script for Zaden's App Challenge demo video, with a shot list. Every number comes from the live site or from `docs/facts-sheet.md`. The demo home is **made up**: you type only a town and an assessed value, never a real address.
+Written 2026-10-23. A first-person script for Zaden's App Challenge demo video, with a shot list. Every number comes from the live site or from `docs/facts-sheet.md`. The demo home is **made up**: you type only a town and an assessed value, never a real address.
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 

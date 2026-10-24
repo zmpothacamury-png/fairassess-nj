@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 
 /**
- * The town page's two Recharts charts, loaded after the page shows (Prompt 14).
+ * The town page's two Recharts charts, loaded after the page shows.
  * Recharts only draws in the browser anyway (it needs the chart's width), so
  * nothing is lost by skipping the server. Each placeholder is the chart's
  * exact height (plus the one-line legend under it), so the page doesn't jump.

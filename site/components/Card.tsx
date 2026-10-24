@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 /**
- * White card with a thin outline border. No shadow at rest (Prompt 10B):
+ * White card with a thin outline border. No shadow at rest:
  * shadows are only for things that float, like menus and pop-ups.
  * `accent` adds the split blue | green top border (Motif C). Use it on a few
  * key cards per page, not on every card.

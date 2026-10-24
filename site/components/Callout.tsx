@@ -12,8 +12,8 @@ const TONES = {
 /**
  * Note on a tinted surface with an icon. Text stays navy so it is easy to
  * read; the tint and the icon mark the kind of note (never color alone).
- * Prompt 10B: the thick colored left edge was removed (impeccable flags it
- * as a stock pattern); the tinted surface carries the meaning on its own.
+ * The thick colored left edge was removed (a stock
+ * template look); the tinted surface carries the meaning on its own.
  */
 export function Callout({
   tone = "info",

@@ -4,7 +4,7 @@
 
 This file compares our numbers with the State of New Jersey's published numbers and explains every big difference. The rules are V1 to V4 in `docs/methodology.md` Section 8. The code is `pipeline/validate.py` (the `validate` stage of `pipeline/run.py`). The full table is `data/processed/validation.csv`.
 
-The "Results (generated)" block below is rewritten by the pipeline on every run. Everything else in this file is written by hand. Last full check: 2026-10-15 (Prompt 7).
+The "Results (generated)" block below is rewritten by the pipeline on every run. Everything else in this file is written by hand. Last full check: 2026-10-15.
 
 ## The short answer
 
@@ -266,13 +266,13 @@ The other 16 towns follow the same pattern: averaging, plus class weighting in t
 
 ## What I changed because of validation
 
-Zaden asked Claude to decide the open items (2026-10-15: "based on the best interests of winning the congressional app challenge, the usefulness of the website, the success of the website, ... the goal of the project, and the instructions of the prompt"). Changes:
+Open items decided 2026-10-15. Changes:
 1. **Found and saved the state's method.** Added the 2026 Tax Court opinion and the 2025 Table of Equalized Valuations to `data/raw/`, with a quote file (`director-average-ratio-method.md`). Methodology Section 2.4 now explains how the average ratio is computed.
 2. **New rule V4.** Rebuild the state's one-year ratio from our sales and compare. Flag a town more than 5 points apart. Kept V3's 10-point flag for the class-2 median, since that comparison is meant to differ.
 3. **Total assessment for multi-lot sales** in V2 and V4, because that is how the state pairs them. V2 now passes in 69 of 69 towns (65 with the main lot only).
 4. **Updated old numbers** in methodology V1, V2, V3, and Section 7 to the pipeline's numbers. Methodology is now version 1.4.
 
-5. **Town pages will show the state's ratio beside ours** (decided 2026-10-15, built in the town-pages prompt). Each page shows the published 2027 average ratio (with its source link, `2027CH123.pdf`) next to our home median, plus a short note: the state's ratio includes commercial property and land, gives more weight to expensive sales, and blends this year with last year (source link: the Tax Court opinion). For 2026 revaluation towns, the note adds that the state's ratio still carries half of the value from before the revaluation. Numbers come from `validation.csv`. The methodology page links to this file.
+5. **Town pages will show the state's ratio beside ours** (decided 2026-10-15, built with the town pages). Each page shows the published 2027 average ratio (with its source link, `2027CH123.pdf`) next to our home median, plus a short note: the state's ratio includes commercial property and land, gives more weight to expensive sales, and blends this year with last year (source link: the Tax Court opinion). For 2026 revaluation towns, the note adds that the state's ratio still carries half of the value from before the revaluation. Numbers come from `validation.csv`. The methodology page links to this file.
 
 No cleaning rule, town statistic, or ranking changed.
 
@@ -283,5 +283,5 @@ No cleaning rule, town statistic, or ranking changed.
 | 2026-10-14 | All | V1, V2, V3 scratch checks | Preliminary: V1 70 of 70; V2 62 of 66 within 0.25; class-2 median about 6 points below the state's. | Replaced by the pipeline results above. |
 | 2026-10-15 | Rockleigh, Carlstadt, Elmwood Park, South Hackensack, Rochelle Park | V3 (raw, before cleaning) | Biggest raw gaps; all on the 2026 revaluation list. | Closed: averaging with the prior year, plus class weighting (Section 3). |
 | 2026-10-15 | Emerson, Hackensack, Haworth, Hillsdale | V2 | The 4 old V2 misses. Each has a multi-lot home sale with a tiny main-lot ratio. Using the total assessment, as the state does, all 4 pass. | Closed. Written into V2. |
-| 2026-10-15 | All | Prompt 7 | Plain average 44 of 70 within 5 points; state higher in 69; 4 towns above every sale. | Closed by the Tax Court opinion and V4: 70 of 70 within 5 points, 66 within 1. |
+| 2026-10-15 | All | First check | Plain average 44 of 70 within 5 points; state higher in 69; 4 towns above every sale. | Closed by the Tax Court opinion and V4: 70 of 70 within 5 points, 66 within 1. |
 | 2026-10-15 | Bogota, Cresskill, Alpine | V4 | Biggest V4 gaps (about 3 points). Each has only 1 to 3 non-home sales. | Known limit of the 2-group method. No action. |

@@ -27,7 +27,7 @@ export function Band({
   );
 }
 
-/** A link to one outside source, by key (lib/sources.ts). CLAUDE.md rule 5: every outside fact shows its link. */
+/** A link to one outside source, by key (lib/sources.ts). Sourcing rule: every outside fact shows its link. */
 export function Source({ k, children }: { k: SourceKey; children?: ReactNode }) {
   return (
     <a href={SOURCES[k].url} className={LINK} rel="noopener noreferrer">

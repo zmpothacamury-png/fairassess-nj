@@ -5,7 +5,7 @@ import { loadPriceIndex, loadTown } from "@/lib/data/load";
 import { SITE_NAME } from "@/lib/site";
 import { EXAMPLE_HOME, exampleResult } from "@/lib/submission";
 
-/** Congressional App Challenge cover image (Prompt 17). Hidden: not in the nav, the sitemap, or search.
+/** Congressional App Challenge cover image. Hidden: not in the nav, the sitemap, or search.
  *  `site/scripts/capture-submission.ts` screenshots each 600x800 design to docs/submission/. */
 export const metadata: Metadata = {
   title: SITE_NAME,

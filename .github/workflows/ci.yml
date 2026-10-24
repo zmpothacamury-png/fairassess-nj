@@ -1,4 +1,4 @@
-# Automatic checks on GitHub (Prompt 15). Runs on every push and pull request.
+# Automatic checks on GitHub. Runs on every push and pull request.
 # Two jobs run side by side:
 #   pipeline: Python unit tests. Raw data is never in the repo, so tests that need
 #             it skip themselves; the rest use test fixtures and committed outputs.

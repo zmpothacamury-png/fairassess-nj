@@ -1,6 +1,6 @@
 # Facts sheet
 
-Prompt 17, 2026-10-23. Every number below is copied from a pipeline output or a test run, with the file it came from. Use this sheet for the App Challenge form, the video, and the fair. If a pipeline rerun changes a number, update it here.
+Written 2026-10-23. Every number below is copied from a pipeline output or a test run, with the file it came from. Use this sheet for the App Challenge form, the video, and the fair. If a pipeline rerun changes a number, update it here.
 
 > FairAssess NJ is an independent student research project that uses public data. It is not legal, tax, or appraisal advice. Homeowners file and present their own appeals. Confirm deadlines, fees, and forms with the Bergen County Board of Taxation.
 
@@ -85,7 +85,7 @@ Source: `docs/methodology.md` section 6, `pipeline/fixtures/checker_cases.json`,
 
 ## 6. Tests and quality
 
-Counted on 2026-10-23 (Prompt 17), after this prompt's new tests.
+Counted on 2026-10-23, after the submission-page tests were added.
 
 | Kind | Count | Where |
 |---|---|---|

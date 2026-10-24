@@ -1,4 +1,4 @@
-// npm run capture-submission: make the App Challenge files in docs/submission/ (Prompt 17).
+// npm run capture-submission: make the App Challenge files in docs/submission/.
 //   cover-600x800.jpg       design A of /cover
 //   cover-alt-600x800.jpg   design B of /cover
 //   fair-handout.pdf        /handout, one US Letter page

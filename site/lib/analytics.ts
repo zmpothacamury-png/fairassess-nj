@@ -1,5 +1,5 @@
 /**
- * Vercel Web Analytics (Prompt 14, Zaden approved page views only). The
+ * Vercel Web Analytics (Zaden approved page views only). The
  * site sends no custom events. Before each page view is sent, this removes
  * the ?query and #hash from the URL, so only the page path is counted.
  */

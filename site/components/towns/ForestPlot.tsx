@@ -24,7 +24,7 @@ const ROW = 24; // px per town
 
 const AXIS = 56; // px for the x-axis band and top margin
 
-// Recharts loads after the page shows (Prompt 14). The box around it keeps the
+// Recharts loads after the page shows. The box around it keeps the
 // chart's exact height, so nothing below it moves. The table under the chart
 // (ChartFrame) has every number without waiting.
 const ForestChart = dynamic(() => import("./ForestChart").then((m) => m.ForestChart), {
@@ -62,7 +62,7 @@ export function ForestPlot({ points }: { points: ForestPoint[] }) {
 
   return (
     <div>
-      <div className="flex min-h-24 flex-col justify-center rounded-control border border-outline-200 bg-mist-50 px-4 py-2 text-base text-ink-800">
+      <div className="flex min-h-24 flex-col justify-center rounded-control bg-mist-50 px-4 py-2 text-base text-ink-800">
         {current ? (
           <>
             <p>

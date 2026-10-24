@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-// Component tests for the appeal checker page (Prompt 12).
+// Component tests for the appeal checker page.
 // 1. The small display helpers in copy.ts.
 // 2. Form validation: inline errors, aria-describedby, money formatting, the town list.
 // 3. Every verdict renders correctly from a fixed engine result.
@@ -349,7 +349,7 @@ function show(result: CheckerResult, inputs: CheckedInputs = INPUTS) {
 }
 const headline = () => screen.getByRole("heading", { level: 2 }).textContent ?? "";
 
-/** Things every result must show: deadline and fee (rule 7, K13) and the disclaimer (rule 4). */
+/** Things every result must show: deadline and fee (appeal-wording rule, K13) and the disclaimer (disclaimer rule). */
 function expectEveryResultBasics(deadline: string) {
   expect(screen.getAllByText(deadline).length).toBeGreaterThan(0);
   expect(screen.getByText("Filing fee for your assessed value")).toBeTruthy();
@@ -458,7 +458,7 @@ describe("each verdict renders from a fixed engine result", () => {
     expect(rows[3].textContent).toContain("January 2025");
   });
 
-  it("very large values and a long town name stay whole (break-ui)", () => {
+  it("very large values and a long town name stay whole (worst case)", () => {
     show(
       { ...GROUNDS, town: { ...GROUNDS.town, name: "Lower Alloways Creek Township" }, assessedValue: 20_000_000 },
       { ...INPUTS, townName: "Lower Alloways Creek Township", assessedValue: 20_000_000 },
@@ -470,7 +470,7 @@ describe("each verdict renders from a fixed engine result", () => {
 
 // ================================================================ 4. privacy
 
-describe("privacy (CLAUDE.md rule 3)", () => {
+describe("privacy: nothing typed leaves the browser", () => {
   const files = readdirSync(__dirname)
     .filter((f) => /\.tsx?$/.test(f) && !f.includes(".test."))
     .map((f) => ({ file: f, text: readFileSync(path.join(__dirname, f), "utf8") }));

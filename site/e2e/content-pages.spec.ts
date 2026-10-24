@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-/** How It Works, Appeal Guide, About, Contact, Privacy (Prompt 13). */
+/** How It Works, Appeal Guide, About, Contact, Privacy. */
 const PAGES = ["/methodology", "/appeal-guide", "/about", "/contact", "/privacy"];
 
 for (const path of PAGES) {

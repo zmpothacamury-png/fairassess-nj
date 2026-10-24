@@ -19,7 +19,7 @@ const STEPS = [
 /**
  * "How it works" as a real ordered list: three steps in a row, each with a
  * report-style number (01-03, docs/site-format.md) and a hairline rule.
- * Prompt 10B: no boxes, so the steps read as one sequence, not three cards.
+ * No boxes, so the steps read as one sequence, not three cards.
  */
 export function HowItWorks() {
   return (

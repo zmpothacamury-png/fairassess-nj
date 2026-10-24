@@ -19,7 +19,7 @@ const montserrat = Montserrat({
   display: "swap",
 });
 
-// Body text and UI: Public Sans, the U.S. Web Design System's typeface (Prompt 10B; replaced Inter).
+// Body text and UI: Public Sans, the U.S. Web Design System's typeface (replaced Inter).
 const publicSans = Public_Sans({
   variable: "--font-public-sans",
   subsets: ["latin"],

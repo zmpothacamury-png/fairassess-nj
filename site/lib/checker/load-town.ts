@@ -1,6 +1,6 @@
 // The checker's only network call: load one town's public data file.
 //
-// Privacy (CLAUDE.md rule 3): the request is a plain GET for a static file,
+// Privacy (privacy rule): the request is a plain GET for a static file,
 // /data/towns/<slug>.json. It carries no body, no query string, and no
 // cookies, so the assessed value and the market value estimate never leave
 // the browser. The price index and the town list are built into the page at

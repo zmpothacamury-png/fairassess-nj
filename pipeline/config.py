@@ -36,7 +36,7 @@ RANDOM_SEED = 20261025
 # files, the row from the file listed LATER wins (it is the newer extract).
 # "extracted" is the date stamped on the .txt file inside each zip.
 # "layout_ok" is False when the file does not follow SR1Afilelayout.pdf
-# (checked in Prompt 4; see docs/data-profile.md). Those files are counted
+# (checked; see docs/data-profile.md). Those files are counted
 # but not decoded.
 SR1A_FILES = [
     {"name": "Sales2024", "zip": "Sales2024.zip", "txt": "Sales2024.txt",

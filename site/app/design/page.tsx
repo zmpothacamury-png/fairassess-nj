@@ -44,7 +44,7 @@ const ROLES: Record<string, string> = {
   "gray-100": "“Not enough data” background, skeletons",
 };
 
-// Large steps are fluid (Prompt 10B): `px` is the desktop size, `phone` the smallest.
+// Large steps are fluid: `px` is the desktop size, `phone` the smallest.
 const TYPE_SCALE = [
   { cls: "text-5xl", px: 72, phone: 44, use: "Home hero heading" },
   { cls: "text-4xl", px: 55, phone: 40, use: "How it works numbers" },
@@ -235,7 +235,7 @@ export default function DesignPage() {
             <Button disabled>Disabled</Button>
           </div>
           <p className="mt-4 max-w-prose text-sm text-ink-600">
-            States (Prompt 10B): hover darkens to navy (only on devices that can hover); press shrinks to 97% over
+            States: hover darkens to navy (only on devices that can hover); press shrinks to 97% over
             120ms (off with reduced motion); keyboard focus shows a 2px blue ring; disabled is 60% opacity and cannot
             be clicked. Menus and pop-ups fade in and grow from 97% at the edge nearest their button over 160ms.
           </p>

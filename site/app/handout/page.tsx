@@ -9,7 +9,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { SOURCES } from "@/lib/sources";
 import { EXAMPLE_HOME, HEADLINE_TOWN, exampleResult, labelCounts, quarterGap, submissionUrl } from "@/lib/submission";
 
-/** One-page App Challenge Fair handout, US Letter (Prompt 17). Hidden from the nav, sitemap, and search.
+/** One-page App Challenge Fair handout, US Letter. Hidden from the nav, sitemap, and search.
  *  `site/scripts/capture-submission.ts` prints it to docs/submission/fair-handout.pdf. The site header
  *  and footer are hidden in print (globals.css), so this page carries its own disclaimer. */
 export const metadata: Metadata = {

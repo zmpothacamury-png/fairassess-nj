@@ -1,6 +1,6 @@
 // Chart colors and number formats (design system "Chart palette").
 // Colors point at the design tokens in app/globals.css, so charts never hold a
-// hex value (CLAUDE.md rule 9).
+// hex value (design-token rule).
 
 export const CHART = {
   /** Data marks: dots and bars (blue-600, the "assessed value" color). */
@@ -21,7 +21,7 @@ export const CHART = {
 } as const;
 
 /**
- * Chart text sizes in px (Prompt 10B). One place for every chart, so axes match.
+ * Chart text sizes in px. One place for every chart, so axes match.
  * 13px is the type scale's text-xs. Phones drop to 12px where labels share a
  * narrow column (town names, the second line under each bar).
  */

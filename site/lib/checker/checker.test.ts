@@ -567,7 +567,7 @@ describe("validateInputs", () => {
 
 // ================================================================ 4. privacy: nothing is sent anywhere
 
-describe("privacy (CLAUDE.md rule 3)", () => {
+describe("privacy: nothing typed leaves the browser", () => {
   afterEach(() => vi.unstubAllGlobals());
 
   const DIR = __dirname;

@@ -6,7 +6,7 @@ const isDev = process.env.NODE_ENV === "development";
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL ? new URL(process.env.NEXT_PUBLIC_SUPABASE_URL).origin : "";
 
 /**
- * Content-Security-Policy (Prompt 14). Pages are static (built ahead of time),
+ * Content-Security-Policy. Pages are static (built ahead of time),
  * so this uses the Next.js "without nonces" setup: inline scripts are allowed
  * for Next.js's own page data and the reveal script in app/layout.tsx.
  * - Fonts, images, KaTeX, and the data files all come from this site.

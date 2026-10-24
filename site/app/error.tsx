@@ -5,9 +5,9 @@ import { PageHeader } from "@/components/PageHeader";
 import { NAV_CTA } from "@/lib/nav";
 
 /**
- * Shown if a page breaks while it runs (Prompt 14). Same look as the 404
+ * Shown if a page breaks while it runs. Same look as the 404
  * page. The header and footer (with the disclaimer) stay on screen. Nothing
- * is logged or sent anywhere (rule 3).
+ * is logged or sent anywhere (privacy rule).
  */
 export default function ErrorPage({ retry }: { error: Error & { digest?: string }; retry: () => void }) {
   return (

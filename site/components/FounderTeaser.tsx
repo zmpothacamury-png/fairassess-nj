@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 /**
  * "Meet the Founder" teaser (T&T pattern), with a link to the full story on /about.
- * Prompt 10B: editorial split, heading on the left and the text and links on
+ * Editorial split, heading on the left and the text and links on
  * the right, so the band no longer reads as one short line in a wide space.
  */
 export function FounderTeaser() {

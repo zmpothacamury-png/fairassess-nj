@@ -243,7 +243,7 @@ One row per town (all 70). Towns with under 20 sales (or 2026 revaluation towns 
 | `cod`, `prd`, `prb` | number | Section 2.2. COD is a percent (15.0 = 15%). |
 | `*_ci_low`, `*_ci_high` | number | 95% range (T4). Median, COD, PRD: bootstrap, 2,000 resamples, seed 20261025. PRB: slope +/- 1.96 x `prb_se`. |
 | `prb_se` | number | Standard error of the PRB slope. |
-| `prb_intercept` | number | Intercept *a* of the PRB line *y = a + b x* (Section 2.2). Added 2026-10-18 (Prompt 10A) so the town page can draw the PRB trend line. |
+| `prb_intercept` | number | Intercept *a* of the PRB line *y = a + b x* (Section 2.2). Added 2026-10-18 so the town page can draw the PRB trend line. |
 | `cod_meets_iaao` | true/false | COD at most 15.0 (Section 2.3, our choice). |
 | `cod_below_5` | true/false | COD under 5.0 (IAAO: "may indicate sales chasing or non-representative samples"). |
 | `prd_meets_iaao` | true/false | PRD from 0.98 to 1.03. |

@@ -4,7 +4,7 @@ import { GITHUB_URL, SITE_NAME, SITE_URL } from "@/lib/site";
 import { SOURCES } from "@/lib/sources";
 
 /**
- * Search and sharing helpers (Prompt 14). Every title is SITE_NAME: the browser
+ * Search and sharing helpers. Every title is SITE_NAME: the browser
  * tab reads "Fair Assess NJ" on every page (Zaden, 2026-10-15 and 2026-10-18).
  * Each page gets its own description and canonical link instead.
  */

@@ -2,7 +2,7 @@ import AxeBuilder from "@axe-core/playwright";
 import { expect, test, type Page } from "@playwright/test";
 
 /**
- * Accessibility scan (Prompt 14): axe-core on every main page, plus /check
+ * Accessibility scan: axe-core on every main page, plus /check
  * before and after a result. The test fails on any serious or critical issue
  * (WCAG 2.0/2.1 A and AA rules). Minor and moderate issues are printed.
  */

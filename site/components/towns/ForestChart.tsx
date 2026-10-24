@@ -25,7 +25,7 @@ function describe(p: ForestPoint): string {
  * details never re-draws it (a re-draw would replace the focused dot and drop
  * keyboard focus). The highlight ring comes from CSS hover/focus instead.
  * Its own file so the town rankings page can load Recharts after it shows
- * (ForestPlot.tsx, Prompt 14). It fills the fixed-height box ForestPlot draws.
+ * (ForestPlot.tsx). It fills the fixed-height box ForestPlot draws.
  */
 export function ForestChart({
   points,

@@ -1,4 +1,4 @@
-# Run every check, in order, and print a PASS/FAIL summary (Prompt 15).
+# Run every check, in order, and print a PASS/FAIL summary.
 #   1. Python tests (pytest)     4. Validate data
 #   2. Site unit tests (Vitest)  5. Site build
 #   3. Lint                      6. Browser tests (Playwright)

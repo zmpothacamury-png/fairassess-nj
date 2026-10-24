@@ -658,7 +658,7 @@ y_i &= a + b\,x_i, \quad \text{PRB} = b && \text{the slope of a straight-line fi
               </a>
               .
             </p>
-            <ol className="mt-6 flex flex-col gap-3 border-l-2 border-outline-200 pl-6 text-base text-ink-800">
+            <ol className="mt-6 flex flex-col gap-3 border-l border-outline-200 pl-6 text-base text-ink-800">
               {CHANGELOG.map(([version, date, text]) => (
                 <li key={version}>
                   <span className="font-semibold tabular-nums text-navy-900">{version}</span>{" "}

@@ -1,12 +1,12 @@
 # FairAssess NJ design system
 
-Built in Prompt 2 (2026-10-14). Redesigned in Prompt 10 Part B (2026-10-18): same colors, logo, tabs, and T&T motion; new body font, fluid type scale, no shadows at rest, micro-interaction motion. The audit and every change: `docs/redesign-audit.md`. The look comes from the logo: a house on balance scales over a pale New Jersey outline, blue on the left, green on the right, with a gold pivot point. The feel is balanced, civic, calm, and clear.
+Built 2026-10-14. Redesigned 2026-10-18: same colors, logo, tabs, and T&T motion; new body font, fluid type scale, no shadows at rest, micro-interaction motion. Before and after screenshots: `docs/screenshots/redesign/`. The look comes from the logo: a house on balance scales over a pale New Jersey outline, blue on the left, green on the right, with a gold pivot point. The feel is balanced, civic, calm, and clear.
 
 - **Source of truth for values:** `site/app/globals.css` (Tailwind v4 `@theme static`).
 - **Live style guide:** `/design` on the site. It is not in the nav and is hidden from search engines.
 - **Contrast check:** `site/lib/contrast.ts` lists every allowed color pair. `npm test` (in `site/`) fails if any pair drops below WCAG AA.
 
-Rule 9 (CLAUDE.md): components use these tokens only. No hex colors in components. Tailwind's default palette is switched off (`--color-*: initial`), so classes like `bg-red-500` don't exist.
+Design-token rule: components use these tokens only. No hex colors in components. Tailwind's default palette is switched off (`--color-*: initial`), so classes like `bg-red-500` don't exist.
 
 ---
 
@@ -125,7 +125,7 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 
 - **Headings:** Montserrat 700 and 800 (via `next/font`), class `font-heading`. Matches the logo's geometric all-caps wordmark.
 - **Eyebrow labels:** the `eyebrow` utility: Montserrat 700, uppercase, letter-spacing 0.08em, 14px. Usually `text-blue-600`. Like the logo's tagline. One per section head at most. Town pages keep report numbers ("01 · Key numbers"); other pages don't number their eyebrows.
-- **Body and UI:** **Public Sans** 400, 500, 600, 700 (via `next/font`), the default `font-sans`. It is the U.S. Web Design System's typeface: official and civic without being flashy. (Prompt 10B; replaced Inter, which three design skills flag as the default "AI" font.)
+- **Body and UI:** **Public Sans** 400, 500, 600, 700 (via `next/font`), the default `font-sans`. It is the U.S. Web Design System's typeface: official and civic without being flashy. (replaced Inter, the default font on many template sites.)
 - **Numbers:** every statistic and dollar amount uses `tabular-nums` so columns line up. Table number cells use `class="num"`. Counts use `formatCount()` (1,284, never 1284).
 - **Line length:** about 65 characters (`max-w-prose`).
 - **Wrapping:** `h1` to `h3` use `text-wrap: balance`; paragraphs, list items, and captions use `text-wrap: pretty` (no lone last word). Set in `app/globals.css`.
@@ -147,7 +147,7 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
 
 **Figures** (a small label over a big number, like the Chapter 123 row on town pages): label `text-sm text-ink-600`, value `font-heading text-2xl font-bold tabular-nums text-navy-900`. Use a `<dl>` (the `dt` label comes first in the HTML).
 
-**StatCard values** step down a size when long: up to 8 characters `text-3xl`, up to 10 `text-2xl`, longer `text-xl`. (break-ui: "$16,500,000" ran out of the card.)
+**StatCard values** step down a size when long: up to 8 characters `text-3xl`, up to 10 `text-2xl`, longer `text-xl`. (worst case: "$16,500,000" ran out of the card.)
 
 ---
 
@@ -161,13 +161,13 @@ Normal text needs 4.5:1. Large text, icons, borders, focus rings, and chart mark
   2. **Tone panel:** `bg-mist-50` on a white band (or white on a mist band), no border. For a side note or a group of figures.
   3. **Floating:** white, border, `shadow-raised`. Only pop-ups, menus, tooltips, and the skip link.
   Never put a card inside a card.
-- **Shadows:** `shadow-raised` for things that float. `shadow-soft` stays as a token, but nothing at rest uses it (Prompt 10B). The sticky header's scroll shadow and the scroll cue's shadow are T&T values and stay.
+- **Shadows:** `shadow-raised` for things that float. `shadow-soft` stays as a token, but nothing at rest uses it. The sticky header's scroll shadow and the scroll cue's shadow are T&T values and stay.
 - **Touch targets:** buttons and nav links are at least 48px tall; menu items and the "More numbers" button at least 44px.
 - **Icons:** `lucide-react` with `strokeWidth={2}`, matching the logo's even line weight. Decorative icons get `aria-hidden="true"`.
 - **Focus:** the `focus-ring` utility (2px blue-600 outline, 2px offset) on every interactive element; `focus-ring-dark` (gold-400) on navy surfaces. The footer is light (blue-100), so it uses `focus-ring`.
 - **Browser surfaces:** `accent-color` and `caret-color` blue-600, scrollbar outline-200, selection gold-100 with navy text, underline offset 0.2em. All in `app/globals.css`.
 
-### Micro-interactions (Prompt 10B)
+### Micro-interactions
 
 Only for hover, press, focus, menus, pop-ups, and disclosures. The scroll reveal, scroll cue, header elevation, tab underline, and mobile menu keep T&T's exact values (`lib/motion.ts`, `docs/site-format.md`).
 
@@ -186,9 +186,9 @@ Rules: hover colors use Tailwind's `hover:` (v4 applies it only on devices that 
 
 ## 5. Motifs
 
-- **A. Balance divider** (`BalanceDivider`): a thin line, blue-600 on the left half and green-600 on the right, with an 8px gold-400 dot at the center. **At most one per page** (Prompt 10B; home had four). After it, sections are set apart by white | mist tone steps. Page headers and the footer have their own balance line. Decorative, so screen readers skip it.
+- **A. Balance divider** (`BalanceDivider`): a thin line, blue-600 on the left half and green-600 on the right, with an 8px gold-400 dot at the center. **At most one per page** (home had four). After it, sections are set apart by white | mist tone steps. Page headers and the footer have their own balance line. Decorative, so screen readers skip it.
 - **B. NJ watermark:** `public/nj-outline.png`, the New Jersey outline from the logo in outline-200, at 40% opacity behind the home hero (60% in page headers). On phones it sits at the right edge so it never crosses the headline. Always give it `max-w-none`: Tailwind's base `max-width: 100%` squeezed it out of shape on phones (Lighthouse "image aspect ratio"). It is decorative (`alt=""`, `aria-hidden`).
-- **C. Split accent** (`split-accent` utility): a 4px stripe across the top, blue | green. Used on a few key cards (Zaden removed it from the top of the header in Prompt 2B). Drawn as a background stripe, not `border-image`, because `border-image` would recolor every border.
+- **C. Split accent** (`split-accent` utility): a 4px stripe across the top, blue | green. Used on a few key cards (Zaden removed it from the top of the header). Drawn as a background stripe, not `border-image`, because `border-image` would recolor every border.
 
 ### Chart palette
 
@@ -201,7 +201,7 @@ Rules: hover colors use Tailwind's `hover:` (v4 applies it only on devices that 
 
 **Chart text:** 13px ticks and axis labels (12px for town names and second lines on phones), from `CHART_FONT` in `lib/chart.ts`. Gridlines: horizontal only on the bar chart and the scatter; vertical only on the forest plot. Tooltips use the floating surface (white, border, `shadow-raised`, 14px tabular numbers). Every chart sits in `ChartFrame`: title, caption, chart, "View as table", source line.
 
-Blue and green can look alike to some color-blind readers. Charts must also use different marker shapes and **direct labels**, never color alone. Every chart also needs a text or table alternative (CLAUDE.md rule 11).
+Blue and green can look alike to some color-blind readers. Charts must also use different marker shapes and **direct labels**, never color alone. Every chart also needs a text or table alternative (accessibility rule).
 
 ---
 
@@ -213,8 +213,8 @@ Blue and green can look alike to some color-blind readers. Charts must also use 
 | `Card` | White card, outline border, no shadow. `accent` adds the split stripe. |
 | `StatCard` | Value on its own line (steps down a size when long), then the label with the "i" button, optional details, one plain-English line, and the link and "Source:" pinned to the bottom, so a row of cards lines up. |
 | `StatusPill` | The four checker results, plus `neutral` for labels like "In development". Never wraps. |
-| `Callout` | Info / caution / success note on a tinted surface with an icon and a bold title. **No colored side stripe** (Prompt 10B; impeccable flags it as a stock "AI" pattern). |
-| `Disclaimer` | The exact CLAUDE.md rule 4 text. Exported as `DISCLAIMER_TEXT` too. |
+| `Callout` | Info / caution / success note on a tinted surface with an icon and a bold title. **No colored side stripe** (a stock template look). |
+| `Disclaimer` | The exact disclaimer text. Exported as `DISCLAIMER_TEXT` too. |
 | `SectionHeading` | Eyebrow + title + optional subtitle. `as` sets the heading level. |
 | `BalanceDivider` | Motif A. At most one per page. |
 | `Term` | A word with a dotted underline that opens a short definition (`pop-in`). Works with Enter/Space; Escape closes and returns focus. `InfoButton` is the same pop-up behind a 40px "i" button. |
@@ -223,13 +223,13 @@ Blue and green can look alike to some color-blind readers. Charts must also use 
 | `Header` | Logo icon + "FAIR ASSESS NJ" as live Montserrat 800 text; tabs Home, Town Rankings, Appeal Checker, Learn (How It Works, Appeal Guide), About; "Check My Assessment" button; menu below 1280px that slides in from the right; current page gets a gold underline (desktop) or a gold dot (menu) and `aria-current`. Format and motion: `docs/site-format.md`. |
 | `Footer` | Brand + disclaimer; link columns Site, Tools, Project (Methodology, Privacy, About, Contact, GitHub); "Data as of", source, and independence lines; "Built by Zaden Pothacamury, Ramapo High School." and the tagline. Details: `docs/site-format.md`. |
 | `PageHeader` | Light blue band: optional `back` link, eyebrow, h1, intro (ink-800), optional `meta` row (a town page's label pill, rank, and sales), and the balance line with its gold pivot. |
-| `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces from Prompt 2B. `CtaBand` `tone` "light" (inner pages) or "navy" (home). `Reveal` takes `as="ol"` or `"ul"` so a list can be a reveal group. The home hero is not wrapped in `Reveal` (the first screen shows at full strength). See `docs/site-format.md`. |
+| `CtaBand`, `Reveal`, `ScrollCue` | Page shell and motion pieces. `CtaBand` `tone` "light" (inner pages) or "navy" (home). `Reveal` takes `as="ol"` or `"ul"` so a list can be a reveal group. The home hero is not wrapped in `Reveal` (the first screen shows at full strength). See `docs/site-format.md`. |
 | `ChartFrame` | Chart title, caption, chart, "View as table" (`pressable`), source line. |
 | `content/blocks` | `Band` (section padding, white or mist), `Source` and `SourceLine` (source links, max 65 characters wide), `Disclosure` (native `<details>`, opens instantly), `Figure`. Used by How It Works, Appeal Guide, and Privacy. |
 | `content/Formula` | A KaTeX formula drawn at build time (no math JavaScript in the browser), with MathML for screen readers and a plain-English line under it. Scrolls sideways inside its box on phones. |
 | `content/FilterFunnel` | The cleaning funnel: one row per rule with a bar (blue = left, pale = removed), the counts in words, and a one-line reason. Plain HTML. |
 | `content/PriceIndexChart` | Recharts line of the Bergen price index, square markers, gold 1.00 line with a text label. |
-| `checker/CheckerApp` | The /check form and result (Prompt 12). Calls only `validateInputs` and `runChecker`; loads one town file. Focus moves to the result heading; a live region announces it. |
+| `checker/CheckerApp` | The /check form and result. Calls only `validateInputs` and `runChecker`; loads one town file. Focus moves to the result heading; a live region announces it. |
 | `checker/TownCombobox` | Searchable town list (ARIA combobox + listbox). Opens instantly; Down/Up/Home/End/Enter/Escape. |
 | `checker/MoneyInput` | Dollar field: "$" prefix, commas as you type (cursor kept), number keypad. Leaves cents and letters as typed so the engine can explain them. |
 | `checker/BalanceMeter` | The signature visual: a ratio track (blue below the range, green inside, gold above), gold average dot, navy bar + whisker for the homeowner, a ring for their own estimate, direct labels, a screen-reader sentence, and the tilting scale icon. |

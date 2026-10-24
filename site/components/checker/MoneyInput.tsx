@@ -8,7 +8,7 @@ import { FieldError, FIELD } from "./FieldError";
  * Dollar amount field. Adds commas as you type and keeps the cursor where it
  * was. Uses a text input with a number keypad (inputMode) because
  * type="number" drops commas and lets the mouse wheel change the value.
- * The value never leaves the browser (CLAUDE.md rule 3).
+ * The value never leaves the browser (privacy rule).
  */
 export const MoneyInput = forwardRef<
   HTMLInputElement,

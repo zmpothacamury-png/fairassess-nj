@@ -6,7 +6,7 @@ import type { ReactNode } from "react";
 
 /**
  * A chart with its title, a caption that says what it shows, a source line,
- * and a "View as table" button (CLAUDE.md rule 11: every chart has a table
+ * and a "View as table" button (accessibility rule: every chart has a table
  * alternative). The table is always in the HTML, so search engines and
  * screen readers can reach it; the button only shows or hides it.
  */

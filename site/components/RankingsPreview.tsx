@@ -36,7 +36,7 @@ export function RankingsPreview({
   return (
     <section id="rankings" className="bg-white">
       <div className="mx-auto max-w-content px-6 py-20 sm:py-24">
-        {/* Split (Prompt 10B): the two tests on the left, how to read the list beside it, instead of a
+        {/* Split: the two tests on the left, how to read the list beside it, instead of a
             three-paragraph wall above the list. Same words and numbers. */}
         <Reveal className="mb-10 grid gap-8 sm:mb-12 lg:grid-cols-12 lg:items-end lg:gap-8">
           <div className="lg:col-span-7">

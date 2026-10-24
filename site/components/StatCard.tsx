@@ -7,7 +7,7 @@ import { InfoButton } from "./Term";
  * One headline statistic: a big number, its label, one plain-English line,
  * and an info button with a longer explanation. Numbers use tabular figures
  * so columns of stats line up. Every value shown must come from a pipeline
- * output file (CLAUDE.md rule 5); `source` names where it came from.
+ * output file (sourcing rule); `source` names where it came from.
  */
 export function StatCard({
   value,
@@ -33,11 +33,11 @@ export function StatCard({
   return (
     // While its info box is open, the card is lifted above its neighbors. Reveal gives each card its
     // own layer, so without this a later card would paint over the box.
-    // Layout (Prompt 10B): the number gets its own line so long values like "−0.0980" never run into
+    // Layout: the number gets its own line so long values like "−0.0980" never run into
     // the info button, which now sits with the label. The link and source are pinned to the bottom so
     // they line up across a row of cards of different lengths.
     <div className="relative flex min-w-0 flex-col rounded-card border border-outline-200 bg-white p-6 has-[[aria-expanded=true]]:z-30">
-      {/* Long values step down a size instead of running out of the card (break-ui: "$16,500,000" at 4 across). */}
+      {/* Long values step down a size instead of running out of the card (worst case: "$16,500,000" at 4 across). */}
       <p
         className={`whitespace-nowrap font-heading leading-none font-bold tabular-nums text-navy-900 ${
           value.length <= 8 ? "text-3xl" : value.length <= 10 ? "text-2xl" : "text-xl"

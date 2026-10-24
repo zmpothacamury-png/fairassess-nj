@@ -1,4 +1,4 @@
-"""Export everything the website needs as small JSON files (Prompt 8).
+"""Export everything the website needs as small JSON files.
 
 Reads the final pipeline tables in data/processed/ and writes:
 

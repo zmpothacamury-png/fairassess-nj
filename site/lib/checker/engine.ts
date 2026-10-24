@@ -3,7 +3,7 @@
 // Pure functions only. Nothing here reads the network, the screen, storage, or
 // the clock. The page passes in the town file and the price index, and gets
 // one result object back. So nothing a homeowner types can leave the browser
-// from this file (CLAUDE.md rule 3). The only network call in lib/checker/ is
+// from this file (privacy rule). The only network call in lib/checker/ is
 // fetchTownFile in load-town.ts, which loads a public town file and sends no
 // homeowner input. checker.test.ts checks both of these.
 //

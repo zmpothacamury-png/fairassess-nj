@@ -38,7 +38,7 @@
   --font-heading: var(--font-montserrat), "Montserrat", system-ui, sans-serif;
   --font-sans: var(--font-public-sans), "Public Sans", system-ui, sans-serif;
 
-  /* Type scale: 18px body, each step x1.25 at desktop size. Prompt 10B: the
+  /* Type scale: 18px body, each step x1.25 at desktop size. The
      large steps are fluid (clamp), so headings shrink on phones instead of
      wrapping to 4-5 lines, and large type gets tighter tracking. */
   --text-*: initial;
@@ -74,7 +74,7 @@
   --radius-card: 0.75rem; /* 12px - cards */
   --radius-full: 9999px; /* pills and dots */
 
-  /* Shadows (navy-tinted, offset + soft blur). Prompt 10B: cards at rest have
+  /* Shadows (navy-tinted, offset + soft blur). Cards at rest have
      no shadow; they are an outline and a tone step. `raised` is only for
      things that float: menus, pop-ups, the skip link. `soft` stays for the
      few surfaces that sit over moving content (none at rest on the page). */
@@ -82,7 +82,7 @@
   --shadow-soft: 0 1px 2px rgb(11 47 76 / 0.06), 0 4px 12px rgb(11 47 76 / 0.06);
   --shadow-raised: 0 2px 4px rgb(11 47 76 / 0.06), 0 12px 28px rgb(11 47 76 / 0.1);
 
-  /* Micro-interaction motion (Prompt 10B; emil-design-eng values). Only for
+  /* Micro-interaction motion. Only for
      hover, press, focus, menus, and pop-ups. The scroll reveal, scroll cue,
      header, underline, and mobile menu keep T&T's values (lib/motion.ts). */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
@@ -92,7 +92,7 @@
 
 html {
   scroll-behavior: smooth;
-  /* Browser surfaces in brand colors (impeccable craft floor). */
+  /* Browser surfaces in brand colors. */
   accent-color: var(--color-blue-600);
   caret-color: var(--color-blue-600);
   scrollbar-color: var(--color-outline-200) transparent;
@@ -123,8 +123,8 @@ figcaption {
 }
 
 /*
- * Press feedback for buttons and button-like links (emil-design-eng,
- * apple-design: respond on press). A 3% shrink over 120ms. Off for reduced
+ * Press feedback for buttons and button-like links: they
+ * respond on press. A 3% shrink over 120ms. Off for reduced
  * motion. Hover colors use Tailwind's hover: variant, which v4 already limits
  * to devices that can hover, so a tap never leaves a stuck hover color.
  */
@@ -230,6 +230,11 @@ figcaption {
 .data-table td {
   padding: 0.75rem 1rem;
   border-bottom: 1px solid var(--color-outline-200);
+  font-variant-numeric: tabular-nums;
+}
+/* Chart axis and label numbers line up too. */
+svg text {
+  font-variant-numeric: tabular-nums;
 }
 .data-table tbody tr:nth-child(even) td {
   background: var(--color-mist-50);
@@ -240,7 +245,7 @@ figcaption {
 }
 
 /*
- * ===== Motion (Prompt 2B) =====
+ * ===== Motion =====
  * Same parameters as Trust & Transition (see lib/motion.ts for every value
  * and its T&T source line). The numbers arrive as CSS variables set on <html>
  * by app/layout.tsx, so this file and the scripts can never disagree.
@@ -258,7 +263,7 @@ figcaption {
   transform: translateY(var(--reveal-travel)) scale(var(--reveal-scale));
   transition: opacity var(--reveal-smoothing) linear,
     transform var(--reveal-smoothing) linear;
-  /* Kept on purpose (Prompt 10B review): these elements are re-styled on every scroll frame, so the hint
+  /* Kept on purpose: these elements are re-styled on every scroll frame, so the hint
      saves the browser from promoting and demoting a layer each time. */
   will-change: opacity, transform;
 }
@@ -276,7 +281,7 @@ figcaption {
 }
 
 /* Tab underline grows left to right on hover and on the current page. T&T site.css:37-41. */
-/* Prompt 10B: same look, timing, and easing as T&T, but drawn by scaling a full-width line from its left
+/* Same look, timing, and easing as T&T, but drawn by scaling a full-width line from its left
    edge (transform) instead of animating `right` (a layout property), as animation-performance recommends. */
 .nav-link::after {
   content: "";
@@ -340,7 +345,7 @@ footer[tabindex="-1"]:focus {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   /* left: 50% caps a fixed box at half the screen; without this the label
-     wrapped to two lines on phones (Prompt 10B audit). */
+     wrapped to two lines on phones. */
   white-space: nowrap;
   cursor: pointer;
   opacity: 1;
@@ -412,7 +417,7 @@ footer[tabindex="-1"]:focus {
   }
 }
 
-/* Appeal checker (Prompt 12): the balance meter's small scale icon tips once
+/* Appeal checker: the balance meter's small scale icon tips once
    when a result appears. The result itself never animates; it is already on
    screen. Reduced motion shows the final angle with no movement. */
 .scale-tilt {
@@ -435,7 +440,7 @@ footer[tabindex="-1"]:focus {
   }
 }
 
-/* Print (Prompt 12, "Print or save this result"): only the checker result,
+/* Print ("Print or save this result"): only the checker result,
    with its own logo, inputs, and date header (ResultView PrintHeader). The
    site chrome, the page header, and the form are left off the page. */
 @media print {

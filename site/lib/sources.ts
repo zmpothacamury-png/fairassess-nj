@@ -1,4 +1,4 @@
-// Source links for outside facts shown on the site (CLAUDE.md rule 5).
+// Source links for outside facts shown on the site (sourcing rule).
 // Each one is recorded in a note in data/raw/notes/ (named beside it).
 
 export const SOURCES = {

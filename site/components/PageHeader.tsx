@@ -11,7 +11,7 @@ import { Reveal } from "./Reveal";
  * text, and the logo's blue | green balance line with its gold pivot along
  * the bottom. It is a <header>, not a <section>, so the scroll cue skips it.
  *
- * Optional (Prompt 10B): `back` puts a small "back" link above the eyebrow,
+ * Optional: `back` puts a small "back" link above the eyebrow,
  * and `meta` adds a row under the intro (a town page's label, rank, and
  * sales), so the facts a visitor came for are in the first screen.
  */
@@ -37,7 +37,7 @@ export function PageHeader({
           alt=""
           width={1179}
           height={2091}
-          // Often the largest thing in the first screen, so it loads right away at about its shown size (Prompt 14).
+          // Often the largest thing in the first screen, so it loads right away at about its shown size.
           sizes="(min-width: 640px) 360px, 300px"
           preload
           className="absolute -right-24 -top-10 h-[160%] w-auto max-w-none opacity-60 select-none sm:right-[6%]"

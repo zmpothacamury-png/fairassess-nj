@@ -132,7 +132,7 @@ export default async function TownPage({ params }: Props) {
 
   return (
     <main className="flex-1">
-      {/* The label, rank, and sales count sit in the header (Prompt 10B), so they are in the first screen. */}
+      {/* The label, rank, and sales count sit in the header, so they are in the first screen. */}
       <PageHeader
         eyebrow="Town Rankings · Bergen County"
         title={town.name}
@@ -252,7 +252,7 @@ function StatsSections({ town, salesSource }: { town: TownFile; salesSource: Rea
               details={
                 <>
                   <span className="tabular-nums">{l.range}</span>
-                  <span>{l.iaao}</span>
+                  <span className="tabular-nums">{l.iaao}</span>
                   {l.meets !== null && (
                     <span>
                       <StatusPill status={l.meets ? "within-range" : "may-have-grounds"}>
@@ -386,7 +386,7 @@ function Chapter123Section({ town }: { town: TownFile }) {
         <SectionHeading eyebrow="03 · Appeals" title="Chapter 123: the state's range for 2027 appeals" />
       </Reveal>
       <Reveal className="split-accent flex flex-col gap-6 overflow-hidden rounded-card border border-outline-200 bg-white p-6 sm:p-8">
-        {/* The state's three numbers as figures first (Prompt 10B); the sentence below explains them. */}
+        {/* The state's three numbers as figures first; the sentence below explains them. */}
         <dl className="grid grid-cols-1 gap-4 border-b border-outline-200 pb-6 pt-2 sm:grid-cols-3 sm:gap-8">
           <Figure label={`State average ratio, ${ch.tax_year}`} value={statePct(ch.average_ratio)} />
           <Figure label="Common level range: lower limit" value={statePct(ch.lower_limit)} />
@@ -467,7 +467,7 @@ function Chapter123Section({ town }: { town: TownFile }) {
           </p>
         </div>
 
-        {/* Deadline and fee wherever appeals come up (CLAUDE.md rule 7; methodology K13). */}
+        {/* Deadline and fee wherever appeals come up (appeal-wording rule; methodology K13). */}
         <div className="grid gap-6 border-t border-outline-200 pt-6 md:grid-cols-2">
           <div className="text-base text-ink-800">
             <p className="font-semibold text-navy-900">
@@ -515,7 +515,7 @@ function StateComparison({ town, v }: { town: TownFile; v: Validation["towns"][n
         <SectionHeading eyebrow="04 · Checking our work" title="How our numbers compare with the state's" />
       </Reveal>
       <Reveal className="grid gap-8 lg:grid-cols-[2fr_3fr]">
-        {/* One tinted panel of figures instead of four outlined boxes (Prompt 10B). */}
+        {/* One tinted panel of figures instead of four outlined boxes. */}
         <dl className="grid grid-cols-2 content-start gap-x-6 gap-y-6 self-start rounded-card bg-mist-50 p-6">
           <Figure label={<>State&rsquo;s 2027 average ratio</>} value={statePct(v.state_average_ratio)} />
           <Figure
@@ -590,7 +590,7 @@ function ContextSection({ town }: { town: TownFile }) {
       <Reveal>
         <SectionHeading eyebrow="05 · Context" title={`${town.name} at a glance`} />
       </Reveal>
-      {/* One white panel, three figures side by side (Prompt 10B; was three outlined cards). */}
+      {/* One white panel, three figures side by side (was three outlined cards). */}
       <Reveal group className="grid gap-8 rounded-card border border-outline-200 bg-white p-6 sm:p-8 md:grid-cols-3">
         {avg && (
           <div>

@@ -122,7 +122,7 @@ One file per town. It holds **every field of the town's `towns.json` entry** (th
 
 | `filter_log` | list | This town's rows from the cleaning log (Section 4), so the town page can show how many sales each rule removed: `source_file` (`All`, `Sales2025`, or `Sales2026`), `rule_id`, `rows_in`, `rows_removed`, `rows_out`, in rule order. |
 
-These four are the **only** comp fields. No street names or house numbers (the Prompt 8 default), no owner names, no record IDs.
+These four are the **only** comp fields. No street names or house numbers (the export default), no owner names, no record IDs.
 
 ## price-index.json
 
