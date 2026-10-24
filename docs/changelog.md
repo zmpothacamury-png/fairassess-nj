@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-23 (Prompt 17: Submission assets)
+- New `docs/facts-sheet.md`: every number for the application, video, and fair, with the file it came from (sales and cleaning, the biggest data problem, validation, labels, checker settings, test counts, Lighthouse and axe, and a checker example worked by hand for a made-up Hasbrouck Heights home).
+- New `docs/video-script.md`: a 2:30 to 3:00 first-person script with a timed shot list (New Milford as the real example; a made-up Teaneck $450,000 home in the checker) and Windows recording and YouTube tips.
+- New hidden pages `/cover` (2 cover designs, 600x800) and `/handout` (one US Letter page with a QR code). Both are noindex, left out of the sitemap, and blocked in `robots.txt`. Numbers come from the data files and the website's own checker engine (`site/lib/submission.ts`, with tests). The handout carries the disclaimer, because the site footer is hidden in print.
+- New `site/scripts/capture-submission.ts` (`npm run capture-submission`): saves `docs/submission/cover-600x800.jpg`, `cover-alt-600x800.jpg` (exactly 600x800, JPEG quality 90, captured at 2x), and `fair-handout.pdf`. The QR code follows `SUBMISSION_URL` when set, so it can switch to a custom domain later.
+- New dependency: `qrcode` (and `@types/qrcode`).
+- `npm audit fix` (no breaking changes): updated `zod` and `undici` in the lock file to fix 2 high-severity warnings. One low-severity KaTeX warning is left: its fix is a breaking version, and KaTeX only runs at build time.
+- Cover design A is the submission cover; B is kept as the alternate.
+- 196 pytest, 264 Vitest, lint, validate-data, build, 157 Playwright: all pass.
+
 ## 2026-10-18 (Prompt 16: README and open-source readiness)
 - Took the AI assistant instruction files (`CLAUDE.md`, `site/CLAUDE.md`, `site/AGENTS.md`) out of the public repo. They stay on Zaden's computer and are now in `.gitignore`. Removed the placeholder "How AI was used" section from `README.md`.
 - Safety check before going public: nothing from `private/`, `data/raw/`, `data/interim/`, or any `.env` file is tracked or was ever in the history (only empty `.gitkeep` files and the blank `site/.env.local.example`). A search of all 16 commits found no keys, tokens, passwords, or real Supabase URLs. Committed data has no owner names or street addresses.

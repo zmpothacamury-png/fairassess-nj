@@ -10,7 +10,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "check-real-homes": "tsx scripts/check-real-homes.ts"
+    "check-real-homes": "tsx scripts/check-real-homes.ts",
+    "capture-submission": "tsx scripts/capture-submission.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
@@ -18,6 +19,7 @@
     "katex": "0.16.47",
     "lucide-react": "^1.57.0",
     "next": "16.4.1",
+    "qrcode": "^1.5.4",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "recharts": "3.10.1",
@@ -29,6 +31,7 @@
     "@tailwindcss/postcss": "^4",
     "@testing-library/react": "^16.3.3",
     "@types/node": "^24.19.2",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^6.1.2",

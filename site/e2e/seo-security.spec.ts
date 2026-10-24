@@ -19,19 +19,27 @@ async function watchCsp(page: Page): Promise<string[]> {
 const PAGES = ["/", "/towns", "/towns/teaneck", "/check", "/methodology", "/appeal-guide", "/about", "/contact", "/privacy"];
 
 test.describe("Search and sharing", () => {
-  test("sitemap lists every public page and all 70 town pages, not /design", async ({ request }) => {
+  test("sitemap lists every public page and all 70 town pages, not the hidden ones", async ({ request }) => {
     const xml = await (await request.get("/sitemap.xml")).text();
     const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
     expect(urls.filter((u) => u.startsWith("/towns/"))).toHaveLength(70);
     for (const p of PAGES.filter((p) => !p.startsWith("/towns/"))) expect(urls).toContain(p);
-    expect(urls).not.toContain("/design");
+    for (const hidden of ["/design", "/cover", "/handout"]) expect(urls).not.toContain(hidden);
   });
 
-  test("robots.txt allows everything except /design and names the sitemap", async ({ request }) => {
+  test("robots.txt allows everything except the hidden pages and names the sitemap", async ({ request }) => {
     const txt = await (await request.get("/robots.txt")).text();
     expect(txt).toMatch(/Allow: \/\n/);
-    expect(txt).toMatch(/Disallow: \/design/);
+    for (const hidden of ["design", "cover", "handout"]) expect(txt).toMatch(new RegExp(`Disallow: /${hidden}\\n`));
     expect(txt).toMatch(/Sitemap: https:\/\/.+\/sitemap\.xml/);
+  });
+
+  test("the App Challenge pages are noindex and show the disclaimer", async ({ page }) => {
+    for (const p of ["/cover", "/handout"]) {
+      await page.goto(p);
+      await expect(page.locator('meta[name="robots"]')).toHaveAttribute("content", /noindex/);
+      await expect(page.locator("main").getByText(/independent student research project/)).toBeVisible();
+    }
   });
 
   test("every page: tab title, description, canonical link, share image", async ({ page }) => {
